@@ -6,3 +6,9 @@ Logs/
 Temp/
 
 *.sln
+
+.idea/
+
+*.csproj
+
+obj/

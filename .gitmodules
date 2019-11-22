@@ -1,0 +1,3 @@
+[submodule "Packages/Extenject"]
+	path = Packages/Extenject
+	url = https://github.com/WhateverDevs/Extenject.git
