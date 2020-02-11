@@ -1,6 +1,6 @@
 ﻿using Zenject;
 using UnityEngine;
-using WhateverDevs.Core.Runtime.Formatting;
+using WhateverDevs.Core.Runtime.Serialization;
 
 public class TestInstaller : MonoInstaller
 {
@@ -8,7 +8,7 @@ public class TestInstaller : MonoInstaller
     {
         /*Container.Bind<string>().FromInstance("Hello World!");
         Container.Bind<Greeter>().AsSingle().NonLazy();*/
-        Container.Bind<IFormatter<string>>().FromInstance(new JsonFormatter()).AsSingle().Lazy();
+        Container.Bind<ISerializer<string>>().FromInstance(new JsonSerializer()).AsSingle().Lazy();
     }
 }
 
