@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: TestConfiguration
   m_EditorClassIdentifier: 
   ConfigurationName: TestConfig.cfg
-  PersisterScriptables:
-  - {fileID: 11400000, guid: 624338c93f858744ebc9bf618f3ff9b0, type: 2}
   ConfigData:
     SomeString: Some string
-    SomeInt: 56
+    SomeInt: 54
+  SavingAndLoadingDisabled: 1
