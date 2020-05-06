@@ -9,7 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13fa9080ceb646b79a5e06e1862144d1, type: 3}
-  m_Name: JsonFilePersister
+  m_Script: {fileID: 11500000, guid: e1bff2ba5795484ca4ddd873c0cef92d, type: 3}
+  m_Name: ConfigurationManagerInstaller
   m_EditorClassIdentifier: 
-  JsonSerializer: {fileID: 11400000, guid: 6e1833c9b86ebdc46ba1fc240537a459, type: 2}
+  ConfigurationsToInstall:
+  - {fileID: 11400000, guid: bf5a3ceb42afcf141bc1b12d222328cc, type: 2}
