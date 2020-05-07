@@ -8,6 +8,7 @@
     "com.unity.textmeshpro": "2.0.1",
     "com.unity.timeline": "1.2.12",
     "com.unity.ugui": "1.0.0",
+    "com.yasirkula.ingamedebugconsole": "1.3.0",
     "varguiniano.extendededitor": "1.0.0",
     "varguiniano.private.consolepro": "1.0.0",
     "varguiniano.private.enhancedhierarchy": "2.0.1",
@@ -49,7 +50,8 @@
       "url": "http://upm.rodrigovarga.com",
       "scopes": [
         "whateverdevs",
-        "varguiniano"
+        "varguiniano",
+        "com.yasirkula"
       ]
     }
   ]

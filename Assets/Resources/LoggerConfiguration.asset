@@ -14,4 +14,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DefaultConfig: {fileID: 11400000, guid: 3820e652ec60daf4d88747c34d6e6e68, type: 2}
   AlwaysOverride: 1
-  OneTimeOverride: 0
