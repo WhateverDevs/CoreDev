@@ -14,3 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PreProcessorHooks: []
   PostProcessorHooks: []
+  references:
+    version: 1
