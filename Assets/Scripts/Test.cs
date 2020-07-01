@@ -1,8 +1,8 @@
-﻿using WhateverDevs.Core.Runtime.Ui;
+﻿using Sirenix.OdinInspector;
+using WhateverDevs.Core.Runtime.Common;
 
-public class Test : ActionOnButtonClick<Test>
+public class Test : LoggableMonoBehaviour<Test>
 {
-    
-
-    protected override void ButtonClicked() => throw new System.NotImplementedException();
+    [Button]
+    public void Log() => GetLogger().Info("Test");
 }
