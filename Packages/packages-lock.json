@@ -67,8 +67,8 @@
       }
     },
     "varguiniano.extendededitor": {
-      "version": "1.0.0",
-      "depth": 0,
+      "version": "1.0.2",
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "http://upm.rodrigovarga.com"
@@ -100,7 +100,7 @@
       "source": "embedded",
       "dependencies": {
         "whateverdevs.extenject": "9.1.1",
-        "varguiniano.extendededitor": "1.0.0",
+        "varguiniano.extendededitor": "1.0.2",
         "varguiniano.private.odin-editor-only": "0.0.3"
       }
     },
