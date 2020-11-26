@@ -11,6 +11,6 @@ public class Test : LoggableMonoBehaviour<Test>
     public void Log()
     {
         GetLogger().Info("Test");
-        GetLogger().Info(Empty.enabled);
+        //GetLogger().Info(Empty.enabled);
     }
 }
