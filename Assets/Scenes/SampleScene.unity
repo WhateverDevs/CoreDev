@@ -983,6 +983,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bf55e59ee92c9b48890d8d5c019af09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SerializableDictionary:
+    SerializedList:
+    - Key: 0
+      Value: {fileID: 1911150516}
+    - Key: 1
+      Value: {fileID: 1583979761}
   Empty: {fileID: 0}
 --- !u!4 &1990595674
 Transform:
