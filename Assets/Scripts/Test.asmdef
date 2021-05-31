@@ -9,8 +9,8 @@
     "allowUnsafeCode": false,
     "overrideReferences": true,
     "precompiledReferences": [
-        "log4netPlastic.dll",
-        "Sirenix.OdinInspector.Attributes.dll"
+        "Sirenix.OdinInspector.Attributes.dll",
+        "log4net.dll"
     ],
     "autoReferenced": true,
     "defineConstraints": [],
