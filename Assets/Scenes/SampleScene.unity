@@ -990,6 +990,11 @@ MonoBehaviour:
     - Key: 1
       Value: {fileID: 1583979761}
   Empty: {fileID: 0}
+  SpawnPosition:
+    Position: {x: 0.2854736, y: -0.11789608, z: -2.5107212}
+    Rotation: {x: 40.886406, y: 10.830172, z: 56.782776}
+    DebugMeshPath: 
+    DebugMaterialPath: Assets/Art/cono.mat
 --- !u!4 &1990595674
 Transform:
   m_ObjectHideFlags: 0
@@ -998,7 +1003,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1990595672}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 4.51}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

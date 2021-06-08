@@ -11,6 +11,8 @@ public class Test : LoggableMonoBehaviour<Test>
 
     public Renderer Empty;
 
+    public PositionData SpawnPosition;
+
     [Button]
     public void Log()
     {
