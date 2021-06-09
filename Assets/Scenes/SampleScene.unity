@@ -991,7 +991,7 @@ MonoBehaviour:
       Value: {fileID: 1583979761}
   Empty: {fileID: 0}
   SpawnPosition:
-    Position: {x: -0.30990463, y: 0.20899016, z: -2.1086674}
+    Position: {x: -0.15503666, y: 0.003031969, z: -2.0373876}
     Rotation: {x: 40.886406, y: 10.830172, z: 56.782776}
     DebugMeshPath: Assets/Art/cono.FBX
     DebugMaterialPath: Assets/Art/cono.mat
