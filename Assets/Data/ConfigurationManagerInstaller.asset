@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1bff2ba5795484ca4ddd873c0cef92d, type: 3}
   m_Name: ConfigurationManagerInstaller
   m_EditorClassIdentifier: 
-  ConfigurationsToInstall: []
+  ConfigurationsToInstall:
+  - {fileID: 11400000, guid: 7798a3aae1d28c641985dfe3e8d64a6b, type: 2}
