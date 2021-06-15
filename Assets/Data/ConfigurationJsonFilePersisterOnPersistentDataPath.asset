@@ -9,10 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99085a16d88f431a844806c94475de7a, type: 3}
-  m_Name: TestConfiguration
+  m_Script: {fileID: 11500000, guid: 8859375a69c3446baa0e4d5a320e0b4c, type: 3}
+  m_Name: ConfigurationJsonFilePersisterOnPersistentDataPath
   m_EditorClassIdentifier: 
-  ConfigurationName: Test.cfg
-  ConfigData:
-    SomeString: asdasggggg
-    SomeInt: 2
+  JsonSerializer: {fileID: 11400000, guid: 6e1833c9b86ebdc46ba1fc240537a459, type: 2}
