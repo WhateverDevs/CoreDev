@@ -5,6 +5,7 @@ using WhateverDevs.Core.Runtime.Common;
 using WhateverDevs.Core.Runtime.DataStructures;
 using WhateverDevs.SceneManagement.Runtime.SceneManagement;
 using WhateverDevs.TwoDAudio.Runtime;
+using Zenject;
 
 public class Test : LoggableMonoBehaviour<Test>
 {
@@ -19,10 +20,12 @@ public class Test : LoggableMonoBehaviour<Test>
 
     public SceneReference Scene;
 
+    [Inject]
+    public IAudioManager AudioManager;
+
     [Button]
     public void Log()
     {
-        GetLogger().Info("Test");
-        //GetLogger().Info(Empty.enabled);
+        Logger.Info(AudioManager.IsAudioAvailable(Audio));
     }
 }

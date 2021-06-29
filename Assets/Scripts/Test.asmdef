@@ -11,8 +11,9 @@
     "allowUnsafeCode": false,
     "overrideReferences": true,
     "precompiledReferences": [
-        "Sirenix.OdinInspector.Attributes.dll",
-        "log4net.dll"
+        "log4net.dll",
+        "Zenject-usage.dll",
+        "Sirenix.OdinInspector.Attributes.dll"
     ],
     "autoReferenced": true,
     "defineConstraints": [],

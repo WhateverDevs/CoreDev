@@ -30,20 +30,22 @@ MonoBehaviour:
     m_SerializedLabels:
     - Manifest
     - Audios
-    m_MainAsset: {fileID: 0}
+    m_MainAsset: {fileID: 11400000, guid: b0cb4e2ac0c7dc24ab08a8fdf49812c4, type: 2}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 7f669572414f3e34a805d69bec1b136d
     m_Address: Error 1
     m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 8300000, guid: 7f669572414f3e34a805d69bec1b136d, type: 3}
-    m_TargetAsset: {fileID: 8300000, guid: 7f669572414f3e34a805d69bec1b136d, type: 3}
+    m_SerializedLabels:
+    - Audios
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 7494619f1947b3140b220fe961cc3ca8
     m_Address: Error 2
     m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 8300000, guid: 7494619f1947b3140b220fe961cc3ca8, type: 3}
-    m_TargetAsset: {fileID: 8300000, guid: 7494619f1947b3140b220fe961cc3ca8, type: 3}
+    m_SerializedLabels:
+    - Audios
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 4576463c446281e438534e52bf58d8ab, type: 2}
   m_SchemaSet:
