@@ -1,5 +1,17 @@
 {
   "dependencies": {
+    "com.unity.addressables": {
+      "version": "1.16.19",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.scriptablebuildpipeline": "1.15.2",
+        "com.unity.modules.assetbundle": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.unitywebrequestassetbundle": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.ext.nunit": {
       "version": "1.0.6",
       "depth": 0,
@@ -8,16 +20,16 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.rider": {
-      "version": "2.0.7",
+      "version": "3.0.7",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.test-framework": "1.1.1"
+        "com.unity.ext.nunit": "1.0.6"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.8",
+      "version": "2.0.9",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -33,8 +45,15 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.mathematics": {
-      "version": "1.1.0",
+      "version": "1.2.1",
       "depth": 2,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.scriptablebuildpipeline": {
+      "version": "1.15.2",
+      "depth": 3,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -60,7 +79,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.timeline": {
-      "version": "1.4.8",
+      "version": "1.5.5",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -110,6 +129,14 @@
       },
       "url": "http://upm.rodrigovarga.com"
     },
+    "whateverdevs.2daudio": {
+      "version": "file:2DAudio",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "whateverdevs.core": "0.0.80"
+      }
+    },
     "whateverdevs.core": {
       "version": "file:Core",
       "depth": 0,
@@ -121,8 +148,36 @@
         "com.unity.textmeshpro": "2.0.1"
       }
     },
+    "whateverdevs.default-toolbar-buttons": {
+      "version": "file:DefaultToolbarButtons",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "whateverdevs.core": "0.0.81",
+        "whateverdevs.toolbar-buttons": "2.2.1",
+        "whateverdevs.scenemanagement": "0.0.4",
+        "whateverdevs.2daudio": "0.0.1"
+      }
+    },
     "whateverdevs.extenject": {
       "version": "9.1.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "http://upm.rodrigovarga.com"
+    },
+    "whateverdevs.scenemanagement": {
+      "version": "0.0.4",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "whateverdevs.core": "0.0.69",
+        "com.unity.addressables": "1.16.19"
+      },
+      "url": "http://upm.rodrigovarga.com"
+    },
+    "whateverdevs.toolbar-buttons": {
+      "version": "2.2.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {},

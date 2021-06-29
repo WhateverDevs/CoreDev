@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78213f4eaa3435c41bf4b7b979ea5b6b, type: 3}
+  m_Name: Config
+  m_EditorClassIdentifier: 
+  EnableToolbarButtons: 1
+  EnableProjectFolderButton: 1
+  EnablePackageManagerButton: 1
+  EnableProjectSettingsButton: 1
+  EnableBuildButton: 1
+  EnablePlayButton: 1
+  InitializationScene: {fileID: 102900000, guid: 9fc0d4010bbf28b4594072e72b8655ab,
+    type: 3}
+  EnableProjectContextButton: 1
+  ProjectContext: {fileID: 3131883537611480641, guid: cd0059fec27506f46a5a76d4ec20d5a5,
+    type: 3}
+  EnableSceneManagementButton: 0
+  SceneManager: {fileID: 0}
+  AddressableVersionDependence: {fileID: 0}
+  AddressablesBuilder: {fileID: 0}
+  Enable2DAudioLibraryButton: 1
+  AudioLibrary: {fileID: 11400000, guid: 010daea357b9fdb448d4006acfa07568, type: 2}
+  EnableConsoleProButton: 1

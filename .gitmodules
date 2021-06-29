@@ -1,3 +1,9 @@
 [submodule "Packages/Core"]
 	path = Packages/Core
 	url = https://github.com/WhateverDevs/Core.git
+[submodule "Packages/2DAudio"]
+	path = Packages/2DAudio
+	url = https://github.com/WhateverDevs/2DAudio.git
+[submodule "Packages/DefaultToolbarButtons"]
+	path = Packages/DefaultToolbarButtons
+	url = https://github.com/WhateverDevs/DefaultToolbarButtons.git
