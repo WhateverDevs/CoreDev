@@ -2,7 +2,7 @@
   "dependencies": {
     "com.unity.addressables": {
       "version": "1.16.19",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.scriptablebuildpipeline": "1.15.2",
@@ -53,7 +53,7 @@
     },
     "com.unity.scriptablebuildpipeline": {
       "version": "1.15.2",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -134,7 +134,8 @@
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "whateverdevs.core": "0.0.80"
+        "whateverdevs.core": "0.0.80",
+        "whateverdevs.scenemanagement": "0.0.4"
       }
     },
     "whateverdevs.core": {
@@ -167,14 +168,13 @@
       "url": "http://upm.rodrigovarga.com"
     },
     "whateverdevs.scenemanagement": {
-      "version": "0.0.4",
-      "depth": 1,
-      "source": "registry",
+      "version": "file:SceneManagement",
+      "depth": 0,
+      "source": "embedded",
       "dependencies": {
         "whateverdevs.core": "0.0.69",
         "com.unity.addressables": "1.16.19"
-      },
-      "url": "http://upm.rodrigovarga.com"
+      }
     },
     "whateverdevs.toolbar-buttons": {
       "version": "2.2.1",

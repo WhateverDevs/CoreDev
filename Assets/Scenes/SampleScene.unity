@@ -722,6 +722,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5f336dc09554ef148a9fd0e17f95dedd, type: 2}
   - {fileID: 11400000, guid: 536fc1dfef4df724bb474e0acace1980, type: 2}
   - {fileID: 11400000, guid: af56d4fadf7ac7b4b9150ea8360d4c77, type: 2}
+  - {fileID: 11400000, guid: 5791070f606e03240bd0cb199337efe7, type: 2}
   _monoInstallers: []
   _installerPrefabs: []
   _autoRun: 1
@@ -995,6 +996,10 @@ MonoBehaviour:
     Rotation: {x: 40.886406, y: 10.830172, z: 56.782776}
     DebugMeshPath: Assets/Art/cono.FBX
     DebugMaterialPath: Assets/Art/cono.mat
+  Audio:
+    Audio: Error 2
+  Scene:
+    SceneName: New Scene
 --- !u!4 &1990595674
 Transform:
   m_ObjectHideFlags: 0

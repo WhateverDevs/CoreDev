@@ -3,6 +3,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using WhateverDevs.Core.Runtime.Common;
 using WhateverDevs.Core.Runtime.DataStructures;
+using WhateverDevs.SceneManagement.Runtime.SceneManagement;
+using WhateverDevs.TwoDAudio.Runtime;
 
 public class Test : LoggableMonoBehaviour<Test>
 {
@@ -12,6 +14,10 @@ public class Test : LoggableMonoBehaviour<Test>
     public Renderer Empty;
 
     public PositionData SpawnPosition;
+
+    public AudioReference Audio;
+
+    public SceneReference Scene;
 
     [Button]
     public void Log()

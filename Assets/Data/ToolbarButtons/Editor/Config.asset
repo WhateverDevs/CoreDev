@@ -23,10 +23,12 @@ MonoBehaviour:
   EnableProjectContextButton: 1
   ProjectContext: {fileID: 3131883537611480641, guid: cd0059fec27506f46a5a76d4ec20d5a5,
     type: 3}
-  EnableSceneManagementButton: 0
-  SceneManager: {fileID: 0}
-  AddressableVersionDependence: {fileID: 0}
-  AddressablesBuilder: {fileID: 0}
+  EnableSceneManagementButton: 1
+  SceneManager: {fileID: 11400000, guid: bcb9a1608e43c1446a6470bd4fe50127, type: 2}
+  AddressableVersionDependence: {fileID: 11400000, guid: ba4b6f5389dd4634ea694b68ea475564,
+    type: 2}
+  AddressablesBuilder: {fileID: 11400000, guid: 5eaf9f56513ff6049a87c0664067f7bf,
+    type: 2}
   Enable2DAudioLibraryButton: 1
   AudioLibrary: {fileID: 11400000, guid: 010daea357b9fdb448d4006acfa07568, type: 2}
   EnableConsoleProButton: 1

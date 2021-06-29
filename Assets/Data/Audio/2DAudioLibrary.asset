@@ -12,3 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36ba68b47a42a554a8d5625fd3b98d3b, type: 3}
   m_Name: 2DAudioLibrary
   m_EditorClassIdentifier: 
+  Audios:
+  - m_AssetGUID: 8e3c0fa72942c2a4483a591b3a621ff4
+    m_SubObjectName: 
+    m_SubObjectType: 
+  - m_AssetGUID: 7f669572414f3e34a805d69bec1b136d
+    m_SubObjectName: 
+    m_SubObjectType: 
+  - m_AssetGUID: 7494619f1947b3140b220fe961cc3ca8
+    m_SubObjectName: 
+    m_SubObjectType: 
+  AudioNames:
+  - Error
+  - Error 1
+  - Error 2

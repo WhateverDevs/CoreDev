@@ -7,3 +7,6 @@
 [submodule "Packages/DefaultToolbarButtons"]
 	path = Packages/DefaultToolbarButtons
 	url = https://github.com/WhateverDevs/DefaultToolbarButtons.git
+[submodule "Packages/SceneManagement"]
+	path = Packages/SceneManagement
+	url = https://github.com/WhateverDevs/SceneManagement.git
