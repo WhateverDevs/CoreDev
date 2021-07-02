@@ -31,5 +31,7 @@ public class Test : LoggableMonoBehaviour<Test>
     {
         Logger.Info(AudioManager.IsAudioAvailable(Audio));
         Logger.Info(AudioLibrary.GetGroupForAudio(Audio).name);
+        
+        AudioManager.PlayAudioOnce(Audio);
     }
 }
