@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Audios
   m_EditorClassIdentifier: 
   Version: 0.0.1
-  FullVersion: 0.0.1.20210629225834
+  FullVersion: 0.0.1.20210702212544
   AppVersionReference: {fileID: 11400000, guid: cefe40d4d5b173d45b11b8edc574392c,
     type: 2}
   MinimumAppVersion: 0.0.1a.20200507060835

@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4478ae419df9401b986a2925fb66c973, type: 3}
   m_Name: CopyFolderToBuild
   m_EditorClassIdentifier: 
-  Folder: ProjectSettings
+  Folder: Bundles

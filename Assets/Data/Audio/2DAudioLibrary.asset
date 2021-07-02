@@ -29,6 +29,7 @@ MonoBehaviour:
       m_SubObjectName: 
       m_SubObjectType: 
     Value: {fileID: 7859725174482277998, guid: 011032df171229a47ae75792c93820f6, type: 2}
+  SecondsToUnLoadFreeAudiosFromRam: 30
   AudioAssets:
   - m_AssetGUID: 8e3c0fa72942c2a4483a591b3a621ff4
     m_SubObjectName: 
@@ -47,3 +48,5 @@ MonoBehaviour:
   - {fileID: -2363474319718769846, guid: 011032df171229a47ae75792c93820f6, type: 2}
   - {fileID: 7859725174482277998, guid: 011032df171229a47ae75792c93820f6, type: 2}
   - {fileID: 7859725174482277998, guid: 011032df171229a47ae75792c93820f6, type: 2}
+  FreeAudios:
+    SerializedList: []

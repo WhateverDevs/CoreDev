@@ -1,4 +1,5 @@
-﻿using Sirenix.OdinInspector;
+﻿using System;
+using Sirenix.OdinInspector;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using WhateverDevs.Core.Runtime.Common;
@@ -26,12 +27,17 @@ public class Test : LoggableMonoBehaviour<Test>
     [Inject]
     public IAudioLibrary AudioLibrary;
 
+    private void OnEnable()
+    {
+        Log();
+    }
+
     [Button]
     public void Log()
     {
         Logger.Info(AudioManager.IsAudioAvailable(Audio));
         Logger.Info(AudioLibrary.GetGroupForAudio(Audio).name);
         
-        AudioManager.PlayAudioOnce(Audio);
+        AudioManager.PlayAudio(Audio);
     }
 }
