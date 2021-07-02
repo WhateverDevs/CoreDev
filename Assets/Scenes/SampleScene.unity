@@ -998,7 +998,7 @@ MonoBehaviour:
     DebugMeshPath: Assets/Art/cono.FBX
     DebugMaterialPath: Assets/Art/cono.mat
   Audio:
-    Audio: Error 2
+    Audio: Error
   Scene:
     SceneName: New Scene
 --- !u!4 &1990595674

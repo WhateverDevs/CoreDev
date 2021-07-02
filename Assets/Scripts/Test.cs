@@ -23,9 +23,13 @@ public class Test : LoggableMonoBehaviour<Test>
     [Inject]
     public IAudioManager AudioManager;
 
+    [Inject]
+    public IAudioLibrary AudioLibrary;
+
     [Button]
     public void Log()
     {
         Logger.Info(AudioManager.IsAudioAvailable(Audio));
+        Logger.Info(AudioLibrary.GetGroupForAudio(Audio).name);
     }
 }
