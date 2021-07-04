@@ -2,6 +2,7 @@
     "name": "Test",
     "rootNamespace": "",
     "references": [
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
         "GUID:9e24947de15b9834991c9d8411ea37cf",
         "GUID:6f75e3e9b2be11e40a79ad3ceec60e41",
         "GUID:94d4acbe6edae234084ccfdd0e5ebd4b",

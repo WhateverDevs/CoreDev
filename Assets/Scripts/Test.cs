@@ -39,5 +39,7 @@ public class Test : LoggableMonoBehaviour<Test>
         Logger.Info(AudioLibrary.GetGroupForAudio(Audio).name);
         
         AudioManager.PlayAudio(Audio);
+
+        Logger.Error("Fuck!");
     }
 }
