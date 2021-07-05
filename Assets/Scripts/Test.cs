@@ -35,9 +35,10 @@ public class Test : LoggableMonoBehaviour<Test>
     [Button]
     public void Log()
     {
-        Logger.Info(AudioManager.IsAudioAvailable(Audio));
-        Logger.Info(AudioLibrary.GetGroupForAudio(Audio).name);
-        
+        AudioManager.PlayAudio(Audio);
+        AudioManager.PlayAudio(Audio);
+        AudioManager.PlayAudio(Audio);
+        AudioManager.PlayAudio(Audio);
         AudioManager.PlayAudio(Audio);
 
         Logger.Error("Fuck!");
