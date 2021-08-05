@@ -10,15 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 08bb10dc4c5541aaa8abe36838d8a2f3, type: 3}
-  m_Name: Audios
+  m_Name: Cone2
   m_EditorClassIdentifier: 
   Version: 0.0.1
-  FullVersion: 0.0.1.20210727105925
+  FullVersion: 0.0.1.20210727105926
   AppVersionReference: {fileID: 11400000, guid: cefe40d4d5b173d45b11b8edc574392c,
     type: 2}
   MinimumAppVersion: 0.0.1a.20200507060835
   AssetGuids:
-  - 8e3c0fa72942c2a4483a591b3a621ff4
-  - b0cb4e2ac0c7dc24ab08a8fdf49812c4
-  - 7f669572414f3e34a805d69bec1b136d
-  - 7494619f1947b3140b220fe961cc3ca8
+  - c934a3fd16911f44580ad7cd56ba940f
+  - a5bda7b014ab0b646a67b4d59f80daca

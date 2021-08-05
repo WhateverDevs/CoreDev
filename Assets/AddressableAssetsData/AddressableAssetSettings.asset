@@ -33,6 +33,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b4f45913085e13d4b8949d18873a448c, type: 2}
   - {fileID: 11400000, guid: 1c4a625d25333a4498401f70e61fc992, type: 2}
   - {fileID: 11400000, guid: e335348d1236644439b6771d2f52965a, type: 2}
+  - {fileID: 11400000, guid: 109f7f976013015459433f24bbdee968, type: 2}
+  - {fileID: 11400000, guid: d315d847adc4299489361cd08c53c123, type: 2}
+  - {fileID: 11400000, guid: 61ddbe213a09776429beec8bc6dbec67, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -90,6 +93,10 @@ MonoBehaviour:
     - default
     - Manifest
     - Audios
+    - Cone1
+    - Cone2
+    - Cone3
+    - Cone4
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: d26bca9238db42447b7e418562050219, type: 2}

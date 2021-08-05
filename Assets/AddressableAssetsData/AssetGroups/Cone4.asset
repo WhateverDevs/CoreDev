@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Cone4
+  m_EditorClassIdentifier: 
+  m_GroupName: Cone4
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 6675bce3f28dd864686ddd002eeece63
+  m_SerializeEntries:
+  - m_GUID: 72a71e4fc01899d44bcf3b8928b4feb1
+    m_Address: Assets/Art/cono 4.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Cone4
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: bf44e10bf51108f4eb8a601001b500e8
+    m_Address: Manifests/Cone4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Manifest
+    - Cone4
+    m_MainAsset: {fileID: 11400000, guid: bf44e10bf51108f4eb8a601001b500e8, type: 2}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 4576463c446281e438534e52bf58d8ab, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d268828ff805a6a4386b5a63db0c2613, type: 2}
+    - {fileID: 11400000, guid: 0fc579944b5eb1648aba2989e26eb98e, type: 2}
