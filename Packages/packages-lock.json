@@ -167,6 +167,15 @@
       "dependencies": {},
       "url": "http://upm.rodrigovarga.com"
     },
+    "whateverdevs.localization": {
+      "version": "file:Localization",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "whateverdevs.extenject": "9.1.1",
+        "whateverdevs.core": "0.0.91"
+      }
+    },
     "whateverdevs.scenemanagement": {
       "version": "file:SceneManagement",
       "depth": 0,

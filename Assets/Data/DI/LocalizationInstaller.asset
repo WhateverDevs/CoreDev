@@ -9,9 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1bff2ba5795484ca4ddd873c0cef92d, type: 3}
-  m_Name: ConfigurationManagerInstaller
+  m_Script: {fileID: 11500000, guid: 6990afbd44564637ae2042feba1d7f84, type: 3}
+  m_Name: LocalizationInstaller
   m_EditorClassIdentifier: 
-  ConfigurationsToInstall:
-  - {fileID: 11400000, guid: 7798a3aae1d28c641985dfe3e8d64a6b, type: 2}
-  - {fileID: 11400000, guid: 3ae4bf0da80558e4bb0fe974c1736c11, type: 2}

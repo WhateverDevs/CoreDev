@@ -10,3 +10,6 @@
 [submodule "Packages/SceneManagement"]
 	path = Packages/SceneManagement
 	url = https://github.com/WhateverDevs/SceneManagement.git
+[submodule "Packages/Localization"]
+	path = Packages/Localization
+	url = https://github.com/WhateverDevs/Localization.git
