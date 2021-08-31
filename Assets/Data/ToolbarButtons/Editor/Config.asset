@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Config
   m_EditorClassIdentifier: 
   EnableToolbarButtons: 1
+  EnableSaveButton: 1
   EnableProjectFolderButton: 1
   EnablePackageManagerButton: 1
   EnableProjectSettingsButton: 1
