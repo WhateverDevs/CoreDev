@@ -1,12 +1,14 @@
 {
   "dependencies": {
     "com.unity.addressables": {
-      "version": "1.16.19",
+      "version": "1.19.15",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.scriptablebuildpipeline": "1.15.2",
+        "com.unity.scriptablebuildpipeline": "1.19.5",
         "com.unity.modules.assetbundle": "1.0.0",
+        "com.unity.modules.imageconversion": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
         "com.unity.modules.unitywebrequest": "1.0.0",
         "com.unity.modules.unitywebrequestassetbundle": "1.0.0"
       },
@@ -20,7 +22,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.rider": {
-      "version": "3.0.7",
+      "version": "3.0.9",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -29,7 +31,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.9",
+      "version": "2.0.12",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -38,28 +40,28 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.vscode": {
-      "version": "1.2.3",
+      "version": "1.2.4",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.mathematics": {
-      "version": "1.2.1",
-      "depth": 2,
+      "version": "1.2.5",
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.scriptablebuildpipeline": {
-      "version": "1.15.2",
+      "version": "1.19.5",
       "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
-      "version": "1.1.27",
+      "version": "1.1.29",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -79,7 +81,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.timeline": {
-      "version": "1.5.6",
+      "version": "1.6.3",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -120,21 +122,12 @@
       "dependencies": {},
       "url": "http://upm.rodrigovarga.com"
     },
-    "varguiniano.private.odin-editor-only": {
-      "version": "3.0.5-Mathematics2",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.mathematics": "1.1.0"
-      },
-      "url": "http://upm.rodrigovarga.com"
-    },
     "whateverdevs.2daudio": {
       "version": "file:2DAudio",
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "whateverdevs.core": "0.0.80",
+        "whateverdevs.core": "0.1.0",
         "whateverdevs.scenemanagement": "0.0.4"
       }
     },
@@ -145,8 +138,8 @@
       "dependencies": {
         "whateverdevs.extenject": "9.1.1",
         "varguiniano.extendededitor": "1.0.2",
-        "varguiniano.private.odin-editor-only": "3.0.5-Mathematics2",
-        "com.unity.textmeshpro": "2.0.1"
+        "com.unity.textmeshpro": "2.0.1",
+        "com.unity.mathematics": "1.2.5"
       }
     },
     "whateverdevs.default-toolbar-buttons": {
@@ -154,7 +147,7 @@
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "whateverdevs.core": "0.0.81",
+        "whateverdevs.core": "0.1.0",
         "whateverdevs.toolbar-buttons": "2.2.1",
         "whateverdevs.scenemanagement": "0.0.4",
         "whateverdevs.2daudio": "0.0.1"
@@ -181,7 +174,7 @@
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "whateverdevs.core": "0.0.90",
+        "whateverdevs.core": "0.1.0",
         "com.unity.addressables": "1.16.19"
       }
     },
