@@ -9,9 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: OdinModuleConfig
+  m_Script: {fileID: 11500000, guid: 8f61baa9f4f2498686423a8c0776ac00, type: 3}
+  m_Name: VersionControlSettings
   m_EditorClassIdentifier: 
-  configurations: []
-  ModuleTogglingSettings: 0
-  ModuleUpdateSettings: 0
+  CheckDismissed: 0
