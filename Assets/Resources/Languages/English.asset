@@ -14,56 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Language:
     SerializedList:
-    - Key: Battle/CurrentHealth
-      Value: Current health
-    - Key: Battle/ExpectedDamage
-      Value: Expected damage
-    - Key: Battle/TurnChange
-      Value: s turn
     - Key: Castillian
       Value: Castillian
-    - Key: Characters/Heber
-      Value: Heber
-    - Key: Characters/Nilo
-      Value: Nilo
-    - Key: Characters/Thor
-      Value: Thor
-    - Key: Classes/Beast
-      Value: Beast
-    - Key: Classes/Berserker
-      Value: Berserker
-    - Key: Classes/Mage
-      Value: Mage
-    - Key: Classes/Ranger
-      Value: Ranger
-    - Key: Classes/Rogue
-      Value: Rogue
-    - Key: Classes/Shaman
-      Value: Shaman
-    - Key: Classes/Warrior
-      Value: Warrior
-    - Key: CombatActions/BiteAll
-      Value: Big bite
-    - Key: CombatActions/BiteAll/Description
-      Value: Bites all enemies around the unit.
-    - Key: CombatActions/Dash
-      Value: Dash
-    - Key: CombatActions/Dash/Description
-      Value: Fast and furious movement that doesn't cost actions.
-    - Key: CombatActions/DoNothing
-      Value: Wait
-    - Key: CombatActions/DoNothing/Description
-      Value: Wait without doing nothing until next turn.
-    - Key: CombatActions/Snipe
-      Value: Snipe
-    - Key: CombatActions/Snipe/Description
-      Value: Long range shot with higher accuracy and damage.
-    - Key: CombatActions/Stats/ActionCost
-      Value: Cost
-    - Key: CombatActions/Stats/Cooldown
-      Value: Cooldown
-    - Key: CombatActions/Stats/EndsTheTurn
-      Value: Ends the turn.
     - Key: Common/Accept
       Value: Accept
     - Key: Common/Advantage
@@ -76,101 +28,18 @@ MonoBehaviour:
       Value: Disadvantage
     - Key: Common/False
       Value: No
+    - Key: Common/LoreIpsum
+      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamcooo laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     - Key: Common/True
       Value: Yes
-    - Key: DataWarning/Description
-      Value: ..and so does every other fucking game you play but I have the decency
-        to warn you. The data collected relates to bug reporting. Appart from the
-        data Unity collects, which battles you are playing or which maps are you
-        in are registered to better understand bug reports. Internal errors or exceptions
-        of the application are also automatically registered and reported.
-    - Key: DataWarning/Policy
-      Value: Unity's privacy policy
-    - Key: DataWarning/Title
-      Value: This game collects data...
-    - Key: Debug/CheckingDataPolicy
-      Value: Checking data policy.
-    - Key: Debug/CheckingLanguage
-      Value: Checking language.
-    - Key: Debug/ErrorScreen/Close
-      Value: Close game
-    - Key: Debug/ErrorScreen/Title
-      Value: Something went wrong :(
-    - Key: Debug/LoadingBattle
-      Value: Loading battle.
-    - Key: Debug/LoadingManifests
-      Value: Loading assets.
-    - Key: Debug/LoadingMenu
-      Value: Loading menu.
-    - Key: Debug/UnloadingBattle
-      Value: Exiting battle.
     - Key: English
       Value: English
-    - Key: Entities/Archer
-      Value: Archer
-    - Key: Entities/Beast
-      Value: Beast
-    - Key: Entities/Warrior
-      Value: Warrior
     - Key: Flanian
       Value: Flanian
-    - Key: Menu/Battles
-      Value: Battles
-    - Key: Menu/Battles/Tooltip
-      Value: Play some spare demo battles.
-    - Key: Menu/Configuration
-      Value: Settings
-    - Key: Menu/Configuration/Tooltip
-      Value: Configure language, resolution and other settings.
-    - Key: Menu/Credits
-      Value: Credits
-    - Key: Menu/Credits/Tooltip
-      Value: Display the credits.
-    - Key: Menu/ExitGame
-      Value: Close
-    - Key: Menu/ExitGame/Tooltip
-      Value: Guess what this button does.
-    - Key: Menu/Feedback
-      Value: Complain
-    - Key: Menu/Feedback/Description
-      Value: Description
-    - Key: Menu/Feedback/Error
-      Value: Cound't submit the report, try again later.
-    - Key: Menu/Feedback/NewReport
-      Value: New Report
-    - Key: Menu/Feedback/Submit
-      Value: Submit
-    - Key: Menu/Feedback/Submitting
-      Value: Submitting report...
-    - Key: Menu/Feedback/Summary
-      Value: Summary
-    - Key: Menu/Feedback/Tooltip
-      Value: Press F + Ctrl to report a bug or complain in general.
-    - Key: Menu/PlayStory
-      Value: Adventure
-    - Key: Menu/PlayStory/Tooltip
-      Value: Not yet implemented.
-    - Key: Settings/BackToMenu
-      Value: Back to menu
-    - Key: Settings/Language
-      Value: Language
-    - Key: Settings/Localization
-      Value: Localization
-    - Key: Stats/ActionsLeft
-      Value: Actions left
-    - Key: Stats/CanRetaliateMelee
-      Value: Can retaliate at melee
-    - Key: Stats/CanRetaliateRanged
-      Value: Can retaliate at ranged
-    - Key: Stats/Health
-      Value: Health
-    - Key: Stats/MeleePower
-      Value: Melee power
-    - Key: Stats/Movement
-      Value: Movement
-    - Key: Stats/RangedMaxDistance
-      Value: Maximum range
-    - Key: Stats/RangedMinDistance
-      Value: Minimum range
-    - Key: Stats/RangedPower
-      Value: Ranged power
+    - Key: Battle/Intro/Single/Wild
+      Value: A wild {0} appeared!

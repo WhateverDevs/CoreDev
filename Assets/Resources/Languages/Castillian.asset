@@ -14,56 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Language:
     SerializedList:
-    - Key: Battle/CurrentHealth
-      Value: Vida actual
-    - Key: Battle/ExpectedDamage
-      Value: "Da\xF1o previsto"
-    - Key: Battle/TurnChange
-      Value: Turno de
     - Key: Castillian
       Value: Castellano
-    - Key: Characters/Heber
-      Value: "H\xE9ber"
-    - Key: Characters/Nilo
-      Value: Nilo
-    - Key: Characters/Thor
-      Value: Thor
-    - Key: Classes/Beast
-      Value: Bestia
-    - Key: Classes/Berserker
-      Value: Berserker
-    - Key: Classes/Mage
-      Value: Mago
-    - Key: Classes/Ranger
-      Value: "Montar\xE1z"
-    - Key: Classes/Rogue
-      Value: "Brib\xF3n"
-    - Key: Classes/Shaman
-      Value: "Cham\xE1n"
-    - Key: Classes/Warrior
-      Value: Guerrero
-    - Key: CombatActions/BiteAll
-      Value: Tremendo mordisco
-    - Key: CombatActions/BiteAll/Description
-      Value: Muerde a todos los enemigos a su alreadedor.
-    - Key: CombatActions/Dash
-      Value: Sprint
-    - Key: CombatActions/Dash/Description
-      Value: "Movimiento r\xE1pido y furioso que no consume acciones."
-    - Key: CombatActions/DoNothing
-      Value: Esperar
-    - Key: CombatActions/DoNothing/Description
-      Value: "Espera sin hacer nada hasta el pr\xF3ximo turno."
-    - Key: CombatActions/Snipe
-      Value: "Disparo de precisi\xF3n"
-    - Key: CombatActions/Snipe/Description
-      Value: "Disparo a gran distancia con mayor precisi\xF3n y da\xF1o."
-    - Key: CombatActions/Stats/ActionCost
-      Value: Coste
-    - Key: CombatActions/Stats/Cooldown
-      Value: Enfriamiento
-    - Key: CombatActions/Stats/EndsTheTurn
-      Value: Termina el turno.
     - Key: Common/Accept
       Value: Aceptar
     - Key: Common/Advantage
@@ -76,102 +28,18 @@ MonoBehaviour:
       Value: Desventaja
     - Key: Common/False
       Value: No
+    - Key: Common/LoreIpsum
+      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamcooo laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     - Key: Common/True
       Value: "S\xED"
-    - Key: DataWarning/Description
-      Value: "..al igual que todos los otros putos juegos que tienes, pero yo tengo
-        la decencia de avisarte. Todos los datos que se recogen son usados para reportar
-        errores. Adem\xE1s de los datos que recoge Unity, qu\xE9 batalla est\xE1s
-        luchando o en qu\xE9 mapa est\xE1s se registran para poder entender mejor
-        los reportes. Adem\xE1s, los errores y excepciones internos del juego son
-        autom\xE1ticamente registrados y reportados."
-    - Key: DataWarning/Policy
-      Value: "Pol\xEDtica de privacidad de Unity"
-    - Key: DataWarning/Title
-      Value: Este juego recoge datos...
-    - Key: Debug/CheckingDataPolicy
-      Value: "Comprobando pol\xEDtica de datos."
-    - Key: Debug/CheckingLanguage
-      Value: Comprobando idioma.
-    - Key: Debug/ErrorScreen/Close
-      Value: Salir del juego
-    - Key: Debug/ErrorScreen/Title
-      Value: "Algo sali\xF3 mal :("
-    - Key: Debug/LoadingBattle
-      Value: Cargando batalla.
-    - Key: Debug/LoadingManifests
-      Value: Cargando assets.
-    - Key: Debug/LoadingMenu
-      Value: "Cargando men\xFA."
-    - Key: Debug/UnloadingBattle
-      Value: Saliendo de la batalla.
     - Key: English
       Value: "Ingl\xE9s"
-    - Key: Entities/Archer
-      Value: Arquero
-    - Key: Entities/Beast
-      Value: Bestia
-    - Key: Entities/Warrior
-      Value: Guerrero
     - Key: Flanian
       Value: Flaniano
-    - Key: Menu/Battles
-      Value: Batallas
-    - Key: Menu/Battles/Tooltip
-      Value: Juega a batallas sueltas como demo del juego.
-    - Key: Menu/Configuration
-      Value: Ajustes
-    - Key: Menu/Configuration/Tooltip
-      Value: "Configuraci\xF3n de idioma, resoluci\xF3n y otros ajustes."
-    - Key: Menu/Credits
-      Value: "Cr\xE9ditos"
-    - Key: Menu/Credits/Tooltip
-      Value: "Muestra los cr\xE9ditos."
-    - Key: Menu/ExitGame
-      Value: Salir
-    - Key: Menu/ExitGame/Tooltip
-      Value: "Adivina qu\xE9 hace este bot\xF3n."
-    - Key: Menu/Feedback
-      Value: "Qu\xE9jate"
-    - Key: Menu/Feedback/Description
-      Value: "Descripci\xF3n"
-    - Key: Menu/Feedback/Error
-      Value: "No se pudo enviar el reporte, prueba m\xE1s tarde."
-    - Key: Menu/Feedback/NewReport
-      Value: Nuevo Reporte
-    - Key: Menu/Feedback/Submit
-      Value: Enviar
-    - Key: Menu/Feedback/Submitting
-      Value: Enviando reporte...
-    - Key: Menu/Feedback/Summary
-      Value: Resumen
-    - Key: Menu/Feedback/Tooltip
-      Value: Pulsa F + Ctrl para reportar un bug o quejarte en general.
-    - Key: Menu/PlayStory
-      Value: Aventura
-    - Key: Menu/PlayStory/Tooltip
-      Value: "A\xFAn por implementar."
-    - Key: Settings/BackToMenu
-      Value: "Volver al men\xFA"
-    - Key: Settings/Language
-      Value: Idioma
-    - Key: Settings/Localization
-      Value: "Localizaci\xF3n"
-    - Key: Stats/ActionsLeft
-      Value: Acciones restantes
-    - Key: Stats/CanRetaliateMelee
-      Value: "Contraataque a mel\xE9"
-    - Key: Stats/CanRetaliateRanged
-      Value: Contraataque a distancia
-    - Key: Stats/Health
-      Value: Vida
-    - Key: Stats/MeleePower
-      Value: "Ataque a mel\xE9"
-    - Key: Stats/Movement
-      Value: Movimiento
-    - Key: Stats/RangedMaxDistance
-      Value: "Rango m\xE1ximo"
-    - Key: Stats/RangedMinDistance
-      Value: "Rango m\xEDnimo"
-    - Key: Stats/RangedPower
-      Value: Ataque a distancia
+    - Key: Battle/Intro/Single/Wild
+      Value: "\xA1Un {0} salvaje apareci\xF3!"

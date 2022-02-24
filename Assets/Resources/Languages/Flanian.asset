@@ -14,56 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Language:
     SerializedList:
-    - Key: Battle/CurrentHealth
-      Value: Bida actoal
-    - Key: Battle/ExpectedDamage
-      Value: "Da\xF1o prevoesto"
-    - Key: Battle/TurnChange
-      Value: Toerno de
     - Key: Castillian
       Value: Castelleano
-    - Key: Characters/Heber
-      Value: "H\xE9ber"
-    - Key: Characters/Nilo
-      Value: Nilo
-    - Key: Characters/Thor
-      Value: Thor
-    - Key: Classes/Beast
-      Value: Boestea
-    - Key: Classes/Berserker
-      Value: Berserker
-    - Key: Classes/Mage
-      Value: Magias
-    - Key: Classes/Ranger
-      Value: "Mentar\xE1z"
-    - Key: Classes/Rogue
-      Value: Bribonsuelo
-    - Key: Classes/Shaman
-      Value: "Chem\xE1n"
-    - Key: Classes/Warrior
-      Value: Goerrero
-    - Key: CombatActions/BiteAll
-      Value: Tremendo mordesco
-    - Key: CombatActions/BiteAll/Description
-      Value: Moerde a todos los enemegeos a su alroededor.
-    - Key: CombatActions/Dash
-      Value: Brrrrrrrr
-    - Key: CombatActions/Dash/Description
-      Value: Goes brrr sin gastar acceones.
-    - Key: CombatActions/DoNothing
-      Value: Esperar
-    - Key: CombatActions/DoNothing/Description
-      Value: "Espera sin hacer noada hasta el pr\xF3ximo toerno."
-    - Key: CombatActions/Snipe
-      Value: "Desparo de precese\xF3n"
-    - Key: CombatActions/Snipe/Description
-      Value: "Desparo a gran destiancea con mayor precese\xF3n y de\xF1o."
-    - Key: CombatActions/Stats/ActionCost
-      Value: Coste
-    - Key: CombatActions/Stats/Cooldown
-      Value: Enfroeamento
-    - Key: CombatActions/Stats/EndsTheTurn
-      Value: Termena el toerno.
     - Key: Common/Accept
       Value: Aceoptar
     - Key: Common/Advantage
@@ -76,102 +28,18 @@ MonoBehaviour:
       Value: Desvoentaja
     - Key: Common/False
       Value: No
+    - Key: Common/LoreIpsum
+      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamcooo laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     - Key: Common/True
       Value: Se
-    - Key: DataWarning/Description
-      Value: "..al igual que todos los otros putos juegos que tienes, pero yo tengo
-        la decencia de avisarte. Todos los datos que se recogen son usados para reportar
-        errores. Adem\xE1s de los datos que recoge Unity, qu\xE9 batalla est\xE1s
-        luchando o en qu\xE9 mapa est\xE1s se registran para poder entender mejor
-        los reportes. Adem\xE1s, los errores y excepciones internos del juego son
-        autom\xE1ticamente registrados y reportados."
-    - Key: DataWarning/Policy
-      Value: "Pol\xEDtica de privacidad de Unity"
-    - Key: DataWarning/Title
-      Value: Este joego te roba datitos...
-    - Key: Debug/CheckingDataPolicy
-      Value: "Comprobeando pol\xE9teca de deatos.."
-    - Key: Debug/CheckingLanguage
-      Value: Comprobeando edeoma.
-    - Key: Debug/ErrorScreen/Close
-      Value: Saeler del joego
-    - Key: Debug/ErrorScreen/Title
-      Value: "Se jodi\xF3 la wea :("
-    - Key: Debug/LoadingBattle
-      Value: Cargoando betella.
-    - Key: Debug/LoadingManifests
-      Value: Cargoando assets.
-    - Key: Debug/LoadingMenu
-      Value: "Cargoando men\xFA."
-    - Key: Debug/UnloadingBattle
-      Value: Saliendo de la betella.
     - Key: English
       Value: "Engl\xE9s"
-    - Key: Entities/Archer
-      Value: Flechista
-    - Key: Entities/Beast
-      Value: Boestea
-    - Key: Entities/Warrior
-      Value: Goerrero
     - Key: Flanian
       Value: Flaniano
-    - Key: Menu/Battles
-      Value: Betellas
-    - Key: Menu/Battles/Tooltip
-      Value: Joega a betellas soeltas como demo del joego.
-    - Key: Menu/Configuration
-      Value: Ajoestes
-    - Key: Menu/Configuration/Tooltip
-      Value: "Confeoguerace\xF3n de edeoma, resoluci\xF3n y otros ajoestes."
-    - Key: Menu/Credits
-      Value: "Cr\xE9detos"
-    - Key: Menu/Credits/Tooltip
-      Value: "Moestra los cr\xE9detos."
-    - Key: Menu/ExitGame
-      Value: Saeler
-    - Key: Menu/ExitGame/Tooltip
-      Value: "Adevena qu\xE9 hace este boet\xF3n."
-    - Key: Menu/Feedback
-      Value: "Quejaci\xF3n"
-    - Key: Menu/Feedback/Description
-      Value: "Descrepce\xF3n"
-    - Key: Menu/Feedback/Error
-      Value: No se ha podedo mandear, proeba loego.
-    - Key: Menu/Feedback/NewReport
-      Value: Noevo Repeorte
-    - Key: Menu/Feedback/Submit
-      Value: Mandear
-    - Key: Menu/Feedback/Submitting
-      Value: Mandeando el repeorte...
-    - Key: Menu/Feedback/Summary
-      Value: Rusemen
-    - Key: Menu/Feedback/Tooltip
-      Value: Pulsa F + Ctrl para repeortar un bug o quejeoarte en geneoral.
-    - Key: Menu/PlayStory
-      Value: Avoentera
-    - Key: Menu/PlayStory/Tooltip
-      Value: "A\xFAn por emplementear."
-    - Key: Settings/BackToMenu
-      Value: "Voelver al men\xFA"
-    - Key: Settings/Language
-      Value: Edeoma
-    - Key: Settings/Localization
-      Value: "Localezace\xF3n"
-    - Key: Stats/ActionsLeft
-      Value: Acceones restantes
-    - Key: Stats/CanRetaliateMelee
-      Value: "Contraetaque a moel\xE9"
-    - Key: Stats/CanRetaliateRanged
-      Value: Contraetaque a destancea
-    - Key: Stats/Health
-      Value: Bida
-    - Key: Stats/MeleePower
-      Value: "Aetaque a moel\xE9"
-    - Key: Stats/Movement
-      Value: Movemiento
-    - Key: Stats/RangedMaxDistance
-      Value: Rengo meeximo
-    - Key: Stats/RangedMinDistance
-      Value: Rengo moenimo
-    - Key: Stats/RangedPower
-      Value: Aetaque a destancea
+    - Key: Battle/Intro/Single/Wild
+      Value: "\xA1Un {0} salvaje ha apoarecedo!"
