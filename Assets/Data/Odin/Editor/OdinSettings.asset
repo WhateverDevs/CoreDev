@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7761bdd6bbf24923ab90542f0df2422a, type: 3}
   m_Name: OdinSettings
   m_EditorClassIdentifier: 
-  AcknowledgedOdinNeed: 1
+  AcknowledgedOdinNeed: 0
+  OdinModuleConfig: {fileID: 0}
