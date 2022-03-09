@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ConfigurationName: Test.cfg
   ConfigData:
-    SomeString: asdasggggg
-    SomeInt: 2
+    SomeString: eerg
+    SomeInt: 4
