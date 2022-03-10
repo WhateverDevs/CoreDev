@@ -120,8 +120,8 @@
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "whateverdevs.core": "0.1.0",
-        "whateverdevs.scenemanagement": "0.0.4"
+        "whateverdevs.core": "0.2.0",
+        "whateverdevs.scenemanagement": "0.0.18"
       }
     },
     "whateverdevs.core": {

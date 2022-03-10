@@ -17,12 +17,24 @@ MonoBehaviour:
     - Key: {fileID: 8300000, guid: 8e3c0fa72942c2a4483a591b3a621ff4, type: 3}
       Value: {fileID: 7859725174482277998, guid: 011032df171229a47ae75792c93820f6,
         type: 2}
+    - Key: {fileID: 8300000, guid: 7f669572414f3e34a805d69bec1b136d, type: 3}
+      Value: {fileID: 7859725174482277998, guid: 011032df171229a47ae75792c93820f6,
+        type: 2}
+    - Key: {fileID: 8300000, guid: 7494619f1947b3140b220fe961cc3ca8, type: 3}
+      Value: {fileID: 7859725174482277998, guid: 011032df171229a47ae75792c93820f6,
+        type: 2}
   SecondsToUnLoadFreeAudiosFromRam: 30
   AudioAssets:
   - {fileID: 8300000, guid: 8e3c0fa72942c2a4483a591b3a621ff4, type: 3}
+  - {fileID: 8300000, guid: 7f669572414f3e34a805d69bec1b136d, type: 3}
+  - {fileID: 8300000, guid: 7494619f1947b3140b220fe961cc3ca8, type: 3}
   AudioNames:
   - Error
+  - Error 1
+  - Error 2
   CachedGroups:
+  - {fileID: 7859725174482277998, guid: 011032df171229a47ae75792c93820f6, type: 2}
+  - {fileID: 7859725174482277998, guid: 011032df171229a47ae75792c93820f6, type: 2}
   - {fileID: 7859725174482277998, guid: 011032df171229a47ae75792c93820f6, type: 2}
   FreeAudios:
     SerializedList: []

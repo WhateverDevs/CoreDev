@@ -311,7 +311,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
 --- !u!114 &403444111
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -725,6 +725,8 @@ MonoBehaviour:
     Rotation: {x: 0, y: 0, z: 0}
     DebugMeshPath: Assets/Art/cono.FBX
     DebugMaterialPath: Assets/Art/cono.mat
+  AudioTest:
+    Audio: Error
 --- !u!4 &1990595674
 Transform:
   m_ObjectHideFlags: 0
