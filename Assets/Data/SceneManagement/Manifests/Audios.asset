@@ -16,7 +16,7 @@ MonoBehaviour:
   FullVersion: 0.0.1.20210727105925
   AppVersionReference: {fileID: 11400000, guid: cefe40d4d5b173d45b11b8edc574392c,
     type: 2}
-  MinimumAppVersion: 0.0.1a.20200507060835
+  MinimumAppVersion: 0.0.1.20200507060835
   AssetGuids:
   - 8e3c0fa72942c2a4483a591b3a621ff4
   - b0cb4e2ac0c7dc24ab08a8fdf49812c4

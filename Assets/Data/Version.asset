@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Version
   m_EditorClassIdentifier: 
   GameVersion: 0
-  MayorVersion: 0
-  MinorVersion: 1
+  MayorVersion: 1
+  MinorVersion: 0
   Date: 20200507060835
-  Stability: 0
+  Stability: 2
