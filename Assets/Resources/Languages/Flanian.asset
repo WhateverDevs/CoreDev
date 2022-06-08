@@ -14,20 +14,169 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Language:
     SerializedList:
+    - Key: Abilities/Chlorophyll
+      Value: Clorofila
+    - Key: Abilities/Chlorophyll/Description
+      Value: "Cuando el Pok\xE9mon usa un movimiento en clima soleado o en luz solar
+        extremadamente fuerte, utiliza el movimiento 2 veces a la vez, pero solo
+        consume un PP."
+    - Key: Abilities/Overgrow
+      Value: Espesura
+    - Key: Abilities/Overgrow/Description
+      Value: "Cuando los PV de Pok\xE9mon bajan, el poder de los movimientos de tipo
+        de hierba aumenta."
+    - Key: Battle/Capture/Escape/0
+      Value: "\xA1Oh no! \xA1{0} se escap\xF3!"
+    - Key: Battle/Capture/Escape/1
+      Value: "\xA1Aww! \xA1Parec\xEDa captoerado!"
+    - Key: Battle/Capture/Escape/2
+      Value: "\xA1Aargh! \xA1Casi lo ten\xEDas!"
+    - Key: Battle/Capture/Escape/3
+      Value: Tan cerca y a la vez tan lejos. F
+    - Key: Battle/Capture/Success
+      Value: "\xA1Toma! \xA1Has captoerado a {0}!"
+    - Key: Battle/CriticalStage/Increase
+      Value: "{0} se est\xE1 preparando para loechar!"
+    - Key: Battle/EatBerry
+      Value: "{0} se comi\xF3 su {1}."
+    - Key: Battle/Fainted
+      Value: "\xA1{0} se ha debilitado!"
+    - Key: Battle/HealStatus
+      Value: "{0} se cur\xF3 de su estado."
+    - Key: Battle/IncreasedPriorityInsideBracket
+      Value: "{0} se mover\xE1 m\xE1s r\xE1pido este turno."
+    - Key: Battle/Intro/Double/Trainer
+      Value: "\xA1{0} y {1} quieren loechar!"
+    - Key: Battle/Intro/Single/Alpha
+      Value: "\xA1Un {0} alpha atuac\xF3!"
+    - Key: Battle/Intro/Single/Trainer
+      Value: "\xA1{0} quiere loechar!"
+    - Key: Battle/Intro/Single/Wild
+      Value: "\xA1Un {0} salvoaje ha apoarecedo!"
+    - Key: Battle/ItemConsumed
+      Value: "{0} se gast\xF3."
+    - Key: Battle/Lost
+      Value: "\xA1No te quedan Pomekos!"
+    - Key: Battle/MainMenu/Bag
+      Value: Mochela
+    - Key: Battle/MainMenu/Fight
+      Value: Loechar
+    - Key: Battle/MainMenu/Monsters
+      Value: Pomekos
+    - Key: Battle/MainMenu/Run
+      Value: Correda
+    - Key: Battle/Monster/State/CanBattle
+      Value: Poede loechar
+    - Key: Battle/Monster/State/InBattle
+      Value: Loechando
+    - Key: Battle/Move/Critical
+      Value: "\xA1Es un golpe cr\xE9tico!"
+    - Key: Battle/Move/Evaded
+      Value: "\xA1{0} lo esquiv\xF3!"
+    - Key: Battle/Move/Failed
+      Value: "\xA1Pero fai\xF3!"
+    - Key: Battle/Move/NoEffect
+      Value: "No tendr\xE1 ning\xFAn efoecto."
+    - Key: Battle/Move/NotVeryEffective
+      Value: No es muy efoectivo.
+    - Key: Battle/Move/Recoil
+      Value: "{0} tambi\xE9n sofre\xF3 da\xF1o."
+    - Key: Battle/Move/SuperEffective
+      Value: "\xA1Es super efoectivo!"
+    - Key: Battle/Move/Used
+      Value: "\xA1{0} us\xF3 {1}!"
+    - Key: Battle/MoveEffectivenessReduced
+      Value: "\xA1Se redujo la efeacacia de {0}!"
+    - Key: Battle/MoveRecoiled
+      Value: "\xA1El movimiento rebot\xF3!"
+    - Key: Battle/OptionalRun
+      Value: "\xBFQuieres enviar a otro Pomeko?"
+    - Key: Battle/RecoverFromFainting
+      Value: "{0} recoper\xF3 su salud."
+    - Key: Battle/RecoverHP
+      Value: "\xA1{0} recueper\xF3 {1} PV!"
+    - Key: Battle/RestorePP
+      Value: Se restaurearon los PP de {0}.
+    - Key: Battle/RestorePPAllMoves
+      Value: Los movimientos de {0} restauraron sus PP.
+    - Key: Battle/Run/Ally
+      Value: Escapoaste sin problemas.
+    - Key: Battle/Run/Enemy
+      Value: "\xA1{0} hizo fiauuuu!"
+    - Key: Battle/Run/Fail
+      Value: "\xA1No poedes huir!"
+    - Key: Battle/StatChange/-1
+      Value: "\xA1{1} de {0} baj\xF3!"
+    - Key: Battle/StatChange/-2
+      Value: "\xA1{1} de {0} baj\xF3 mucho!"
+    - Key: Battle/StatChange/-3
+      Value: "\xA1{1} de {0} baj\xF3 much\xEDsimo!"
+    - Key: Battle/StatChange/1
+      Value: "\xA1{1} de {0} subi\xF3!"
+    - Key: Battle/StatChange/2
+      Value: "\xA1{1} de {0} subi\xF3 mucho!"
+    - Key: Battle/StatChange/3
+      Value: "\xA1{1} de {0} subi\xF3 much\xEDsimo!"
+    - Key: Battle/StatChange/CantHigher
+      Value: "\xA1{1} de {0} no poede subir m\xE1s!"
+    - Key: Battle/StatChange/CantLower
+      Value: "\xA1{1} de {0} no poede bajar m\xE1s!"
+    - Key: Battle/SwapMon/Ally/Enter
+      Value: "\xA1Adoelante, {0}!"
+    - Key: Battle/SwapMon/Ally/Exit
+      Value: "\xA1{0} voelve!"
+    - Key: Battle/SwapMon/AlreadyFighting
+      Value: "{0} ya est\xE1 loechando."
+    - Key: Battle/SwapMon/Enemy/AboutToChange
+      Value: "{1} est\xE1 por envoeiar a {0}. \xBFQuieres cambiar de Pomeko?"
+    - Key: Battle/SwapMon/Enemy/Enter
+      Value: "{1} sac\xF3 a {0}."
+    - Key: Battle/SwapMon/Enemy/Exit
+      Value: "{1} retir\xF3 a {0}."
+    - Key: Battle/SwapMon/IsFainted
+      Value: "{0} est\xE1 deboelitado."
+    - Key: Battle/Win/Double/Trainer
+      Value: "\xA1Has derreotado a {0} y {1}!"
+    - Key: Battle/Win/Single/Trainer
+      Value: "\xA1Derreotaste a {0}!"
+    - Key: Battle/Win/Wild
+      Value: '{0} fue derreotado.'
     - Key: Castillian
       Value: Castelleano
+    - Key: Characters/Brendan
+      Value: Brendan
+    - Key: Characters/Leaf
+      Value: Leaf
+    - Key: Characters/May
+      Value: May
+    - Key: Characters/Red
+      Value: Red
+    - Key: Characters/Type/TrainerFemale
+      Value: Entreneadera
+    - Key: Characters/Type/TrainerMale
+      Value: Entreneador
+    - Key: Common/Ability
+      Value: Habelidad
     - Key: Common/Accept
       Value: Aceoptar
-    - Key: Common/Advantage
-      Value: Voentaja
     - Key: Common/Cancel
       Value: Canzoeolar
+    - Key: Common/Category
+      Value: Categorea
     - Key: Common/Continue
       Value: Contenoar
-    - Key: Common/Disadvantage
-      Value: Desvoentaja
+    - Key: Common/Disabled
+      Value: Desactivoado
+    - Key: Common/Enabled
+      Value: Activoado
+    - Key: Common/Exit
+      Value: Salir
     - Key: Common/False
       Value: No
+    - Key: Common/Give
+      Value: Dar
+    - Key: Common/Info
+      Value: Info
     - Key: Common/LoreIpsum
       Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -35,11 +184,1167 @@ MonoBehaviour:
         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
         non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    - Key: Common/Name
+      Value: Nombre
+    - Key: Common/Switch
+      Value: Cambear
     - Key: Common/True
       Value: Se
+    - Key: Common/Type
+      Value: Tipo
+    - Key: Common/Use
+      Value: Usar
+    - Key: Common/VersionInfo
+      Value: "Verse\xF3n de YAPU: {0}. Verse\xF3n de los YAPU Assets: {1}"
+    - Key: Conditions/Beautiful
+      Value: Belloeza
+    - Key: Conditions/Clever
+      Value: Eugenio
+    - Key: Conditions/Cool
+      Value: Cuaresma
+    - Key: Conditions/Cute
+      Value: Dulzura
+    - Key: Conditions/Tough
+      Value: Doreza
+    - Key: Currency
+      Value: "\u20AC"
+    - Key: Dialogs/XPGain/LevelUp
+      Value: "\xA1{0} subi\xF3 de nievel!"
+    - Key: Dialogs/XPGain/Main
+      Value: "\xA1Tus Pomekos ganaron expoeriencia!"
     - Key: English
       Value: "Engl\xE9s"
     - Key: Flanian
       Value: Flaniano
-    - Key: Battle/Intro/Single/Wild
-      Value: "\xA1Un {0} salvaje ha apoarecedo!"
+    - Key: Item/Category/Ball
+      Value: "Pok\xE9 Balls"
+    - Key: Item/Category/Ball/Description
+      Value: "Pok\xE9 Balls"
+    - Key: Item/Category/BattleItem
+      Value: Batella
+    - Key: Item/Category/BattleItem/Description
+      Value: Batella
+    - Key: Item/Category/Berry
+      Value: Bayas
+    - Key: Item/Category/Berry/Description
+      Value: Bayas
+    - Key: Item/Category/Crafting
+      Value: Matereales
+    - Key: Item/Category/Crafting/Description
+      Value: Matereales
+    - Key: Item/Category/Key
+      Value: Objoetes Clave
+    - Key: Item/Category/Key/Description
+      Value: Objoetes Clave
+    - Key: Item/Category/Medicine
+      Value: Medecinas
+    - Key: Item/Category/Medicine/Description
+      Value: Medecinas
+    - Key: Item/Category/OtherItem
+      Value: Otros
+    - Key: Item/Category/OtherItem/Description
+      Value: Otros
+    - Key: Item/Category/TM
+      Value: MTs
+    - Key: Item/Category/TM/Description
+      Value: MTs
+    - Key: Item/Category/Treasure
+      Value: Tesoros
+    - Key: Item/Category/Treasure/Description
+      Value: Tesoros
+    - Key: Item/HeldItem
+      Value: Objoete Equipoado
+    - Key: Item/NowHolding
+      Value: '{0} ahora lleva {1}.'
+    - Key: Item/PutBack
+      Value: Devolviste {0} a la bolsa.
+    - Key: Item/SwapDialog
+      Value: "\xBFQuieres cambiar {0} por {1}?"
+    - Key: Items/Antidote
+      Value: "Ant\xEDdoto"
+    - Key: Items/Antidote/Description
+      Value: Un medicamento tipo spray para el tratamiento del veneno. Se puede usar
+        para curar el envenamiento a un solo Pomeko.
+    - Key: Items/ApicotBerry
+      Value: Baya Aricoc
+    - Key: Items/ApicotBerry/Description
+      Value: "Si la lleva un Pomeko, su Defoensa Espacial subir\xE1 cuando est\xE9
+        en un aprieto."
+    - Key: Items/AspearBerry
+      Value: Baya Perasi
+    - Key: Items/AspearBerry/Description
+      Value: "Una baya que puede ser consumida por un Pomeko. Si el Pomeko la lleva
+        en combate, puede curarse del congelamiento a s\xED mesmo."
+    - Key: Items/Awakening
+      Value: Despertar
+    - Key: Items/Awakening/Description
+      Value: Un medicamento tipo spray para despertar a los dormidos. Se puede usar
+        para despertar a un solo Pomeko.
+    - Key: Items/BabiriBerry
+      Value: "Baya Barib\xE1"
+    - Key: Items/BabiriBerry/Description
+      Value: "Si la lleva un Pomeko, reducir\xE1 el da\xF1o hecho por un ataque super
+        efectevo de tipo Acero."
+    - Key: Items/BeastBall
+      Value: Ente Ball
+    - Key: Items/BeastBall/Description
+      Value: "Una Pok\xE9 Ball especial dise\xF1ada para capturar Ultra Entes. No
+        es muy \xFAtil contra otros Pomekos."
+    - Key: Items/BelueBerry
+      Value: Baya Andano
+    - Key: Items/BelueBerry/Description
+      Value: "Se puede usar para hacer Pok\xE9cubos que mejoran tu belleza. Es rara
+        en otras regeones."
+    - Key: Items/BlackBelt
+      Value: "Cintur\xF3n Negro"
+    - Key: Items/BlackBelt/Description
+      Value: "Un objeto para ser llevado por un Pomeko. Este cintur\xF3n ayuda a
+        concentrarse y mejora los ataques de tipo Lucha."
+    - Key: Items/BlackGlasses
+      Value: Gafas de Sol
+    - Key: Items/BlackGlasses/Description
+      Value: Un objeto para ser llevado por un Pomeko. Es un par de gafas oscuras
+        que mejoran los movimientos de tipo Siniestro.
+    - Key: Items/BlankPlate
+      Value: Tabla Neutra
+    - Key: Items/BlankPlate/Description
+      Value: '''Tres seres cuyo poder puede mantener fijos tanto el tiempo como el
+        espacio.'''
+    - Key: Items/BlukBerry
+      Value: Baya Oram
+    - Key: Items/BlukBerry/Description
+      Value: "Se puede usar para hacer Pok\xE9cubos que mejoran tu belleza. Su carne
+        azul es seca."
+    - Key: Items/BugGem
+      Value: Gema Bicho
+    - Key: Items/BugGem/Description
+      Value: Una gema que, si la lleva un Pomeko, mejora un movimiento de tipo Bicho
+        una vez.
+    - Key: Items/BurnHeal
+      Value: "Ant\xEDdoto"
+    - Key: Items/BurnHeal/Description
+      Value: Un medicamento tipo spray para el tratamiento de quemaduras. Se puede
+        usar para curar una quemadura a un solo Pomeko.
+    - Key: Items/Charcoal
+      Value: "Carb\xF3n"
+    - Key: Items/Charcoal/Description
+      Value: Un objeto para ser llevado por un Pomeko. Es un combustible que mejora
+        los movimientos de tipo Fuego.
+    - Key: Items/ChartyBerry
+      Value: Baya Alcho
+    - Key: Items/ChartyBerry/Description
+      Value: "Si la lleva un Pomeko, reducir\xE1 el da\xF1o hecho por un ataque super
+        efectevo de tipo Rocc."
+    - Key: Items/CheriBerry
+      Value: Baya Zreza
+    - Key: Items/CheriBerry/Description
+      Value: "Una baya que puede ser consumida por un Pomeko. Si el Pomeko la lleva
+        en combate, puede curarse de la par\xE1lisis a s\xED mesmo."
+    - Key: Items/CherishBall
+      Value: Gloaria Ball
+    - Key: Items/CherishBall/Description
+      Value: "Una Pok\xE9 Ball bastante rara creada paa conmemorar un evento."
+    - Key: Items/ChestoBerry
+      Value: Baya Atania
+    - Key: Items/ChestoBerry/Description
+      Value: "Una baya que puede ser consumida por un Pomeko. Si el Pomeko la lleva
+        en combate, puede despertarse a s\xED mesmo."
+    - Key: Items/ChilanBerry
+      Value: Baya Chilan
+    - Key: Items/ChilanBerry/Description
+      Value: "Si la lleva un Pomeko, reducir\xE1 el da\xF1o hecho por un ataque de
+        tipo Normal."
+    - Key: Items/ChopleBerry
+      Value: Baya Pomaro
+    - Key: Items/ChopleBerry/Description
+      Value: "Si la lleva un Pomeko, reducir\xE1 el da\xF1o hecho por un ataque super
+        efectevo de tipo Lucha."
+    - Key: Items/CobaBerry
+      Value: Baya Kouba
+    - Key: Items/CobaBerry/Description
+      Value: "Si la lleva un Pomeko, reducir\xE1 el da\xF1o hecho por un ataque super
+        efectevo de tipo Volador."
+    - Key: Items/ColburBerry
+      Value: Baya Dillo
+    - Key: Items/ColburBerry/Description
+      Value: "Si la lleva un Pomeko, reducir\xE1 el da\xF1o hecho por un ataque super
+        efectevo de tipo Seniestro."
+    - Key: Items/CornnBerry
+      Value: Baya Mais
+    - Key: Items/CornnBerry/Description
+      Value: "Se puede usar para hacer Pok\xE9cubos que mejoran tu belleza. Es rara
+        en otras regeones."
+    - Key: Items/CustapBerry
+      Value: Baya Chiri
+    - Key: Items/CustapBerry/Description
+      Value: "Si la lleva un Pomeko,se mover\xE1 m\xE1s r\xE1pido cuando est\xE9
+        en un aprieto."
+    - Key: Items/DireHit
+      Value: Directo
+    - Key: Items/DireHit/Description
+      Value: "Un objoeto que aumenta considerablemente la posebilidad de hacer cr\xE9tico
+        de un Pomeko durante un combate. Desaparece una vez que se retira el Pomeko."
+    - Key: Items/DracoPlate
+      Value: Tabla Draco
+    - Key: Items/DracoPlate/Description
+      Value: '''Tres seres nacieron para unir el tiempo y el espacio.'''
+    - Key: Items/DragonFang
+      Value: "Colmillo Drag\xF3n"
+    - Key: Items/DragonFang/Description
+      Value: "Un objeto para ser llevado por un Pomeko. Este duro y afilado colmillo
+        mejora los movimientos de tipo Drag\xF3n."
+    - Key: Items/DragonGem
+      Value: "Gema Drag\xF3n"
+    - Key: Items/DragonGem/Description
+      Value: "Una gema que, si la lleva un Pomeko, mejora un movimiento de tipo Drag\xF3n
+        una vez."
+    - Key: Items/DreadPlate
+      Value: Tabla Oscura
+    - Key: Items/DreadPlate/Description
+      Value: "'Dos hacen la materia y tres hacen el esp\xEDritu, dando forma al mundo.'"
+    - Key: Items/DreamBall
+      Value: "Ensue\xF1o Ball"
+    - Key: Items/DreamBall/Description
+      Value: "Una Pok\xE9 Ball un poco diferente que es m\xE1s efectiva para capturar
+        Pomekos dormidos."
+    - Key: Items/DurinBerry
+      Value: Baya Rudion
+    - Key: Items/DurinBerry/Description
+      Value: "Se puede usar para hacer Pok\xE9cubos que mejoran tu engeneo. Es rara
+        en otras regeones."
+    - Key: Items/EarthPlate
+      Value: Tabla Terrax
+    - Key: Items/EarthPlate/Description
+      Value: "'Cuando se cre\xF3 el universo, sus fragmentos se convirtieron en esta
+        Tabla.'"
+    - Key: Items/ElectricGem
+      Value: "Gema El\xE9ctrica"
+    - Key: Items/ElectricGem/Description
+      Value: "Una gema que, si la lleva un Pomeko, mejora un movimiento de tipo El\xE9ctrico
+        una vez."
+    - Key: Items/Elixir
+      Value: Elixir
+    - Key: Items/Elixir/Description
+      Value: Esta medicina puede ser usada para restaurar 10 PP de cada movimiento
+        de un solo Pomeko.
+    - Key: Items/EnergyPowder
+      Value: Polvo Energea
+    - Key: Items/EnergyPowder/Description
+      Value: Un polvo medicinal muy amargo. Restaura 60 HP a un solo Pomeko.
+    - Key: Items/EnergyRoot
+      Value: "Polvo Curace\xF3n"
+    - Key: Items/EnergyRoot/Description
+      Value: "Un polvo medicinal muy amargo. Se puede usar para revivir a un solo
+        Pomeko que se ha debiilitado. Restaura sus PV al m\xE1ximo."
+    - Key: Items/EnigmaBerry
+      Value: Baya Enigma
+    - Key: Items/EnigmaBerry/Description
+      Value: "Si la lleva un Pomeko, ser golpeado por un movimiento super efectevo
+        restarurar\xE1 PVs."
+    - Key: Items/Ether
+      Value: "\xC9ter"
+    - Key: Items/Ether/Description
+      Value: Esta medicina puede ser usada para restaurar 10 PP de un solo movimiento.
+    - Key: Items/FairyGem
+      Value: Gema Hada
+    - Key: Items/FairyGem/Description
+      Value: Una gema que, si la lleva un Pomeko, mejora un movimiento de tipo Hada
+        una vez.
+    - Key: Items/FastBall
+      Value: Rapid Ball
+    - Key: Items/FastBall/Description
+      Value: "Una Pok\xE9 Ball que hace m\xE1s f\xE1cil cazar Pomekos muy r\xE1pidos."
+    - Key: Items/FightingGem
+      Value: Gema Lucha
+    - Key: Items/FightingGem/Description
+      Value: Una gema que, si la lleva un Pomeko, mejora un movimiento de tipo Lucha
+        una vez.
+    - Key: Items/FireGem
+      Value: Gema Fuego
+    - Key: Items/FireGem/Description
+      Value: Una gema que, si la lleva un Pomeko, mejora un movimiento de tipo Fuego
+        una vez.
+    - Key: Items/FistPlate
+      Value: Tabla Fuerte
+    - Key: Items/FistPlate/Description
+      Value: '''La grieta nace del desorden al otro lado de este mundo.'''
+    - Key: Items/FlamePlate
+      Value: Tabla Llama
+    - Key: Items/FlamePlate/Description
+      Value: '''El poder de los gigantes derrotados infunde esta Tabla.'''
+    - Key: Items/FlanBall
+      Value: Flan Ball
+    - Key: Items/FlanBall/Description
+      Value: "Una Pok\xE9 Ball especial dise\xF1ada para capturar Alfas. No es muy
+        \xFAtil contra otros Pomekos."
+    - Key: Items/FlyingGem
+      Value: Gema Volador
+    - Key: Items/FlyingGem/Description
+      Value: Una gema que, si la lleva un Pomeko, mejora un movimiento de tipo Volador
+        una vez.
+    - Key: Items/FriendBall
+      Value: Amego Ball
+    - Key: Items/FriendBall/Description
+      Value: "Una Pok\xE9 Ball to turbia que hace que el Pomeko sea m\xE1s amistoso
+        nada m\xE1s capturado."
+    - Key: Items/FullHeal
+      Value: Cura Tetal
+    - Key: Items/FullHeal/Description
+      Value: Un medicamento tipo spray muy efectivo. Se puede usar para curar cualquier
+        efecto de estado a un solo Pomeko.
+    - Key: Items/FullRestore
+      Value: Restauratodo
+    - Key: Items/FullRestore/Description
+      Value: Un medicamento tipo spray que restaura todos los PV y cura cualquier
+        efecto de estado a un solo Pomeko.
+    - Key: Items/GanlonBerry
+      Value: Baya Gonlan
+    - Key: Items/GanlonBerry/Description
+      Value: "Si la lleva un Pomeko, su Defoensa subir\xE1 cuando est\xE9 en un aprieto."
+    - Key: Items/GhostGem
+      Value: Gema Fantasma
+    - Key: Items/GhostGem/Description
+      Value: Una gema que, si la lleva un Pomeko, mejora un movimiento de tipo Fantasma
+        una vez.
+    - Key: Items/GrassGem
+      Value: Gema Planta
+    - Key: Items/GrassGem/Description
+      Value: Una gema que, si la lleva un Pomeko, mejora un movimiento de tipo Planta
+        una vez.
+    - Key: Items/GreatBall
+      Value: Super Ball
+    - Key: Items/GreatBall/Description
+      Value: "Una buena Ball de alto rendimiento que proporciona una mayor tasa de
+        \xE9xito para atrapar Pomekos que una Pok\xE9 Ball est\xE1ndar."
+    - Key: Items/GrepaBerry
+      Value: Baya Uvav
+    - Key: Items/GrepaBerry/Description
+      Value: "Una baya que puede ser consumida por un Pomeko. Le hace m\xE1s amistoso
+        pero bajar\xE1 sus VE de Defoensa Espacial."
+    - Key: Items/GroundGem
+      Value: Gema Tierra
+    - Key: Items/GroundGem/Description
+      Value: Una gema que, si la lleva un Pomeko, mejora un movimiento de tipo Tierra
+        una vez.
+    - Key: Items/GuardSpec
+      Value: Protec. Espacial
+    - Key: Items/GuardSpec/Description
+      Value: "Un objoeto que evita la reducci\xF3n de estad\xEDsticas entre los Pomekos
+        del equipo del Entrenador durante cinco turnos tras usarlo en la batalla."
+    - Key: Items/HabanBerry
+      Value: Baya Anjiro
+    - Key: Items/HabanBerry/Description
+      Value: "Si la lleva un Pomeko, reducir\xE1 el da\xF1o hecho por un ataque super
+        efectevo de tipo Dreg\xF3n."
+    - Key: Items/HardStone
+      Value: Rocc Dura
+    - Key: Items/HardStone/Description
+      Value: Un objeto para ser llevado por un Pomeko. Es una rocc resistente que
+        mejora los movimientos de tipo Rocc.
+    - Key: Items/HealBall
+      Value: Sana Ball
+    - Key: Items/HealBall/Description
+      Value: "Una Pok\xE9 Ball m\xE9dica que cura por completo al Pomeko tras capturarlo."
+    - Key: Items/HealPowder
+      Value: "Polvo Curace\xF3n"
+    - Key: Items/HealPowder/Description
+      Value: Un polvo medicinal muy amargo. Se puede usar para curar cualquier efecto
+        de estado a un solo Pomeko.
+    - Key: Items/HeavyBall
+      Value: Peso Ball
+    - Key: Items/HeavyBall/Description
+      Value: "Una Pok\xE9 Ball que hace m\xE1s f\xE1cil cazar chonky bois."
+    - Key: Items/HeldXPShare
+      Value: Repoartir Exp.
+    - Key: Items/HeldXPShare/Description
+      Value: Un objeto para ser llevado por un Pomeko. El usuario recibe parte de
+        la expoeriencia en batalla incluso sin haber loechado.
+    - Key: Items/HondewBerry
+      Value: Baya Meluce
+    - Key: Items/HondewBerry/Description
+      Value: "Una baya que puede ser consumida por un Pomeko. Le hace m\xE1s amistoso
+        pero bajar\xE1 sus VE de Atoaque Espacial."
+    - Key: Items/HyperPotion
+      Value: "Hiper Poce\xF3n"
+    - Key: Items/HyperPotion/Description
+      Value: Un medicamento tipo spray para el tratamiento de heridas. Se puede usar
+        para restaurar 120 PV a un solo Pomeko.
+    - Key: Items/IceGem
+      Value: Gema Hielo
+    - Key: Items/IceGem/Description
+      Value: Una gema que, si la lleva un Pomeko, mejora un movimiento de tipo Hielo
+        una vez.
+    - Key: Items/IceHeal
+      Value: Antihielo
+    - Key: Items/IceHeal/Description
+      Value: "Un medicamento tipo spray para el tratamiento de congelaci\xF3n. Se
+        puede usar para descongelar a un solo Pomeko."
+    - Key: Items/IciclePlate
+      Value: Tabla Helada
+    - Key: Items/IciclePlate/Description
+      Value: '''Dos seres del tiempo y del espacio liberados del Original.'''
+    - Key: Items/InsectPlate
+      Value: Tabla Bicho
+    - Key: Items/InsectPlate/Description
+      Value: "'Donde naci\xF3 toda la creaci\xF3n, ese es el lugar de origen del
+        ser.'"
+    - Key: Items/IronPlate
+      Value: Tabla Acero
+    - Key: Items/IronPlate/Description
+      Value: '''Aquello que llena el otro lado del mundo puede dar forma la rabia
+        y moldearla.'''
+    - Key: Items/JabocaBerry
+      Value: Baya Jaboca
+    - Key: Items/JabocaBerry/Description
+      Value: "Si un movimiento f\xEDsico alcanza al Pomeko que la lleva, el atacante
+        tambi\xE9n recibir\xE1 da\xF1o."
+    - Key: Items/KasibBerry
+      Value: Baya Drasi
+    - Key: Items/KasibBerry/Description
+      Value: "Si la lleva un Pomeko, reducir\xE1 el da\xF1o hecho por un ataque super
+        efectevo de tipo Fantasma."
+    - Key: Items/KebiaBerry
+      Value: Baya Kebia
+    - Key: Items/KebiaBerry/Description
+      Value: "Si la lleva un Pomeko, reducir\xE1 el da\xF1o hecho por un ataque super
+        efectevo de tipo Venoeno."
+    - Key: Items/KeeBerry
+      Value: Baya Biglia
+    - Key: Items/KeeBerry/Description
+      Value: "Si un movimiento f\xEDsico alcanza al Pomeko que la lleva, subir\xE1
+        su defoensa."
+    - Key: Items/KelpsyBerry
+      Value: Baya Algama
+    - Key: Items/KelpsyBerry/Description
+      Value: "Una baya que puede ser consumida por un Pomeko. Le hace m\xE1s amistoso
+        pero bajar\xE1 sus VE de Atoaque."
+    - Key: Items/KeyXPShare
+      Value: Repoartir Exp.
+    - Key: Items/KeyXPShare/Description
+      Value: "Activar este dispositivo har\xE1 que todo tu equipo reciba experiencia
+        en combate."
+    - Key: Items/LansatBerry
+      Value: Baya Zonlan
+    - Key: Items/LansatBerry/Description
+      Value: "Si la lleva un Pomeko, su posibilidad de hacer cr\xEDtico subir\xE1
+        cuando est\xE9 en un aprieto."
+    - Key: Items/LeppaBerry
+      Value: Baya Zanama
+    - Key: Items/LeppaBerry/Description
+      Value: Una baya que puede ser consumida por un Pomeko. Puede restaurar 10 PP
+        de un solo movimiento.
+    - Key: Items/LevelBall
+      Value: Nivel Ball
+    - Key: Items/LevelBall/Description
+      Value: "Una Pok\xE9 Ball que hace m\xE1s f\xE1cil cazar Pomekos con nivel por
+        debajo del del tuyo."
+    - Key: Items/LiechiBerry
+      Value: Baya Lichi
+    - Key: Items/LiechiBerry/Description
+      Value: "Si la lleva un Pomeko, su Atoaque subir\xE1 cuando est\xE9 en un aprieto."
+    - Key: Items/LoveBall
+      Value: Amor Ball
+    - Key: Items/LoveBall/Description
+      Value: "Una Pok\xE9 Ball que hace m\xE1s f\xE1cil cazar Pomekos de la misma
+        especie y diferente g\xE9nero."
+    - Key: Items/LuckyEgg
+      Value: Goebo Soerte
+    - Key: Items/LuckyEgg/Description
+      Value: Un objeto para ser llevado por un Pomeko. Es un goebo lleno de felicidad
+        que da al usuario puntos de experiencia extra en combate.
+    - Key: Items/LumBerry
+      Value: Baya Ziuela
+    - Key: Items/LumBerry/Description
+      Value: Una baya que puede ser consumida por un Pomeko. Puede curar cualquier
+        estado en combate.
+    - Key: Items/LuxuryBall
+      Value: Lujo Ball
+    - Key: Items/LuxuryBall/Description
+      Value: "Una Pok\xE9 Ball muy c\xF3moda que hace que el Pomeko capturado sea
+        m\xE1s amistoso a lo largo del tiempo."
+    - Key: Items/Magnet
+      Value: "Im\xE1n"
+    - Key: Items/Magnet/Description
+      Value: "Un objeto para ser llevado por un Pomeko. Es un potente im\xE1n que
+        mejora los movimientos de tipo El\xE9ctrico."
+    - Key: Items/MagostBerry
+      Value: Baya Aostan
+    - Key: Items/MagostBerry/Description
+      Value: "Se puede usar para hacer Pok\xE9cubos que mejoran tu dulzura. Es rara
+        en otras regeones."
+    - Key: Items/MarangaBerry
+      Value: Baya Maranga
+    - Key: Items/MarangaBerry/Description
+      Value: "Si un movimiento espacial alcanza al Pomeko que la lleva, subir\xE1
+        su defoensa espacial."
+    - Key: Items/MasterBall
+      Value: Master Ball
+    - Key: Items/MasterBall/Description
+      Value: "La mejor Pok\xE9 Ball con la m\xE1xima eficiencia. Puede capturar cualquier
+        Pomeko sin fallar."
+    - Key: Items/MaxElixir
+      Value: Elixir Max
+    - Key: Items/MaxElixir/Description
+      Value: Esta medicina puede ser usada para restaurar todos los PP de cada movimiento
+        de un solo Pomeko.
+    - Key: Items/MaxEther
+      Value: "\xC9ter Max"
+    - Key: Items/MaxEther/Description
+      Value: Esta medicina puede ser usada para restaurar todos los PP de un solo
+        movimiento.
+    - Key: Items/MaxPotion
+      Value: "Max Poce\xF3n"
+    - Key: Items/MaxPotion/Description
+      Value: Un medicamento tipo spray para el tratamiento de heridas. Se puede usar
+        para restaurar todos los PV a un solo Pomeko.
+    - Key: Items/MaxRevive
+      Value: Max Revevir
+    - Key: Items/MaxRevive/Description
+      Value: "Medicina que se poede usar para revevir a un solo Pomeko que se ha
+        debiilitado. Restaura sus PV a top\xEDsimo."
+    - Key: Items/MeadowPlate
+      Value: Tabla Pradal
+    - Key: Items/MeadowPlate/Description
+      Value: '''Los poderes de las Tablas se comparten entre Pomekos.'''
+    - Key: Items/MetalCoat
+      Value: "Rev. Met\xE1lico"
+    - Key: Items/MetalCoat/Description
+      Value: "Un objeto para ser llevado por un Pomeko. Es una cobertura met\xE1lica
+        especial que mejora los movimientos de tipo Acero."
+    - Key: Items/MicleBerry
+      Value: Baya Lagro
+    - Key: Items/MicleBerry/Description
+      Value: "Si la lleva un Pomeko, su Precese\xF3n subir\xE1 cuando est\xE9 en
+        un aprieto."
+    - Key: Items/MindPlate
+      Value: Tabla Mental
+    - Key: Items/MindPlate/Description
+      Value: '''El Original respiraba solo antes de que viniera el universo.'''
+    - Key: Items/MiracleSeed
+      Value: Semilla Milagro
+    - Key: Items/MiracleSeed/Description
+      Value: Un objeto para ser llevado por un Pomeko. Es una semilla llena de vida
+        que mejora los movimientos de tipo Planta.
+    - Key: Items/MysticWater
+      Value: "Agoa M\xEDstica"
+    - Key: Items/MysticWater/Description
+      Value: Un objeto para ser llevado por un Pomeko. Esta gema con forma de gota
+        mejora los movimientos de tipo Agua.
+    - Key: Items/NanabBerry
+      Value: Baya Latano
+    - Key: Items/NanabBerry/Description
+      Value: "Se puede usar para hacer Pok\xE9cubos que mejoran tu dulzura. Su carne
+        rosa es dulce."
+    - Key: Items/NestBall
+      Value: Nido Ball
+    - Key: Items/NestBall/Description
+      Value: "Una Pok\xE9 Ball un poco diferente que es m\xE1s efectiva para capturar
+        Pomekos de bajo nivel."
+    - Key: Items/NetBall
+      Value: Malla Ball
+    - Key: Items/NetBall/Description
+      Value: "Una Pok\xE9 Ball un poco diferente que es m\xE1s efectiva para capturar
+        Pomekos de tipo Agoa o Bicho."
+    - Key: Items/NeverMeltIce
+      Value: Antiderretir
+    - Key: Items/NeverMeltIce/Description
+      Value: Un objeto para ser llevado por un Pomeko. Es un pedazo de hielo que
+        repele el calor y mejora los movimientos de tipo Hielo.
+    - Key: Items/NomelBerry
+      Value: Baya Monli
+    - Key: Items/NomelBerry/Description
+      Value: "Se puede usar para hacer Pok\xE9cubos que mejoran tu dureza. Es rara
+        en otras regeones."
+    - Key: Items/NormalGem
+      Value: Gema Normal
+    - Key: Items/NormalGem/Description
+      Value: Una gema que, si la lleva un Pomeko, mejora un movimiento de tipo Normal
+        una vez.
+    - Key: Items/OccaBerry
+      Value: Baya Caoca
+    - Key: Items/OccaBerry/Description
+      Value: "Si la lleva un Pomeko, reducir\xE1 el da\xF1o hecho por un ataque super
+        efectevo de tipo Foego."
+    - Key: Items/OranBerry
+      Value: Baya Aranja
+    - Key: Items/OranBerry/Description
+      Value: Una baya que puede ser consumida por un Pomeko. Puede restaurar 10 PV
+        en combate.
+    - Key: Items/PamtreBerry
+      Value: Baya Plama
+    - Key: Items/PamtreBerry/Description
+      Value: "Se puede usar para hacer Pok\xE9cubos que mejoran tu belleza. Es rara
+        en otras regeones."
+    - Key: Items/ParalyzeHeal
+      Value: Antiparalizador
+    - Key: Items/ParalyzeHeal/Description
+      Value: "Un medicamento tipo spray para el tratamiento de la par\xE1lisis. Se
+        puede usar para curar la par\xE1lisis a un solo Pomeko."
+    - Key: Items/PasshoBerry
+      Value: Baya Pasio
+    - Key: Items/PasshoBerry/Description
+      Value: "Si la lleva un Pomeko, reducir\xE1 el da\xF1o hecho por un ataque super
+        efectevo de tipo Agoa."
+    - Key: Items/PayapaBerry
+      Value: Baya Payapa
+    - Key: Items/PayapaBerry/Description
+      Value: "Si la lleva un Pomeko, reducir\xE1 el da\xF1o hecho por un ataque super
+        efectevo de tipo Ps\xEDquico."
+    - Key: Items/PechaBerry
+      Value: Baya Meloc
+    - Key: Items/PechaBerry/Description
+      Value: "Una baya que puede ser consumida por un Pomeko. Si el Pomeko la lleva
+        en combate, puede curarse del veneno a s\xED mesmo."
+    - Key: Items/PetayaBerry
+      Value: Baya Yapati
+    - Key: Items/PetayaBerry/Description
+      Value: "Si la lleva un Pomeko, su Atoaque Espacial subir\xE1 cuando est\xE9
+        en un aprieto."
+    - Key: Items/PinapBerry
+      Value: Baya Pinia
+    - Key: Items/PinapBerry/Description
+      Value: "Se puede usar para hacer Pok\xE9cubos que mejoran tu dureza. Su carne
+        amarilla es \xE1cida."
+    - Key: Items/PixiePlate
+      Value: Tabla Duende
+    - Key: Items/PixiePlate/Description
+      Value: "'El Original est\xE1 en todas las cosas. El Original no est\xE1 en
+        ninguna parte.'"
+    - Key: Items/PoisonBarb
+      Value: Flecha Venenosa
+    - Key: Items/PoisonBarb/Description
+      Value: "Un objeto para ser llevado por un Pomeko. Este peque\xF1o dardo mejora
+        los movimientos de tipo Veneno."
+    - Key: Items/PoisonGem
+      Value: Gema Veneno
+    - Key: Items/PoisonGem/Description
+      Value: Una gema que, si la lleva un Pomeko, mejora un movimiento de tipo Veneno
+        una vez.
+    - Key: Items/PokeBall
+      Value: "Pok\xE9 Ball"
+    - Key: Items/PokeBall/Description
+      Value: "Un dispositivo para atrapar Pomekos salvajes. Se lanza como una pelota
+        al Pomeko, encapsulando c\xF3modamente a su objoetevo."
+    - Key: Items/PomegBerry
+      Value: Baya Grana
+    - Key: Items/PomegBerry/Description
+      Value: "Una baya que puede ser consumida por un Pomeko. Le hace m\xE1s amistoso
+        pero bajar\xE1 sus VE de VP."
+    - Key: Items/Potion
+      Value: "Poce\xF3n"
+    - Key: Items/Potion/Description
+      Value: Un medicamento tipo spray para el tratamiento de heridas. Se puede usar
+        para restaurar 20 PV a un solo Pomeko.
+    - Key: Items/PowerAnklet
+      Value: Franja Recia
+    - Key: Items/PowerAnklet/Description
+      Value: "Un objeto para ser llevado por un Pomeko. Reduce la velocidad pero
+        permite al usuario que su velocidad crezca m\xE1s r\xE1pido tras cada combate."
+    - Key: Items/PowerBand
+      Value: Banda Recia
+    - Key: Items/PowerBand/Description
+      Value: "Un objeto para ser llevado por un Pomeko. Reduce la velocidad pero
+        permite al usuario que su defoensa espacial crezca m\xE1s r\xE1pido tras
+        cada combate."
+    - Key: Items/PowerBelt
+      Value: Cinto Recio
+    - Key: Items/PowerBelt/Description
+      Value: "Un objeto para ser llevado por un Pomeko. Reduce la velocidad pero
+        permite al usuario que su defoensa crezca m\xE1s r\xE1pido tras cada combate."
+    - Key: Items/PowerBracer
+      Value: Brazal Recio
+    - Key: Items/PowerBracer/Description
+      Value: "Un objeto para ser llevado por un Pomeko. Reduce la velocidad pero
+        permite al usuario que su atoaque crezca m\xE1s r\xE1pido tras cada combate."
+    - Key: Items/PowerLens
+      Value: Lente Recia
+    - Key: Items/PowerLens/Description
+      Value: "Un objeto para ser llevado por un Pomeko. Reduce la velocidad pero
+        permite al usuario que su atoaque espacial crezca m\xE1s r\xE1pido tras cada
+        combate."
+    - Key: Items/PowerWeight
+      Value: Pesa Recia
+    - Key: Items/PowerWeight/Description
+      Value: "Un objeto para ser llevado por un Pomeko. Reduce la velocidad pero
+        permite al usuario que sus PV crezcan m\xE1s r\xE1pido tras cada combate."
+    - Key: Items/PremierBall
+      Value: Honor Ball
+    - Key: Items/PremierBall/Description
+      Value: "Una Pok\xE9 Ball un poco rara creada paa conmemorar un evento."
+    - Key: Items/PsychicGem
+      Value: "Gema Ps\xEDquico"
+    - Key: Items/PsychicGem/Description
+      Value: "Una gema que, si la lleva un Pomeko, mejora un movimiento de tipo Ps\xEDquico
+        una vez."
+    - Key: Items/QualotBerry
+      Value: Baya Ispero
+    - Key: Items/QualotBerry/Description
+      Value: "Una baya que puede ser consumida por un Pomeko. Le hace m\xE1s amistoso
+        pero bajar\xE1 sus VE de Defensa."
+    - Key: Items/QuickBall
+      Value: Veloz Ball
+    - Key: Items/QuickBall/Description
+      Value: "Una Pok\xE9 Ball un poco diferente que es m\xE1s efectiva para capturar
+        Pomekos al principio del combate."
+    - Key: Items/RabutaBerry
+      Value: Baya Rautan
+    - Key: Items/RabutaBerry/Description
+      Value: "Se puede usar para hacer Pok\xE9cubos que mejoran tu engeneo. Es rara
+        en otras regeones."
+    - Key: Items/RawstBerry
+      Value: Baya Safre
+    - Key: Items/RawstBerry/Description
+      Value: "Una baya que puede ser consumida por un Pomeko. Si el Pomeko la lleva
+        en combate, puede curarse de la quemadura a s\xED mesmo."
+    - Key: Items/RazzBerry
+      Value: Baya Frambu
+    - Key: Items/RazzBerry/Description
+      Value: "Se puede usar para hacer Pok\xE9cubos que mejoran tu carisma. Su carne
+        roja es picante."
+    - Key: Items/RevivalHerb
+      Value: Hierba Revevir
+    - Key: Items/RevivalHerb/Description
+      Value: "Una hierba medicinal muy amarga. Se poede usar para revevir a un solo
+        Pomeko que se ha debiilitado. Restaura sus PV a top\xEDsimo."
+    - Key: Items/Revive
+      Value: Revevir
+    - Key: Items/Revive/Description
+      Value: Medicina que se poede usar para revevir a un solo Pomeko que se ha debiilitado.
+        Restaura sus PV a la mitad.
+    - Key: Items/RindoBerry
+      Value: Baya Tamar
+    - Key: Items/RindoBerry/Description
+      Value: "Si la lleva un Pomeko, reducir\xE1 el da\xF1o hecho por un ataque super
+        efectevo de tipo Plenta."
+    - Key: Items/RockGem
+      Value: Gema Rocc
+    - Key: Items/RockGem/Description
+      Value: Una gema que, si la lleva un Pomeko, mejora un movimiento de tipo Rocc
+        una vez.
+    - Key: Items/RoseliBerry
+      Value: Baya Hibis
+    - Key: Items/RoseliBerry/Description
+      Value: "Si la lleva un Pomeko, reducir\xE1 el da\xF1o hecho por un ataque super
+        efectevo de tipo Hada."
+    - Key: Items/RowapBerry
+      Value: Baya Magua
+    - Key: Items/RowapBerry/Description
+      Value: "Si un movimiento espacial alcanza al Pomeko que la lleva, el atacante
+        tambi\xE9n recibir\xE1 da\xF1o."
+    - Key: Items/Sachet
+      Value: Saquito Fragante
+    - Key: Items/Sachet/Description
+      Value: Un objeto para ser llevado por un Pomeko. Esta bolsita emana olores
+        ligeramente abrumadores y mejora los movimientos de tipo Hada.
+    - Key: Items/SalacBerry
+      Value: Baya Aslac
+    - Key: Items/SalacBerry/Description
+      Value: "Si la lleva un Pomeko, su Veleocedad subir\xE1 cuando est\xE9 en un
+        aprieto."
+    - Key: Items/SharpBeak
+      Value: Pico Afilado
+    - Key: Items/SharpBeak/Description
+      Value: Un objeto para ser llevado por un Pomeko. Este largo pico mejora los
+        movimientos de tipo Volador.
+    - Key: Items/ShucaBerry
+      Value: Baya Acardo
+    - Key: Items/ShucaBerry/Description
+      Value: "Si la lleva un Pomeko, reducir\xE1 el da\xF1o hecho por un ataque super
+        efectevo de tipo Tierra."
+    - Key: Items/SilkScarf
+      Value: "Pa\xF1oelo de Seda"
+    - Key: Items/SilkScarf/Description
+      Value: Un objeto para ser llevado por un Pomeko. Es una ostentosa bufanda que
+        mejora los movimientos de tipo Normal.
+    - Key: Items/SilverPowder
+      Value: Polvo Plata
+    - Key: Items/SilverPowder/Description
+      Value: Un objeto para ser llevado por un Pomeko. Es un brillante polvo plateado
+        que mejora los movimientos de tipo Bicho.
+    - Key: Items/SitrusBerry
+      Value: Baya Zidra
+    - Key: Items/SitrusBerry/Description
+      Value: "Una baya que puede ser consumida por un Pomeko. Puede restaurar una
+        peque\xF1a cantidad de HP en combate."
+    - Key: Items/SkyPlate
+      Value: Tabla Cielo
+    - Key: Items/SkyPlate/Description
+      Value: "'El ser verti\xF3 los restos de su poder en la piedra y la enterr\xF3
+        profundamente.'"
+    - Key: Items/SoftSand
+      Value: Arena Fina
+    - Key: Items/SoftSand/Description
+      Value: Un objeto para ser llevado por un Pomeko. Esta arena sedosa mejora los
+        movimientos de tipo Tierra.
+    - Key: Items/SpellTag
+      Value: Hechizo
+    - Key: Items/SpellTag/Description
+      Value: Un objeto para ser llevado por un Pomeko. Es un siniestro papel que
+        mejora los movimientos de tipo Fantasma.
+    - Key: Items/SpelonBerry
+      Value: Baya Wikano
+    - Key: Items/SpelonBerry/Description
+      Value: "Se puede usar para hacer Pok\xE9cubos que mejoran tu dulzura. Es rara
+        en otras regeones."
+    - Key: Items/SplashPlate
+      Value: Tabla Linfa
+    - Key: Items/SplashPlate/Description
+      Value: "'El portador leg\xEDtimo de una Tabla extrae de la Tabla que tiene.'"
+    - Key: Items/SpookyPlate
+      Value: Tabla Terror
+    - Key: Items/SpookyPlate/Description
+      Value: '''El otro lado de este mundo fue entregado por el Original a su furioso
+        tercero.'''
+    - Key: Items/StarfBerry
+      Value: Baya Arabol
+    - Key: Items/StarfBerry/Description
+      Value: "Si la lleva un Pomeko, una de sus estad\xE9sticas subir\xE1 cuando
+        est\xE9 en un aprieto."
+    - Key: Items/SteelGem
+      Value: Gema Acero
+    - Key: Items/SteelGem/Description
+      Value: Una gema que, si la lleva un Pomeko, mejora un movimiento de tipo Acero
+        una vez.
+    - Key: Items/StonePlate
+      Value: "Tabla P\xE9trea"
+    - Key: Items/StonePlate/Description
+      Value: "'Re\xFAne poder de las Tablas, escuchando el canto de la flauta.'"
+    - Key: Items/SuperPotion
+      Value: "Super Poce\xF3n"
+    - Key: Items/SuperPotion/Description
+      Value: Un medicamento tipo spray para el tratamiento de heridas. Se puede usar
+        para restaurar 60 PV a un solo Pomeko.
+    - Key: Items/TamatoBerry
+      Value: Baya Tamate
+    - Key: Items/TamatoBerry/Description
+      Value: "Una baya que puede ser consumida por un Pomeko. Le hace m\xE1s amistoso
+        pero bajar\xE1 sus VE de Veleocedad."
+    - Key: Items/TangaBerry
+      Value: Baya Yecana
+    - Key: Items/TangaBerry/Description
+      Value: "Si la lleva un Pomeko, reducir\xE1 el da\xF1o hecho por un ataque super
+        efectevo de tipo Becho."
+    - Key: Items/TimerBall
+      Value: Turno Ball
+    - Key: Items/TimerBall/Description
+      Value: "Una Pok\xE9 Ball un poco diferente que es m\xE1s efecteva seg\xFAn
+        van pasando los turnos del combate."
+    - Key: Items/ToxicPlate
+      Value: "Tabla T\xF3xica"
+    - Key: Items/ToxicPlate/Description
+      Value: '''Las reglas del tiempo y el espacio cambian dentro del mundo opuesto.'''
+    - Key: Items/TwistedSpoon
+      Value: Cuchara Torcida
+    - Key: Items/TwistedSpoon/Description
+      Value: "Un objeto para ser llevado por un Pomeko. Esta cuchara est\xE1 imbuida
+        de un poder telekin\xE9tico que mejora los movimientos de tipo Ps\xEDquico."
+    - Key: Items/UltraBall
+      Value: Ultra Ball
+    - Key: Items/UltraBall/Description
+      Value: "Una buena Ball de alto rendimiento que proporciona una mayor tasa de
+        \xE9xito para atrapar Pomekos que una Super Ball."
+    - Key: Items/UseItem/Player
+      Value: Usaste {0}.
+    - Key: Items/UseItemWithTarget/Player
+      Value: Usaste {0} en {1}.
+    - Key: Items/WacanBerry
+      Value: Baya Gualot
+    - Key: Items/WacanBerry/Description
+      Value: "Si la lleva un Pomeko, reducir\xE1 el da\xF1o hecho por un ataque super
+        efectevo de tipo El\xE9ctreco."
+    - Key: Items/WaterGem
+      Value: Gema Agoa
+    - Key: Items/WaterGem/Description
+      Value: Una gema que, si la lleva un Pomeko, mejora un movimiento de tipo Agoa
+        una vez.
+    - Key: Items/WatmelBerry
+      Value: Baya Sambia
+    - Key: Items/WatmelBerry/Description
+      Value: "Se puede usar para hacer Pok\xE9cubos que mejoran tu engeneo. Es rara
+        en otras regeones."
+    - Key: Items/WepearBerry
+      Value: Baya Peragu
+    - Key: Items/WepearBerry/Description
+      Value: "Se puede usar para hacer Pok\xE9cubos que mejoran tu ingenio. Su carne
+        verde es amarga."
+    - Key: Items/XAccuracy
+      Value: "Precese\xF3n X"
+    - Key: Items/XAccuracy/Description
+      Value: "Un objoeto que aumenta considerablemente la precisi\xF3n de un Pomeko
+        durante un combate. Desaparece una vez que se retira el Pomeko."
+    - Key: Items/XAttack
+      Value: Ataque X
+    - Key: Items/XAttack/Description
+      Value: Un objoeto que aumenta considerablemente el ataque de un Pomeko durante
+        un combate. Desaparece una vez que se retira el Pomeko.
+    - Key: Items/XDefense
+      Value: Defoensa X
+    - Key: Items/XDefense/Description
+      Value: Un objoeto que aumenta considerablemente la defoensa de un Pomeko durante
+        un combate. Desaparece una vez que se retira el Pomeko.
+    - Key: Items/XEvasion
+      Value: "Evase\xF3n X"
+    - Key: Items/XEvasion/Description
+      Value: "Un objoeto que aumenta considerablemente la evase\xF3n de un Pomeko
+        durante un combate. Desaparece una vez que se retira el Pomeko."
+    - Key: Items/XSpecialAttack
+      Value: Atoaque Esp. X
+    - Key: Items/XSpecialAttack/Description
+      Value: Un objoeto que aumenta considerablemente el atoaque espacial de un Pomeko
+        durante un combate. Desaparece una vez que se retira el Pomeko.
+    - Key: Items/XSpecialDefense
+      Value: Atoaque Esp. X
+    - Key: Items/XSpecialDefense/Description
+      Value: Un objoeto que aumenta considerablemente la defoensa espacial de un
+        Pomeko durante un combate. Desaparece una vez que se retira el Pomeko.
+    - Key: Items/XSpeed
+      Value: Atoaque Esp. X
+    - Key: Items/XSpeed/Description
+      Value: Un objoeto que aumenta considerablemente la velocidad de un Pomeko durante
+        un combate. Desaparece una vez que se retira el Pomeko.
+    - Key: Items/YacheBerry
+      Value: Baya Rimoya
+    - Key: Items/YacheBerry/Description
+      Value: "Si la lleva un Pomeko, reducir\xE1 el da\xF1o hecho por un ataque super
+        efectevo de tipo Hielo."
+    - Key: Items/ZapPlate
+      Value: Tabla Trueno
+    - Key: Items/ZapPlate/Description
+      Value: "'El tercero se enfureci\xF3, lloviendo rayos de ira.'"
+    - Key: Locations/Location
+      Value: Lugar
+    - Key: Locations/Region
+      Value: "Rege\xF3n"
+    - Key: Monster/EVs
+      Value: VEs
+    - Key: Monster/IVs
+      Value: VIs
+    - Key: Monster/Species
+      Value: Especie
+    - Key: Monsters/Bulbasaur
+      Value: Bulbasaur
+    - Key: Monsters/ExperienceCurrent
+      Value: Expoeriencia para el siguiente nivel
+    - Key: Monsters/ExperienceTotal
+      Value: Expoeriencia tetal
+    - Key: Monsters/Friendship
+      Value: Amestad
+    - Key: Monsters/FriendshipDecreased
+      Value: '{0} ahora es menos amistoso.'
+    - Key: Monsters/FriendshipRaised
+      Value: "{0} ahora es m\xE1s amistoso."
+    - Key: Monsters/Height
+      Value: Altura
+    - Key: Monsters/MaxLevel
+      Value: Nivel Dynamax
+    - Key: Monsters/Nature
+      Value: Natoraleza
+    - Key: Monsters/Origin
+      Value: Oregen
+    - Key: Monsters/Origin/Caught
+      Value: Captureado
+    - Key: Monsters/Origin/Hatched
+      Value: Hoevo
+    - Key: Monsters/OriginalLevel
+      Value: Nivel Oreginal
+    - Key: Monsters/OT
+      Value: Entreneador Oreginal
+    - Key: Monsters/Summary
+      Value: Datos
+    - Key: Monsters/Summary/Alpha
+      Value: '{0} es un Pomeko Alpha.'
+    - Key: Monsters/Summary/Healthy
+      Value: "Est\xE1 perfectamente sane."
+    - Key: Monsters/Summary/Virus
+      Value: Paroece que se ha enfectado con un viruses.
+    - Key: Monsters/Summary/VirusSurvived
+      Value: "Soper\xF3 una enfecci\xF3n v\xEDrica."
+    - Key: Monsters/Weight
+      Value: Peso
+    - Key: Moves/Effectiveness/None
+      Value: Sin efecto
+    - Key: Moves/Effectiveness/Normal
+      Value: Efectevo
+    - Key: Moves/Effectiveness/NotVery
+      Value: Poco efectevo
+    - Key: Moves/Effectiveness/Very
+      Value: Muy efectevo
+    - Key: Moves/Growl
+      Value: "Gru\xF1edo"
+    - Key: Moves/Growl/Description
+      Value: "El usuario gru\xF1e de forma cari\xF1osa, lo que hace que los Pok\xE9mon
+        rivales sean menos cautelosos. \xC9sto reduce sus estad\xEDsticas de ataque."
+    - Key: Moves/Power
+      Value: Potencea
+    - Key: Moves/Struggle
+      Value: Forcejeo
+    - Key: Moves/Struggle/Description
+      Value: "Este ataque se usa en desesperaci\xF3n solo si el usuario no tiene
+        PP. Tambi\xE9n da\xF1a al usuario un poco."
+    - Key: Moves/Tackle
+      Value: Placaje
+    - Key: Moves/Tackle/Description
+      Value: "Un ataque f\xEDsico en el que el usuario carga y golpea al objetivo
+        con todo su cuerpo."
+    - Key: Natures/Adamant
+      Value: Firme
+    - Key: Natures/Bashful
+      Value: "T\xEDmida"
+    - Key: Natures/Bold
+      Value: Osada
+    - Key: Natures/Brave
+      Value: Audaz
+    - Key: Natures/Calm
+      Value: Serena
+    - Key: Natures/Careful
+      Value: Cauta
+    - Key: Natures/Docile
+      Value: "D\xF3cil"
+    - Key: Natures/Gentle
+      Value: Amable
+    - Key: Natures/Hardy
+      Value: Foerte
+    - Key: Natures/Hasty
+      Value: Acteva
+    - Key: Natures/Impish
+      Value: Agetada
+    - Key: Natures/Jolly
+      Value: Alegre
+    - Key: Natures/Lax
+      Value: Andaluza
+    - Key: Natures/Lonely
+      Value: "Hura\xF1a"
+    - Key: Natures/Mild
+      Value: Afable
+    - Key: Natures/Modest
+      Value: Modesta
+    - Key: Natures/Naive
+      Value: Engenua
+    - Key: Natures/Naughty
+      Value: "P\xEDcara"
+    - Key: Natures/Quiet
+      Value: Mansa
+    - Key: Natures/Quirky
+      Value: Rara
+    - Key: Natures/Rash
+      Value: Alocada
+    - Key: Natures/Relaxed
+      Value: "Pl\xE1cida"
+    - Key: Natures/Sassy
+      Value: Grosera
+    - Key: Natures/Serious
+      Value: Seria
+    - Key: Natures/Timid
+      Value: Miedosa
+    - Key: Ribbons/Champion
+      Value: "Centa del campe\xF3n"
+    - Key: Ribbons/Champion/Description
+      Value: "Campe\xF3n de la lega."
+    - Key: Settings/GlobalXPShare/Off
+      Value: Desactivaste el Repartir Exp. global.
+    - Key: Settings/GlobalXPShare/On
+      Value: Activaste el Repartir Exp. global.
+    - Key: Stats/Accuracy
+      Value: "Procesi\xF3n"
+    - Key: Stats/Attack
+      Value: Ataque
+    - Key: Stats/Defense
+      Value: Doefensa
+    - Key: Stats/Evasion
+      Value: "Evase\xF3n"
+    - Key: Stats/Hp
+      Value: PV
+    - Key: Stats/SpecialAttack
+      Value: Ataque Esp.
+    - Key: Stats/SpecialDefense
+      Value: Defensa Esp.
+    - Key: Stats/Speed
+      Value: Veleocedad
+    - Key: Status/BadlyPoison
+      Value: Envenoeneado
+    - Key: Status/BadlyPoison/Description
+      Value: Envenoeneado
+    - Key: Status/Burn
+      Value: Quemado
+    - Key: Status/Burn/Description
+      Value: Quemado
+    - Key: Status/Fainted
+      Value: Deboelitado
+    - Key: Status/Freeze
+      Value: Congeleado
+    - Key: Status/Freeze/Description
+      Value: Congeleado
+    - Key: Status/Paralysis
+      Value: Paraleceado
+    - Key: Status/Paralysis/Description
+      Value: Paraleceado
+    - Key: Status/Poison
+      Value: Envenoeneado
+    - Key: Status/Poison/Description
+      Value: Envenoeneado
+    - Key: Status/Side/MistSideStatus
+      Value: Neblina
+    - Key: Status/Side/MistSideStatus/Effect
+      Value: "{0} est\xE1 protegido por la neblina."
+    - Key: Status/Side/MistSideStatus/End
+      Value: "La neblina de {0} desapareci\xF3."
+    - Key: Status/Side/MistSideStatus/Start
+      Value: "El lado de {0} se cubri\xF3 de neblina."
+    - Key: Status/Sleep
+      Value: Dormedo
+    - Key: Status/Sleep/Description
+      Value: Dormedo
+    - Key: Test/AfterBattle
+      Value: This is so sad. Alexa, play Despacito.
+    - Key: Test/GameToClose
+      Value: "El joego se cerrear\xE1."
+    - Key: Test/LaunchDouble1vs2TrainerBattle
+      Value: 1 vs 2
+    - Key: Test/LaunchDouble2vs2TrainerBattle
+      Value: 2 vs 2
+    - Key: Test/LaunchDoubleWildBattle
+      Value: Dos salvoajes
+    - Key: Test/LaunchSingleAlphaBattle
+      Value: Un alfa
+    - Key: Test/LaunchSingleTrainerBattle
+      Value: Un entreneador
+    - Key: Test/LaunchSingleWildBattle
+      Value: Un salvoaje
+    - Key: Types/Bug
+      Value: Becho
+    - Key: Types/Dark
+      Value: Seniestro
+    - Key: Types/Dragon
+      Value: "Dreag\xF3n"
+    - Key: Types/Electric
+      Value: "El\xE9ctreco"
+    - Key: Types/Fairy
+      Value: Hada
+    - Key: Types/Fighting
+      Value: Loecha
+    - Key: Types/Fire
+      Value: Foegote
+    - Key: Types/Flying
+      Value: Voelador
+    - Key: Types/Ghost
+      Value: Fantesma
+    - Key: Types/Grass
+      Value: Hierba
+    - Key: Types/Ground
+      Value: Tierra
+    - Key: Types/Ice
+      Value: Hielo
+    - Key: Types/Normal
+      Value: "Com\xFAn"
+    - Key: Types/Poison
+      Value: Venoeno
+    - Key: Types/Psychic
+      Value: "P\xEDsico"
+    - Key: Types/Rock
+      Value: Rocc
+    - Key: Types/Steel
+      Value: Azoero
+    - Key: Types/Typeless
+      Value: ???
+    - Key: Types/Water
+      Value: Agoa

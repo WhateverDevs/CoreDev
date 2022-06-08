@@ -14,20 +14,169 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Language:
     SerializedList:
+    - Key: Abilities/Chlorophyll
+      Value: Clorophyll
+    - Key: Abilities/Chlorophyll/Description
+      Value: "When the Pok\xE9mon uses a move during Sunny weather or in Extremely
+        Harsh Sunlight, it uses the move 2 times at once but only consumes PP for
+        1 use."
+    - Key: Abilities/Overgrow
+      Value: Overgrow
+    - Key: Abilities/Overgrow/Description
+      Value: "When the Pok\xE9mon's HP is low, the power of Grass-type moves goes
+        up."
+    - Key: Battle/Capture/Escape/0
+      Value: Oh no! {0} broke free!
+    - Key: Battle/Capture/Escape/1
+      Value: Aww! It appeared to be caught!
+    - Key: Battle/Capture/Escape/2
+      Value: Aargh! Almost had it!
+    - Key: Battle/Capture/Escape/3
+      Value: Gah! It was so close, too!
+    - Key: Battle/Capture/Success
+      Value: Gotcha! {0} was caught!
+    - Key: Battle/CriticalStage/Increase
+      Value: '{0} is getting pumped!'
+    - Key: Battle/EatBerry
+      Value: '{0} ate its {1}.'
+    - Key: Battle/Fainted
+      Value: '{0} fainted!'
+    - Key: Battle/HealStatus
+      Value: '{0} healed its status.'
+    - Key: Battle/IncreasedPriorityInsideBracket
+      Value: '{0} will move faster this turn.'
+    - Key: Battle/Intro/Double/Trainer
+      Value: '{0} and {1} want to fight!'
+    - Key: Battle/Intro/Single/Alpha
+      Value: An alpha {0} attacked!
+    - Key: Battle/Intro/Single/Trainer
+      Value: '{0} wants to fight!'
+    - Key: Battle/Intro/Single/Wild
+      Value: A wild {0} appeared!
+    - Key: Battle/ItemConsumed
+      Value: '{0} was consumed.'
+    - Key: Battle/Lost
+      Value: "You don't have any Pok\xE9mon left!"
+    - Key: Battle/MainMenu/Bag
+      Value: Bag
+    - Key: Battle/MainMenu/Fight
+      Value: Fight
+    - Key: Battle/MainMenu/Monsters
+      Value: "Pok\xE9mon"
+    - Key: Battle/MainMenu/Run
+      Value: Run
+    - Key: Battle/Monster/State/CanBattle
+      Value: Can battle
+    - Key: Battle/Monster/State/InBattle
+      Value: In battle
+    - Key: Battle/Move/Critical
+      Value: It's a critical hit!
+    - Key: Battle/Move/Evaded
+      Value: '{0} evaded it!'
+    - Key: Battle/Move/Failed
+      Value: But it failed!
+    - Key: Battle/Move/NoEffect
+      Value: It won't have any efecto.
+    - Key: Battle/Move/NotVeryEffective
+      Value: It's not very effective.
+    - Key: Battle/Move/Recoil
+      Value: '{0} was hit by the recoil.'
+    - Key: Battle/Move/SuperEffective
+      Value: It's super effective!
+    - Key: Battle/Move/Used
+      Value: '{0} used {1}!'
+    - Key: Battle/MoveEffectivenessReduced
+      Value: '{0}''s effectiveness was reduced!'
+    - Key: Battle/MoveRecoiled
+      Value: The move recoiled!
+    - Key: Battle/OptionalRun
+      Value: "Do you want to send another Pok\xE9mon?"
+    - Key: Battle/RecoverFromFainting
+      Value: '{0} recovered its health.'
+    - Key: Battle/RecoverHP
+      Value: '{0} recovered {1} HP!'
+    - Key: Battle/RestorePP
+      Value: '{0}''s PP were restored.'
+    - Key: Battle/RestorePPAllMoves
+      Value: '{0}''s moves had their PP restored.'
+    - Key: Battle/Run/Ally
+      Value: You got away safely.
+    - Key: Battle/Run/Enemy
+      Value: '{0} run away!'
+    - Key: Battle/Run/Fail
+      Value: You can't run away!
+    - Key: Battle/StatChange/-1
+      Value: '{0}''s {1} fell!'
+    - Key: Battle/StatChange/-2
+      Value: '{0}''s {1} harshly fell!'
+    - Key: Battle/StatChange/-3
+      Value: '{0}''s {1} severely fell!'
+    - Key: Battle/StatChange/1
+      Value: '{0}''s {1} rose!'
+    - Key: Battle/StatChange/2
+      Value: '{0}''s {1} rose sharply!'
+    - Key: Battle/StatChange/3
+      Value: '{0}''s {1} rose drastically!'
+    - Key: Battle/StatChange/CantHigher
+      Value: '{0}''s {1} won''t go any higher!'
+    - Key: Battle/StatChange/CantLower
+      Value: '{0}''s {1} won''t go any lower!'
+    - Key: Battle/SwapMon/Ally/Enter
+      Value: Go, {0}!
+    - Key: Battle/SwapMon/Ally/Exit
+      Value: Come back, {0}!
+    - Key: Battle/SwapMon/AlreadyFighting
+      Value: '{0} is already fightning.'
+    - Key: Battle/SwapMon/Enemy/AboutToChange
+      Value: "{1} is about to send {0}. Do you want to switch Pok\xE9mon?"
+    - Key: Battle/SwapMon/Enemy/Enter
+      Value: '{1} sent {0}.'
+    - Key: Battle/SwapMon/Enemy/Exit
+      Value: '{1} withdrew {0}.'
+    - Key: Battle/SwapMon/IsFainted
+      Value: '{0} is fainted.'
+    - Key: Battle/Win/Double/Trainer
+      Value: You defeated {0} and {1}!
+    - Key: Battle/Win/Single/Trainer
+      Value: "\xA1You defeated {0}!"
+    - Key: Battle/Win/Wild
+      Value: '{0} was defeated.'
     - Key: Castillian
       Value: Castillian
+    - Key: Characters/Brendan
+      Value: Brendan
+    - Key: Characters/Leaf
+      Value: Leaf
+    - Key: Characters/May
+      Value: May
+    - Key: Characters/Red
+      Value: Red
+    - Key: Characters/Type/TrainerFemale
+      Value: Trainer
+    - Key: Characters/Type/TrainerMale
+      Value: Trainer
+    - Key: Common/Ability
+      Value: Ability
     - Key: Common/Accept
       Value: Accept
-    - Key: Common/Advantage
-      Value: Advantage
     - Key: Common/Cancel
       Value: Cancel
+    - Key: Common/Category
+      Value: Category
     - Key: Common/Continue
       Value: Continue
-    - Key: Common/Disadvantage
-      Value: Disadvantage
+    - Key: Common/Disabled
+      Value: Disabled
+    - Key: Common/Enabled
+      Value: Enabled
+    - Key: Common/Exit
+      Value: Exit
     - Key: Common/False
       Value: No
+    - Key: Common/Give
+      Value: Give
+    - Key: Common/Info
+      Value: Info
     - Key: Common/LoreIpsum
       Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -35,11 +184,1169 @@ MonoBehaviour:
         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
         non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    - Key: Common/Name
+      Value: Name
+    - Key: Common/Switch
+      Value: Switch
     - Key: Common/True
       Value: Yes
+    - Key: Common/Type
+      Value: Type
+    - Key: Common/Use
+      Value: Use
+    - Key: Common/VersionInfo
+      Value: 'YAPU version: {0}. YAPU Assets version: {1}'
+    - Key: Conditions/Beautiful
+      Value: Beauty
+    - Key: Conditions/Clever
+      Value: Cleverness
+    - Key: Conditions/Cool
+      Value: Coolness
+    - Key: Conditions/Cute
+      Value: Cuteness
+    - Key: Conditions/Tough
+      Value: Toughness
+    - Key: Currency
+      Value: "\xA3"
+    - Key: Dialogs/XPGain/LevelUp
+      Value: "\xA1{0} leveled up!"
+    - Key: Dialogs/XPGain/Main
+      Value: "Your Pok\xE9mon gained experience!"
     - Key: English
       Value: English
     - Key: Flanian
       Value: Flanian
-    - Key: Battle/Intro/Single/Wild
-      Value: A wild {0} appeared!
+    - Key: Item/Category/Ball
+      Value: "Pok\xE9 Balls"
+    - Key: Item/Category/Ball/Description
+      Value: "Pok\xE9 Balls"
+    - Key: Item/Category/BattleItem
+      Value: Battle Items
+    - Key: Item/Category/BattleItem/Description
+      Value: Battle Items
+    - Key: Item/Category/Berry
+      Value: Berries
+    - Key: Item/Category/Berry/Description
+      Value: Berries
+    - Key: Item/Category/Crafting
+      Value: Materials
+    - Key: Item/Category/Crafting/Description
+      Value: Materials
+    - Key: Item/Category/Key
+      Value: Key Items
+    - Key: Item/Category/Key/Description
+      Value: Key Items
+    - Key: Item/Category/Medicine
+      Value: Medicine
+    - Key: Item/Category/Medicine/Description
+      Value: Medicine
+    - Key: Item/Category/OtherItem
+      Value: Other
+    - Key: Item/Category/OtherItem/Description
+      Value: Other
+    - Key: Item/Category/TM
+      Value: TMs
+    - Key: Item/Category/TM/Description
+      Value: TMs
+    - Key: Item/Category/Treasure
+      Value: Treasures
+    - Key: Item/Category/Treasure/Description
+      Value: Treasures
+    - Key: Item/HeldItem
+      Value: Held Item
+    - Key: Item/NowHolding
+      Value: '{0} is now holding {1}.'
+    - Key: Item/PutBack
+      Value: You returned {0} to the bag.
+    - Key: Item/SwapDialog
+      Value: Do you want to swap {0} for {1}?
+    - Key: Items/Antidote
+      Value: Antidote
+    - Key: Items/Antidote/Description
+      Value: "A spray-type medicine for treating poisoning. It can be used to lift
+        the effects of being poisoned from a single Pok\xE9mon."
+    - Key: Items/ApicotBerry
+      Value: Apicot Berry
+    - Key: Items/ApicotBerry/Description
+      Value: "If held by a Pok\xE9mon, its Special Defense stat will increase when
+        it's in a pinch."
+    - Key: Items/AspearBerry
+      Value: Aspear Berry
+    - Key: Items/AspearBerry/Description
+      Value: "A Berry to be consumed by Pok\xE9mon. If a Pok\xE9mon holds one, it
+        can recover from being frozen on its own in battle."
+    - Key: Items/Awakening
+      Value: Awakening
+    - Key: Items/Awakening/Description
+      Value: "A spray-type medicine to wake the sleeping. It can be used to rouse
+        a single Pok\xE9mon from the clutches of sleep."
+    - Key: Items/BabiriBerry
+      Value: Babiri Berry
+    - Key: Items/BabiriBerry/Description
+      Value: "If held by a Pok\xE9mon, this Berry will lessen the damage taken from
+        one supereffective Steel-type attack."
+    - Key: Items/BeastBall
+      Value: Beast Ball
+    - Key: Items/BeastBall/Description
+      Value: "A special Pok\xE9 Ball designed to catch Ultra Beasts. It has a low
+        success rate for catching others."
+    - Key: Items/BelueBerry
+      Value: Belue Berry
+    - Key: Items/BelueBerry/Description
+      Value: "Used to make Pok\xE9blocks that will enhance your Beauty. It's rare
+        in other regions."
+    - Key: Items/BlackBelt
+      Value: Black Belt
+    - Key: Items/BlackBelt/Description
+      Value: "An item to be held by a Pok\xE9mon. This belt helps the wearer to focus
+        and boosts the power of Fighting-type moves."
+    - Key: Items/BlackGlasses
+      Value: Black Glasses
+    - Key: Items/BlackGlasses/Description
+      Value: "An item to be held by a Pok\xE9mon. It's a pair of shady-looking glasses
+        that boost the power of Dark-type moves."
+    - Key: Items/BlankPlate
+      Value: Blank Plate
+    - Key: Items/BlankPlate/Description
+      Value: '''Three beings whose power can hold both time and space fixed.'''
+    - Key: Items/BlukBerry
+      Value: Bluk Berry
+    - Key: Items/BlukBerry/Description
+      Value: "Used to make Pok\xE9blocks that will enhance your Beauty. Its blue
+        flesh is dry when eaten."
+    - Key: Items/BugGem
+      Value: Bug Gem
+    - Key: Items/BugGem/Description
+      Value: A gem that, when held, it strengthens the power of a Bug-type move one
+        time.
+    - Key: Items/BurnHeal
+      Value: Burn Heal
+    - Key: Items/BurnHeal/Description
+      Value: "A spray-type medicine for treating burns. It can be used to lift the
+        effects of being burned from a single Pok\xE9mon."
+    - Key: Items/Charcoal
+      Value: Charcoal
+    - Key: Items/Charcoal/Description
+      Value: "An item to be held by a Pok\xE9mon. It's a combustible fuel that boosts
+        the power of Fire-type moves."
+    - Key: Items/ChartyBerry
+      Value: Charty Berry
+    - Key: Items/ChartyBerry/Description
+      Value: "If held by a Pok\xE9mon, this Berry will lessen the damage taken from
+        one supereffective Rock-type attack."
+    - Key: Items/CheriBerry
+      Value: Cheri Berry
+    - Key: Items/CheriBerry/Description
+      Value: "A Berry to be consumed by Pok\xE9mon. If a Pok\xE9mon holds one, it
+        can recover from paralysis on its own in battle."
+    - Key: Items/CherishBall
+      Value: Cherish Ball
+    - Key: Items/CherishBall/Description
+      Value: "A quite rare Pok\xE9 Ball that was made as a commemorative item used
+        to celebrate an event of some sort."
+    - Key: Items/ChestoBerry
+      Value: Chesto Berry
+    - Key: Items/ChestoBerry/Description
+      Value: "A Berry to be consumed by Pok\xE9mon. If a Pok\xE9mon holds one, it
+        can recover from sleep on its own in battle."
+    - Key: Items/ChilanBerry
+      Value: Chilan Berry
+    - Key: Items/ChilanBerry/Description
+      Value: "If held by a Pok\xE9mon, this Berry will lessen the damage taken from
+        one Normal-type attack."
+    - Key: Items/ChopleBerry
+      Value: Chople Berry
+    - Key: Items/ChopleBerry/Description
+      Value: "If held by a Pok\xE9mon, this Berry will lessen the damage taken from
+        one supereffective Fighting-type attack."
+    - Key: Items/CobaBerry
+      Value: Coba Berry
+    - Key: Items/CobaBerry/Description
+      Value: "If held by a Pok\xE9mon, this Berry will lessen the damage taken from
+        one supereffective Flying-type attack."
+    - Key: Items/ColburBerry
+      Value: Colbur Berry
+    - Key: Items/ColburBerry/Description
+      Value: "If held by a Pok\xE9mon, this Berry will lessen the damage taken from
+        one supereffective Dark-type attack."
+    - Key: Items/CornnBerry
+      Value: Cornn Berry
+    - Key: Items/CornnBerry/Description
+      Value: "Used to make Pok\xE9blocks that will enhance your Beauty. It's rare
+        in other regions."
+    - Key: Items/CustapBerry
+      Value: Custap Berry
+    - Key: Items/CustapBerry/Description
+      Value: "If held by a Pok\xE9mon, it will move faster when it's in a pinch."
+    - Key: Items/DireHit
+      Value: Dire Hit
+    - Key: Items/DireHit/Description
+      Value: "An item that sharply boosts the critical stage of a Pok\xE9mon during
+        a battle. It wears off once the Pok\xE9mon is withdrawn."
+    - Key: Items/DracoPlate
+      Value: Draco Plate
+    - Key: Items/DracoPlate/Description
+      Value: '''Three beings were born to bind time and space.'''
+    - Key: Items/DragonFang
+      Value: Dragon Fang
+    - Key: Items/DragonFang/Description
+      Value: "An item to be held by a Pok\xE9mon. This hard and sharp fang boosts
+        the power of Dragon-type moves."
+    - Key: Items/DragonGem
+      Value: Dragon Gem
+    - Key: Items/DragonGem/Description
+      Value: A gem that, when held, it strengthens the power of a Dragon-type move
+        one time.
+    - Key: Items/DreadPlate
+      Value: Dread Plate
+    - Key: Items/DreadPlate/Description
+      Value: '''Two make matter, and three make spirit, shaping the world.'''
+    - Key: Items/DreamBall
+      Value: Dream Ball
+    - Key: Items/DreamBall/Description
+      Value: "A somewhat different Pok\xE9 Ball that makes it easier to catch wild
+        Pok\xE9mon while they're asleep."
+    - Key: Items/DurinBerry
+      Value: Durin Berry
+    - Key: Items/DurinBerry/Description
+      Value: "Used to make Pok\xE9blocks that will enhance your Cleverness. It's
+        rare in other regions."
+    - Key: Items/EarthPlate
+      Value: Earth Plate
+    - Key: Items/EarthPlate/Description
+      Value: '''When the universe was created, its shards became this Plate.'''
+    - Key: Items/ElectricGem
+      Value: Electric Gem
+    - Key: Items/ElectricGem/Description
+      Value: A gem that, when held, it strengthens the power of a Water-type move
+        one time.
+    - Key: Items/Elixir
+      Value: Elixir
+    - Key: Items/Elixir/Description
+      Value: "This medicine can be used to restore 10 PP to each of the moves of
+        a Pok\xE9mon."
+    - Key: Items/EnergyPowder
+      Value: Energy Powder
+    - Key: Items/EnergyPowder/Description
+      Value: "A very bitter medicinal powder. It can be used to restore 60 HP to
+        a single Pok\xE9mon."
+    - Key: Items/EnergyRoot
+      Value: Energy Root
+    - Key: Items/EnergyRoot/Description
+      Value: "A terribly bitter medicinal herb. It revives a fainted Pok\xE9mon and
+        fully restores its max HP."
+    - Key: Items/EnigmaBerry
+      Value: Enigma Berry
+    - Key: Items/EnigmaBerry/Description
+      Value: "f held by a Pok\xE9mon, being hit by a supereffective attack will restore
+        its HP."
+    - Key: Items/Ether
+      Value: Ether
+    - Key: Items/Ether/Description
+      Value: "This medicine can be used to restore 10 PP to a single selected move
+        that has been learned by a Pok\xE9mon."
+    - Key: Items/FairyGem
+      Value: Fairy Gem
+    - Key: Items/FairyGem/Description
+      Value: A gem that, when held, it strengthens the power of a Fairy-type move
+        one time.
+    - Key: Items/FastBall
+      Value: Fast Ball
+    - Key: Items/FastBall/Description
+      Value: "A Pok\xE9 Ball that makes it easier to catch Pok\xE9mon that are usually
+        very quick."
+    - Key: Items/FightingGem
+      Value: Fighting Gem
+    - Key: Items/FightingGem/Description
+      Value: A gem that, when held, it strengthens the power of a Fighting-type move
+        one time.
+    - Key: Items/FireGem
+      Value: Fire Gem
+    - Key: Items/FireGem/Description
+      Value: A gem that, when held, it strengthens the power of a Fire-type move
+        one time.
+    - Key: Items/FistPlate
+      Value: Fist Plate
+    - Key: Items/FistPlate/Description
+      Value: '''The rift is born of disorder on the other side of this world.'''
+    - Key: Items/FlamePlate
+      Value: Flame Plate
+    - Key: Items/FlamePlate/Description
+      Value: '''The power of defeated giants infuses this Plate.'''
+    - Key: Items/FlanBall
+      Value: Flan Ball
+    - Key: Items/FlanBall/Description
+      Value: "A special Pok\xE9 Ball designed to catch Alphas. It has a low success
+        rate for catching others."
+    - Key: Items/FlyingGem
+      Value: Flying Gem
+    - Key: Items/FlyingGem/Description
+      Value: A gem that, when held, it strengthens the power of a Flying-type move
+        one time.
+    - Key: Items/FriendBall
+      Value: Friend Ball
+    - Key: Items/FriendBall/Description
+      Value: "A strange Pok\xE9 Ball that will make the wild Pok\xE9mon caught with
+        it more friendly toward you immediately."
+    - Key: Items/FullHeal
+      Value: Full Heal
+    - Key: Items/FullHeal/Description
+      Value: "A spray-type medicine that is broadly effective. It can be used to
+        heal all the status conditions of a single Pok\xE9mon."
+    - Key: Items/FullRestore
+      Value: Full Restore
+    - Key: Items/FullRestore/Description
+      Value: "A spray-type medicine that can be used to fully restore the HP of a
+        single Pok\xE9mon and heal any status conditions it has."
+    - Key: Items/GanlonBerry
+      Value: Ganlon Berry
+    - Key: Items/GanlonBerry/Description
+      Value: "If held by a Pok\xE9mon, its Defense stat will increase when it's in
+        a pinch."
+    - Key: Items/GhostGem
+      Value: Ghost Gem
+    - Key: Items/GhostGem/Description
+      Value: A gem that, when held, it strengthens the power of a Ghost-type move
+        one time.
+    - Key: Items/GrassGem
+      Value: Grass Gem
+    - Key: Items/GrassGem/Description
+      Value: A gem that, when held, it strengthens the power of a Grass-type move
+        one time.
+    - Key: Items/GreatBall
+      Value: Great Ball
+    - Key: Items/GreatBall/Description
+      Value: "A good, high-performance Pok\xE9 Ball that provides a higher success
+        rate for catching Pok\xE9mon than a standard Pok\xE9 Ball."
+    - Key: Items/GrepaBerry
+      Value: Grepa Berry
+    - Key: Items/GrepaBerry/Description
+      Value: "A Berry to be consumed by Pok\xE9mon. Using it on a Pok\xE9mon makes
+        it more friendly but lowers its Special Defense EVs."
+    - Key: Items/GroundGem
+      Value: Ground Gem
+    - Key: Items/GroundGem/Description
+      Value: A gem that, when held, it strengthens the power of a Ground-type move
+        one time.
+    - Key: Items/GuardSpec
+      Value: Guard Spec.
+    - Key: Items/GuardSpec/Description
+      Value: "An item that prevents stat reduction among the Trainer's party Pok\xE9mon
+        for five turns after it is used in battle."
+    - Key: Items/HabanBerry
+      Value: Haban Berry
+    - Key: Items/HabanBerry/Description
+      Value: "If held by a Pok\xE9mon, this Berry will lessen the damage taken from
+        one supereffective Dragon-type attack."
+    - Key: Items/HardStone
+      Value: Hard Stone
+    - Key: Items/HardStone/Description
+      Value: "An item to be held by a Pok\xE9mon. It's a durable stone that boosts
+        the power of Rock-type moves."
+    - Key: Items/HealBall
+      Value: Heal Ball
+    - Key: Items/HealBall/Description
+      Value: "A remedial Pok\xE9 Ball that restores the HP of a Pok\xE9mon caught
+        with it and eliminates any status conditions."
+    - Key: Items/HealPowder
+      Value: Heal Powder
+    - Key: Items/HealPowder/Description
+      Value: "A very bitter medicinal powder. It can be used once to heal all the
+        status conditions of a Pok\xE9mon."
+    - Key: Items/HeavyBall
+      Value: Heavy Ball
+    - Key: Items/HeavyBall/Description
+      Value: "A Pok\xE9 Ball that is better than usual at catching very heavy Pok\xE9mon."
+    - Key: Items/HeldXPShare
+      Value: Exp. Share
+    - Key: Items/HeldXPShare/Description
+      Value: "An item to be held by a Pok\xE9mon. The holder gets a share of a battle's
+        Exp. Points without battling."
+    - Key: Items/HondewBerry
+      Value: Hondew Berry
+    - Key: Items/HondewBerry/Description
+      Value: "A Berry to be consumed by Pok\xE9mon. Using it on a Pok\xE9mon makes
+        it more friendly but lowers its Special Attack EVs."
+    - Key: Items/HyperPotion
+      Value: Hyper Potion
+    - Key: Items/HyperPotion/Description
+      Value: "A spray-type medicine for treating wounds. It can be used to restore
+        120 HP to a single Pok\xE9mon."
+    - Key: Items/IceGem
+      Value: Ice Gem
+    - Key: Items/IceGem/Description
+      Value: A gem that, when held, it strengthens the power of a Ice-type move one
+        time.
+    - Key: Items/IceHeal
+      Value: Ice Heal
+    - Key: Items/IceHeal/Description
+      Value: "A spray-type medicine for treating freezing. It can be used to thaw
+        out a single Pok\xE9mon that has been frozen solid."
+    - Key: Items/IciclePlate
+      Value: Icicle Plate
+    - Key: Items/IciclePlate/Description
+      Value: '''Two beings of time and space set free from the Original One.'''
+    - Key: Items/InsectPlate
+      Value: Insect Plate
+    - Key: Items/InsectPlate/Description
+      Value: '''Where all creation was born, that is the being''s place of origin.'''
+    - Key: Items/IronPlate
+      Value: Iron Plate
+    - Key: Items/IronPlate/Description
+      Value: '''That which fills the other side of the world can shape the rage and
+        mold it.'''
+    - Key: Items/JabocaBerry
+      Value: Jaboca Berry
+    - Key: Items/JabocaBerry/Description
+      Value: "If a physical attack hits the Pok\xE9mon holding it, the attacker will
+        also be hurt."
+    - Key: Items/KasibBerry
+      Value: Kasib Berry
+    - Key: Items/KasibBerry/Description
+      Value: "If held by a Pok\xE9mon, this Berry will lessen the damage taken from
+        one supereffective Ghost-type attack."
+    - Key: Items/KebiaBerry
+      Value: Kebia Berry
+    - Key: Items/KebiaBerry/Description
+      Value: "If held by a Pok\xE9mon, this Berry will lessen the damage taken from
+        one supereffective Poison-type attack."
+    - Key: Items/KeeBerry
+      Value: Kee Berry
+    - Key: Items/KeeBerry/Description
+      Value: "If a physical attack hits the Pok\xE9mon holding it, its defense will
+        rise."
+    - Key: Items/KelpsyBerry
+      Value: Kelpsy Berry
+    - Key: Items/KelpsyBerry/Description
+      Value: "A Berry to be consumed by Pok\xE9mon. Using it on a Pok\xE9mon makes
+        it more friendly but lowers its Attack EVs."
+    - Key: Items/KeyXPShare
+      Value: Exp. Share
+    - Key: Items/KeyXPShare/Description
+      Value: "Turning on this special device will allow all the Pok\xE9mon on your
+        team to receive Exp. Points from battles."
+    - Key: Items/LansatBerry
+      Value: Lansat Berry
+    - Key: Items/LansatBerry/Description
+      Value: "If held by a Pok\xE9mon, its critical stage will increase when it's
+        in a pinch."
+    - Key: Items/LeppaBerry
+      Value: Leppa Berry
+    - Key: Items/LeppaBerry/Description
+      Value: "A Berry to be consumed by Pok\xE9mon. If a Pok\xE9mon holds one, it
+        can restore 10 PP to a depleted move during battle."
+    - Key: Items/LevelBall
+      Value: Level Ball
+    - Key: Items/LevelBall/Description
+      Value: "A Pok\xE9 Ball that makes it easier to catch Pok\xE9mon that are at
+        a lower level than your own Pok\xE9mon."
+    - Key: Items/LiechiBerry
+      Value: Liechi Berry
+    - Key: Items/LiechiBerry/Description
+      Value: "If held by a Pok\xE9mon, its Attack stat will increase when it's in
+        a pinch."
+    - Key: Items/LoveBall
+      Value: Love Ball
+    - Key: Items/LoveBall/Description
+      Value: "A Pok\xE9 Ball that works best when catching a Pok\xE9mon that is of
+        the opposite gender of your Pok\xE9mon."
+    - Key: Items/LuckyEgg
+      Value: Lucky Egg
+    - Key: Items/LuckyEgg/Description
+      Value: "An item to be held by a Pok\xE9mon. It's an egg filled with happiness
+        that earns the holder extra Exp. Points in battle."
+    - Key: Items/LumBerry
+      Value: Lum Berry
+    - Key: Items/LumBerry/Description
+      Value: "A Berry to be consumed by Pok\xE9mon. If a Pok\xE9mon holds one, it
+        can recover from any status condition during battle."
+    - Key: Items/LuxuryBall
+      Value: Luxury Ball
+    - Key: Items/LuxuryBall/Description
+      Value: "A particularly comfortable Pok\xE9 Ball that makes a wild Pok\xE9mon
+        quickly grow friendlier after being caught."
+    - Key: Items/Magnet
+      Value: Magnet
+    - Key: Items/Magnet/Description
+      Value: "An item to be held by a Pok\xE9mon. It's a powerful magnet that boosts
+        the power of Electric-type moves."
+    - Key: Items/MagostBerry
+      Value: Magost Berry
+    - Key: Items/MagostBerry/Description
+      Value: "Used to make Pok\xE9blocks that will enhance your Cuteness. It's rare
+        in other regions."
+    - Key: Items/MarangaBerry
+      Value: Maranga Berry
+    - Key: Items/MarangaBerry/Description
+      Value: "If a special attack hits the Pok\xE9mon holding it, its special defense
+        will rise."
+    - Key: Items/MasterBall
+      Value: Master Ball
+    - Key: Items/MasterBall/Description
+      Value: "The best Pok\xE9 Ball with the ultimate level of performance. With
+        it, you will catch any wild Pok\xE9mon without fail."
+    - Key: Items/MaxElixir
+      Value: Max Elixir
+    - Key: Items/MaxElixir/Description
+      Value: "This medicine can be used to restore all PP to each of the moves of
+        a Pok\xE9mon."
+    - Key: Items/MaxEther
+      Value: Max Ether
+    - Key: Items/MaxEther/Description
+      Value: "This medicine can be used to restore all PP to a single selected move
+        that has been learned by a Pok\xE9mon."
+    - Key: Items/MaxPotion
+      Value: Max Potion
+    - Key: Items/MaxPotion/Description
+      Value: "A spray-type medicine for treating wounds. It can be used to restore
+        all the HP to a single Pok\xE9mon."
+    - Key: Items/MaxRevive
+      Value: Max Revive
+    - Key: Items/MaxRevive/Description
+      Value: "A medicine that can be used to revive a single Pok\xE9mon that has
+        fainted. It restores its HP to the max."
+    - Key: Items/MeadowPlate
+      Value: Meadow Plate
+    - Key: Items/MeadowPlate/Description
+      Value: "'The powers of Plates are shared among Pok\xE9mon.'"
+    - Key: Items/MetalCoat
+      Value: Metal Coat
+    - Key: Items/MetalCoat/Description
+      Value: "An item to be held by a Pok\xE9mon. It's a special metallic film that
+        can boost the power of Steel-type moves."
+    - Key: Items/MicleBerry
+      Value: Micle Berry
+    - Key: Items/MicleBerry/Description
+      Value: "If held by a Pok\xE9mon, its Accuracy stat will increase when it's
+        in a pinch."
+    - Key: Items/MindPlate
+      Value: Mind Plate
+    - Key: Items/MindPlate/Description
+      Value: '''The Original One breathed alone before the universe came.'''
+    - Key: Items/MiracleSeed
+      Value: Miracle Seed
+    - Key: Items/MiracleSeed/Description
+      Value: "An item to be held by a Pok\xE9mon. It's a seed imbued with life-force
+        that boosts the power of Grass-type moves."
+    - Key: Items/MysticWater
+      Value: Mystic Water
+    - Key: Items/MysticWater/Description
+      Value: "An item to be held by a Pok\xE9mon. This teardrop-shaped gem boosts
+        the power of Water-type moves."
+    - Key: Items/NanabBerry
+      Value: Nanab Berry
+    - Key: Items/NanabBerry/Description
+      Value: "Used to make Pok\xE9blocks that will enhance your Cuteness. Its pink
+        flesh is sweet when eaten."
+    - Key: Items/NestBall
+      Value: Nest Ball
+    - Key: Items/NestBall/Description
+      Value: "A somewhat different Pok\xE9 Ball that becomes more effective the lower
+        the level of the wild Pok\xE9mon."
+    - Key: Items/NetBall
+      Value: Net Ball
+    - Key: Items/NetBall/Description
+      Value: "A somewhat different Pok\xE9 Ball that is more effective when attempting
+        to catch Water or Bug type Pok\xE9mon."
+    - Key: Items/NeverMeltIce
+      Value: Never-Melt Ice
+    - Key: Items/NeverMeltIce/Description
+      Value: "An item to be held by a Pok\xE9mon. It's a heat-repelling piece of
+        ice that boosts the power of Ice-type moves."
+    - Key: Items/NomelBerry
+      Value: Nomel Berry
+    - Key: Items/NomelBerry/Description
+      Value: "Used to make Pok\xE9blocks that will enhance your Toughness. It's rare
+        in other regions."
+    - Key: Items/NormalGem
+      Value: Normal Gem
+    - Key: Items/NormalGem/Description
+      Value: A gem that, when held, it strengthens the power of a Normal-type move
+        one time.
+    - Key: Items/OccaBerry
+      Value: Occa Berry
+    - Key: Items/OccaBerry/Description
+      Value: "If held by a Pok\xE9mon, this Berry will lessen the damage taken from
+        one supereffective Fire-type attack."
+    - Key: Items/OranBerry
+      Value: Oran Berry
+    - Key: Items/OranBerry/Description
+      Value: "A Berry to be consumed by Pok\xE9mon. If a Pok\xE9mon holds one, it
+        can restore its own HP by 10 points during battle."
+    - Key: Items/PamtreBerry
+      Value: Pamtre Berry
+    - Key: Items/PamtreBerry/Description
+      Value: "Used to make Pok\xE9blocks that will enhance your Beauty. It's rare
+        in other regions."
+    - Key: Items/ParalyzeHeal
+      Value: Paralyze Heal
+    - Key: Items/ParalyzeHeal/Description
+      Value: "A spray-type medicine for treating paralysis. It can be used to free
+        a single Pok\xE9mon that has been paralyzed."
+    - Key: Items/PasshoBerry
+      Value: Passho Berry
+    - Key: Items/PasshoBerry/Description
+      Value: "If held by a Pok\xE9mon, this Berry will lessen the damage taken from
+        one supereffective Water-type attack."
+    - Key: Items/PayapaBerry
+      Value: Payapa Berry
+    - Key: Items/PayapaBerry/Description
+      Value: "If held by a Pok\xE9mon, this Berry will lessen the damage taken from
+        one supereffective Psychic-type attack."
+    - Key: Items/PechaBerry
+      Value: Pecha Berry
+    - Key: Items/PechaBerry/Description
+      Value: "A Berry to be consumed by Pok\xE9mon. If a Pok\xE9mon holds one, it
+        can recover from poisoning on its own in battle."
+    - Key: Items/PetayaBerry
+      Value: Petaya Berry
+    - Key: Items/PetayaBerry/Description
+      Value: "If held by a Pok\xE9mon, its Special Attack stat will increase when
+        it's in a pinch."
+    - Key: Items/PinapBerry
+      Value: Pinap Berry
+    - Key: Items/PinapBerry/Description
+      Value: "Used to make Pok\xE9blocks that will enhance your Toughness. Its yellow
+        flesh is sour when eaten."
+    - Key: Items/PixiePlate
+      Value: Pixie Plate
+    - Key: Items/PixiePlate/Description
+      Value: '''The Original One is in all things. The Original One is nowhere at
+        all.'''
+    - Key: Items/PoisonBarb
+      Value: Poison Barb
+    - Key: Items/PoisonBarb/Description
+      Value: "An item to be held by a Pok\xE9mon. This small, poisonous barb boosts
+        the power of Poison-type moves."
+    - Key: Items/PoisonGem
+      Value: Poison Gem
+    - Key: Items/PoisonGem/Description
+      Value: A gem that, when held, it strengthens the power of a Poison-type move
+        one time.
+    - Key: Items/PokeBall
+      Value: "Pok\xE9 Ball"
+    - Key: Items/PokeBall/Description
+      Value: "A device for catching wild Pok\xE9mon. It's thrown like a ball at a
+        Pok\xE9mon, comfortably encapsulating its target."
+    - Key: Items/PomegBerry
+      Value: Pomeg Berry
+    - Key: Items/PomegBerry/Description
+      Value: "A Berry to be consumed by Pok\xE9mon. Using it on a Pok\xE9mon makes
+        it more friendly but lowers its HP EVs."
+    - Key: Items/Potion
+      Value: Potion
+    - Key: Items/Potion/Description
+      Value: "A spray-type medicine for treating wounds. It can be used to restore
+        20 HP to a single Pok\xE9mon."
+    - Key: Items/PowerAnklet
+      Value: Power Anklet
+    - Key: Items/PowerAnklet/Description
+      Value: "An item to be held by a Pok\xE9mon. It reduces Speed but allows the
+        holder's Speed stat to grow more after battling."
+    - Key: Items/PowerBand
+      Value: Power Band
+    - Key: Items/PowerBand/Description
+      Value: "An item to be held by a Pok\xE9mon. It reduces Speed but allows the
+        holder's Special Defense stat to grow more after battling."
+    - Key: Items/PowerBelt
+      Value: Power Belt
+    - Key: Items/PowerBelt/Description
+      Value: "An item to be held by a Pok\xE9mon. It reduces Speed but allows the
+        holder's Defense stat to grow more after battling."
+    - Key: Items/PowerBracer
+      Value: Power Bracer
+    - Key: Items/PowerBracer/Description
+      Value: "An item to be held by a Pok\xE9mon. It reduces Speed but allows the
+        holder's Attack stat to grow more after battling."
+    - Key: Items/PowerLens
+      Value: Power Lens
+    - Key: Items/PowerLens/Description
+      Value: "An item to be held by a Pok\xE9mon. It reduces Speed but allows the
+        holder's Special Attack stat to grow more after battling."
+    - Key: Items/PowerWeight
+      Value: Power Weight
+    - Key: Items/PowerWeight/Description
+      Value: "An item to be held by a Pok\xE9mon. It reduces Speed but allows the
+        holder's HP stat to grow more after battling."
+    - Key: Items/PremierBall
+      Value: Premier Ball
+    - Key: Items/PremierBall/Description
+      Value: "A somewhat rare Pok\xE9 Ball that was made as a commemorative item
+        used to celebrate an event of some sort."
+    - Key: Items/PsychicGem
+      Value: Psychic Gem
+    - Key: Items/PsychicGem/Description
+      Value: A gem that, when held, it strengthens the power of a Psychic-type move
+        one time.
+    - Key: Items/QualotBerry
+      Value: Qualot Berry
+    - Key: Items/QualotBerry/Description
+      Value: "A Berry to be consumed by Pok\xE9mon. Using it on a Pok\xE9mon makes
+        it more friendly but lowers its Defense EVs."
+    - Key: Items/QuickBall
+      Value: Quick Ball
+    - Key: Items/QuickBall/Description
+      Value: "A somewhat different Pok\xE9 Ball that has a more successful catch
+        rate if used at the start of a wild encounter."
+    - Key: Items/RabutaBerry
+      Value: Rabuta Berry
+    - Key: Items/RabutaBerry/Description
+      Value: "Used to make Pok\xE9blocks that will enhance your Cleverness. It's
+        rare in other regions."
+    - Key: Items/RawstBerry
+      Value: Rawst Berry
+    - Key: Items/RawstBerry/Description
+      Value: "A Berry to be consumed by Pok\xE9mon. If a Pok\xE9mon holds one, it
+        can recover from a burn on its own in battle."
+    - Key: Items/RazzBerry
+      Value: Razz Berry
+    - Key: Items/RazzBerry/Description
+      Value: "Used to make Pok\xE9blocks that will enhance your Coolness. Its red
+        flesh is spicy when eaten."
+    - Key: Items/RevivalHerb
+      Value: Revival Herb
+    - Key: Items/RevivalHerb/Description
+      Value: "A very bitter medicinal herb. It can be used to revive a single Pok\xE9mon
+        that has fainted. It restores its HP to the max."
+    - Key: Items/Revive
+      Value: Revive
+    - Key: Items/Revive/Description
+      Value: "A medicine that can be used to revive a single Pok\xE9mon that has
+        fainted. It also restores half of the Pok\xE9mon's max HP."
+    - Key: Items/RindoBerry
+      Value: Rindo Berry
+    - Key: Items/RindoBerry/Description
+      Value: "If held by a Pok\xE9mon, this Berry will lessen the damage taken from
+        one supereffective Grass-type attack."
+    - Key: Items/RockGem
+      Value: Rock Gem
+    - Key: Items/RockGem/Description
+      Value: A gem that, when held, it strengthens the power of a Roca-type move
+        one time.
+    - Key: Items/RoseliBerry
+      Value: Roseli Berry
+    - Key: Items/RoseliBerry/Description
+      Value: "If held by a Pok\xE9mon, this Berry will lessen the damage taken from
+        one supereffective Fairy-type attack."
+    - Key: Items/RowapBerry
+      Value: Rowap Berry
+    - Key: Items/RowapBerry/Description
+      Value: "If a special attack hits the Pok\xE9mon holding it, the attacker will
+        also be hurt."
+    - Key: Items/Sachet
+      Value: Sachet
+    - Key: Items/Sachet/Description
+      Value: "An item to be held by a Pok\xE9mon. A sachet filled with fragrant perfumes
+        that are just slightly too overwhelming. It boosts Fairy-type moves."
+    - Key: Items/SalacBerry
+      Value: Salac Berry
+    - Key: Items/SalacBerry/Description
+      Value: "If held by a Pok\xE9mon, its Speed stat will increase when it's in
+        a pinch."
+    - Key: Items/SharpBeak
+      Value: Sharp Beak
+    - Key: Items/SharpBeak/Description
+      Value: "An item to be held by a Pok\xE9mon. It's a long, sharp beak that boosts
+        the power of Flying-type moves."
+    - Key: Items/ShucaBerry
+      Value: Shuca Berry
+    - Key: Items/ShucaBerry/Description
+      Value: "If held by a Pok\xE9mon, this Berry will lessen the damage taken from
+        one supereffective Ground-type attack."
+    - Key: Items/SilkScarf
+      Value: Silk Scarf
+    - Key: Items/SilkScarf/Description
+      Value: "An item to be held by a Pok\xE9mon. It's a sumptuous scarf that boosts
+        the power of Normal-type moves."
+    - Key: Items/SilverPowder
+      Value: Silver Powder
+    - Key: Items/SilverPowder/Description
+      Value: "An item to be held by a Pok\xE9mon. It's a shiny silver powder that
+        will boost the power of Bug-type moves."
+    - Key: Items/SitrusBerry
+      Value: Sitrus Berry
+    - Key: Items/SitrusBerry/Description
+      Value: "A Berry to be consumed by Pok\xE9mon. If a Pok\xE9mon holds one, it
+        can restore its own HP by a small amount during battle."
+    - Key: Items/SkyPlate
+      Value: Sky Plate
+    - Key: Items/SkyPlate/Description
+      Value: '''The being poured the remains of its power into stone and buried it
+        deep.'''
+    - Key: Items/SoftSand
+      Value: Soft Sand
+    - Key: Items/SoftSand/Description
+      Value: "An item to be held by a Pok\xE9mon. It's a loose, silky sand that boosts
+        the power of Ground-type moves."
+    - Key: Items/SpellTag
+      Value: Spell Tag
+    - Key: Items/SpellTag/Description
+      Value: "An item to be held by a Pok\xE9mon. It's a sinister, eerie tag that
+        boosts the power of Ghost-type moves."
+    - Key: Items/SpelonBerry
+      Value: Spelon Berry
+    - Key: Items/SpelonBerry/Description
+      Value: "Used to make Pok\xE9blocks that will enhance your Cuteness. It's rare
+        in other regions."
+    - Key: Items/SplashPlate
+      Value: Splash Plate
+    - Key: Items/SplashPlate/Description
+      Value: '''The rightful bearer of a Plate draws from the Plate it holds.'''
+    - Key: Items/SpookyPlate
+      Value: Spooky Plate
+    - Key: Items/SpookyPlate/Description
+      Value: '''The other side of this world was given by the Original One to its
+        raging third.'''
+    - Key: Items/StarfBerry
+      Value: Starf Berry
+    - Key: Items/StarfBerry/Description
+      Value: "If held by a Pok\xE9mon, its Attack stat will increase when it's in
+        a pinch."
+    - Key: Items/SteelGem
+      Value: Steel Gem
+    - Key: Items/SteelGem/Description
+      Value: A gem that, when held, it strengthens the power of a Steel-type move
+        one time.
+    - Key: Items/StonePlate
+      Value: Stone Plate
+    - Key: Items/StonePlate/Description
+      Value: '''It gathers power from the Plates, listening for the flute''s song.'''
+    - Key: Items/SuperPotion
+      Value: Super Potion
+    - Key: Items/SuperPotion/Description
+      Value: "A spray-type medicine for treating wounds. It can be used to restore
+        60 HP to a single Pok\xE9mon."
+    - Key: Items/TamatoBerry
+      Value: Tamato Berry
+    - Key: Items/TamatoBerry/Description
+      Value: "A Berry to be consumed by Pok\xE9mon. Using it on a Pok\xE9mon makes
+        it more friendly but lowers its Speed EVs."
+    - Key: Items/TangaBerry
+      Value: Tanga Berry
+    - Key: Items/TangaBerry/Description
+      Value: "If held by a Pok\xE9mon, this Berry will lessen the damage taken from
+        one supereffective Bug-type attack."
+    - Key: Items/TimerBall
+      Value: Timer Ball
+    - Key: Items/TimerBall/Description
+      Value: "A somewhat different Pok\xE9 Ball that becomes progressively more effective
+        at catching Pok\xE9mon the more turns that are taken in battle."
+    - Key: Items/ToxicPlate
+      Value: Toxic Plate
+    - Key: Items/ToxicPlate/Description
+      Value: '''The rules of time and space change within the opposite world.'''
+    - Key: Items/TwistedSpoon
+      Value: Twisted Spoon
+    - Key: Items/TwistedSpoon/Description
+      Value: "An item to be held by a Pok\xE9mon. This spoon is imbued with telekinetic
+        power and boosts Psychic-type moves."
+    - Key: Items/UltraBall
+      Value: Ultra Ball
+    - Key: Items/UltraBall/Description
+      Value: "A good, high-performance Pok\xE9 Ball that provides a higher success
+        rate for catching Pok\xE9mon than a Great Ball."
+    - Key: Items/UseItem/Player
+      Value: You used {0}.
+    - Key: Items/UseItemWithTarget/Player
+      Value: You used {0} on {1}.
+    - Key: Items/WacanBerry
+      Value: Wacan Berry
+    - Key: Items/WacanBerry/Description
+      Value: "If held by a Pok\xE9mon, this Berry will lessen the damage taken from
+        one supereffective Electric-type attack."
+    - Key: Items/WaterGem
+      Value: Water Gem
+    - Key: Items/WaterGem/Description
+      Value: A gem that, when held, it strengthens the power of a Water-type move
+        one time.
+    - Key: Items/WatmelBerry
+      Value: Watmel Berry
+    - Key: Items/WatmelBerry/Description
+      Value: "Used to make Pok\xE9blocks that will enhance your Cleverness. It's
+        rare in other regions."
+    - Key: Items/WepearBerry
+      Value: Wepear Berry
+    - Key: Items/WepearBerry/Description
+      Value: "Used to make Pok\xE9blocks that will enhance your Cleverness. Its green
+        flesh is bitter when eaten."
+    - Key: Items/XAccuracy
+      Value: X Accuracy
+    - Key: Items/XAccuracy/Description
+      Value: "An item that sharply boosts the Accuracy stat of a Pok\xE9mon during
+        a battle. It wears off once the Pok\xE9mon is withdrawn."
+    - Key: Items/XAttack
+      Value: X Attack
+    - Key: Items/XAttack/Description
+      Value: "An item that sharply boosts the Attack stat of a Pok\xE9mon during
+        a battle. It wears off once the Pok\xE9mon is withdrawn."
+    - Key: Items/XDefense
+      Value: X Defense
+    - Key: Items/XDefense/Description
+      Value: "An item that sharply boosts the Defense stat of a Pok\xE9mon during
+        a battle. It wears off once the Pok\xE9mon is withdrawn."
+    - Key: Items/XEvasion
+      Value: X Evasion
+    - Key: Items/XEvasion/Description
+      Value: "An item that sharply boosts the Evasion stat of a Pok\xE9mon during
+        a battle. It wears off once the Pok\xE9mon is withdrawn."
+    - Key: Items/XSpecialAttack
+      Value: X Sp. Attack
+    - Key: Items/XSpecialAttack/Description
+      Value: "An item that sharply boosts the Special Attack stat of a Pok\xE9mon
+        during a battle. It wears off once the Pok\xE9mon is withdrawn."
+    - Key: Items/XSpecialDefense
+      Value: X Sp. Defense
+    - Key: Items/XSpecialDefense/Description
+      Value: "An item that sharply boosts the Special Defense stat of a Pok\xE9mon
+        during a battle. It wears off once the Pok\xE9mon is withdrawn."
+    - Key: Items/XSpeed
+      Value: X Speed
+    - Key: Items/XSpeed/Description
+      Value: "An item that sharply boosts the Speed stat of a Pok\xE9mon during a
+        battle. It wears off once the Pok\xE9mon is withdrawn."
+    - Key: Items/YacheBerry
+      Value: Yache Berry
+    - Key: Items/YacheBerry/Description
+      Value: "If held by a Pok\xE9mon, this Berry will lessen the damage taken from
+        one supereffective Ice-type attack."
+    - Key: Items/ZapPlate
+      Value: Zap Plate
+    - Key: Items/ZapPlate/Description
+      Value: '''The third being raged, raining down bolts of anger.'''
+    - Key: Locations/Location
+      Value: Location
+    - Key: Locations/Region
+      Value: Region
+    - Key: Monster/EVs
+      Value: EVs
+    - Key: Monster/IVs
+      Value: IVs
+    - Key: Monster/Species
+      Value: Species
+    - Key: Monsters/Bulbasaur
+      Value: Bulbasaur
+    - Key: Monsters/ExperienceCurrent
+      Value: Experience for next level
+    - Key: Monsters/ExperienceTotal
+      Value: Total experience
+    - Key: Monsters/Friendship
+      Value: Friendship
+    - Key: Monsters/FriendshipDecreased
+      Value: '{0} became less friendly.'
+    - Key: Monsters/FriendshipRaised
+      Value: '{0} became more friendly.'
+    - Key: Monsters/Height
+      Value: Height
+    - Key: Monsters/MaxLevel
+      Value: Dynamax Level
+    - Key: Monsters/Nature
+      Value: Nature
+    - Key: Monsters/Origin
+      Value: Origin
+    - Key: Monsters/Origin/Caught
+      Value: Caught
+    - Key: Monsters/Origin/Hatched
+      Value: Hatched
+    - Key: Monsters/OriginalLevel
+      Value: Original Level
+    - Key: Monsters/OT
+      Value: Original trainer
+    - Key: Monsters/Summary
+      Value: Summary
+    - Key: Monsters/Summary/Alpha
+      Value: "{0} is an Alpha Pok\xE9mon."
+    - Key: Monsters/Summary/Healthy
+      Value: It's completely healthy.
+    - Key: Monsters/Summary/Virus
+      Value: Seems to have been infected with a virus.
+    - Key: Monsters/Summary/VirusSurvived
+      Value: Overcame a virus infection.
+    - Key: Monsters/Weight
+      Value: Weight
+    - Key: Moves/Effectiveness/None
+      Value: No effect
+    - Key: Moves/Effectiveness/Normal
+      Value: Effective
+    - Key: Moves/Effectiveness/NotVery
+      Value: Not very effective
+    - Key: Moves/Effectiveness/Very
+      Value: Very effective
+    - Key: Moves/Growl
+      Value: Growl
+    - Key: Moves/Growl/Description
+      Value: "The user growls in an endearing way, making opposing Pok\xE9mon less
+        wary. This lowers their Attack stats."
+    - Key: Moves/Power
+      Value: Power
+    - Key: Moves/Struggle
+      Value: Struggle
+    - Key: Moves/Struggle/Description
+      Value: This attack is used in desperation only if the user has no PP. It also
+        damages the user a little.
+    - Key: Moves/Tackle
+      Value: Tackle
+    - Key: Moves/Tackle/Description
+      Value: A physical attack in which the user charges and slams into the target
+        with its whole body.
+    - Key: Natures/Adamant
+      Value: Adamant
+    - Key: Natures/Bashful
+      Value: Bashful
+    - Key: Natures/Bold
+      Value: Bold
+    - Key: Natures/Brave
+      Value: Brave
+    - Key: Natures/Calm
+      Value: Calm
+    - Key: Natures/Careful
+      Value: Careful
+    - Key: Natures/Docile
+      Value: Docile
+    - Key: Natures/Gentle
+      Value: Gentle
+    - Key: Natures/Hardy
+      Value: Hardy
+    - Key: Natures/Hasty
+      Value: Hasty
+    - Key: Natures/Impish
+      Value: Impish
+    - Key: Natures/Jolly
+      Value: Jolly
+    - Key: Natures/Lax
+      Value: Lax
+    - Key: Natures/Lonely
+      Value: Lonely
+    - Key: Natures/Mild
+      Value: Mild
+    - Key: Natures/Modest
+      Value: Modest
+    - Key: Natures/Naive
+      Value: Naive
+    - Key: Natures/Naughty
+      Value: Naughty
+    - Key: Natures/Quiet
+      Value: Quiet
+    - Key: Natures/Quirky
+      Value: Quirky
+    - Key: Natures/Rash
+      Value: Rash
+    - Key: Natures/Relaxed
+      Value: Relaxed
+    - Key: Natures/Sassy
+      Value: Sassy
+    - Key: Natures/Serious
+      Value: Seriour
+    - Key: Natures/Timid
+      Value: Timid
+    - Key: Ribbons/Champion
+      Value: Champion ribbon
+    - Key: Ribbons/Champion/Description
+      Value: League champion.
+    - Key: Settings/GlobalXPShare/Off
+      Value: Global Exp. Share is now off.
+    - Key: Settings/GlobalXPShare/On
+      Value: Global Exp. Share is now on.
+    - Key: Stats/Accuracy
+      Value: Accuracy
+    - Key: Stats/Attack
+      Value: Attack
+    - Key: Stats/Defense
+      Value: Defence
+    - Key: Stats/Evasion
+      Value: Evasion
+    - Key: Stats/Hp
+      Value: HP
+    - Key: Stats/SpecialAttack
+      Value: Sp. Attack
+    - Key: Stats/SpecialDefense
+      Value: Sp. Defense
+    - Key: Stats/Speed
+      Value: Speed
+    - Key: Status/BadlyPoison
+      Value: Poisoned
+    - Key: Status/BadlyPoison/Description
+      Value: Poisoned
+    - Key: Status/Burn
+      Value: Burned
+    - Key: Status/Burn/Description
+      Value: Burned
+    - Key: Status/Fainted
+      Value: Fainted
+    - Key: Status/Freeze
+      Value: Frozen
+    - Key: Status/Freeze/Description
+      Value: Frozen
+    - Key: Status/Paralysis
+      Value: Paralized
+    - Key: Status/Paralysis/Description
+      Value: Paralized
+    - Key: Status/Poison
+      Value: Poisoned
+    - Key: Status/Poison/Description
+      Value: Poisoned
+    - Key: Status/Side/MistSideStatus
+      Value: Mist
+    - Key: Status/Side/MistSideStatus/Effect
+      Value: '{0} is protected by mist.'
+    - Key: Status/Side/MistSideStatus/End
+      Value: '{0}''s mist wore off.'
+    - Key: Status/Side/MistSideStatus/Start
+      Value: '{0}''s side became shrouded in mist.'
+    - Key: Status/Sleep
+      Value: Asleep
+    - Key: Status/Sleep/Description
+      Value: Asleep
+    - Key: Test/AfterBattle
+      Value: This is so sad. Alexa, play Despacito.
+    - Key: Test/GameToClose
+      Value: Game will close.
+    - Key: Test/LaunchDouble1vs2TrainerBattle
+      Value: 1 vs 2
+    - Key: Test/LaunchDouble2vs2TrainerBattle
+      Value: 2 vs 2
+    - Key: Test/LaunchDoubleWildBattle
+      Value: Double wild
+    - Key: Test/LaunchSingleAlphaBattle
+      Value: Single alpha
+    - Key: Test/LaunchSingleTrainerBattle
+      Value: Single trainer
+    - Key: Test/LaunchSingleWildBattle
+      Value: Single wild
+    - Key: Types/Bug
+      Value: Bug
+    - Key: Types/Dark
+      Value: Dark
+    - Key: Types/Dragon
+      Value: Dragon
+    - Key: Types/Electric
+      Value: Electric
+    - Key: Types/Fairy
+      Value: Fairy
+    - Key: Types/Fighting
+      Value: Fighting
+    - Key: Types/Fire
+      Value: Fire
+    - Key: Types/Flying
+      Value: Flying
+    - Key: Types/Ghost
+      Value: Ghost
+    - Key: Types/Grass
+      Value: Grass
+    - Key: Types/Ground
+      Value: Ground
+    - Key: Types/Ice
+      Value: Ice
+    - Key: Types/Normal
+      Value: Normal
+    - Key: Types/Poison
+      Value: Poison
+    - Key: Types/Psychic
+      Value: Psychic
+    - Key: Types/Rock
+      Value: Rock
+    - Key: Types/Steel
+      Value: Steel
+    - Key: Types/Typeless
+      Value: ???
+    - Key: Types/Water
+      Value: Water
