@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System.Collections;
 using WhateverDevs.Core.Runtime.Common;
 using WhateverDevs.Core.Runtime.DataStructures;
 using WhateverDevs.TwoDAudio.Runtime;
@@ -11,16 +11,21 @@ public class Test : LoggableMonoBehaviour<Test>
 
     private void OnEnable()
     {
-        foreach (TestEnum testEnum in Utils.GetAllItems<TestEnum>())
-        {
-            Logger.Info(testEnum);
-        }
+        StartCoroutine(Init());
     }
-}
 
-public enum TestEnum
-{
-    test1,
-    test2,
-    test3
+    private IEnumerator Init()
+    {
+        bool playing = true;
+
+        yield return AudioManager.Instance.IsAudioPlaying(AudioTest, isPlaying => playing = isPlaying);
+
+        Logger.Info(playing);
+
+        AudioManager.Instance.PlayAudio(AudioTest, true, fadeTime: 1);
+
+        yield return AudioManager.Instance.IsAudioPlaying(AudioTest, isPlaying => playing = isPlaying);
+
+        Logger.Info(playing);
+    }
 }

@@ -726,7 +726,7 @@ MonoBehaviour:
     DebugMeshPath: Assets/Art/cono.FBX
     DebugMaterialPath: Assets/Art/cono.mat
   AudioTest:
-    Audio: Error
+    Audio: Field4
     AudioLibrary: {fileID: 11400000, guid: 010daea357b9fdb448d4006acfa07568, type: 2}
 --- !u!4 &1990595674
 Transform:
