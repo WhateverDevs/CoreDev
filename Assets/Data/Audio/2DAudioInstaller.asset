@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: 2DAudioInstaller
   m_EditorClassIdentifier: 
   AudioLibrary: {fileID: 11400000, guid: 010daea357b9fdb448d4006acfa07568, type: 2}
+  MainMixer: {fileID: 24100000, guid: 011032df171229a47ae75792c93820f6, type: 2}
