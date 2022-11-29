@@ -22,7 +22,12 @@ public class Test : LoggableMonoBehaviour<Test>
 
         Logger.Info(playing);
 
-        AudioManager.Instance.PlayAudio(AudioTest, true, fadeTime: 1);
+        AudioManager.Instance.PlayAudio(AudioTest,
+                                        true
+                                        #if WHATEVERDEVS_2DAUDIO_DOTWEEN
+                                        , fadeTime: 1
+                                        #endif
+                                       );
 
         yield return AudioManager.Instance.IsAudioPlaying(AudioTest, isPlaying => playing = isPlaying);
 
