@@ -10,366 +10,368 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4ca4846cdbf65634d92d53c2818e5c95, type: 3}
-  m_Name: English
+  m_Name: Spanish
   m_EditorClassIdentifier: 
   Language:
     SerializedList:
     - Key: CityImporting
-      Value: City Importing
+      Value: Ciudad importada
     - Key: CityImportingDesc
-      Value: Houdini imported test scene
+      Value: Pruebas de la ciudad importada de houdini
     - Key: Common/Abort
-      Value: Abort
+      Value: Abortar
     - Key: Common/Back
-      Value: Back
+      Value: "Atr\xE1s"
     - Key: Common/Cancel
-      Value: Cancel
+      Value: Cancelar
     - Key: Common/Choose
-      Value: Choose
+      Value: Elige
     - Key: Common/Continue
-      Value: Continue
+      Value: Continuar
     - Key: Common/Copy
-      Value: Copy
+      Value: Copiar
     - Key: Common/Debug
       Value: Debug
     - Key: Common/Description
-      Value: Description
+      Value: "Descripci\xF3n"
     - Key: Common/Disable
-      Value: Disable
+      Value: Desactivar
     - Key: Common/Enable
-      Value: Enable
+      Value: Activar
     - Key: Common/Exit
-      Value: Exit
+      Value: Salir
     - Key: Common/Framerate
       Value: Framerate
     - Key: Common/Next
-      Value: Next
+      Value: Siguiente
     - Key: Common/Start
-      Value: Start
+      Value: Empezar
     - Key: Common/Status
-      Value: Status
+      Value: Estado
     - Key: Common/Vehicle
-      Value: Vehicle
+      Value: "Veh\xEDculo"
     - Key: Configuration/AuxInput
-      Value: Aux input
+      Value: Input auxiliar
     - Key: Configuration/AuxInput/Fixed
-      Value: Fixed
+      Value: Fijo
     - Key: Configuration/AuxInput/Pulse
-      Value: Pulse
+      Value: Pulso
     - Key: Configuration/ContactMode
-      Value: Contact Mode
+      Value: Modo de contacto
     - Key: Configuration/ContactMode/Inverted
-      Value: Inverted
+      Value: Invertido
     - Key: Configuration/ContactMode/Normal
       Value: Normal
     - Key: Configuration/CountryForScenarios
-      Value: Country for scenarios
+      Value: "Pa\xEDs de los escenarios"
     - Key: Configuration/DamperCoefficient
-      Value: Damper Coefficient
+      Value: Coeficiente del damper
     - Key: Configuration/EnvironmentVolume
-      Value: Environment volume
+      Value: Volumen del escenario
     - Key: Configuration/Forcefeedback
       Value: Forcefeedback
     - Key: Configuration/ForcefeedbackPreset
       Value: Forcefeedback Preset
     - Key: Configuration/ForceIntensity
-      Value: Force Intensity
+      Value: Intensidad de la fuerza
     - Key: Configuration/FullScreen
-      Value: Fullscreen type
+      Value: Tipo de pantalla completa
     - Key: Configuration/FullScreen/Exclusive
-      Value: Exclusive
+      Value: Exclusiva
     - Key: Configuration/FullScreen/Windowed
-      Value: Windowed
+      Value: Ventana
     - Key: Configuration/Graphics
-      Value: Graphics
+      Value: "Gr\xE1ficos"
     - Key: Configuration/Input
       Value: Input
     - Key: Configuration/Invert
-      Value: Invert
+      Value: Invertir
     - Key: Configuration/Language
-      Value: Language
+      Value: Idioma
     - Key: Configuration/Localization
-      Value: Localization
+      Value: "Localizaci\xF3n"
     - Key: Configuration/LogicalTireWidth
-      Value: Logical Tire Width
+      Value: Ancho de la rueda
     - Key: Configuration/MasterVolume
-      Value: Master volume
+      Value: Volumen general
     - Key: Configuration/NonLinearBias
       Value: NonLinearBias
     - Key: Configuration/Quality
-      Value: Quality
+      Value: Calidad
     - Key: Configuration/Resolution
-      Value: Resolution
+      Value: "Resoluci\xF3n"
     - Key: Configuration/Resolution/FullHDOneScreen
       Value: 1920x1080
     - Key: Configuration/Resolution/FullHDThreeScreens
       Value: 5760x1080
     - Key: Configuration/Sound
-      Value: Sound
+      Value: Sonido
     - Key: Configuration/Telemetry
-      Value: Telemetry
+      Value: "Telemetr\xEDa"
     - Key: Configuration/Telemetry/AskSubjectId
-      Value: Ask on start?
+      Value: Pedir al empezar?
     - Key: Configuration/Telemetry/Frequency
-      Value: Frequency
+      Value: Frecuencia
     - Key: Configuration/Telemetry/HardAccelThreshold
-      Value: Hard accel. threshold
+      Value: Umbral de acel. fuerte
     - Key: Configuration/Telemetry/HardBrakeThreshold
-      Value: Hard braking threshold
+      Value: Umbral de frenazo
     - Key: Configuration/Telemetry/SubjectId
-      Value: Subject ID
+      Value: ID del sujeto
     - Key: Configuration/Telemetry/SubjectId/Description
-      Value: Enter the subject ID for this experiment.
+      Value: Introduce la ID del sujeto para este experimento.
     - Key: Configuration/Telemetry/UseSubjectId
-      Value: Add subject ID
+      Value: "A\xF1adir ID del sujeto"
     - Key: Configuration/VehicleVolume
-      Value: Vehicle volume
+      Value: "Volumen del veh\xEDculo"
     - Key: Configuration/Video/Enable
-      Value: Record video
+      Value: "Grabaci\xF3n de video"
     - Key: Configuration/Video/ResolutionMultiplier
-      Value: Resolution multiplier
+      Value: "Ratio de la resoluci\xF3n"
     - Key: Configuration/WeightIntensity
-      Value: Weight Intensity
+      Value: Intensidad del peso
     - Key: ContactMode/Inverted
-      Value: Inverted
+      Value: Invertido
     - Key: ContactMode/Normal
       Value: Normal
     - Key: Country/Es
-      Value: Spain
+      Value: "Espa\xF1a"
     - Key: Country/Fr
-      Value: France
+      Value: Francia
     - Key: Country/It
-      Value: Italy
+      Value: Italia
     - Key: Country/Se
-      Value: Sweden
+      Value: Suecia
     - Key: Debug/CheckingLicense
-      Value: Checking license
+      Value: Comprobando licencia
     - Key: Debug/GeneratingReports
-      Value: Generating reports.
+      Value: Generando reportes.
     - Key: Debug/InstantiatingVehicle
-      Value: Instantiating vehicle.
+      Value: "Instanciando veh\xEDculo."
     - Key: Debug/LoadingCharacters
-      Value: Loading characters.
+      Value: Cargando personajes.
     - Key: Debug/LoadingCharacters/Error
-      Value: Error loading characters.
+      Value: Error al cargar los personajes.
     - Key: Debug/LoadingExercises
-      Value: Loading exercises.
+      Value: Cargando ejercicios.
     - Key: Debug/LoadingExercises/Error
-      Value: Error loading exercises.
+      Value: Error al cargar los ejercicios.
     - Key: Debug/LoadingManifests
-      Value: Loading asset manifests.
+      Value: Cargando manifiestos de assets.
     - Key: Debug/LoadingMenu
-      Value: Loading main menu.
+      Value: "Cargando men\xFA principal."
     - Key: Debug/LoadingMenu/Error
-      Value: Error loading menu.
+      Value: "Error al cargar el men\xFA."
     - Key: Debug/LoadingNextScene
-      Value: Loading next scene.
+      Value: Cargando siguiente escena.
     - Key: Debug/LoadingPreviousScenes
-      Value: Loading previous scenes.
+      Value: Cargando escenas previas.
     - Key: Debug/LoadingScenes
-      Value: Loading scenes.
+      Value: Cargando escenas.
     - Key: Debug/LoadingStateMachine
-      Value: Loading state machine.
+      Value: "Cargando m\xE1quina de estados."
     - Key: Debug/LoadingVehicles
-      Value: Loading vehicles.
+      Value: "Cargando veh\xEDculos."
     - Key: Debug/LoadingVehicles/Error
-      Value: Error loading vehicles.
+      Value: "Error al cargar los veh\xEDculos."
     - Key: Debug/StartingTraffic
-      Value: Starting traffic.
+      Value: "Iniciando el tr\xE1fico."
     - Key: Debug/UnloadingPreviousScenes
-      Value: Unloading previous scenes.
+      Value: Descargando escenas previas.
     - Key: Debug/UnloadingScenes
-      Value: Unloading scenes.
+      Value: Descargando escenas.
     - Key: Dialogs/CloseGame
-      Value: Are you sure you want to exit?
+      Value: "\xBFDeseas salir de la aplicaci\xF3n?"
     - Key: Dialogs/CloseGame/Accept
-      Value: Yes, good bye
+      Value: "S\xED, hasta otra"
     - Key: Dialogs/CloseGame/Cancel
-      Value: No, I pressed the wrong button
+      Value: "No, me he equivocado de bot\xF3n"
     - Key: English
-      Value: English
+      Value: "Ingl\xE9s"
     - Key: Exercises/1
-      Value: Landing strip
+      Value: Pista de aterrizaje
     - Key: Exercises/1/Description
-      Value: Driving straight on the landing strip.
+      Value: "Conducir en l\xEDnea recta por la pista de aterrizaje."
     - Key: Exercises/10
-      Value: Countryside
+      Value: Campo
     - Key: Exercises/10/Description
-      Value: Follow a route on the road scenario.
+      Value: Seguir una ruta por el escenario de la carretera.
     - Key: Exercises/11
-      Value: Highway
+      Value: "Autov\xEDa"
     - Key: Exercises/11/Description
-      Value: Follow a route on the highway scenario.
+      Value: "Seguir una ruta el escenario de la autov\xEDa."
     - Key: Exercises/12
-      Value: Free city
+      Value: Ciudad libre
     - Key: Exercises/12/Description
-      Value: Free driving on the city scenario.
+      Value: "Conducci\xF3n libre en el escenario de la ciudad."
     - Key: Exercises/13
       Value: UMA Test
     - Key: Exercises/13/Description
       Value: UMA Test
     - Key: Exercises/14
-      Value: Highway - Fog
+      Value: "Autov\xEDa - Niebla"
     - Key: Exercises/14/Description
-      Value: Follow a route on the highway scenario with fog.
+      Value: "Seguir una ruta el escenario de la autov\xEDa con niebla."
     - Key: Exercises/15
-      Value: Highway - Night
+      Value: "Autov\xEDa - Noche"
     - Key: Exercises/15/Description
-      Value: Follow a route on the highway scenario at night.
+      Value: "Seguir una ruta el escenario de la autov\xEDa de noche."
     - Key: Exercises/16
-      Value: Countryside - Fog
+      Value: Campo - Niebla
     - Key: Exercises/16/Description
-      Value: Follow a route on the road scenario with fog.
+      Value: Seguir una ruta por el escenario de la carretera con niebla.
     - Key: Exercises/17
-      Value: Countryside - Night
+      Value: Campo - Noche
     - Key: Exercises/17/Description
-      Value: Follow a route on the road scenario at night.
+      Value: Seguir una ruta por el escenario de la carretera de noche.
     - Key: Exercises/18
-      Value: Urban 1
+      Value: Urbano 1
     - Key: Exercises/18/Description
-      Value: Follow a route in the city.
+      Value: Seguir una ruta en la ciudad.
     - Key: Exercises/19
-      Value: Urban 2
+      Value: Urbano 2
     - Key: Exercises/19/Description
-      Value: Follow a route in the city.
+      Value: Seguir una ruta en la ciudad.
     - Key: Exercises/2
-      Value: Circuit test
+      Value: Prueba del circuito
     - Key: Exercises/2/Description
-      Value: Small test on the circuit.
+      Value: "Peque\xF1a prueba por el circuito."
     - Key: Exercises/20
-      Value: Urban 3
+      Value: Urbano 3
     - Key: Exercises/20/Description
-      Value: Follow a route in the city.
+      Value: Seguir una ruta en la ciudad.
     - Key: Exercises/21
-      Value: Urban 4
+      Value: Urbano 4
     - Key: Exercises/21/Description
-      Value: Follow a route in the city.
+      Value: Seguir una ruta en la ciudad.
     - Key: Exercises/22
-      Value: Urban 5
+      Value: Urbano 5
     - Key: Exercises/22/Description
-      Value: Follow a route in the city.
+      Value: Seguir una ruta en la ciudad.
     - Key: Exercises/23
-      Value: Urban 6
+      Value: Urbano 6
     - Key: Exercises/23/Description
-      Value: Follow a route in the city.
+      Value: Seguir una ruta en la ciudad.
     - Key: Exercises/24
-      Value: Urban 7
+      Value: Urbano 7
     - Key: Exercises/24/Description
-      Value: Follow a route in the city.
+      Value: Seguir una ruta en la ciudad.
     - Key: Exercises/25
-      Value: Highway- No traffic
+      Value: "Autov\xEDa - Sin tr\xE1fico"
     - Key: Exercises/25/Description
-      Value: Follow a route on the highway scenario.
+      Value: "Seguir una ruta el escenario de la autov\xEDa."
     - Key: Exercises/26
-      Value: Adaptation
+      Value: "Adaptaci\xF3n"
     - Key: Exercises/26/Description
-      Value: Exercise to adapt to the simulator.
+      Value: Ejercicio para adaptarse al simulador.
     - Key: Exercises/27
-      Value: Free Vallelunga
+      Value: Vallelunga libre
     - Key: Exercises/27/Description
-      Value: Free exercise on the Vallelunga circuit.
+      Value: Ejercicio libre en el circuito de Vallelunga.
     - Key: Exercises/28
       Value: Fiera di Roma
     - Key: Exercises/28/Description
-      Value: Drive around the exterior of the Fiera di Roma.
+      Value: Circular por el exterior de la Fiera di Roma.
     - Key: Exercises/29
       Value: Fiera di Roma - Circuit
     - Key: Exercises/29/Description
-      Value: Drive on the circuit of the Fiera di Roma
+      Value: Conducir por el circuito de la Fiera di Roma
     - Key: Exercises/3
-      Value: Calibration 1
+      Value: "Calibraci\xF3n 1"
     - Key: Exercises/3/Description
-      Value: Drive around most of the circuit's narrow areas to finish with a slalom.
+      Value: Circular por gran parte de las zonas estrechas del circuito de pruebas
+        para acabar en un slalom.
     - Key: Exercises/30
       Value: "Le\xF3n"
     - Key: Exercises/30/Description
-      Value: "Free driving on the Le\xF3n urbanization.\n\nPretrip inspection has
-        been done.\nWeather is favorable.\n\nVehicle data:\n\nTwo-axi rigid truck.Height:
-        4m.\nWidth: 2.35m.\nLength: 9m.\nWheel base: 5m.\nWeight: 10tn."
+      Value: "Conducci\xF3n libre por la urbanizaci\xF3n de Le\xF3n.\n\nLa inspecci\xF3n
+        de antes del viaje ya est\xE1 hecha.\nEl tiempo es favorable.\n\nDatos del
+        veh\xEDculo:\n\nCami\xF3n r\xEDgido de dos ejes.\nAltura: 4m.\nAnchura: 2.35m.\nLongitud:
+        9m.\nDistancia entre ejes: 5m.\nMasa: 10tn."
     - Key: Exercises/4
-      Value: Calibration 0
+      Value: "Calibraci\xF3n 0"
     - Key: Exercises/4/Description
-      Value: Drive on the circuit's eight with a speed limit.
+      Value: "Conduce por el ocho del circuito con un l\xEDmite de velocidad."
     - Key: Exercises/5
-      Value: Events test
+      Value: Prueba de eventos
     - Key: Exercises/5/Description
-      Value: Exercise to test traffic events.
+      Value: "Ejercicio para probar los eventos de tr\xE1fico."
     - Key: Exercises/6
-      Value: Landing strip with fog
+      Value: P. aterrizaje con niebla
     - Key: Exercises/6/Description
-      Value: Driving straight on the landing strip with fog.
+      Value: "Conducir en l\xEDnea recta por la pista de aterrizaje con niebla."
     - Key: Exercises/7
-      Value: Free circuit with fog
+      Value: Circuito libre con niebla
     - Key: Exercises/7/Description
-      Value: Free driving on the test circuit with fog.
+      Value: "Conducci\xF3n libre por el circuito de pruebas con niebla."
     - Key: Exercises/8
-      Value: Free circuit
+      Value: Circuito libre
     - Key: Exercises/8/Description
-      Value: Free driving on the test circuit.
+      Value: "Conducci\xF3n libre por el circuito de pruebas."
     - Key: High
-      Value: High
+      Value: Alta
     - Key: High-RayTracing
-      Value: Ray tracing
+      Value: Trazado de rayos
     - Key: License/HardwareId
-      Value: Your Hardware ID
+      Value: Tu Hardware ID
     - Key: License/LicenseKey
-      Value: License key
+      Value: Clave de licencia
     - Key: License/NoLicenseFound
-      Value: No license found
+      Value: No se ha encontrado una licencia
     - Key: Low
-      Value: Low
+      Value: Baja
     - Key: Medium
-      Value: Medium
+      Value: Media
     - Key: Mindtooth/Calibration
-      Value: Calibration
+      Value: "Calibraci\xF3n"
     - Key: Mindtooth/Calibration/Popup/Title
-      Value: Calibration exercise will be launched.
+      Value: "Se lanzar\xE1 el ejercicio de calibraci\xF3n."
     - Key: Mindtooth/Calibration/Recalibrate
-      Value: Recalibrate
+      Value: Recalibrar
     - Key: Mindtooth/Calibration/Status/Calibrated
-      Value: Calibrated
+      Value: Calibrado
     - Key: Mindtooth/Calibration/Status/NotCalibrated
-      Value: Not calibrated
+      Value: Sin calibrar
     - Key: Mindtooth/Configuration/NotificationRate
-      Value: Notification ratio
+      Value: Ratio de notificaciones
     - Key: Mindtooth/Configuration/ThresholdTimer
-      Value: Threshold delay
+      Value: "Tiempo de comprobaci\xF3n"
     - Key: Mindtooth/Connection
-      Value: Connection
+      Value: "Conexi\xF3n"
     - Key: Mindtooth/Connection/Connect
-      Value: Connect
+      Value: Conectar
     - Key: Mindtooth/Connection/Disconnect
-      Value: Disconnect
+      Value: Desconectar
     - Key: Mindtooth/Connection/Status/Connected
-      Value: Connected
+      Value: Conectado
     - Key: Mindtooth/Connection/Status/Connecting
-      Value: Waiting for Mindtooth
+      Value: Esperando al Mindtooth
     - Key: Mindtooth/Connection/Status/ConnectionError
-      Value: Connection error
+      Value: "Error de conexi\xF3n"
     - Key: Mindtooth/Connection/Status/NotConnected
-      Value: Not connected
+      Value: Desconectado
     - Key: Mindtooth/Enable
-      Value: Enable
+      Value: Activar
     - Key: Mindtooth/Integration
-      Value: Mindtooth integration
+      Value: "Integraci\xF3n con el Mindtooth"
     - Key: Mindtooth/Mindtooth
       Value: Mindtooth
     - Key: Mindtooth/Notifications/Enable
-      Value: Automation
+      Value: "Automatizaci\xF3n"
     - Key: Mindtooth/Notifications/Stress
-      Value: High stress level.
+      Value: "Alto nivel de estr\xE9s."
     - Key: Mindtooth/Notifications/TimeOut
-      Value: Mindtooth connection lost.
+      Value: "Se ha perdido la conexi\xF3n con el Mindtooth."
     - Key: Mindtooth/Notifications/Vigilance
-      Value: Please, pay atention!
+      Value: "\xA1Presta atenci\xF3n, por favor!"
     - Key: Mindtooth/Notifications/Workload
-      Value: High workload level.
+      Value: Alto nivel de carga de trabajo.
     - Key: Spanish
-      Value: Spanish
+      Value: "Espa\xF1ol"
     - Key: Tabs/Configuration
-      Value: Configuration
+      Value: "Configuraci\xF3n"
     - Key: Tabs/Exercises
-      Value: Exercises
+      Value: Ejercicios
     - Key: Units/Fps
       Value: fps
     - Key: Units/Hertz
