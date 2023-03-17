@@ -201,7 +201,7 @@
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "whateverdevs.core": "0.1.0",
+        "whateverdevs.core": "0.2.15",
         "com.unity.addressables": "1.16.10"
       }
     },
