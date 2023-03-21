@@ -13,3 +13,6 @@
 [submodule "Packages/Localization"]
 	path = Packages/Localization
 	url = https://github.com/WhateverDevs/Localization.git
+[submodule "Packages/WebServiceConnector"]
+	path = Packages/WebServiceConnector
+	url = https://github.com/WhateverDevs/webServiceConnector.git

@@ -212,6 +212,14 @@
       "dependencies": {},
       "url": "http://upm.rodrigovarga.com"
     },
+    "whateverdevs.webserviceconnector": {
+      "version": "file:WebServiceConnector",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "whateverdevs.core": "0.2.16"
+      }
+    },
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,
