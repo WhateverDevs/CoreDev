@@ -1,7 +1,6 @@
 fileFormatVersion: 2
 guid: 5c65184932ff4fd48a343e2360256baf
 timeCreated: 1488828285
-licenseType: Store
 PluginImporter:
   serializedVersion: 1
   iconMap: {}
@@ -45,3 +44,10 @@ PluginImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89041
+  packageName: Odin Inspector and Serializer
+  packageVersion: 3.1.14.3
+  assetPath: Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll
+  uploadId: 607752

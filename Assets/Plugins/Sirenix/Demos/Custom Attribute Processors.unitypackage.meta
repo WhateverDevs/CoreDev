@@ -6,3 +6,10 @@ DefaultImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 89041
+  packageName: Odin Inspector and Serializer
+  packageVersion: 
+  assetPath: Assets/Plugins/Sirenix/Demos/Custom Attribute Processors.unitypackage
+  uploadId: 0
