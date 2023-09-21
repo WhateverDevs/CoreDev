@@ -13,5 +13,4 @@ MonoBehaviour:
   m_Name: DownloadLocalizationFromGoogleSheetBeforePlay
   m_EditorClassIdentifier: 
   Url: https://docs.google.com/spreadsheets/d/1VvuaFFsneBqPR8FmPnPra4HgjclIWXvmD-yC0_eHIro/edit?usp=sharing
-  LocalizationConfigurationFile: {fileID: 11400000, guid: 3ae4bf0da80558e4bb0fe974c1736c11,
-    type: 2}
+  OutputDirectory: Languages/
