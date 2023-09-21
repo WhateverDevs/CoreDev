@@ -23,6 +23,7 @@ MonoBehaviour:
     type: 3}
   PlayHooks:
   - {fileID: 11400000, guid: 64b4d71319f6fb240931f197f21415ed, type: 2}
+  - {fileID: 11400000, guid: 24a88bf5cbf76994bbc34edd77e6f7a3, type: 2}
   EnableProjectContextButton: 1
   ProjectContext: {fileID: 3131883537611480641, guid: cd0059fec27506f46a5a76d4ec20d5a5,
     type: 3}

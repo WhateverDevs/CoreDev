@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7aa6251bc5ec47ab9724eb4e225399f1, type: 3}
   m_Name: BuildProcessorHooks
   m_EditorClassIdentifier: 
-  PreProcessorHooks: []
-  PostProcessorHooks:
-  - {fileID: 11400000, guid: 1e231602355fae6488ebb9df8040aa2f, type: 2}
+  PreProcessorHooks:
+  - {fileID: 11400000, guid: bd8dfe70fb49b3c41bd7fbd636707cd2, type: 2}
+  PostProcessorHooks: []
