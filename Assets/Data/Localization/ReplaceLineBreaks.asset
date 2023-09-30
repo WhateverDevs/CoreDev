@@ -9,7 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91af6691b9044210a41b2c76509eb7d4, type: 3}
-  m_Name: LocalizerProjectSettings
+  m_Script: {fileID: 11500000, guid: 82a3f138fc1847bf9a4c021eeb5218d4, type: 3}
+  m_Name: ReplaceLineBreaks
   m_EditorClassIdentifier: 
-  LanguagePackDirectory: Languages/
+  Original: '{LineBreak}'
+  Replacement: '
+
+'

@@ -5248,9 +5248,7 @@ MonoBehaviour:
     - Key: Scenes/RainbowCave/NextRoom
       Value: Next room
     - Key: Scenes/Route1/RainbowCaveEntranceSign
-      Value: 'Rainbow Cave
-
-        Discover all cave types.'
+      Value: Rainbow Cave{LineBreak}Discover all cave types.
     - Key: Scenes/Route1Info/Name
       Value: Route 1
     - Key: Scenes/Route1Info/NurserySign

@@ -4745,9 +4745,7 @@ MonoBehaviour:
     - Key: Moves/Thunderbolt
       Value: Rayo
     - Key: Moves/Thunderbolt/Description
-      Value: 'McQueen.
-
-        *Kachow*'
+      Value: McQueen.{LineBreak}*Kachow*
     - Key: Moves/ThunderFang
       Value: Colmillo Rayo
     - Key: Moves/ThunderFang/Description
@@ -5133,9 +5131,7 @@ MonoBehaviour:
     - Key: Scenes/RainbowCave/NextRoom
       Value: Siguiente sala
     - Key: Scenes/Route1/RainbowCaveEntranceSign
-      Value: 'Coeva Arcoiris
-
-        Descubre todos los tipos de coeva.'
+      Value: Coeva Arcoiris{LineBreak}Descubre todos los tipos de coeva.
     - Key: Scenes/Route1Info/Name
       Value: Ruta 1
     - Key: Scenes/Route1Info/NurserySign
