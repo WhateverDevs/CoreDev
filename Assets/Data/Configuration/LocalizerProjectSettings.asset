@@ -9,8 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b113d7e7fdc04e0e8ba330291e0ba5fd, type: 3}
-  m_Name: DownloadLocalizationFromGoogleSheetBeforePlay
+  m_Script: {fileID: 11500000, guid: 91af6691b9044210a41b2c76509eb7d4, type: 3}
+  m_Name: LocalizerProjectSettings
   m_EditorClassIdentifier: 
-  LocalizationProjectSettings: {fileID: 11400000, guid: a08dd917d672b9742b0d3945fb38b1a1,
-    type: 2}
+  LanguagePackDirectory: Languages/

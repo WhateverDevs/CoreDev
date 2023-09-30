@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6378217f2b554ad696c7c1539ed5b6c6, type: 3}
   m_Name: DownloadLocalizationFromGoogleSheetBeforeBuild
   m_EditorClassIdentifier: 
-  Url: https://docs.google.com/spreadsheets/d/1VvuaFFsneBqPR8FmPnPra4HgjclIWXvmD-yC0_eHIro/edit?usp=sharing
-  OutputDirectory: Languages/
+  LocalizationProjectSettings: {fileID: 11400000, guid: a08dd917d672b9742b0d3945fb38b1a1,
+    type: 2}

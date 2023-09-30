@@ -135,16 +135,34 @@ MonoBehaviour:
     - Key: Abilities/Overgrow/Description
       Value: "Cuando los PV del Pok\xE9mon bajan, el poder de los movimientos de
         tipo planta aumenta."
+    - Key: Abilities/PoisonPoint
+      Value: "Punto T\xF3xico"
+    - Key: Abilities/PoisonPoint/Description
+      Value: "El contacto con este Pok\xE9mon puede envenar al atacante."
     - Key: Abilities/RainDish
       Value: Cura Lluvia
     - Key: Abilities/RainDish/Description
       Value: Recupera PV gradualmente cuando llueve.
     - Key: Abilities/RegenHPOnWeather/Regen
       Value: "{0} recuper\xF3 {1} PV con {2}."
+    - Key: Abilities/Rivalry
+      Value: Rivalidad
+    - Key: Abilities/Rivalry/Description
+      Value: "Su esp\xEDritu competitivo hace que haga m\xE1s da\xF1o a los oponentes
+        del mismo g\xE9nero, aunque har\xE1 menos da\xF1os a aquellos de diferente
+        g\xE9nero."
     - Key: Abilities/RunAway
       Value: Fuga
     - Key: Abilities/RunAway/Description
       Value: "Siempre tiene una salida para huir de Pok\xE9mon salvajes."
+    - Key: Abilities/SandRush
+      Value: "\xCDmpetu Arena"
+    - Key: Abilities/SandRush/Description
+      Value: Aumenta la velocidad en tormentas de arena.
+    - Key: Abilities/SandVeil
+      Value: Velo Arena
+    - Key: Abilities/SandVeil/Description
+      Value: "Aumenta la evasi\xF3n en tormentas de arena."
     - Key: Abilities/ShedSkin
       Value: Mudar
     - Key: Abilities/ShedSkin/CureMessage
@@ -156,10 +174,18 @@ MonoBehaviour:
     - Key: Abilities/ShieldDust/Description
       Value: "Polvo protector que escuda al Pok\xE9mon de los efectos secundarios
         de movimientos."
+    - Key: Abilities/SlushRush
+      Value: Quitanieves
+    - Key: Abilities/SlushRush/Description
+      Value: Aumenta la velocidad cuando graniza.
     - Key: Abilities/Sniper
       Value: Francotirador
     - Key: Abilities/Sniper/Description
       Value: "Los golpes cr\xEDticos har\xE1n a\xFAn m\xE1s da\xF1o."
+    - Key: Abilities/SnowCloak
+      Value: Snow Cloak
+    - Key: Abilities/SnowCloak/Description
+      Value: "Mejora la evasi\xF3n cuando graniza."
     - Key: Abilities/SolarPower
       Value: Poder Solar
     - Key: Abilities/SolarPower/Description
@@ -2071,6 +2097,11 @@ MonoBehaviour:
     - Key: Items/IceHeal/Description
       Value: "Un medicamento tipo spray para el tratamiento de congelaci\xF3n. Se
         puede usar para descongelar a un solo Pok\xE9mon."
+    - Key: Items/IceStone
+      Value: Piedra Hielo
+    - Key: Items/IceStone/Description
+      Value: "Una peculiar piedra que hace evolucionar a ciertas especies de Pok\xE9mon.
+        Tiene un patr\xF3n de un copo de nieve."
     - Key: Items/IciclePlate
       Value: Tabla Helada
     - Key: Items/IciclePlate/Description
@@ -2520,6 +2551,11 @@ MonoBehaviour:
     - Key: Items/QuickBall/Description
       Value: "Una Pok\xE9 Ball un poco diferente que es m\xE1s efectiva para capturar
         Pok\xE9mon al principio del combate."
+    - Key: Items/QuickClaw
+      Value: "Garra R\xE1pida"
+    - Key: Items/QuickClaw/Description
+      Value: "Un objeto para ser llevado por un Pok\xE9mon. Permite moverse el primero
+        a veces."
     - Key: Items/RabutaBerry
       Value: Baya Rautan
     - Key: Items/RabutaBerry/Description
@@ -3100,6 +3136,16 @@ MonoBehaviour:
         edurecerse, por lo que se mantiene quieto para evitar ataques."
     - Key: Monsters/Nature
       Value: Naturaleza
+    - Key: Monsters/NidoranFemale
+      Value: "Nidoran\u2640"
+    - Key: Monsters/NidoranFemale/Normal
+      Value: "Aunque a este Pok\xE9mon no le gusta luchar, cada gota de su veneno
+        puede ser fatal."
+    - Key: Monsters/NidoranMale
+      Value: "Nidoran\u2642"
+    - Key: Monsters/NidoranMale/Normal
+      Value: "Vigila su alrededor levantando sus orejas por encima de la hierba.
+        Utiliza su cuerno t\xF3xico para protegerse."
     - Key: Monsters/Origin
       Value: Origen
     - Key: Monsters/Origin/Caught
@@ -3190,6 +3236,21 @@ MonoBehaviour:
     - Key: Monsters/Rattata/Normal
       Value: Es extremadamente cauto. Eso, unido a su resiliencia, le permite vivir
         en cualquier entorno.
+    - Key: Monsters/Sandshrew
+      Value: Sandshrew
+    - Key: Monsters/Sandshrew/Alola
+      Value: "Vive en monta\xF1as cubiertas de nieve que han hecho que el cuerpo
+        de hielo de este Pok\xE9mon sea duro como el acero."
+    - Key: Monsters/Sandshrew/Normal
+      Value: "Se hace una bola para protegerse de los atacantes. Vive en regiones
+        \xE1ridas con pocas lluvias."
+    - Key: Monsters/Sandslash
+      Value: Sandslash
+    - Key: Monsters/Sandslash/Alola
+      Value: "Mucha gente escala monta\xF1as nevadas con la esperanza de ver las
+        espinas de estos Pok\xE9mon brillar al alba. "
+    - Key: Monsters/Sandslash/Normal
+      Value: "Se enrolla y rueda contra sus enemigos, clav\xE1ndoles sus espinas."
     - Key: Monsters/Spearow
       Value: Spearow
     - Key: Monsters/Spearow/Normal
@@ -3443,6 +3504,10 @@ MonoBehaviour:
       Value: Triturar
     - Key: Moves/Crunch/Description
       Value: "Muerde al objetivo con fuertes mand\xEDbulas que pueden bajar la defensa."
+    - Key: Moves/CrushClaw
+      Value: Garra Brutal
+    - Key: Moves/CrushClaw/Description
+      Value: Lanza un tajo con afiladas garras. Puede bajar la defensa.
     - Key: Moves/Curse
       Value: "Maldici\xF3n"
     - Key: Moves/Curse/Description
@@ -3460,6 +3525,10 @@ MonoBehaviour:
       Value: "Brillo M\xE1gico"
     - Key: Moves/DazzlingGleam/Description
       Value: "Da\xF1a a los oponentes con un poderoso fogonazo."
+    - Key: Moves/DefenseCurl
+      Value: Rizo Defensa
+    - Key: Moves/DefenseCurl/Description
+      Value: Se hace una bola para subir su defensa.
     - Key: Moves/Defog
       Value: Despejar
     - Key: Moves/Defog/Description
@@ -3494,6 +3563,10 @@ MonoBehaviour:
     - Key: Moves/DoubleEdge/Description
       Value: "Un ataque que pone en peligro la vida del usuario para cargar contra
         el oponente. Da\xF1a mucho al usuario."
+    - Key: Moves/DoubleKick
+      Value: Doble Patada
+    - Key: Moves/DoubleKick/Description
+      Value: Ataca con dos patadas consecutivas.
     - Key: Moves/DoubleTeam
       Value: Doble Equipo
     - Key: Moves/DoubleTeam/Description
@@ -3706,6 +3779,11 @@ MonoBehaviour:
     - Key: Moves/FlashCannon/Description
       Value: "Acumula toda su energ\xEDa luminosa y la lanza contra el objetivo,
         pudiendo reducir su defensa especial."
+    - Key: Moves/Flatter
+      Value: Camelo
+    - Key: Moves/Flatter/Description
+      Value: "Camela al objetivo para confundirlo, pero tambi\xE9n aumenta mucho
+        su ataque especial."
     - Key: Moves/Fling
       Value: Lanzamiento
     - Key: Moves/Fling/Description
@@ -3848,6 +3926,11 @@ MonoBehaviour:
       Value: Golpe Cabeza
     - Key: Moves/Headbutt/Description
       Value: Carga contra el objetivo con la cabeza por delante. Puede hacer retroceder.
+    - Key: Moves/HeadSmash
+      Value: Testarazo
+    - Key: Moves/HeadSmash/Description
+      Value: "Ataca al objetivo con un peligroso cabezazao que tambi\xE9n har\xE1
+        da\xF1o al usuario."
     - Key: Moves/HeatWave
       Value: "Onda \xCDgnea"
     - Key: Moves/HeatWave/Description
@@ -3863,6 +3946,23 @@ MonoBehaviour:
     - Key: Moves/HiddenPower/Description
       Value: "Un ataque \xFAnico cuyo tipo cambia en funci\xF3n del Pok\xE9mon que
         lo usa."
+    - Key: Moves/HighHorsepower
+      Value: Fuerza Equina
+    - Key: Moves/HighHorsepower/Description
+      Value: Ataca con fiereza al objetivo usando todo su cuerpo.
+    - Key: Moves/HoneClaws
+      Value: Afilagarras
+    - Key: Moves/HoneClaws/Description
+      Value: "Afila sus garras para subir el ataque y la precisi\xF3n."
+    - Key: Moves/HornAttack
+      Value: Cornada
+    - Key: Moves/HornAttack/Description
+      Value: "Apu\xF1ala al objetivo con un cuerno afilado. "
+    - Key: Moves/HornDrill
+      Value: Perforador
+    - Key: Moves/HornDrill/Description
+      Value: "Apu\xF1ala al objetivo con un cuerno que gira como un taladro. El objetivo
+        se debilitar\xE1 al instante."
     - Key: Moves/Hurricane
       Value: Vendaval
     - Key: Moves/Hurricane/Description
@@ -3899,11 +3999,25 @@ MonoBehaviour:
       Value: "Pu\xF1o Hielo"
     - Key: Moves/IcePunch/Description
       Value: "Ataca con un pu\xF1o helado que puede congelar."
+    - Key: Moves/IceShard
+      Value: Esquirla Helada
+    - Key: Moves/IceShard/Description
+      Value: "Crea un t\xE9mpano de hielo en un instante y lo lanza contra el objetivo.
+        Siempre va primero."
+    - Key: Moves/IceSpinner
+      Value: Pirueta Helada
+    - Key: Moves/IceSpinner/Description
+      Value: "Cubre sus pies en hielo y se lanza dando vueltas contra el objetivo.
+        Tambi\xE9n elimina los efectos del terreno."
     - Key: Moves/IcicleCrash
       Value: Chuzos
     - Key: Moves/IcicleCrash/Description
       Value: "Ataca lanzando grandes car\xE1mbanos contra el objetivo. Puede hacerle
         retroceder."
+    - Key: Moves/IcicleSpear
+      Value: "Car\xE1mbano"
+    - Key: Moves/IcicleSpear/Description
+      Value: "Lanza car\xE1mbanos contra el objetivo de dos a cinco veces."
     - Key: Moves/IcyWind
       Value: Viento Hielo
     - Key: Moves/IcyWind/Description
@@ -3921,6 +4035,10 @@ MonoBehaviour:
       Value: "Defensa F\xE9rrea"
     - Key: Moves/IronDefense/Description
       Value: Endurece su cuerpo como el hierro, subiendo mucho la defensa.
+    - Key: Moves/IronHead
+      Value: Cabeza de Hierro
+    - Key: Moves/IronHead/Description
+      Value: Golpea con una cabeza dura como el acero. Puede hacer retroceder.
     - Key: Moves/IronTail
       Value: "Cola F\xE9rrea"
     - Key: Moves/IronTail/Description
@@ -3943,6 +4061,10 @@ MonoBehaviour:
     - Key: Moves/LeafStorm/Description
       Value: Ataca al objetivo con una tormenta de hojas. Baja mucho el ataque especial
         del usuario.
+    - Key: Moves/LeechLife
+      Value: Chupavidas
+    - Key: Moves/LeechLife/Description
+      Value: Chupa la sangre del objetivo para recuperar PV.
     - Key: Moves/LeechSeed
       Value: Drenadoras
     - Key: Moves/LeechSeed/Description
@@ -3965,6 +4087,11 @@ MonoBehaviour:
     - Key: Moves/Liquidation/Description
       Value: "Carga contra el objetivo con un gran muro de agua que puede bajar la
         defensa de \xE9ste."
+    - Key: Moves/LowKick
+      Value: Patada Baja
+    - Key: Moves/LowKick/Description
+      Value: "Una fuerte patada que hace caer al objetivo. Cuanto m\xE1s pese, m\xE1s
+        da\xF1o se har\xE1."
     - Key: Moves/MagicalLeaf
       Value: "Hoja M\xE1gica"
     - Key: Moves/MagicalLeaf/Description
@@ -3993,6 +4120,11 @@ MonoBehaviour:
       Value: "Megapu\xF1o"
     - Key: Moves/MegaPunch/Description
       Value: "Lanza un pu\xF1etazo cargado de potencia contra el objetivo."
+    - Key: Moves/MetalBurst
+      Value: "Represi\xF3n Metal"
+    - Key: Moves/MetalBurst/Description
+      Value: "Contrataca con mucha m\xE1s fuerza contra el \xFAltimo oponente que
+        le hizo da\xF1o."
     - Key: Moves/MetalClaw
       Value: Garra Metal
     - Key: Moves/MetalClaw/Description
@@ -4021,6 +4153,15 @@ MonoBehaviour:
       Value: Agua Lodosa
     - Key: Moves/MuddyWater/Description
       Value: "Lanza agua lodosa contra los oponentes, pudiendo reducir su precisi\xF3n."
+    - Key: Moves/MudShot
+      Value: Disparo Lodo
+    - Key: Moves/MudShot/Description
+      Value: "Lanza un mont\xF3n de lodo para hacer da\xF1o al objetivo, baj\xE1ndole
+        tambi\xE9n la velocidad."
+    - Key: Moves/MudSlap
+      Value: "Bofet\xF3n Lodo"
+    - Key: Moves/MudSlap/Description
+      Value: "Lanza lodo a la cara del objetivo para hacer da\xF1o y bajar la precisi\xF3n."
     - Key: Moves/NastyPlot
       Value: "Maquinaci\xF3n"
     - Key: Moves/NastyPlot/Description
@@ -4031,6 +4172,11 @@ MonoBehaviour:
     - Key: Moves/NaturePower/Description
       Value: Este ataque usa el poder de la naturaleza. Sus efectos dependen del
         entorno.
+    - Key: Moves/NightSlash
+      Value: "Tajo Umbr\xEDo"
+    - Key: Moves/NightSlash/Description
+      Value: "Lanza un tajo en cuanto se presenta la oportunidad. Es m\xE1s probable
+        que sea un golpe cr\xEDtico."
     - Key: Moves/Nuzzle
       Value: "Moflete Est\xE1tico"
     - Key: Moves/Nuzzle/Description
@@ -4115,6 +4261,10 @@ MonoBehaviour:
     - Key: Moves/PollenPuff/Description
       Value: "Ataca con una bola de polen que explota. Si el objetivo es un aliado,
         le curar\xE1."
+    - Key: Moves/PowderSnow
+      Value: Nieve Polvo
+    - Key: Moves/PowderSnow/Description
+      Value: "Ataca con un pu\xF1ado de nieve en polvo que puede llegar a congelar."
     - Key: Moves/Power
       Value: Potencia
     - Key: Moves/PowerGem
@@ -4260,6 +4410,11 @@ MonoBehaviour:
     - Key: Moves/RockTomb/Description
       Value: "Lanza piedras que hacen da\xF1o y pueden bloquear al oponente, reduciendo
         su velocidad."
+    - Key: Moves/Rollout
+      Value: Rodar
+    - Key: Moves/Rollout/Description
+      Value: "Rueda contra el objetivo durante cinco turnos, golpeando m\xE1s fuerte
+        cada vez."
     - Key: Moves/Roost
       Value: Respiro
     - Key: Moves/Roost/Description
@@ -4283,6 +4438,11 @@ MonoBehaviour:
       Value: "El usuario invoca una fuerte tormenta de arena durante cinco turnos.
         Da\xF1a a todos los Pok\xE9mon que no sean de roca, acero o tierra. Aumenta
         la defensa especial de los Pok\xE9mon de Roca."
+    - Key: Moves/SandTomb
+      Value: Bucle Arena
+    - Key: Moves/SandTomb/Description
+      Value: "Atrapa al objetivo en un bucle de arena que le hace da\xF1o de cuatro
+        a cinco turnos."
     - Key: Moves/Scald
       Value: Escaldar
     - Key: Moves/Scald/Description
@@ -4367,6 +4527,15 @@ MonoBehaviour:
     - Key: Moves/SludgeWave/Description
       Value: "Ataca a todo su alrededor con una gran ola de ponzo\xF1a que puede
         envenenar."
+    - Key: Moves/SmackDown
+      Value: "Antia\xE9reo"
+    - Key: Moves/SmackDown/Description
+      Value: "Lanza una piedra o similar contra el objetivo. Si est\xE1 en el aire,
+        lo derribar\xE1 y caer\xE1 al suelo."
+    - Key: Moves/SmartStrike
+      Value: Cuerno Certero
+    - Key: Moves/SmartStrike/Description
+      Value: "Apu\xF1ala al objetivo con un afilado cuerno. Nunca falla."
     - Key: Moves/Smokescreen
       Value: Pantalla de Humo
     - Key: Moves/Smokescreen/Description
@@ -4402,6 +4571,11 @@ MonoBehaviour:
       Value: Intercambia su velocidad con el objetivo.
     - Key: Moves/SpeedSwap/Effect
       Value: "{0} intercambi\xF3 su velocidad con {1}."
+    - Key: Moves/Spikes
+      Value: "P\xFAas"
+    - Key: Moves/Spikes/Description
+      Value: "Pone una trampa de p\xFAas en el lado del oponente. Cualquier Pok\xE9mon
+        que entre en el campo en ese lado recibir\xE1 da\xF1o."
     - Key: Moves/Spite
       Value: Rencor
     - Key: Moves/Spite/Description
@@ -4414,6 +4588,16 @@ MonoBehaviour:
     - Key: Moves/SpitUp/Description
       Value: "Escupe el poder almacenado con Reserva contra el objetivo. Cuanto m\xE1s
         poder tuviera almacenado, mayor ser\xE1 el poder del movimiento."
+    - Key: Moves/StealthRock
+      Value: Trampa Rocas
+    - Key: Moves/StealthRock/Description
+      Value: "Pone una trampa de rocas que levitan en el lado del oponente. Cualquier
+        Pok\xE9mon que entre en el campo en ese lado recibir\xE1 da\xF1o."
+    - Key: Moves/SteelBeam
+      Value: "Metal\xE1ser"
+    - Key: Moves/SteelBeam/Description
+      Value: "Lanza un rayo que recoge todo el acero generado por su cuerpo, lo que
+        har\xE1 que tambi\xE9n se haga mucho da\xF1o a s\xED mismo."
     - Key: Moves/SteelWing
       Value: Ala de Acero
     - Key: Moves/SteelWing/Description
@@ -4428,6 +4612,11 @@ MonoBehaviour:
     - Key: Moves/StompingTantrum/Description
       Value: "Movido por la frustraci\xF3n, el usuario ataca al objetivo. La potencia
         del movimiento se duplica si el usuario fall\xF3 su anterior movimiento."
+    - Key: Moves/StoneEdge
+      Value: Roca Afilada
+    - Key: Moves/StoneEdge/Description
+      Value: "Ataca con piedras muy afiladas. Tiene m\xE1s probabilidad de acertar
+        un golpe cr\xEDtico."
     - Key: Moves/StoredPower
       Value: Poder Reserva
     - Key: Moves/StoredPower/Description
@@ -4555,6 +4744,11 @@ MonoBehaviour:
     - Key: Moves/Thief/Description
       Value: "Ataca y roba el objeto del oponente simult\xE1neamente. No lo puede
         robar si ya tiene un objeto."
+    - Key: Moves/Thrash
+      Value: "Sa\xF1a"
+    - Key: Moves/Thrash/Description
+      Value: "Entra en c\xF3lera y ataca indiscriminadamente durante dos o tres turnos.
+        Luego se confundir\xE1."
     - Key: Moves/ThroatChop
       Value: Golpe Mordaza
     - Key: Moves/ThroatChop/Description
@@ -4632,6 +4826,11 @@ MonoBehaviour:
       Value: Ida y Vuelta
     - Key: Moves/UTurn/Description
       Value: "Despu\xE9s de atacar cambia su puesto por otro miembro del equipo."
+    - Key: Moves/VenomDrench
+      Value: Trampa Venenosa
+    - Key: Moves/VenomDrench/Description
+      Value: "Empapa a los oponentes con un l\xEDquido venenoso que baja su ataque,
+        ataque especial y velocidad si est\xE1n envenenados."
     - Key: Moves/Venoshock
       Value: "Carga T\xF3xica"
     - Key: Moves/Venoshock/Description
@@ -4999,6 +5198,8 @@ MonoBehaviour:
       Value: "Pok\xE9mon Rat\xF3n"
     - Key: Species/PoisonBeePokemon
       Value: "Pok\xE9mon Abeja Venenosa"
+    - Key: Species/PoisonPinPokemon
+      Value: "Pok\xE9mon Pin Venenoso"
     - Key: Species/SeedPokemon
       Value: "Pok\xE9mon Semilla"
     - Key: Species/ShellfishPokemon
@@ -5145,6 +5346,24 @@ MonoBehaviour:
       Value: "El equipo de {0} est\xE1 protegido por Velo Sagrado."
     - Key: Status/Side/SafeguardStatus/Protection
       Value: "{0} est\xE1 protegido por Velo Sagrado."
+    - Key: Status/Side/SpikesStatus
+      Value: "P\xFAas"
+    - Key: Status/Side/SpikesStatus/Effect
+      Value: "{0} recibi\xF3 da\xF1o por las p\xFAas."
+    - Key: Status/Side/SpikesStatus/End
+      Value: "Las p\xFAas del lado de {0} desaparecieron."
+    - Key: Status/Side/SpikesStatus/LayerAdded
+      Value: "\xA1El lado de {0} tiene ahora a\xFAn m\xE1s p\xFAas!"
+    - Key: Status/Side/SpikesStatus/Start
+      Value: "\xA1El lado de {0} se cubri\xF3 de p\xFAas!"
+    - Key: Status/Side/StealthRockStatus
+      Value: Trampa Rocas
+    - Key: Status/Side/StealthRockStatus/Effect
+      Value: "{0} recibi\xF3 da\xF1o por la trampa de rocas."
+    - Key: Status/Side/StealthRockStatus/End
+      Value: Las rocas del lado de {0} desaparecieron.
+    - Key: Status/Side/StealthRockStatus/Start
+      Value: "\xA1El lado de {0} se cubri\xF3 de rocas!"
     - Key: Status/Side/TailwindSideStatus
       Value: Viento de cola
     - Key: Status/Side/TailwindSideStatus/End
@@ -5195,6 +5414,8 @@ MonoBehaviour:
       Value: "{0} ya no est\xE1 confuso."
     - Key: Status/Volatile/Confusion/Start
       Value: "\xA1{0} se encuentra confuso!"
+    - Key: Status/Volatile/Curled
+      Value: Hecho una bola
     - Key: Status/Volatile/Cursed
       Value: "Maldici\xF3n"
     - Key: Status/Volatile/Cursed/End
@@ -5315,8 +5536,20 @@ MonoBehaviour:
       Value: Recargando
     - Key: Status/Volatile/Recharging/Tick
       Value: "\xA1{0} necesita recargar!"
+    - Key: Status/Volatile/RolloutFixation
+      Value: Rodando
     - Key: Status/Volatile/Roosting
       Value: Posado
+    - Key: Status/Volatile/SandVortex
+      Value: Bucle Arena
+    - Key: Status/Volatile/SandVortex/CantRun
+      Value: "\xA1El v\xF3rtice impide a {0} escapar!"
+    - Key: Status/Volatile/SandVortex/End
+      Value: "{0} se liber\xF3 del v\xF3rtice."
+    - Key: Status/Volatile/SandVortex/Start
+      Value: "\xA1{0} qued\xF3 atrapado en el v\xF3rtice de arena!"
+    - Key: Status/Volatile/SandVortex/Tick
+      Value: "\xA1{0} fue da\xF1ado por el v\xF3rtice!"
     - Key: Status/Volatile/SkullBashBuildUp
       Value: Agachado
     - Key: Status/Volatile/SkullBashBuildUp/Start
@@ -5325,6 +5558,8 @@ MonoBehaviour:
       Value: Brillando
     - Key: Status/Volatile/SkyAttackBuildUp/Start
       Value: "\xA1{0} se envolvi\xF3 en una potente luz!"
+    - Key: Status/Volatile/SmackDown
+      Value: Derribado
     - Key: Status/Volatile/SolarBeamBuildUp
       Value: Acumulando luz
     - Key: Status/Volatile/SolarBeamBuildUp/Start
@@ -5483,119 +5718,166 @@ MonoBehaviour:
       Value: "\xA1Comenz\xF3 a hacer mucho sol!"
     - Key: Weather/SunnyWeather/Tick
       Value: Hace mucho sol.
-    - Key: Monsters/Sandshrew
-      Value: Sandshrew
-    - Key: Monsters/Sandshrew/Normal
-      Value: "Se hace una bola para protegerse de los atacantes. Vive en regiones
-        \xE1ridas con pocas lluvias."
-    - Key: Abilities/SandVeil
-      Value: Velo Arena
-    - Key: Abilities/SandVeil/Description
-      Value: "Aumenta la evasi\xF3n en tormentas de arena."
-    - Key: Abilities/SandRush
-      Value: "\xCDmpetu Arena"
-    - Key: Abilities/SandRush/Description
-      Value: Aumenta la velocidad en tormentas de arena.
-    - Key: Status/Volatile/Curled
-      Value: Hecho una bola
-    - Key: Moves/DefenseCurl
-      Value: Rizo Defensa
-    - Key: Moves/DefenseCurl/Description
-      Value: Se hace una bola para subir su defensa.
-    - Key: Status/Volatile/RolloutFixation
-      Value: Rodando
-    - Key: Moves/Rollout
-      Value: Rodar
-    - Key: Moves/Rollout/Description
-      Value: "Rueda contra el objetivo durante cinco turnos, golpeando m\xE1s fuerte
-        cada vez."
-    - Key: Moves/HoneClaws
-      Value: Afilagarras
-    - Key: Moves/HoneClaws/Description
-      Value: "Afila sus garras para subir el ataque y la precisi\xF3n."
-    - Key: Moves/MudSlap
-      Value: "Bofet\xF3n Lodo"
-    - Key: Moves/MudSlap/Description
-      Value: "Lanza lodo a la cara del objetivo para hacer da\xF1o y bajar la precisi\xF3n."
-    - Key: Moves/NightSlash
-      Value: "Tajo Umbr\xEDo"
-    - Key: Moves/NightSlash/Description
-      Value: "Lanza un tajo en cuanto se presenta la oportunidad. Es m\xE1s probable
-        que sea un golpe cr\xEDtico."
-    - Key: Moves/LowKick
-      Value: Patada Baja
-    - Key: Moves/LowKick/Description
-      Value: "Una fuerte patada que hace caer al objetivo. Cuanto m\xE1s pese, m\xE1s
-        da\xF1o se har\xE1."
-    - Key: Moves/CrushClaw
-      Value: Garra Brutal
-    - Key: Moves/CrushClaw/Description
-      Value: Lanza un tajo con afiladas garras. Puede bajar la defensa.
-    - Key: Moves/MudShot
-      Value: Disparo Lodo
-    - Key: Moves/MudShot/Description
-      Value: "Lanza un mont\xF3n de lodo para hacer da\xF1o al objetivo, baj\xE1ndole
-        tambi\xE9n la velocidad."
-    - Key: Status/Side/SpikesStatus/Effect
-      Value: "{0} recibi\xF3 da\xF1o por las p\xFAas."
-    - Key: Status/Side/SpikesStatus
-      Value: "P\xFAas"
-    - Key: Status/Side/SpikesStatus/End
-      Value: "Las p\xFAas del lado de {0} desaparecieron."
-    - Key: Status/Side/SpikesStatus/LayerAdded
-      Value: "\xA1El lado de {0} tiene ahora a\xFAn m\xE1s p\xFAas!"
-    - Key: Status/Side/SpikesStatus/Start
-      Value: "\xA1El lado de {0} se cubri\xF3 de p\xFAas!"
-    - Key: Moves/Spikes
-      Value: "P\xFAas"
-    - Key: Moves/Spikes/Description
-      Value: "Pone una trampa de p\xFAas en el lado del oponente. Cualquier Pok\xE9mon
-        que entre en el campo en ese lado recibir\xE1 da\xF1o."
-    - Key: Moves/LeechLife
-      Value: Chupavidas
-    - Key: Moves/LeechLife/Description
-      Value: Chupa la sangre del objetivo para recuperar PV.
-    - Key: Status/Side/StealthRockStatus/Effect
-      Value: "{0} recibi\xF3 da\xF1o por la trampa de rocas."
-    - Key: Status/Side/StealthRockStatus
-      Value: Trampa Rocas
-    - Key: Status/Side/StealthRockStatus/Start
-      Value: "\xA1El lado de {0} se cubri\xF3 de rocas!"
-    - Key: Status/Side/StealthRockStatus/End
-      Value: Las rocas del lado de {0} desaparecieron.
-    - Key: Moves/StealthRock
-      Value: Trampa Rocas
-    - Key: Moves/StealthRock/Description
-      Value: "Pone una trampa de rocas que levitan en el lado del oponente. Cualquier
-        Pok\xE9mon que entre en el campo en ese lado recibir\xE1 da\xF1o."
-    - Key: Moves/StoneEdge
-      Value: Roca Afilada
-    - Key: Moves/StoneEdge/Description
-      Value: "Ataca con piedras muy afiladas. Tiene m\xE1s probabilidad de acertar
-        un golpe cr\xEDtico."
-    - Key: Status/Volatile/SandVortex/CantRun
-      Value: "\xA1El v\xF3rtice impide a {0} escapar!"
-    - Key: Status/Volatile/SandVortex
-      Value: Bucle Arena
-    - Key: Status/Volatile/SandVortex/Start
-      Value: "\xA1{0} qued\xF3 atrapado en el v\xF3rtice de arena!"
-    - Key: Status/Volatile/SandVortex/Tick
-      Value: "\xA1{0} fue da\xF1ado por el v\xF3rtice!"
-    - Key: Status/Volatile/SandVortex/End
-      Value: "{0} se liber\xF3 del v\xF3rtice."
-    - Key: Moves/SandTomb
-      Value: Bucle Arena
-    - Key: Moves/SandTomb/Description
-      Value: "Atrapa al objetivo en un bucle de arena que le hace da\xF1o de cuatro
-        a cinco turnos."
-    - Key: Status/Volatile/SmackDown
-      Value: Derribado
-    - Key: Moves/SmackDown
-      Value: "Antia\xE9reo"
-    - Key: Moves/SmackDown/Description
-      Value: "Lanza una piedra o similar contra el objetivo. Si est\xE1 en el aire,
-        lo derribar\xE1 y caer\xE1 al suelo."
-    - Key: Moves/HighHorsepower
-      Value: Fuerza Equina
-    - Key: Moves/HighHorsepower/Description
-      Value: Ataca con fiereza al objetivo usando todo su cuerpo.
+    - Key: Monsters/Nidorina
+      Value: Nidorina
+    - Key: Monsters/Nidorina/Normal
+      Value: "Eriza sus espinas cuando siente peligro. \xC9stas crecen m\xE1s lento
+        que las de Nidorino."
+    - Key: Monsters/Nidoqueen
+      Value: Nidoqueen
+    - Key: Monsters/Nidoqueen/Normal
+      Value: "Todo su cuerpo est\xE1 cubierto de duras escamas. Proteger\xE1 a los
+        cachorros de su madriguera con su vida."
+    - Key: Species/DrillPokemon
+      Value: "Pok\xE9mon Taladro"
+    - Key: Abilities/SheerForce
+      Value: Potencia Bruta
+    - Key: Abilities/SheerForce/Description
+      Value: Elimina los efectos secundarios de sus movimientos, pero aumenta su
+        poder.
+    - Key: Moves/Superpower
+      Value: Fuerza Bruta
+    - Key: Moves/Superpower/Description
+      Value: "Ataca al objetivo con gran fuerza. Eso har\xE1 que baje el ataque y
+        la defensa del usuario."
+    - Key: Moves/ScorchingSands
+      Value: Arenas Ardientes
+    - Key: Moves/ScorchingSands/Description
+      Value: Lanza arena ardiente al objetivo. Puede llegar a quemar.
+    - Key: Moves/RockBlast
+      Value: Pedrada
+    - Key: Moves/RockBlast/Description
+      Value: Ataca lanzando de dos a cinco rocas contra el objetivo.
+    - Key: Moves/Hex
+      Value: Infortunio
+    - Key: Moves/Hex/Description
+      Value: "Este ataque desalmado hace mucho da\xF1o a objetivos con condiciones
+        de estado."
+    - Key: Items/MoonStone
+      Value: Piedra Lunar
+    - Key: Items/MoonStone/Description
+      Value: "Una peculiar piedra que hace evolucionar a ciertas especies de Pok\xE9mon.
+        Es oscura como el cielo nocturno."
+    - Key: Monsters/Nidorino
+      Value: Nidorino
+    - Key: Monsters/Nidorino/Normal
+      Value: "Tiene una violenta predisposici\xF3n a cornear a sus oponentes, inyect\xE1ndoles
+        veneno en el proceso."
+    - Key: Monsters/Nidoking
+      Value: Nidoking
+    - Key: Monsters/Nidoking/Normal
+      Value: "Un golpe de su poderosa cola puede partir un poste telef\xF3nico como
+        si fuera una cerilla."
+    - Key: Moves/Megahorn
+      Value: Megacuerno
+    - Key: Moves/Megahorn/Description
+      Value: "Utiliza su poderoso cuerno para apu\xF1alar al objetivo sin piedad."
+    - Key: Monsters/Clefairy
+      Value: Clefairy
+    - Key: Monsters/Clefairy/Normal
+      Value: "Se le puede encontrar en silencionos ricones en las monta\xF1as. Danza
+        con sus peque\xF1as alitas brillando bajo la luz de la luna llena."
+    - Key: Species/FairyPokemon
+      Value: "Pok\xE9mon Hada"
+    - Key: Abilities/CuteCharm
+      Value: Gran Encanto
+    - Key: Abilities/CuteCharm/Description
+      Value: Puede enamorar a los oponentes que entren en contacto.
+    - Key: Abilities/MagicGuard
+      Value: "Muro M\xE1gico"
+    - Key: Abilities/MagicGuard/Description
+      Value: "Solo recibe da\xF1o de ataques."
+    - Key: Abilities/FriendGuard
+      Value: Compiescolta
+    - Key: Abilities/FriendGuard/Description
+      Value: "Reduce el da\xF1o que reciben sus aliados."
+    - Key: Moves/Copycat
+      Value: "Copi\xF3n"
+    - Key: Moves/Copycat/Description
+      Value: "Copia el \xFAltimo movimiento que se ha usado. Falla si a\xFAn no se
+        ha usado un movimiento."
+    - Key: Moves/Pound
+      Value: Destructor
+    - Key: Moves/Pound/Description
+      Value: Ataca con su cola, pata o similar.
+    - Key: Moves/Sing
+      Value: Canto
+    - Key: Moves/Sing/Description
+      Value: "Una tranquilizadora nana cantada con una bella voz que har\xE1 dormirse
+        al objetivo."
+    - Key: Moves/Splash
+      Value: Salpicadura
+    - Key: Moves/Splash/Description
+      Value: "Salta y salpica a su alrededor sin producir ning\xFAn efecto..."
+    - Key: Moves/AfterYou
+      Value: Cede Paso
+    - Key: Moves/AfterYou/Description
+      Value: "Ayuda al objetivo y le hace moverse justo despu\xE9s del usuario."
+    - Key: Moves/Metronome
+      Value: "Metr\xF3nomo"
+    - Key: Moves/Metronome/Description
+      Value: "Mueve un dedo y estimula su cerebro para usar pr\xE1cticamente cualquier
+        movimiento aleatorio."
+    - Key: Moves/Moonlight
+      Value: Luz Lunar
+    - Key: Moves/Moonlight/Description
+      Value: Recupera sus propios PV. La cantidad depende del tiempo.
+    - Key: Status/Global/GravityStatus
+      Value: Gravedad
+    - Key: Status/Global/GravityStatus/Start
+      Value: "\xA1La gravedad se intensific\xF3!"
+    - Key: Status/Global/GravityStatus/End
+      Value: "La gravedad volvi\xF3 a la normalidad."
+    - Key: Moves/Gravity
+      Value: Gravedad
+    - Key: Moves/Gravity/Description
+      Value: "Permite que los Pok\xE9mon voladores o con levitaci\xF3n puedan ser
+        golpeados con movimientos de tierra. Los movimientos que impliquen levantarse
+        del suelo no se pueden usar."
+    - Key: Moves/FollowMe
+      Value: "Se\xF1uelo"
+    - Key: Moves/FollowMe/Description
+      Value: "Llama la atenci\xF3n sobre s\xED mismo, haciendo que los oponentes
+        le ataquen."
+    - Key: Moves/CosmicPower
+      Value: "Masa C\xF3smica"
+    - Key: Moves/CosmicPower/Description
+      Value: "Absorve poder m\xEDstico del universo para subir su defensa y defensa
+        especial."
+    - Key: Moves/Moonblast
+      Value: Fuerza Lunar
+    - Key: Moves/Moonblast/Description
+      Value: "Usa el poder de la luna para atacar al objetivo. Puede reducir el ataque
+        especial de \xE9ste."
+    - Key: Moves/HealingWish/Effect
+      Value: "\xA1El deseo se volvi\xF3 realidad!"
+    - Key: Moves/HealingWish
+      Value: Deseo Cura
+    - Key: Moves/HealingWish/Description
+      Value: "El usuario se debilita. A cambio, el compa\xF1ero que entre en su lugar
+        curar\xE1 sus PV y condiciones de estado."
+    - Key: Status/Side/HealingWishStatus
+      Value: Deseo Cura
+    - Key: Moves/FairyWind
+      Value: "Viento Fe\xE9rico"
+    - Key: Moves/FairyWind/Description
+      Value: Ataca con un misterioso viento.
+    - Key: Moves/HealPulse
+      Value: Pulso Cura
+    - Key: Moves/HealPulse/Description
+      Value: "Emite un pulso curatorio que recupera hasta la mitad de los PV m\xE1ximos
+        del objetivo."
+    - Key: Moves/ChillingWater
+      Value: "Agua Fr\xEDa"
+    - Key: Moves/ChillingWater/Description
+      Value: "Ataca al objetivo con un chorro de agua fr\xEDa, reduciendo su ataque."
+    - Key: Moves/NightShade
+      Value: Tinieblas
+    - Key: Moves/NightShade/Description
+      Value: "Crea un terror\xEDfico espejismo que har\xE1 da\xF1o igual al nivel
+        del usuario."
+    - Key: Moves/DrainPunch
+      Value: "Pu\xF1o Drenaje"
+    - Key: Moves/DrainPunch/Description
+      Value: "Ataca con un pu\xF1etazo que absorve la salud del objetivo y recupera
+        al usuario la mitad del da\xF1o hecho."

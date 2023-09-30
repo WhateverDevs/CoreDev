@@ -12,3 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6990afbd44564637ae2042feba1d7f84, type: 3}
   m_Name: LocalizationInstaller
   m_EditorClassIdentifier: 
+  LocalizerProjectSettings: {fileID: 11400000, guid: a08dd917d672b9742b0d3945fb38b1a1,
+    type: 2}
