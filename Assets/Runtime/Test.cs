@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.Linq;
 using WhateverDevs.Core.Runtime.Common;
 using WhateverDevs.Core.Runtime.DataStructures;
 using WhateverDevs.TwoDAudio.Runtime;
@@ -9,8 +10,12 @@ public class Test : LoggableMonoBehaviour<Test>
 
     public AudioReference AudioTest;
 
+    public SerializableDictionary<int, int> TestDictionary;
+
     private void OnEnable()
     {
+        TestDictionary = TestDictionary.Where(pair => pair.Key == pair.Value).ToSerializableDictionary();
+
         StartCoroutine(Init());
     }
 
@@ -25,7 +30,8 @@ public class Test : LoggableMonoBehaviour<Test>
         AudioManager.Instance.PlayAudio(AudioTest,
                                         true
                                         #if WHATEVERDEVS_2DAUDIO_DOTWEEN
-                                        , fadeTime: 1
+                                        ,
+                                        fadeTime: 1
                                         #endif
                                        );
 
