@@ -83,10 +83,19 @@ MonoBehaviour:
       Value: Compound Eyes
     - Key: Abilities/CompoundEyes/Description
       Value: "The Pok\xE9mon's compound eyes boost its accuracy."
+    - Key: Abilities/CuteCharm
+      Value: Cute Charm
+    - Key: Abilities/CuteCharm/Description
+      Value: "The Pok\xE9mon may infatuate attackers that make direct contact with
+        it."
     - Key: Abilities/Drought
       Value: Drought
     - Key: Abilities/Drought/Description
       Value: "Turns the sunlight harsh when the Pok\xE9mon enters a battle."
+    - Key: Abilities/FriendGuard
+      Value: Friend Guard
+    - Key: Abilities/FriendGuard/Description
+      Value: Reduces damage dealt to allies.
     - Key: Abilities/Gluttony
       Value: Gluttony
     - Key: Abilities/Gluttony/Description
@@ -121,6 +130,10 @@ MonoBehaviour:
     - Key: Abilities/LightningRod/Description
       Value: "The Pok\xE9mon draws in all Electric-type moves. Instead of taking
         damage from them, its Sp. Atk stat is boosted."
+    - Key: Abilities/MagicGuard
+      Value: Magic Guard
+    - Key: Abilities/MagicGuard/Description
+      Value: "The Pok\xE9mon only takes damage from attacks."
     - Key: Abilities/MegaLauncher
       Value: Mega Launcher
     - Key: Abilities/MegaLauncher/Description
@@ -168,6 +181,11 @@ MonoBehaviour:
       Value: '{0} shed its skin!'
     - Key: Abilities/ShedSkin/Description
       Value: "The Pok\xE9mon may cure its own status conditions by shedding its skin."
+    - Key: Abilities/SheerForce
+      Value: Sheer Force
+    - Key: Abilities/SheerForce/Description
+      Value: "Removes any additional effects from the Pok\xE9mon's moves, but increases
+        the moves' power."
     - Key: Abilities/ShieldDust
       Value: Shield Dust
     - Key: Abilities/ShieldDust/Description
@@ -226,6 +244,10 @@ MonoBehaviour:
       Value: Tough Claws
     - Key: Abilities/ToughClaws/Description
       Value: Powers up moves that make direct contact.
+    - Key: Abilities/Unaware
+      Value: Unaware
+    - Key: Abilities/Unaware/Description
+      Value: "When attacking, the Pok\xE9mon ignores the target's stat changes."
     - Key: Abilities/Unnerve
       Value: Unnerve
     - Key: Abilities/Unnerve/Description
@@ -426,6 +448,14 @@ MonoBehaviour:
       Value: A grassy terrain appeared.
     - Key: BattleTerrain/GrassyTerrain/Tick
       Value: "Pok\xE9mon recovered health with the grassy terrain."
+    - Key: BattleTerrain/MistyTerrain
+      Value: Misty Terrain
+    - Key: BattleTerrain/MistyTerrain/End
+      Value: The weird mist went away.
+    - Key: BattleTerrain/MistyTerrain/Start
+      Value: A weird mist appeared!
+    - Key: BattleTerrain/MistyTerrain/Tick
+      Value: The weird mist is still there.
     - Key: BattleTerrain/PsychicTerrain
       Value: Psychic Terrain
     - Key: BattleTerrain/PsychicTerrain/End
@@ -480,10 +510,14 @@ MonoBehaviour:
       Value: "Jos\xE9 Mar\xEDa"
     - Key: Characters/Juan
       Value: Juan
+    - Key: Characters/Julia
+      Value: Julia
     - Key: Characters/Leaf
       Value: Leaf
     - Key: Characters/Manolito
       Value: Manolito
+    - Key: Characters/Manuel
+      Value: Manuel
     - Key: Characters/Margarita
       Value: Margarita
     - Key: Characters/Maria
@@ -802,6 +836,18 @@ MonoBehaviour:
       Value: Ratio
     - Key: Dex/GenderVariations
       Value: Gender variations
+    - Key: Dex/Habitat
+      Value: Habitat
+    - Key: Dex/Habitat/NoHabitats
+      Value: No known habitats.
+    - Key: Dex/Habitat/ShowMap
+      Value: Open map
+    - Key: Dex/Habitat/Time
+      Value: 'Time:'
+    - Key: Dex/Habitat/Unknown
+      Value: ???
+    - Key: Dex/Habitat/Weather
+      Value: 'Weather:'
     - Key: Dex/HasGenderVariations
       Value: This form has gender variations.
     - Key: Dex/HasShinyVersion
@@ -912,7 +958,7 @@ MonoBehaviour:
       Value: You can change the game options on the menu. There are a bunch more
         than in the oficial games.
     - Key: Dialogs/Demo/Lab/Oak/0
-      Value: Hello, {0}!
+      Value: Hello, {PlayerName}!
     - Key: Dialogs/Demo/Lab/Oak/1
       Value: Time for you to choose your starter. They are on the table.
     - Key: Dialogs/Demo/Lab/Oak/2
@@ -922,7 +968,7 @@ MonoBehaviour:
     - Key: Dialogs/Demo/Lab/Oak/4
       Value: "Take the Pok\xE9dex that I left on that table."
     - Key: Dialogs/Demo/Lab/Oak/5
-      Value: So far you have caught {0} different species. Well done.
+      Value: So far you have caught {Dex.CaughtSpecies} different species. Well done.
     - Key: Dialogs/Demo/Lab/Rebeca
       Value: "Like in the last Pok\xE9mon gens, there is no regional and national
         Pok\xE9dex. Each designer configures the Pok\xE9dex for their game as they
@@ -957,6 +1003,11 @@ MonoBehaviour:
       Value: You will need this.
     - Key: Dialogs/Demo/RainbowCave/Evarista/1
       Value: Good luck.
+    - Key: Dialogs/Demo/Route1/Julia/0
+      Value: "Different Pok\xE9mon can show up in tall grass depending on the weather
+        or the time."
+    - Key: Dialogs/Demo/Route1/Julia/1
+      Value: Try hunting at night or using sandstorm or hail in this route.
     - Key: Dialogs/Demo/Route1/Manolito/1
       Value: First, I'm going to take your bag and store it on a temporal bag.
     - Key: Dialogs/Demo/Route1/Manolito/2
@@ -1046,6 +1097,22 @@ MonoBehaviour:
       Value: There you go, enjoy.
     - Key: Dialogs/Demo/StartingVillage/Ana/2
       Value: Give me a second.
+    - Key: Dialogs/Demo/StartingVillage/Ana2/0
+      Value: Hi! I'm an example of trainer that looks around randomly.
+    - Key: Dialogs/Demo/StartingVillage/Ana2/1
+      Value: Victory is yours.
+    - Key: Dialogs/Demo/StartingVillage/Ana2/2
+      Value: The game stores the fact that you won me, so we can't fight again.
+    - Key: Dialogs/Demo/StartingVillage/Ana2/3
+      Value: The game stores the fact that you won me, so we can't fight again.
+    - Key: Dialogs/Demo/StartingVillage/Blue/0
+      Value: I'm a trainer that turns around periodically.
+    - Key: Dialogs/Demo/StartingVillage/Blue/1
+      Value: You are good.
+    - Key: Dialogs/Demo/StartingVillage/Blue/2
+      Value: I hate losing.
+    - Key: Dialogs/Demo/StartingVillage/Blue/3
+      Value: You already beat me, don't overstep.
     - Key: Dialogs/Demo/StartingVillage/Brendan/0
       Value: You can go through water using Surf.
     - Key: Dialogs/Demo/StartingVillage/Brendan/1
@@ -1097,6 +1164,23 @@ MonoBehaviour:
       Value: Here, have a potion.
     - Key: Dialogs/Demo/StartingVillage/Juan/Give2
       Value: Enjoy it.
+    - Key: Dialogs/Demo/StartingVillage/Leaf/0
+      Value: I'm an example of a trainer that runs in circles.
+    - Key: Dialogs/Demo/StartingVillage/Leaf/1
+      Value: Oh, F.
+    - Key: Dialogs/Demo/StartingVillage/Leaf/2
+      Value: You can use me as an example for other trainers that, for example, run
+        back and forth in a straight line.
+    - Key: Dialogs/Demo/StartingVillage/Leaf/3
+      Value: Good luck on your adventure!
+    - Key: Dialogs/Demo/StartingVillage/Manuel/0
+      Value: Hi! I'm an example of a trainer that walks randomly.
+    - Key: Dialogs/Demo/StartingVillage/Manuel/1
+      Value: My job is to randomly walk, not win.
+    - Key: Dialogs/Demo/StartingVillage/Manuel/2
+      Value: Till next time!
+    - Key: Dialogs/Demo/StartingVillage/Manuel/3
+      Value: Acording to the game we have already fought.
     - Key: Dialogs/Demo/StartingVillage/Maria/0
       Value: You can climb those rocks with Rock Climb.
     - Key: Dialogs/Demo/StartingVillage/Maria/1
@@ -1170,6 +1254,9 @@ MonoBehaviour:
       Value: "\xA1You found {0} {1}!"
     - Key: Dialogs/Items/Given
       Value: "\xA1You received {0} {1}!"
+    - Key: Dialogs/LoadingStorage
+      Value: "Loading your cloud may take a while. {0} out of {1} Pok\xE9mon loaded.
+        ({2} ms)"
     - Key: Dialogs/MaxFormLevelGain
       Value: '{0}''s dynamax level raised by {1}!'
     - Key: Dialogs/MonsterCompatibility/AlreadyKnows
@@ -1229,9 +1316,9 @@ MonoBehaviour:
     - Key: Dialogs/Moves/WantsToLearn
       Value: '{0} wants to learn {1} but it already knows four moves.'
     - Key: Dialogs/MoveTutor/AlreadyKnows
-      Value: '{0} already knows {1}.'
+      Value: '{0} already knows {2}.'
     - Key: Dialogs/MoveTutor/CantLearn
-      Value: '{0} can''t learn {1}.'
+      Value: '{0} can''t learn {2}.'
     - Key: Dialogs/Nursery/AlreadyOccupied
       Value: "We are already nursing two Pok\xE9mon."
     - Key: Dialogs/Nursery/CantBreed
@@ -1373,6 +1460,22 @@ MonoBehaviour:
       Value: Unknown
     - Key: EggGroups/Water1
       Value: Water 1
+    - Key: EncounterType/Cave
+      Value: Cave
+    - Key: EncounterType/Diving
+      Value: Dive
+    - Key: EncounterType/FishingGoodRod
+      Value: Good Rod
+    - Key: EncounterType/FishingOldRod
+      Value: Old Rod
+    - Key: EncounterType/FishingSuperRod
+      Value: Super Rod
+    - Key: EncounterType/Grass
+      Value: Tall grass
+    - Key: EncounterType/Other
+      Value: Other
+    - Key: EncounterType/Water
+      Value: Water
     - Key: English
       Value: English
     - Key: Fishing/CantFishHere
@@ -2321,6 +2424,21 @@ MonoBehaviour:
     - Key: Items/MiracleSeed/Description
       Value: "An item to be held by a Pok\xE9mon. It's a seed imbued with life-force
         that boosts the power of Grass-type moves."
+    - Key: Items/MistySeed
+      Value: Misty Seed
+    - Key: Items/MistySeed/Description
+      Value: "An item to be held by a Pok\xE9mon. If the terrain becomes Psychic
+        Terrain, the holder will use this seed to boost its own Defense stat."
+    - Key: Items/MoonBall
+      Value: Moon Ball
+    - Key: Items/MoonBall/Description
+      Value: "A somewhat different Pok\xE9 Ball that is more effective when catching
+        Pok\xE9mon that can be evolved using a Moon Stone."
+    - Key: Items/MoonStone
+      Value: Moon Stone
+    - Key: Items/MoonStone/Description
+      Value: "A peculiar stone that can make certain species of Pok\xE9mon evolve.
+        It is dark like the night sky."
     - Key: Items/MysticWater
       Value: Mystic Water
     - Key: Items/MysticWater/Description
@@ -3074,6 +3192,22 @@ MonoBehaviour:
     - Key: Monsters/Charmeleon/Normal/Dex
       Value: In the rocky mountains where Charmeleon live, their fiery tails shine
         at night like stars.
+    - Key: Monsters/Clefable
+      Value: Clefable
+    - Key: Monsters/Clefable/Normal
+      Value: Its hearing is so acute it can hear a pin drop over half a mile away.
+        It lives on quiet mountains.
+    - Key: Monsters/Clefairy
+      Value: Clefairy
+    - Key: Monsters/Clefairy/Normal
+      Value: "It can be found in quiet mountain areas on a full moon\u2019s night.
+        Its dancing and its tiny, faintly glowing wings confer upon it a lovely fairylike
+        quality."
+    - Key: Monsters/Cleffa
+      Value: Cleffa
+    - Key: Monsters/Cleffa/Normal
+      Value: Many appear when the night skies are filled with shooting stars. They
+        disappear with sunrise.
     - Key: Monsters/Egg
       Value: Egg
     - Key: Monsters/Egg/CyclesLeft
@@ -3134,6 +3268,16 @@ MonoBehaviour:
         so it remains motionless to avoid attack.
     - Key: Monsters/Nature
       Value: Nature
+    - Key: Monsters/Nidoking
+      Value: Nidoking
+    - Key: Monsters/Nidoking/Normal
+      Value: One swing of its mighty tail can snap a telephone pole as if it were
+        a matchstick.
+    - Key: Monsters/Nidoqueen
+      Value: Nidoqueen
+    - Key: Monsters/Nidoqueen/Normal
+      Value: Its entire body is armored with hard scales. It will protect the young
+        in its burrow with its life.
     - Key: Monsters/NidoranFemale
       Value: "Nidoran\u2640"
     - Key: Monsters/NidoranFemale/Normal
@@ -3144,6 +3288,16 @@ MonoBehaviour:
     - Key: Monsters/NidoranMale/Normal
       Value: It scans its surroundings by raising its ears out of the grass. Its
         toxic horn is for protection.
+    - Key: Monsters/Nidorina
+      Value: Nidorina
+    - Key: Monsters/Nidorina/Normal
+      Value: "When it senses danger, it raises all the barbs on its body. These barbs
+        grow more slowly than Nidorino\u2019s."
+    - Key: Monsters/Nidorino
+      Value: Nidorino
+    - Key: Monsters/Nidorino/Normal
+      Value: It has a violent disposition and stabs foes with its horn, which oozes
+        venom upon impact.
     - Key: Monsters/Origin
       Value: Origin
     - Key: Monsters/Origin/Caught
@@ -3232,8 +3386,8 @@ MonoBehaviour:
       Value: Its whiskers provide it with a keen sense of smell, enabling it to pick
         up the scent of hidden food and locate it instantly.
     - Key: Monsters/Rattata/Normal
-      Value: "It\u2019s cautious in the extreme, and its hardy vitality lets it live
-        in any kind of environment."
+      Value: It's cautious in the extreme, and its hardy vitality lets it live in
+        any kind of environment.
     - Key: Monsters/Sandshrew
       Value: Sandshrew
     - Key: Monsters/Sandshrew/Alola
@@ -3317,6 +3471,11 @@ MonoBehaviour:
     - Key: Moves/AerialAce/Description
       Value: The user confounds the target with speed, then slashes. This attack
         never misses.
+    - Key: Moves/AfterYou
+      Value: After You
+    - Key: Moves/AfterYou/Description
+      Value: The user helps the target and makes it use its move right after the
+        user.
     - Key: Moves/Agility
       Value: Agility
     - Key: Moves/Agility/Description
@@ -3491,6 +3650,11 @@ MonoBehaviour:
     - Key: Moves/Charm/Description
       Value: The user gazes at the target rather charmingly, making it less wary.
         This harshly lowers the target's Attack stat.
+    - Key: Moves/ChillingWater
+      Value: Chilling Water
+    - Key: Moves/ChillingWater/Description
+      Value: The user attacks the target by showering it with water that's so cold
+        it saps the target's power. This also lowers the target's Attack stat.
     - Key: Moves/Coil
       Value: Coil
     - Key: Moves/Coil/Description
@@ -3506,6 +3670,16 @@ MonoBehaviour:
     - Key: Moves/Confusion/Description
       Value: The target is hit with a weak telekinetic force to inflict damage. This
         may also confuse the target.
+    - Key: Moves/Copycat
+      Value: Copycat
+    - Key: Moves/Copycat/Description
+      Value: The user mimics the move used immediately before it. The move fails
+        if no other move has been used yet.
+    - Key: Moves/CosmicPower
+      Value: Cosmic Power
+    - Key: Moves/CosmicPower/Description
+      Value: The user absorbs a mystical power from space to boost its Defense and
+        Sp. Def stats.
     - Key: Moves/Counter
       Value: Counter
     - Key: Moves/Counter/Description
@@ -3627,6 +3801,11 @@ MonoBehaviour:
     - Key: Moves/DrainingKiss/Description
       Value: The user steals the target's HP with a kiss. The user's HP is restored
         by over half the damage taken by the target.
+    - Key: Moves/DrainPunch
+      Value: Drain Punch
+    - Key: Moves/DrainPunch/Description
+      Value: The user attacks with an energy-draining punch. The user's HP is restored
+        by up to half the damage taken by the target.
     - Key: Moves/DreamEater
       Value: Dream Eater
     - Key: Moves/DreamEater/Description
@@ -3726,6 +3905,10 @@ MonoBehaviour:
     - Key: Moves/Facade/Description
       Value: This attack move doubles its power if the user is poisoned, burned,
         or paralyzed.
+    - Key: Moves/FairyWind
+      Value: Fairy Wind
+    - Key: Moves/FairyWind/Description
+      Value: The user attacks by stirring up a fairy wind to strike the target.
     - Key: Moves/FakeOut
       Value: Fake Out
     - Key: Moves/FakeOut/Description
@@ -3858,6 +4041,11 @@ MonoBehaviour:
         if the user is hit before using the move.
     - Key: Moves/FocusPunch/LostFocus
       Value: '{0} lost its focus and couldn''t move!'
+    - Key: Moves/FollowMe
+      Value: Follow Me
+    - Key: Moves/FollowMe/Description
+      Value: "The user draws attention to itself, making all opposing Pok\xE9mon
+        take aim only at the user."
     - Key: Moves/FrenzyPlant
       Value: Frenzy Plant
     - Key: Moves/FrenzyPlant/Description
@@ -3925,6 +4113,12 @@ MonoBehaviour:
     - Key: Moves/GrassyTerrain/Description
       Value: "The user turns the ground to grass for five turns. This restores the
         HP of Pok\xE9mon on the ground a little every turn and powers up Grass type-moves."
+    - Key: Moves/Gravity
+      Value: Gravity
+    - Key: Moves/Gravity/Description
+      Value: "Enables Flying types or Pok\xE9mon with the Levitate Ability to be
+        hit by Ground-type moves for five turns. Moves that involve flying can't
+        be used."
     - Key: Moves/Growl
       Value: Growl
     - Key: Moves/Growl/Description
@@ -3975,6 +4169,18 @@ MonoBehaviour:
     - Key: Moves/HeadSmash/Description
       Value: The user attacks the target with a hazardous, full-power headbutt. This
         also damages the user terribly.
+    - Key: Moves/HealingWish
+      Value: Healing Wish
+    - Key: Moves/HealingWish/Description
+      Value: "The user faints. In return, the Pok\xE9mon taking its place will have
+        its HP restored and status conditions cured."
+    - Key: Moves/HealingWish/Effect
+      Value: The wish came true!
+    - Key: Moves/HealPulse
+      Value: Heal Pulse
+    - Key: Moves/HealPulse/Description
+      Value: The user emits a healing pulse that restores the target's HP by up to
+        half of its max HP.
     - Key: Moves/HeatWave
       Value: Heat Wave
     - Key: Moves/HeatWave/Description
@@ -3986,6 +4192,11 @@ MonoBehaviour:
       Value: The user assists an ally by boosting the power of that ally's attack.
     - Key: Moves/HelpingHand/ReadyToHelp
       Value: '{0} is ready to help {1}.'
+    - Key: Moves/Hex
+      Value: Hex
+    - Key: Moves/Hex/Description
+      Value: This relentless attack does massive damage to a target affected by status
+        conditions.
     - Key: Moves/HiddenPower
       Value: Hidden Power
     - Key: Moves/HiddenPower/Description
@@ -4033,6 +4244,10 @@ MonoBehaviour:
     - Key: Moves/HyperFang/Description
       Value: The user bites hard on the target with its sharp front fangs. This may
         also make the target flinch.
+    - Key: Moves/HyperVoice
+      Value: Hyper Voice
+    - Key: Moves/HyperVoice/Description
+      Value: The user attacks by letting loose a horribly loud, resounding cry.
     - Key: Moves/IceBeam
       Value: Ice Beam
     - Key: Moves/IceBeam/Description
@@ -4073,6 +4288,11 @@ MonoBehaviour:
     - Key: Moves/IcyWind/Description
       Value: "The user attacks with a gust of chilled air. This also lowers opposing
         Pok\xE9mon's Speed stats."
+    - Key: Moves/Imprison
+      Value: Imprison
+    - Key: Moves/Imprison/Description
+      Value: "If opposing Pok\xE9mon know any move also known by the user, they are
+        prevented from using it."
     - Key: Moves/Inferno
       Value: Inferno
     - Key: Moves/Inferno/Description
@@ -4173,6 +4393,11 @@ MonoBehaviour:
     - Key: Moves/MegaDrain/Description
       Value: A nutrient-draining attack. The user's HP is restored by up to half
         the damage taken by the target.
+    - Key: Moves/Megahorn
+      Value: Megahorn
+    - Key: Moves/Megahorn/Description
+      Value: Using its tough and impressive horn, the user rams into the target with
+        no letup.
     - Key: Moves/MegaKick
       Value: Mega Kick
     - Key: Moves/MegaKick/Description
@@ -4196,6 +4421,11 @@ MonoBehaviour:
     - Key: Moves/MeteorMash/Description
       Value: "The target is hit with a hard punch fired like a meteor. This may also
         boost the user\u2019s Attack stat."
+    - Key: Moves/Metronome
+      Value: Metronome
+    - Key: Moves/Metronome/Description
+      Value: The user waggles a finger and stimulates its brain into randomly using
+        nearly any move.
     - Key: Moves/MirrorCoat
       Value: Mirror Coat
     - Key: Moves/MirrorCoat/Description
@@ -4210,6 +4440,28 @@ MonoBehaviour:
     - Key: Moves/Mist/Description
       Value: The user cloaks itself and its allies in a white mist that prevents
         any of their stats from being lowered for five turns.
+    - Key: Moves/MistyExplosion
+      Value: Misty Explosion
+    - Key: Moves/MistyExplosion/Description
+      Value: The user attacks everything around it and faints upon using this move.
+        This move's power is boosted on Misty Terrain.
+    - Key: Moves/MistyTerrain
+      Value: Misty Terrain
+    - Key: Moves/MistyTerrain/Description
+      Value: "This protects Pok\xE9mon on the ground from status conditions and halves
+        damage from Dragon-type moves for five turns."
+    - Key: Moves/MistyTerrain/PreventStatus
+      Value: The misty terrain protects from {0}.
+    - Key: Moves/Moonblast
+      Value: Moonblast
+    - Key: Moves/Moonblast/Description
+      Value: Borrowing the power of the moon, the user attacks the target. This may
+        also lower the target's Sp. Atk stat.
+    - Key: Moves/Moonlight
+      Value: Moonlight
+    - Key: Moves/Moonlight/Description
+      Value: The user restores its own HP. The amount of HP regained varies with
+        the weather.
     - Key: Moves/MuddyWater
       Value: Muddy Water
     - Key: Moves/MuddyWater/Description
@@ -4225,6 +4477,11 @@ MonoBehaviour:
     - Key: Moves/MudSlap/Description
       Value: The user hurls mud in the target's face to inflict damage and lower
         its accuracy.
+    - Key: Moves/MysticalFire
+      Value: Mystical Fire
+    - Key: Moves/MysticalFire/Description
+      Value: The user attacks by breathing a special, hot fire. This also lowers
+        the target's Sp. Atk stat.
     - Key: Moves/NastyPlot
       Value: Nasty Plot
     - Key: Moves/NastyPlot/Description
@@ -4235,6 +4492,11 @@ MonoBehaviour:
     - Key: Moves/NaturePower/Description
       Value: This attack makes use of nature's power. Its effects vary depending
         on the user's environment.
+    - Key: Moves/NightShade
+      Value: Night Shade
+    - Key: Moves/NightShade/Description
+      Value: The user makes the target see a frightening mirage. It inflicts damage
+        equal to the user's level.
     - Key: Moves/NightSlash
       Value: Night Slash
     - Key: Moves/NightSlash/Description
@@ -4329,6 +4591,11 @@ MonoBehaviour:
     - Key: Moves/PollenPuff/Description
       Value: The user attacks the enemy with a pollen puff that explodes. If the
         target is an ally, it gives the ally a pollen puff that restores its HP instead.
+    - Key: Moves/Pound
+      Value: Pound
+    - Key: Moves/Pound/Description
+      Value: The target is physically pounded with a long tail, a foreleg, or the
+        like.
     - Key: Moves/PowderSnow
       Value: Powder Snow
     - Key: Moves/PowderSnow/Description
@@ -4465,6 +4732,11 @@ MonoBehaviour:
     - Key: Moves/Roar/Description
       Value: "The target is scared off, and a different Pok\xE9mon is dragged out.
         In the wild, this ends a battle against a single Pok\xE9mon."
+    - Key: Moves/RockBlast
+      Value: Rock Blast
+    - Key: Moves/RockBlast/Description
+      Value: The user attacks by hurling hard rocks at the target. This move hits
+        two to five times in a row.
     - Key: Moves/RockClimb
       Value: Rock Climb
     - Key: Moves/RockClimb/Description
@@ -4529,6 +4801,11 @@ MonoBehaviour:
     - Key: Moves/ScaryFace/Description
       Value: The user frightens the target with a scary face to harshly lower its
         Speed stat.
+    - Key: Moves/ScorchingSands
+      Value: Scorching Sands
+    - Key: Moves/ScorchingSands/Description
+      Value: The user throws scorching sand at the target to attack. This may also
+        leave the target with a burn.
     - Key: Moves/Scratch
       Value: Scratch
     - Key: Moves/Scratch/Description
@@ -4562,6 +4839,11 @@ MonoBehaviour:
     - Key: Moves/ShockWave/Description
       Value: The user strikes the target with a quick jolt of electricity. This attack
         never misses.
+    - Key: Moves/Sing
+      Value: Sing
+    - Key: Moves/Sing/Description
+      Value: A soothing lullaby is sung in a beautiful voice that puts the target
+        to sleep.
     - Key: Moves/SkillSwap
       Value: Skill Swap
     - Key: Moves/SkillSwap/Description
@@ -4673,6 +4955,10 @@ MonoBehaviour:
     - Key: Moves/SpitUp/Description
       Value: The power stored using the move Stockpile is released at once in an
         attack. The more power is stored, the greater the move's power.
+    - Key: Moves/Splash
+      Value: Splash
+    - Key: Moves/Splash/Description
+      Value: The user just flops and splashes around to no effect at all...
     - Key: Moves/StealthRock
       Value: Stealth Rock
     - Key: Moves/StealthRock/Description
@@ -4747,6 +5033,11 @@ MonoBehaviour:
     - Key: Moves/SuperFang/Description
       Value: The user chomps hard on the target with its sharp front fangs. This
         cuts the target's HP in half.
+    - Key: Moves/Superpower
+      Value: Superpower
+    - Key: Moves/Superpower/Description
+      Value: The user attacks the target with great power. This also lowers the user's
+        Attack and Defense stats.
     - Key: Moves/Supersonic
       Value: Supersonic
     - Key: Moves/Supersonic/Description
@@ -4902,6 +5193,11 @@ MonoBehaviour:
     - Key: Moves/TriAttack/Description
       Value: The user strikes with a simultaneous three-beam attack. This may also
         burn, freeze, or paralyze the target.
+    - Key: Moves/Trick
+      Value: Trick
+    - Key: Moves/Trick/Description
+      Value: The user catches the target off guard and swaps the target's held item
+        with its own.
     - Key: Moves/Twineedle
       Value: Twineedle
     - Key: Moves/Twineedle/Description
@@ -5175,6 +5471,18 @@ MonoBehaviour:
       Value: Toggle
     - Key: Options/Gameplay/RunToggle/Description
       Value: Running will toggle when you press the run button.
+    - Key: Options/Gameplay/SaveFormat
+      Value: Savegame
+    - Key: Options/Gameplay/SaveFormat/ReadableJson
+      Value: Readable Json
+    - Key: Options/Gameplay/SaveFormat/ReadableJson/Description
+      Value: It occupies more disk space, but a human can easily read it and modify
+        it.
+    - Key: Options/Gameplay/SaveFormat/SmallJson
+      Value: Small Json
+    - Key: Options/Gameplay/SaveFormat/SmallJson/Description
+      Value: This format can occupy up to half of the disk space. However, a human
+        will struggle to read it.
     - Key: Options/Gameplay/ShowNicknameDialog
       Value: Give nicknames
     - Key: Options/Gameplay/ShowNicknameDialog/Disabled
@@ -5208,7 +5516,7 @@ MonoBehaviour:
     - Key: Options/Resolution
       Value: Resolution
     - Key: Regions/DemoRegion1
-      Value: DemoRegion1
+      Value: YAPU Land
     - Key: Resolution/BorderlessGameRebootWarning
       Value: A shorcut has been created in {0}. Please use that shortcut to launch
         the game on a borderless window. Some UI elements may appear wrongly positioned
@@ -5285,6 +5593,10 @@ MonoBehaviour:
       Value: "Cobra Pok\xE9mon"
     - Key: Species/Cocoon
       Value: "Cocoon Pok\xE9mon"
+    - Key: Species/DrillPokemon
+      Value: "Drill Pok\xE9mon"
+    - Key: Species/FairyPokemon
+      Value: "Fairy Pok\xE9mon"
     - Key: Species/FlamePokemon
       Value: "Flame Pok\xE9mon"
     - Key: Species/HairyBugPokemon
@@ -5303,6 +5615,8 @@ MonoBehaviour:
       Value: "Shellfish Pok\xE9mon"
     - Key: Species/SnakePokemon
       Value: "Snake Pok\xE9mon"
+    - Key: Species/StarShapePokemon
+      Value: "Star Shape Pok\xE9mon"
     - Key: Species/TinyBirdPokemon
       Value: "Tiny Bird Pok\xE9mon"
     - Key: Species/TinyMousePokemon
@@ -5379,6 +5693,12 @@ MonoBehaviour:
       Value: '{0} got frozen!'
     - Key: Status/Freeze/Tick
       Value: '{0} is frozen.'
+    - Key: Status/Global/GravityStatus
+      Value: Gravity
+    - Key: Status/Global/GravityStatus/End
+      Value: Gravity returned to normal.
+    - Key: Status/Global/GravityStatus/Start
+      Value: Gravity intensified!
     - Key: Status/Global/MagicRoomStatus
       Value: Magic Room
     - Key: Status/Global/MagicRoomStatus/End
@@ -5407,6 +5727,8 @@ MonoBehaviour:
       Value: '{0} is hurt by the poison.'
     - Key: Status/Side/FutureSightStatus
       Value: Future Sight
+    - Key: Status/Side/HealingWishStatus
+      Value: Healing Wish
     - Key: Status/Side/LightScreenStatus
       Value: Light Screen
     - Key: Status/Side/LightScreenStatus/End
@@ -5581,6 +5903,8 @@ MonoBehaviour:
       Value: The gastro acid suppressed {0} ability!
     - Key: Status/Volatile/HelpingHandStatus
       Value: Helping Hand
+    - Key: Status/Volatile/Imprisoning
+      Value: Imprisoning
     - Key: Status/Volatile/Infatuation
       Value: Infatuation
     - Key: Status/Volatile/Infatuation/Start
@@ -5815,175 +6139,3 @@ MonoBehaviour:
       Value: The sunlight turned harsh!
     - Key: Weather/SunnyWeather/Tick
       Value: The sunlight is strong.
-    - Key: Monsters/Nidorina
-      Value: Nidorina
-    - Key: Monsters/Nidorina/Normal
-      Value: "When it senses danger, it raises all the barbs on its body. These barbs
-        grow more slowly than Nidorino\u2019s."
-    - Key: Monsters/Nidoqueen
-      Value: Nidoqueen
-    - Key: Monsters/Nidoqueen/Normal
-      Value: Its entire body is armored with hard scales. It will protect the young
-        in its burrow with its life.
-    - Key: Species/DrillPokemon
-      Value: "Drill Pok\xE9mon"
-    - Key: Abilities/SheerForce
-      Value: Sheer Force
-    - Key: Abilities/SheerForce/Description
-      Value: "Removes any additional effects from the Pok\xE9mon's moves, but increases
-        the moves' power."
-    - Key: Moves/Superpower
-      Value: Superpower
-    - Key: Moves/Superpower/Description
-      Value: The user attacks the target with great power. This also lowers the user's
-        Attack and Defense stats.
-    - Key: Moves/ScorchingSands
-      Value: Scorching Sands
-    - Key: Moves/ScorchingSands/Description
-      Value: The user throws scorching sand at the target to attack. This may also
-        leave the target with a burn.
-    - Key: Moves/RockBlast
-      Value: Rock Blast
-    - Key: Moves/RockBlast/Description
-      Value: The user attacks by hurling hard rocks at the target. This move hits
-        two to five times in a row.
-    - Key: Moves/Hex
-      Value: Hex
-    - Key: Moves/Hex/Description
-      Value: This relentless attack does massive damage to a target affected by status
-        conditions.
-    - Key: Items/MoonStone
-      Value: Moon Stone
-    - Key: Items/MoonStone/Description
-      Value: "A peculiar stone that can make certain species of Pok\xE9mon evolve.
-        It is dark like the night sky."
-    - Key: Monsters/Nidorino
-      Value: Nidorino
-    - Key: Monsters/Nidorino/Normal
-      Value: It has a violent disposition and stabs foes with its horn, which oozes
-        venom upon impact.
-    - Key: Monsters/Nidoking
-      Value: Nidoking
-    - Key: Monsters/Nidoking/Normal
-      Value: One swing of its mighty tail can snap a telephone pole as if it were
-        a matchstick.
-    - Key: Moves/Megahorn
-      Value: Megahorn
-    - Key: Moves/Megahorn/Description
-      Value: Using its tough and impressive horn, the user rams into the target with
-        no letup.
-    - Key: Monsters/Clefairy
-      Value: Clefairy
-    - Key: Monsters/Clefairy/Normal
-      Value: "It can be found in quiet mountain areas on a full moon\u2019s night.
-        Its dancing and its tiny, faintly glowing wings confer upon it a lovely fairylike
-        quality."
-    - Key: Species/FairyPokemon
-      Value: "Fairy Pok\xE9mon"
-    - Key: Abilities/CuteCharm
-      Value: Cute Charm
-    - Key: Abilities/CuteCharm/Description
-      Value: "The Pok\xE9mon may infatuate attackers that make direct contact with
-        it."
-    - Key: Abilities/MagicGuard
-      Value: Magic Guard
-    - Key: Abilities/MagicGuard/Description
-      Value: "The Pok\xE9mon only takes damage from attacks."
-    - Key: Abilities/FriendGuard
-      Value: Friend Guard
-    - Key: Abilities/FriendGuard/Description
-      Value: Reduces damage dealt to allies.
-    - Key: Moves/Copycat
-      Value: Copycat
-    - Key: Moves/Copycat/Description
-      Value: The user mimics the move used immediately before it. The move fails
-        if no other move has been used yet.
-    - Key: Moves/Pound
-      Value: Pound
-    - Key: Moves/Pound/Description
-      Value: The target is physically pounded with a long tail, a foreleg, or the
-        like.
-    - Key: Moves/Sing
-      Value: Sing
-    - Key: Moves/Sing/Description
-      Value: A soothing lullaby is sung in a beautiful voice that puts the target
-        to sleep.
-    - Key: Moves/Splash
-      Value: Splash
-    - Key: Moves/Splash/Description
-      Value: The user just flops and splashes around to no effect at all...
-    - Key: Moves/AfterYou
-      Value: After You
-    - Key: Moves/AfterYou/Description
-      Value: The user helps the target and makes it use its move right after the
-        user.
-    - Key: Moves/Metronome
-      Value: Metronome
-    - Key: Moves/Metronome/Description
-      Value: The user waggles a finger and stimulates its brain into randomly using
-        nearly any move.
-    - Key: Moves/Moonlight
-      Value: Moonlight
-    - Key: Moves/Moonlight/Description
-      Value: The user restores its own HP. The amount of HP regained varies with
-        the weather.
-    - Key: Status/Global/GravityStatus
-      Value: Gravity
-    - Key: Status/Global/GravityStatus/Start
-      Value: Gravity intensified!
-    - Key: Status/Global/GravityStatus/End
-      Value: Gravity returned to normal.
-    - Key: Moves/Gravity
-      Value: Gravity
-    - Key: Moves/Gravity/Description
-      Value: "Enables Flying types or Pok\xE9mon with the Levitate Ability to be
-        hit by Ground-type moves for five turns. Moves that involve flying can't
-        be used."
-    - Key: Moves/FollowMe
-      Value: Follow Me
-    - Key: Moves/FollowMe/Description
-      Value: "The user draws attention to itself, making all opposing Pok\xE9mon
-        take aim only at the user."
-    - Key: Moves/CosmicPower
-      Value: Cosmic Power
-    - Key: Moves/CosmicPower/Description
-      Value: The user absorbs a mystical power from space to boost its Defense and
-        Sp. Def stats.
-    - Key: Moves/Moonblast
-      Value: Moonblast
-    - Key: Moves/Moonblast/Description
-      Value: Borrowing the power of the moon, the user attacks the target. This may
-        also lower the target's Sp. Atk stat.
-    - Key: Moves/HealingWish/Effect
-      Value: The wish came true!
-    - Key: Moves/HealingWish
-      Value: Healing Wish
-    - Key: Moves/HealingWish/Description
-      Value: "The user faints. In return, the Pok\xE9mon taking its place will have
-        its HP restored and status conditions cured."
-    - Key: Status/Side/HealingWishStatus
-      Value: Healing Wish
-    - Key: Moves/FairyWind
-      Value: Fairy Wind
-    - Key: Moves/FairyWind/Description
-      Value: The user attacks by stirring up a fairy wind to strike the target.
-    - Key: Moves/HealPulse
-      Value: Heal Pulse
-    - Key: Moves/HealPulse/Description
-      Value: The user emits a healing pulse that restores the target's HP by up to
-        half of its max HP.
-    - Key: Moves/ChillingWater
-      Value: Chilling Water
-    - Key: Moves/ChillingWater/Description
-      Value: The user attacks the target by showering it with water that's so cold
-        it saps the target's power. This also lowers the target's Attack stat.
-    - Key: Moves/NightShade
-      Value: Night Shade
-    - Key: Moves/NightShade/Description
-      Value: The user makes the target see a frightening mirage. It inflicts damage
-        equal to the user's level.
-    - Key: Moves/DrainPunch
-      Value: Drain Punch
-    - Key: Moves/DrainPunch/Description
-      Value: The user attacks with an energy-draining punch. The user's HP is restored
-        by up to half the damage taken by the target.

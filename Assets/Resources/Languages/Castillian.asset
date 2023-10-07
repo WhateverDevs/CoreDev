@@ -83,10 +83,18 @@ MonoBehaviour:
       Value: Ojo Compuesto
     - Key: Abilities/CompoundEyes/Description
       Value: "Los ojos compuestos de este Pok\xE9mon suben su precisi\xF3n."
+    - Key: Abilities/CuteCharm
+      Value: Gran Encanto
+    - Key: Abilities/CuteCharm/Description
+      Value: Puede enamorar a los oponentes que entren en contacto.
     - Key: Abilities/Drought
       Value: "Sequ\xEDa"
     - Key: Abilities/Drought/Description
       Value: "Hace que haga mucho sol cuando el Pok\xE9mon entra en combate."
+    - Key: Abilities/FriendGuard
+      Value: Compiescolta
+    - Key: Abilities/FriendGuard/Description
+      Value: "Reduce el da\xF1o que reciben sus aliados."
     - Key: Abilities/Gluttony
       Value: Gula
     - Key: Abilities/Gluttony/Description
@@ -121,6 +129,10 @@ MonoBehaviour:
     - Key: Abilities/LightningRod/Description
       Value: "Atrae todos los movimientos el\xE9ctricos. En vez de recibir da\xF1o,
         le suben el ataque especial."
+    - Key: Abilities/MagicGuard
+      Value: "Muro M\xE1gico"
+    - Key: Abilities/MagicGuard/Description
+      Value: "Solo recibe da\xF1o de ataques."
     - Key: Abilities/MegaLauncher
       Value: Megadisparador
     - Key: Abilities/MegaLauncher/Description
@@ -169,6 +181,11 @@ MonoBehaviour:
       Value: "\xA1{0} mud\xF3 su piel!"
     - Key: Abilities/ShedSkin/Description
       Value: Puede curarse de estados mudando su piel.
+    - Key: Abilities/SheerForce
+      Value: Potencia Bruta
+    - Key: Abilities/SheerForce/Description
+      Value: Elimina los efectos secundarios de sus movimientos, pero aumenta su
+        poder.
     - Key: Abilities/ShieldDust
       Value: Polvo Escudo
     - Key: Abilities/ShieldDust/Description
@@ -225,6 +242,10 @@ MonoBehaviour:
       Value: Garra Dura
     - Key: Abilities/ToughClaws/Description
       Value: Potencia los ataques que hacen contacto directo.
+    - Key: Abilities/Unaware
+      Value: Ignorante
+    - Key: Abilities/Unaware/Description
+      Value: "Cuando ataca, ignora cambios de caracter\xEDsticas del objetivo."
     - Key: Abilities/Unnerve
       Value: Nerviosismo
     - Key: Abilities/Unnerve/Description
@@ -425,6 +446,14 @@ MonoBehaviour:
       Value: "Apareci\xF3 un campo de hierba."
     - Key: BattleTerrain/GrassyTerrain/Tick
       Value: "Los Pok\xE9mon recuperaron salud con el campo de hierba."
+    - Key: BattleTerrain/MistyTerrain
+      Value: Campo de Niebla
+    - Key: BattleTerrain/MistyTerrain/End
+      Value: "La extra\xF1a niebla desapareci\xF3."
+    - Key: BattleTerrain/MistyTerrain/Start
+      Value: "Una extra\xF1a niebla apareci\xF3!"
+    - Key: BattleTerrain/MistyTerrain/Tick
+      Value: "La extra\xF1a niebla se mantiene."
     - Key: BattleTerrain/PsychicTerrain
       Value: "Campo Ps\xEDquico"
     - Key: BattleTerrain/PsychicTerrain/End
@@ -479,10 +508,14 @@ MonoBehaviour:
       Value: "Jos\xE9 Mar\xEDa"
     - Key: Characters/Juan
       Value: Juan
+    - Key: Characters/Julia
+      Value: Julia
     - Key: Characters/Leaf
       Value: Leaf
     - Key: Characters/Manolito
       Value: Manolito
+    - Key: Characters/Manuel
+      Value: Manuel
     - Key: Characters/Margarita
       Value: Margarita
     - Key: Characters/Maria
@@ -801,6 +834,18 @@ MonoBehaviour:
       Value: Ratio
     - Key: Dex/GenderVariations
       Value: "Variaciones de g\xE9nero"
+    - Key: Dex/Habitat
+      Value: Habitat
+    - Key: Dex/Habitat/NoHabitats
+      Value: No hay habitats conocidos.
+    - Key: Dex/Habitat/ShowMap
+      Value: Abrir mapa
+    - Key: Dex/Habitat/Time
+      Value: 'Hora:'
+    - Key: Dex/Habitat/Unknown
+      Value: ???
+    - Key: Dex/Habitat/Weather
+      Value: 'Tiempo:'
     - Key: Dex/HasGenderVariations
       Value: "Esta forma tiene variaciones de g\xE9nero."
     - Key: Dex/HasShinyVersion
@@ -911,7 +956,7 @@ MonoBehaviour:
       Value: "Puedes cambiar las opciones del juego desde el men\xFA. Hay unas cuantas
         m\xE1s que en los juegos oficiales."
     - Key: Dialogs/Demo/Lab/Oak/0
-      Value: "\xA1Hola, {0}!"
+      Value: "\xA1Hola, {PlayerName}!"
     - Key: Dialogs/Demo/Lab/Oak/1
       Value: "Hora de que elijas tu inicial, ah\xED los tienes en la mesa."
     - Key: Dialogs/Demo/Lab/Oak/2
@@ -921,7 +966,8 @@ MonoBehaviour:
     - Key: Dialogs/Demo/Lab/Oak/4
       Value: "Coge la Pok\xE9dex que he dejado en aquella mesa."
     - Key: Dialogs/Demo/Lab/Oak/5
-      Value: Hasta ahora has capturado {0} especies diferentes. Buen trabajo.
+      Value: Hasta ahora has capturado {Dex.CaughtSpecies} especies diferentes. Buen
+        trabajo.
     - Key: Dialogs/Demo/Lab/Rebeca
       Value: "Igual que en las \xFAltimas generaciones, no hay Pok\xE9dex regional
         y nacional. Cada dise\xF1ador configura la Pok\xE9dex de su juego como quiera.
@@ -957,6 +1003,12 @@ MonoBehaviour:
       Value: "Necesitar\xE1s \xE9sto."
     - Key: Dialogs/Demo/RainbowCave/Evarista/1
       Value: Suerte.
+    - Key: Dialogs/Demo/Route1/Julia/0
+      Value: "Diferentes Pok\xE9mon pueden aparecer en la hierba alta dependiendo
+        del tiempo que haga o de la hora del d\xEDa."
+    - Key: Dialogs/Demo/Route1/Julia/1
+      Value: Prueba a buscar por la noche o a usar tormenta de arena o granizo en
+        esta ruta.
     - Key: Dialogs/Demo/Route1/Manolito/1
       Value: Lo primero, voy a coger tu mochila y guardarla en una mochila temporal.
     - Key: Dialogs/Demo/Route1/Manolito/2
@@ -1052,6 +1104,24 @@ MonoBehaviour:
       Value: "Ah\xED tienes, disfruta."
     - Key: Dialogs/Demo/StartingVillage/Ana/2
       Value: Dame un momento.
+    - Key: Dialogs/Demo/StartingVillage/Ana2/0
+      Value: "\xA1Hola! Soy un ejemplo de entrenadora que mira a otro lado aleatoriamente."
+    - Key: Dialogs/Demo/StartingVillage/Ana2/1
+      Value: La victoria es tuya.
+    - Key: Dialogs/Demo/StartingVillage/Ana2/2
+      Value: "El juego almacena el hecho de que me has ganado, as\xED que no podemos
+        luchar de nuevo."
+    - Key: Dialogs/Demo/StartingVillage/Ana2/3
+      Value: "El juego almacena el hecho de que me has ganado, as\xED que no podemos
+        luchar de nuevo."
+    - Key: Dialogs/Demo/StartingVillage/Blue/0
+      Value: "Yo soy un entrenador que se va girando peri\xF3dicamente."
+    - Key: Dialogs/Demo/StartingVillage/Blue/1
+      Value: Eres bueno.
+    - Key: Dialogs/Demo/StartingVillage/Blue/2
+      Value: No me gusta nada perder.
+    - Key: Dialogs/Demo/StartingVillage/Blue/3
+      Value: Ya me has ganado, no abuses.
     - Key: Dialogs/Demo/StartingVillage/Brendan/0
       Value: Puedes moverte sobre el agua usando Surf.
     - Key: Dialogs/Demo/StartingVillage/Brendan/1
@@ -1104,6 +1174,23 @@ MonoBehaviour:
       Value: "Toma, una poci\xF3n."
     - Key: Dialogs/Demo/StartingVillage/Juan/Give2
       Value: "Disfr\xFAtala."
+    - Key: Dialogs/Demo/StartingVillage/Leaf/0
+      Value: "Soy un ejemplo de entrenadora que corre en c\xEDrculos."
+    - Key: Dialogs/Demo/StartingVillage/Leaf/1
+      Value: Oh, F.
+    - Key: Dialogs/Demo/StartingVillage/Leaf/2
+      Value: "Puedes usarme como ejemplo para otros entrenadores que, por ejemplo,
+        corran adelante y atr\xE1s en una l\xEDnea."
+    - Key: Dialogs/Demo/StartingVillage/Leaf/3
+      Value: "\xA1Suerte en tu aventura!"
+    - Key: Dialogs/Demo/StartingVillage/Manuel/0
+      Value: "\xA1Hola! Soy un ejemplo de entrenador que camina aleatoriamente."
+    - Key: Dialogs/Demo/StartingVillage/Manuel/1
+      Value: Mi trabajo es pasear aleatoriamente, no ganar.
+    - Key: Dialogs/Demo/StartingVillage/Manuel/2
+      Value: "\xA1Hasta otra!"
+    - Key: Dialogs/Demo/StartingVillage/Manuel/3
+      Value: "Seg\xFAn la partida ya hemos luchado."
     - Key: Dialogs/Demo/StartingVillage/Maria/0
       Value: Puedes escalar esas rocas con Treparrocas.
     - Key: Dialogs/Demo/StartingVillage/Maria/1
@@ -1178,6 +1265,9 @@ MonoBehaviour:
       Value: "\xA1Encontraste {0} {1}!"
     - Key: Dialogs/Items/Given
       Value: "\xA1Recibiste {0} {1}!"
+    - Key: Dialogs/LoadingStorage
+      Value: "Cargar tu nube puede tardar un poco. {0} de {1} Pok\xE9mon cargados.
+        ({2} ms)"
     - Key: Dialogs/MaxFormLevelGain
       Value: "\xA1El nivel dynamax de {0} subi\xF3 en {1}!"
     - Key: Dialogs/MonsterCompatibility/AlreadyKnows
@@ -1237,9 +1327,9 @@ MonoBehaviour:
     - Key: Dialogs/Moves/WantsToLearn
       Value: '{0} quiere aprender {1} pero ya sabe cuatro movimientos.'
     - Key: Dialogs/MoveTutor/AlreadyKnows
-      Value: '{0} ya conoce {1}.'
+      Value: '{0} ya conoce {2}.'
     - Key: Dialogs/MoveTutor/CantLearn
-      Value: '{0} no puede aprender {1}.'
+      Value: '{0} no puede aprender {2}.'
     - Key: Dialogs/Nursery/AlreadyOccupied
       Value: "Ya estamos cuidando a dos Pok\xE9mon."
     - Key: Dialogs/Nursery/CantBreed
@@ -1382,6 +1472,22 @@ MonoBehaviour:
       Value: Desconocido
     - Key: EggGroups/Water1
       Value: Agua 1
+    - Key: EncounterType/Cave
+      Value: Cueva
+    - Key: EncounterType/Diving
+      Value: Buceo
+    - Key: EncounterType/FishingGoodRod
+      Value: "Ca\xF1a Buena"
+    - Key: EncounterType/FishingOldRod
+      Value: "Ca\xF1a Vieja"
+    - Key: EncounterType/FishingSuperRod
+      Value: "Super Ca\xF1a"
+    - Key: EncounterType/Grass
+      Value: Hierba alta
+    - Key: EncounterType/Other
+      Value: Otro
+    - Key: EncounterType/Water
+      Value: Agua
     - Key: English
       Value: "Ingl\xE9s"
     - Key: Fishing/CantFishHere
@@ -2327,6 +2433,21 @@ MonoBehaviour:
     - Key: Items/MiracleSeed/Description
       Value: "Un objeto para ser llevado por un Pok\xE9mon. Es una semilla llena
         de vida que mejora los movimientos de tipo Planta."
+    - Key: Items/MistySeed
+      Value: Semilla Bruma
+    - Key: Items/MistySeed/Description
+      Value: "Un objeto que puede ser llevado por un Pok\xE9mon. Si el terreno se
+        vuelve raro, el que la lleva consumir\xE1 la semilla para subir su defensa."
+    - Key: Items/MoonBall
+      Value: Luna Ball
+    - Key: Items/MoonBall/Description
+      Value: "Una Pok\xE9 Ball un poco diferente que es m\xE1s efectiva para capturar
+        Pok\xE9mon que evolucionan con una Piedra Lunar."
+    - Key: Items/MoonStone
+      Value: Piedra Lunar
+    - Key: Items/MoonStone/Description
+      Value: "Una peculiar piedra que hace evolucionar a ciertas especies de Pok\xE9mon.
+        Es oscura como el cielo nocturno."
     - Key: Items/MysticWater
       Value: "Agua M\xEDstica"
     - Key: Items/MysticWater/Description
@@ -3078,6 +3199,21 @@ MonoBehaviour:
     - Key: Monsters/Charmeleon/Normal/Dex
       Value: "En las monta\xF1as rocosas donde vive Charmeleon, sus colas brillan
         como estrellas en la noche."
+    - Key: Monsters/Clefable
+      Value: Clefable
+    - Key: Monsters/Clefable/Normal
+      Value: "Su o\xEDdo es tan fino que puede o\xEDr un alfiler caer a un kil\xF3metro
+        de distancia. Vive en monta\xF1as tranquilas."
+    - Key: Monsters/Clefairy
+      Value: Clefairy
+    - Key: Monsters/Clefairy/Normal
+      Value: "Se le puede encontrar en silencionos ricones en las monta\xF1as. Danza
+        con sus peque\xF1as alitas brillando bajo la luz de la luna llena."
+    - Key: Monsters/Cleffa
+      Value: Cleffa
+    - Key: Monsters/Cleffa/Normal
+      Value: Suelen aparecer cuando el cielo se llena de estrellas fugaces. Desaparecen
+        al amanecer.
     - Key: Monsters/Egg
       Value: Huevo
     - Key: Monsters/Egg/CyclesLeft
@@ -3136,6 +3272,16 @@ MonoBehaviour:
         edurecerse, por lo que se mantiene quieto para evitar ataques."
     - Key: Monsters/Nature
       Value: Naturaleza
+    - Key: Monsters/Nidoking
+      Value: Nidoking
+    - Key: Monsters/Nidoking/Normal
+      Value: "Un golpe de su poderosa cola puede partir un poste telef\xF3nico como
+        si fuera una cerilla."
+    - Key: Monsters/Nidoqueen
+      Value: Nidoqueen
+    - Key: Monsters/Nidoqueen/Normal
+      Value: "Todo su cuerpo est\xE1 cubierto de duras escamas. Proteger\xE1 a los
+        cachorros de su madriguera con su vida."
     - Key: Monsters/NidoranFemale
       Value: "Nidoran\u2640"
     - Key: Monsters/NidoranFemale/Normal
@@ -3146,6 +3292,16 @@ MonoBehaviour:
     - Key: Monsters/NidoranMale/Normal
       Value: "Vigila su alrededor levantando sus orejas por encima de la hierba.
         Utiliza su cuerno t\xF3xico para protegerse."
+    - Key: Monsters/Nidorina
+      Value: Nidorina
+    - Key: Monsters/Nidorina/Normal
+      Value: "Eriza sus espinas cuando siente peligro. \xC9stas crecen m\xE1s lento
+        que las de Nidorino."
+    - Key: Monsters/Nidorino
+      Value: Nidorino
+    - Key: Monsters/Nidorino/Normal
+      Value: "Tiene una violenta predisposici\xF3n a cornear a sus oponentes, inyect\xE1ndoles
+        veneno en el proceso."
     - Key: Monsters/Origin
       Value: Origen
     - Key: Monsters/Origin/Caught
@@ -3316,6 +3472,10 @@ MonoBehaviour:
       Value: "Golpe A\xE9reo"
     - Key: Moves/AerialAce/Description
       Value: Supera al objetivo con su velocidad y lanza un tajo. Nunca falla.
+    - Key: Moves/AfterYou
+      Value: Cede Paso
+    - Key: Moves/AfterYou/Description
+      Value: "Ayuda al objetivo y le hace moverse justo despu\xE9s del usuario."
     - Key: Moves/Agility
       Value: Agilidad
     - Key: Moves/Agility/Description
@@ -3477,6 +3637,10 @@ MonoBehaviour:
     - Key: Moves/Charm/Description
       Value: "El usuario mira al objetivo con encanto, haciendo que se conf\xEDe
         y baje mucho su ataque."
+    - Key: Moves/ChillingWater
+      Value: "Agua Fr\xEDa"
+    - Key: Moves/ChillingWater/Description
+      Value: "Ataca al objetivo con un chorro de agua fr\xEDa, reduciendo su ataque."
     - Key: Moves/Coil
       Value: Enrosque
     - Key: Moves/Coil/Description
@@ -3490,6 +3654,16 @@ MonoBehaviour:
       Value: "Confusi\xF3n"
     - Key: Moves/Confusion/Description
       Value: "Ataca al objetivo con una fuerza telekin\xE9tica. Puede confundir."
+    - Key: Moves/Copycat
+      Value: "Copi\xF3n"
+    - Key: Moves/Copycat/Description
+      Value: "Copia el \xFAltimo movimiento que se ha usado. Falla si a\xFAn no se
+        ha usado un movimiento."
+    - Key: Moves/CosmicPower
+      Value: "Masa C\xF3smica"
+    - Key: Moves/CosmicPower/Description
+      Value: "Absorve poder m\xEDstico del universo para subir su defensa y defensa
+        especial."
     - Key: Moves/Counter
       Value: Contraataque
     - Key: Moves/Counter/Description
@@ -3603,6 +3777,11 @@ MonoBehaviour:
     - Key: Moves/DrainingKiss/Description
       Value: "Roba la vida del oponente con un beso y recupera m\xE1s de la mitad
         del da\xF1o inflingido."
+    - Key: Moves/DrainPunch
+      Value: "Pu\xF1o Drenaje"
+    - Key: Moves/DrainPunch/Description
+      Value: "Ataca con un pu\xF1etazo que absorve la salud del objetivo y recupera
+        al usuario la mitad del da\xF1o hecho."
     - Key: Moves/DreamEater
       Value: "Comesue\xF1os"
     - Key: Moves/DreamEater/Description
@@ -3697,6 +3876,10 @@ MonoBehaviour:
     - Key: Moves/Facade/Description
       Value: "Este ataque duplica su poder si el usuario est\xE1 envenenado, quemado
         o paralizado."
+    - Key: Moves/FairyWind
+      Value: "Viento Fe\xE9rico"
+    - Key: Moves/FairyWind/Description
+      Value: Ataca con un misterioso viento.
     - Key: Moves/FakeOut
       Value: Sorpresa
     - Key: Moves/FakeOut/Description
@@ -3819,6 +4002,11 @@ MonoBehaviour:
         da\xF1o este turno."
     - Key: Moves/FocusPunch/LostFocus
       Value: "\xA1{0} perdi\xF3 la concentraci\xF3n y no se pudo mover!"
+    - Key: Moves/FollowMe
+      Value: "Se\xF1uelo"
+    - Key: Moves/FollowMe/Description
+      Value: "Llama la atenci\xF3n sobre s\xED mismo, haciendo que los oponentes
+        le ataquen."
     - Key: Moves/FrenzyPlant
       Value: Planta Feroz
     - Key: Moves/FrenzyPlant/Description
@@ -3883,6 +4071,12 @@ MonoBehaviour:
       Value: "El usuario convierte el suelo en hierba durante cinco turnos. El terreno
         restaura un poco de salud de los Pok\xE9mon en el suelo cada turno y potencia
         los ataques de planta."
+    - Key: Moves/Gravity
+      Value: Gravedad
+    - Key: Moves/Gravity/Description
+      Value: "Permite que los Pok\xE9mon voladores o con levitaci\xF3n puedan ser
+        golpeados con movimientos de tierra. Los movimientos que impliquen levantarse
+        del suelo no se pueden usar."
     - Key: Moves/Growl
       Value: "Gru\xF1ido"
     - Key: Moves/Growl/Description
@@ -3931,6 +4125,18 @@ MonoBehaviour:
     - Key: Moves/HeadSmash/Description
       Value: "Ataca al objetivo con un peligroso cabezazao que tambi\xE9n har\xE1
         da\xF1o al usuario."
+    - Key: Moves/HealingWish
+      Value: Deseo Cura
+    - Key: Moves/HealingWish/Description
+      Value: "El usuario se debilita. A cambio, el compa\xF1ero que entre en su lugar
+        curar\xE1 sus PV y condiciones de estado."
+    - Key: Moves/HealingWish/Effect
+      Value: "\xA1El deseo se volvi\xF3 realidad!"
+    - Key: Moves/HealPulse
+      Value: Pulso Cura
+    - Key: Moves/HealPulse/Description
+      Value: "Emite un pulso curatorio que recupera hasta la mitad de los PV m\xE1ximos
+        del objetivo."
     - Key: Moves/HeatWave
       Value: "Onda \xCDgnea"
     - Key: Moves/HeatWave/Description
@@ -3941,6 +4147,11 @@ MonoBehaviour:
       Value: El usuario asiste a un aliado mejorando su ataque.
     - Key: Moves/HelpingHand/ReadyToHelp
       Value: "{0} est\xE1 liste para ayudar a {1}."
+    - Key: Moves/Hex
+      Value: Infortunio
+    - Key: Moves/Hex/Description
+      Value: "Este ataque desalmado hace mucho da\xF1o a objetivos con condiciones
+        de estado."
     - Key: Moves/HiddenPower
       Value: Poder Oculto
     - Key: Moves/HiddenPower/Description
@@ -3985,6 +4196,10 @@ MonoBehaviour:
       Value: Hipercolmillo
     - Key: Moves/HyperFang/Description
       Value: Muerde al objetivo con sus afilados colmillos. Puede hacer retroceder.
+    - Key: Moves/HyperVoice
+      Value: "Vozarr\xF3n"
+    - Key: Moves/HyperVoice/Description
+      Value: Ataca con un terrible grito.
     - Key: Moves/IceBeam
       Value: Rayo Hielo
     - Key: Moves/IceBeam/Description
@@ -4022,6 +4237,10 @@ MonoBehaviour:
       Value: Viento Hielo
     - Key: Moves/IcyWind/Description
       Value: Ataca con un viento helado que reduce la velocidad de los oponentes.
+    - Key: Moves/Imprison
+      Value: Sellar
+    - Key: Moves/Imprison/Description
+      Value: "Los oponentes no podr\xE1n usar movimientos que el usuario conozca."
     - Key: Moves/Inferno
       Value: Infierno
     - Key: Moves/Inferno/Description
@@ -4112,6 +4331,10 @@ MonoBehaviour:
     - Key: Moves/MegaDrain/Description
       Value: "Un ataque que absorve los nutrientes del objetivo y regenera hasta
         la mitad del da\xF1o causado."
+    - Key: Moves/Megahorn
+      Value: Megacuerno
+    - Key: Moves/Megahorn/Description
+      Value: "Utiliza su poderoso cuerno para apu\xF1alar al objetivo sin piedad."
     - Key: Moves/MegaKick
       Value: Megapatada
     - Key: Moves/MegaKick/Description
@@ -4135,6 +4358,11 @@ MonoBehaviour:
     - Key: Moves/MeteorMash/Description
       Value: "Ataca con un pu\xF1etazo con la fuerza de un meteorito. Puede subir
         el ataque del usuario."
+    - Key: Moves/Metronome
+      Value: "Metr\xF3nomo"
+    - Key: Moves/Metronome/Description
+      Value: "Mueve un dedo y estimula su cerebro para usar pr\xE1cticamente cualquier
+        movimiento aleatorio."
     - Key: Moves/MirrorCoat
       Value: Manto Espejo
     - Key: Moves/MirrorCoat/Description
@@ -4149,6 +4377,27 @@ MonoBehaviour:
     - Key: Moves/Mist/Description
       Value: "Envuelve a s\xED mismo y a sus aliados en una niebla que impide la
         reducci\xF3n de estad\xEDsticas durante cinco turnos."
+    - Key: Moves/MistyExplosion
+      Value: Bruma Explosiva
+    - Key: Moves/MistyExplosion/Description
+      Value: "Ataca a todo su alrededor con una potente explosi\xF3n y luego se debilita.
+        Aumenta su poder en campo de niebla."
+    - Key: Moves/MistyTerrain
+      Value: Campo de Niebla
+    - Key: Moves/MistyTerrain/Description
+      Value: "Protege a los Pok\xE9mon de cambios de estados y reduce a la mitad
+        el da\xF1o de los movimientos de tipo drag\xF3n durante cinco turnos."
+    - Key: Moves/MistyTerrain/PreventStatus
+      Value: El campo de niebla protege de {0}.
+    - Key: Moves/Moonblast
+      Value: Fuerza Lunar
+    - Key: Moves/Moonblast/Description
+      Value: "Usa el poder de la luna para atacar al objetivo. Puede reducir el ataque
+        especial de \xE9ste."
+    - Key: Moves/Moonlight
+      Value: Luz Lunar
+    - Key: Moves/Moonlight/Description
+      Value: Recupera sus propios PV. La cantidad depende del tiempo.
     - Key: Moves/MuddyWater
       Value: Agua Lodosa
     - Key: Moves/MuddyWater/Description
@@ -4162,6 +4411,11 @@ MonoBehaviour:
       Value: "Bofet\xF3n Lodo"
     - Key: Moves/MudSlap/Description
       Value: "Lanza lodo a la cara del objetivo para hacer da\xF1o y bajar la precisi\xF3n."
+    - Key: Moves/MysticalFire
+      Value: Llama Embrujada
+    - Key: Moves/MysticalFire/Description
+      Value: "Ataca exhalando un extra\xF1o fuego. Tambi\xE9n baja el ataque especial
+        del objetivo."
     - Key: Moves/NastyPlot
       Value: "Maquinaci\xF3n"
     - Key: Moves/NastyPlot/Description
@@ -4172,6 +4426,11 @@ MonoBehaviour:
     - Key: Moves/NaturePower/Description
       Value: Este ataque usa el poder de la naturaleza. Sus efectos dependen del
         entorno.
+    - Key: Moves/NightShade
+      Value: Tinieblas
+    - Key: Moves/NightShade/Description
+      Value: "Crea un terror\xEDfico espejismo que har\xE1 da\xF1o igual al nivel
+        del usuario."
     - Key: Moves/NightSlash
       Value: "Tajo Umbr\xEDo"
     - Key: Moves/NightSlash/Description
@@ -4261,6 +4520,10 @@ MonoBehaviour:
     - Key: Moves/PollenPuff/Description
       Value: "Ataca con una bola de polen que explota. Si el objetivo es un aliado,
         le curar\xE1."
+    - Key: Moves/Pound
+      Value: Destructor
+    - Key: Moves/Pound/Description
+      Value: Ataca con su cola, pata o similar.
     - Key: Moves/PowderSnow
       Value: Nieve Polvo
     - Key: Moves/PowderSnow/Description
@@ -4390,6 +4653,10 @@ MonoBehaviour:
     - Key: Moves/Roar/Description
       Value: "Asusta al objetivo y obliga a sacar a otro Pok\xE9mon. En un combate
         contra salvajes, permite huir."
+    - Key: Moves/RockBlast
+      Value: Pedrada
+    - Key: Moves/RockBlast/Description
+      Value: Ataca lanzando de dos a cinco rocas contra el objetivo.
     - Key: Moves/RockClimb
       Value: Treparrocas
     - Key: Moves/RockClimb/Description
@@ -4452,6 +4719,10 @@ MonoBehaviour:
       Value: Cara Susto
     - Key: Moves/ScaryFace/Description
       Value: Asusta al objetivo para bajar mucho su velocidad.
+    - Key: Moves/ScorchingSands
+      Value: Arenas Ardientes
+    - Key: Moves/ScorchingSands/Description
+      Value: Lanza arena ardiente al objetivo. Puede llegar a quemar.
     - Key: Moves/Scratch
       Value: "Ara\xF1azo"
     - Key: Moves/Scratch/Description
@@ -4483,6 +4754,11 @@ MonoBehaviour:
       Value: Onda Voltio
     - Key: Moves/ShockWave/Description
       Value: "Ataca al objetivo con una r\xE1pida descarga que nunca falla."
+    - Key: Moves/Sing
+      Value: Canto
+    - Key: Moves/Sing/Description
+      Value: "Una tranquilizadora nana cantada con una bella voz que har\xE1 dormirse
+        al objetivo."
     - Key: Moves/SkillSwap
       Value: Intercambio
     - Key: Moves/SkillSwap/Description
@@ -4588,6 +4864,10 @@ MonoBehaviour:
     - Key: Moves/SpitUp/Description
       Value: "Escupe el poder almacenado con Reserva contra el objetivo. Cuanto m\xE1s
         poder tuviera almacenado, mayor ser\xE1 el poder del movimiento."
+    - Key: Moves/Splash
+      Value: Salpicadura
+    - Key: Moves/Splash/Description
+      Value: "Salta y salpica a su alrededor sin producir ning\xFAn efecto..."
     - Key: Moves/StealthRock
       Value: Trampa Rocas
     - Key: Moves/StealthRock/Description
@@ -4660,6 +4940,11 @@ MonoBehaviour:
     - Key: Moves/SuperFang/Description
       Value: "Muerde con fuerza al objetivo usando sus afilados colmillos. \xC9sto
         reduce los PV del objetivo a la mitad."
+    - Key: Moves/Superpower
+      Value: Fuerza Bruta
+    - Key: Moves/Superpower/Description
+      Value: "Ataca al objetivo con gran fuerza. Eso har\xE1 que baje el ataque y
+        la defensa del usuario."
     - Key: Moves/Supersonic
       Value: "Supers\xF3nico"
     - Key: Moves/Supersonic/Description
@@ -4809,6 +5094,10 @@ MonoBehaviour:
     - Key: Moves/TriAttack/Description
       Value: "Ataca con tres rayos simulat\xE1neos. Puede quemar, congelar o paralizar
         al objetivo."
+    - Key: Moves/Trick
+      Value: Truco
+    - Key: Moves/Trick/Description
+      Value: Pilla al objetivo por sorpresa e intercambia sus objetos.
     - Key: Moves/Twineedle
       Value: Doble Ataque
     - Key: Moves/Twineedle/Description
@@ -5076,6 +5365,18 @@ MonoBehaviour:
     - Key: Options/Gameplay/RunToggle/Description
       Value: "Cada vez que pulses el bot\xF3n de correr, se activar\xE1 o desactivar\xE1
         el correr."
+    - Key: Options/Gameplay/SaveFormat
+      Value: Partida guardada
+    - Key: Options/Gameplay/SaveFormat/ReadableJson
+      Value: Json legible
+    - Key: Options/Gameplay/SaveFormat/ReadableJson/Description
+      Value: "Ocupa m\xE1s espacio, pero una persona puede leer el archivo y modificarlo
+        a su gusto."
+    - Key: Options/Gameplay/SaveFormat/SmallJson
+      Value: "Json peque\xF1o"
+    - Key: Options/Gameplay/SaveFormat/SmallJson/Description
+      Value: "Este formato puede llegar a ocupar hasta la mitad de espacio en disco,
+        pero ser\xE1 dif\xEDcil de leer para una persona."
     - Key: Options/Gameplay/ShowNicknameDialog
       Value: Poner motes
     - Key: Options/Gameplay/ShowNicknameDialog/Disabled
@@ -5109,7 +5410,7 @@ MonoBehaviour:
     - Key: Options/Resolution
       Value: "Resoiuci\xF3n"
     - Key: Regions/DemoRegion1
-      Value: DemoRegion1
+      Value: YAPU Land
     - Key: Resolution/BorderlessGameRebootWarning
       Value: Se ha creado un acceso directo en {0}. Utiliza ese acceso directo para
         lanzar el juego en una ventana sin bordes. De otra forma, algunos elementos
@@ -5186,6 +5487,10 @@ MonoBehaviour:
       Value: "Pok\xE9mon Cobra"
     - Key: Species/Cocoon
       Value: "Pok\xE9mon Capullo"
+    - Key: Species/DrillPokemon
+      Value: "Pok\xE9mon Taladro"
+    - Key: Species/FairyPokemon
+      Value: "Pok\xE9mon Hada"
     - Key: Species/FlamePokemon
       Value: "Pok\xE9mon Llama"
     - Key: Species/HairyBugPokemon
@@ -5204,6 +5509,8 @@ MonoBehaviour:
       Value: "Pok\xE9mon Concha"
     - Key: Species/SnakePokemon
       Value: "Pok\xE9mon Serpiente"
+    - Key: Species/StarShapePokemon
+      Value: "Pok\xE9mon Estrella"
     - Key: Species/TinyBirdPokemon
       Value: "Pok\xE9mon Pajarito"
     - Key: Species/TinyMousePokemon
@@ -5280,6 +5587,12 @@ MonoBehaviour:
       Value: "\xA1{0} se congel\xF3!"
     - Key: Status/Freeze/Tick
       Value: "{0} est\xE1 congelado."
+    - Key: Status/Global/GravityStatus
+      Value: Gravedad
+    - Key: Status/Global/GravityStatus/End
+      Value: "La gravedad volvi\xF3 a la normalidad."
+    - Key: Status/Global/GravityStatus/Start
+      Value: "\xA1La gravedad se intensific\xF3!"
     - Key: Status/Global/MagicRoomStatus
       Value: "Zona M\xE1gica"
     - Key: Status/Global/MagicRoomStatus/End
@@ -5308,6 +5621,8 @@ MonoBehaviour:
       Value: "{0} fue da\xF1ado por el veneno."
     - Key: Status/Side/FutureSightStatus
       Value: "Premonici\xF3n"
+    - Key: Status/Side/HealingWishStatus
+      Value: Deseo Cura
     - Key: Status/Side/LightScreenStatus
       Value: Pantalla Luz
     - Key: Status/Side/LightScreenStatus/End
@@ -5482,6 +5797,8 @@ MonoBehaviour:
       Value: "\xA1El \xE1cido g\xE1strico anul\xF3 la habilidad de {0}!"
     - Key: Status/Volatile/HelpingHandStatus
       Value: Refuerzo
+    - Key: Status/Volatile/Imprisoning
+      Value: Sellando
     - Key: Status/Volatile/Infatuation
       Value: Enamorado
     - Key: Status/Volatile/Infatuation/Start
@@ -5716,166 +6033,3 @@ MonoBehaviour:
       Value: "\xA1Comenz\xF3 a hacer mucho sol!"
     - Key: Weather/SunnyWeather/Tick
       Value: Hace mucho sol.
-    - Key: Monsters/Nidorina
-      Value: Nidorina
-    - Key: Monsters/Nidorina/Normal
-      Value: "Eriza sus espinas cuando siente peligro. \xC9stas crecen m\xE1s lento
-        que las de Nidorino."
-    - Key: Monsters/Nidoqueen
-      Value: Nidoqueen
-    - Key: Monsters/Nidoqueen/Normal
-      Value: "Todo su cuerpo est\xE1 cubierto de duras escamas. Proteger\xE1 a los
-        cachorros de su madriguera con su vida."
-    - Key: Species/DrillPokemon
-      Value: "Pok\xE9mon Taladro"
-    - Key: Abilities/SheerForce
-      Value: Potencia Bruta
-    - Key: Abilities/SheerForce/Description
-      Value: Elimina los efectos secundarios de sus movimientos, pero aumenta su
-        poder.
-    - Key: Moves/Superpower
-      Value: Fuerza Bruta
-    - Key: Moves/Superpower/Description
-      Value: "Ataca al objetivo con gran fuerza. Eso har\xE1 que baje el ataque y
-        la defensa del usuario."
-    - Key: Moves/ScorchingSands
-      Value: Arenas Ardientes
-    - Key: Moves/ScorchingSands/Description
-      Value: Lanza arena ardiente al objetivo. Puede llegar a quemar.
-    - Key: Moves/RockBlast
-      Value: Pedrada
-    - Key: Moves/RockBlast/Description
-      Value: Ataca lanzando de dos a cinco rocas contra el objetivo.
-    - Key: Moves/Hex
-      Value: Infortunio
-    - Key: Moves/Hex/Description
-      Value: "Este ataque desalmado hace mucho da\xF1o a objetivos con condiciones
-        de estado."
-    - Key: Items/MoonStone
-      Value: Piedra Lunar
-    - Key: Items/MoonStone/Description
-      Value: "Una peculiar piedra que hace evolucionar a ciertas especies de Pok\xE9mon.
-        Es oscura como el cielo nocturno."
-    - Key: Monsters/Nidorino
-      Value: Nidorino
-    - Key: Monsters/Nidorino/Normal
-      Value: "Tiene una violenta predisposici\xF3n a cornear a sus oponentes, inyect\xE1ndoles
-        veneno en el proceso."
-    - Key: Monsters/Nidoking
-      Value: Nidoking
-    - Key: Monsters/Nidoking/Normal
-      Value: "Un golpe de su poderosa cola puede partir un poste telef\xF3nico como
-        si fuera una cerilla."
-    - Key: Moves/Megahorn
-      Value: Megacuerno
-    - Key: Moves/Megahorn/Description
-      Value: "Utiliza su poderoso cuerno para apu\xF1alar al objetivo sin piedad."
-    - Key: Monsters/Clefairy
-      Value: Clefairy
-    - Key: Monsters/Clefairy/Normal
-      Value: "Se le puede encontrar en silencionos ricones en las monta\xF1as. Danza
-        con sus peque\xF1as alitas brillando bajo la luz de la luna llena."
-    - Key: Species/FairyPokemon
-      Value: "Pok\xE9mon Hada"
-    - Key: Abilities/CuteCharm
-      Value: Gran Encanto
-    - Key: Abilities/CuteCharm/Description
-      Value: Puede enamorar a los oponentes que entren en contacto.
-    - Key: Abilities/MagicGuard
-      Value: "Muro M\xE1gico"
-    - Key: Abilities/MagicGuard/Description
-      Value: "Solo recibe da\xF1o de ataques."
-    - Key: Abilities/FriendGuard
-      Value: Compiescolta
-    - Key: Abilities/FriendGuard/Description
-      Value: "Reduce el da\xF1o que reciben sus aliados."
-    - Key: Moves/Copycat
-      Value: "Copi\xF3n"
-    - Key: Moves/Copycat/Description
-      Value: "Copia el \xFAltimo movimiento que se ha usado. Falla si a\xFAn no se
-        ha usado un movimiento."
-    - Key: Moves/Pound
-      Value: Destructor
-    - Key: Moves/Pound/Description
-      Value: Ataca con su cola, pata o similar.
-    - Key: Moves/Sing
-      Value: Canto
-    - Key: Moves/Sing/Description
-      Value: "Una tranquilizadora nana cantada con una bella voz que har\xE1 dormirse
-        al objetivo."
-    - Key: Moves/Splash
-      Value: Salpicadura
-    - Key: Moves/Splash/Description
-      Value: "Salta y salpica a su alrededor sin producir ning\xFAn efecto..."
-    - Key: Moves/AfterYou
-      Value: Cede Paso
-    - Key: Moves/AfterYou/Description
-      Value: "Ayuda al objetivo y le hace moverse justo despu\xE9s del usuario."
-    - Key: Moves/Metronome
-      Value: "Metr\xF3nomo"
-    - Key: Moves/Metronome/Description
-      Value: "Mueve un dedo y estimula su cerebro para usar pr\xE1cticamente cualquier
-        movimiento aleatorio."
-    - Key: Moves/Moonlight
-      Value: Luz Lunar
-    - Key: Moves/Moonlight/Description
-      Value: Recupera sus propios PV. La cantidad depende del tiempo.
-    - Key: Status/Global/GravityStatus
-      Value: Gravedad
-    - Key: Status/Global/GravityStatus/Start
-      Value: "\xA1La gravedad se intensific\xF3!"
-    - Key: Status/Global/GravityStatus/End
-      Value: "La gravedad volvi\xF3 a la normalidad."
-    - Key: Moves/Gravity
-      Value: Gravedad
-    - Key: Moves/Gravity/Description
-      Value: "Permite que los Pok\xE9mon voladores o con levitaci\xF3n puedan ser
-        golpeados con movimientos de tierra. Los movimientos que impliquen levantarse
-        del suelo no se pueden usar."
-    - Key: Moves/FollowMe
-      Value: "Se\xF1uelo"
-    - Key: Moves/FollowMe/Description
-      Value: "Llama la atenci\xF3n sobre s\xED mismo, haciendo que los oponentes
-        le ataquen."
-    - Key: Moves/CosmicPower
-      Value: "Masa C\xF3smica"
-    - Key: Moves/CosmicPower/Description
-      Value: "Absorve poder m\xEDstico del universo para subir su defensa y defensa
-        especial."
-    - Key: Moves/Moonblast
-      Value: Fuerza Lunar
-    - Key: Moves/Moonblast/Description
-      Value: "Usa el poder de la luna para atacar al objetivo. Puede reducir el ataque
-        especial de \xE9ste."
-    - Key: Moves/HealingWish/Effect
-      Value: "\xA1El deseo se volvi\xF3 realidad!"
-    - Key: Moves/HealingWish
-      Value: Deseo Cura
-    - Key: Moves/HealingWish/Description
-      Value: "El usuario se debilita. A cambio, el compa\xF1ero que entre en su lugar
-        curar\xE1 sus PV y condiciones de estado."
-    - Key: Status/Side/HealingWishStatus
-      Value: Deseo Cura
-    - Key: Moves/FairyWind
-      Value: "Viento Fe\xE9rico"
-    - Key: Moves/FairyWind/Description
-      Value: Ataca con un misterioso viento.
-    - Key: Moves/HealPulse
-      Value: Pulso Cura
-    - Key: Moves/HealPulse/Description
-      Value: "Emite un pulso curatorio que recupera hasta la mitad de los PV m\xE1ximos
-        del objetivo."
-    - Key: Moves/ChillingWater
-      Value: "Agua Fr\xEDa"
-    - Key: Moves/ChillingWater/Description
-      Value: "Ataca al objetivo con un chorro de agua fr\xEDa, reduciendo su ataque."
-    - Key: Moves/NightShade
-      Value: Tinieblas
-    - Key: Moves/NightShade/Description
-      Value: "Crea un terror\xEDfico espejismo que har\xE1 da\xF1o igual al nivel
-        del usuario."
-    - Key: Moves/DrainPunch
-      Value: "Pu\xF1o Drenaje"
-    - Key: Moves/DrainPunch/Description
-      Value: "Ataca con un pu\xF1etazo que absorve la salud del objetivo y recupera
-        al usuario la mitad del da\xF1o hecho."
