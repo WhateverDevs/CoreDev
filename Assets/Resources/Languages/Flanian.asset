@@ -250,16 +250,8 @@ MonoBehaviour:
       Value: Pone nerviosos a los oponentes y les impide comer bayas.
     - Key: Abilities/Unnerve/Dialog
       Value: El Nerviosismo de {0} impide a los otros comer bayas.
-    - Key: Badges/FlowerBadge
-      Value: Medalla Flor
-    - Key: Badges/FlowerBadge/Description
-      Value: Una medalla con forma de flor.
     - Key: Badges/NoBadges
       Value: "No tienes medallas de esta regi\xF3n."
-    - Key: Badges/StickBadge
-      Value: Medalla Palote
-    - Key: Badges/StickBadge/Description
-      Value: Esta medalla te permite usar Fuerza y Golpe Roca en la Region 1.
     - Key: Bag/PurchasePrice
       Value: Preceo de compra
     - Key: Bag/Sort
@@ -462,86 +454,6 @@ MonoBehaviour:
       Value: Hay algo raro en el campo.
     - Key: Castillian
       Value: Castelleano
-    - Key: Characters/Ana
-      Value: Ana
-    - Key: Characters/Anastasio
-      Value: Anastasio
-    - Key: Characters/Beatriz
-      Value: Beatriz
-    - Key: Characters/Blue
-      Value: Blue
-    - Key: Characters/Brendan
-      Value: Brendan
-    - Key: Characters/Brock
-      Value: Brock
-    - Key: Characters/Carmelo
-      Value: Carmelo
-    - Key: Characters/Carmen
-      Value: Carmen
-    - Key: Characters/David
-      Value: David
-    - Key: Characters/Diego
-      Value: Diego
-    - Key: Characters/Eduardo
-      Value: Eduardo
-    - Key: Characters/Encarna
-      Value: Encarna
-    - Key: Characters/Evarista
-      Value: Evarista
-    - Key: Characters/Example
-      Value: Ejemplo
-    - Key: Characters/Gonzalo
-      Value: Gonzalo
-    - Key: Characters/Heber
-      Value: "H\xE9ber"
-    - Key: Characters/Jacobo
-      Value: Jacobo
-    - Key: Characters/Javier
-      Value: Javier
-    - Key: Characters/Joaquin
-      Value: "Joaqu\xEDn"
-    - Key: Characters/Jose
-      Value: "Jos\xE9"
-    - Key: Characters/JoseMaria
-      Value: "Jos\xE9 Mar\xEDa"
-    - Key: Characters/Juan
-      Value: Juan
-    - Key: Characters/Julia
-      Value: Julia
-    - Key: Characters/Leaf
-      Value: Leaf
-    - Key: Characters/Manolito
-      Value: Manolito
-    - Key: Characters/Manuel
-      Value: Manuel
-    - Key: Characters/Margarita
-      Value: Margarita
-    - Key: Characters/Maria
-      Value: "Mar\xEDa"
-    - Key: Characters/May
-      Value: May
-    - Key: Characters/Miguel
-      Value: Miguel
-    - Key: Characters/Natalia
-      Value: Natalia
-    - Key: Characters/NurseCasey
-      Value: Casilda
-    - Key: Characters/NurseJoy
-      Value: "Alegr\xEDas"
-    - Key: Characters/NurseTeala
-      Value: Teala
-    - Key: Characters/Oak
-      Value: Roble
-    - Key: Characters/Rebeca
-      Value: Rebeca
-    - Key: Characters/Red
-      Value: Red
-    - Key: Characters/Rorix
-      Value: Rorix
-    - Key: Characters/Sergio
-      Value: Sergio
-    - Key: Characters/Sonia
-      Value: Sonia
     - Key: Characters/Type/AceFemale
       Value: Entrenadora pro
     - Key: Characters/Type/AceMale
@@ -668,10 +580,6 @@ MonoBehaviour:
       Value: Jovensuelo
     - Key: Characters/Type/YoungsterMale
       Value: Jovensuelo
-    - Key: Characters/Valentina
-      Value: Valentina
-    - Key: Characters/Werpyto
-      Value: El Werpas
     - Key: CharacterSelection/Confirmation
       Value: "\xBFQuieres jugar con este poerjonase? No podr\xE1s cambear m\xE1s
         adoelante."
@@ -918,333 +826,6 @@ MonoBehaviour:
       Value: Parece que puedes escalar por estas roccs.
     - Key: Dialogs/CuttableTree
       Value: "Parece que se puede cortar este \xE1rbol."
-    - Key: Dialogs/Demo/AlreadyFought
-      Value: Ya hemos luchado.
-    - Key: Dialogs/Demo/DebugNursery/AnotherTime
-      Value: "Quiz\xE1 en otro momento."
-    - Key: Dialogs/Demo/DebugNursery/ChooseAnother
-      Value: Ahora elige otro.
-    - Key: Dialogs/Demo/DebugNursery/Hi
-      Value: "\xA1Hola! Puedo hace un huevo de dos de tus Pomekos sin necesidad de
-        esperar. As\xED podr\xE1s testear m\xE1s r\xE1pido."
-    - Key: Dialogs/Demo/DebugNursery/SameMonster
-      Value: Has elegido el mismo dos veces.
-    - Key: Dialogs/Demo/DebugNursery/TakeCare
-      Value: Cueda de ese hoevo.
-    - Key: Dialogs/Demo/Lab/Beatriz/0
-      Value: "\xBFHas visto la Pok\xE9dex?"
-    - Key: Dialogs/Demo/Lab/Beatriz/1
-      Value: "Registra todas las formas, g\xE9neros y shinies para que puedas completarla
-        de verdad si est\xE1s loco."
-    - Key: Dialogs/Demo/Lab/Beatriz/2
-      Value: "Tambi\xE9n contiene mucha m\xE1s informaci\xF3n que la de los juegos
-        oficiales para que no tengas que pasar tanto tiempo en Bulbapedia."
-    - Key: Dialogs/Demo/Lab/Beatriz/3
-      Value: "Y tambi\xE9n puedes abrirla desde la pantalla de datos de un Pomeko,
-        para que tengas toda la informaci\xF3n a mano."
-    - Key: Dialogs/Demo/Lab/Book/0
-      Value: Todos los datos de un Pomeko, incluidas VIs y VEs, son accesibles. Puedes
-        verlos en la pantalla de datos.
-    - Key: Dialogs/Demo/Lab/Book/1
-      Value: "De la misma forma, puedes ver toda la informaci\xF3n sobre una especie
-        en la Pok\xE9dex."
-    - Key: Dialogs/Demo/Lab/Eduardo
-      Value: "Los iniciales que te dan aqu\xED tienen las stats aleatorias. \xA1Tambi\xE9n
-        hay una probabilidad de que sean foil!"
-    - Key: Dialogs/Demo/Lab/Notebook
-      Value: "Puedes cambiar las opciones del juego desde el men\xFA. Hay unas cuantas
-        m\xE1s que en los juegos oficiales."
-    - Key: Dialogs/Demo/Lab/Oak/0
-      Value: "\xA1Boenos deas amego {PlayerName}!"
-    - Key: Dialogs/Demo/Lab/Oak/1
-      Value: "Hora de que elijas tu inicial, ah\xED los tienes en la mesa."
-    - Key: Dialogs/Demo/Lab/Oak/2
-      Value: "\xBFA d\xF3nde vas? Elige un inicial primero."
-    - Key: Dialogs/Demo/Lab/Oak/3
-      Value: Elige un inicial de la mesa.
-    - Key: Dialogs/Demo/Lab/Oak/4
-      Value: "Coge la Pok\xE9dex que he dejado en aquella mesa."
-    - Key: Dialogs/Demo/Lab/Oak/5
-      Value: Hasta ahora has capturado {Dex.CaughtSpecies} especies diferentes. Buen
-        trabajo.
-    - Key: Dialogs/Demo/Lab/Rebeca
-      Value: "Igual que en las \xFAltimas generaciones, no hay Pok\xE9dex regional
-        y nacional. Cada dise\xF1ador configura la Pok\xE9dex de su juego como quiera.
-        La Pok\xE9dex por defecto de YAPU tiene todos los Pomekos en el orden normal."
-    - Key: Dialogs/Demo/Lab/Sergio
-      Value: "No puedes abrir el men\xFA de Pomekos o la mochila hasta que no tengas
-        al menos un Pomeko."
-    - Key: Dialogs/Demo/Lab/Starter/0
-      Value: "\xBFQuieres a Bulbasaur, el Pok\xE9mon Semilla?"
-    - Key: Dialogs/Demo/Lab/Starter/1
-      Value: "\xBFQuieres a Charmander, el Scaly Boi?"
-    - Key: Dialogs/Demo/Lab/Starter/2
-      Value: "\xBFQuieres a Squirtle, el Trotugo Chikito?"
-    - Key: Dialogs/Demo/Lab/Starter/AlreadyChosen
-      Value: Ya elegiste un inicial.
-    - Key: Dialogs/Demo/PortTown/Carmen/0
-      Value: Bienvenido a la casa del mundo.
-    - Key: Dialogs/Demo/PortTown/Carmen/1
-      Value: "Esta casa est\xE1 dividida en diferentes zonas que representan diferentes
-        regiones del mundo."
-    - Key: Dialogs/Demo/PortTown/Carmen/2
-      Value: "Tus Pomekos podr\xEDan evolucionar a diferentes formas dependiendo
-        de en cu\xE1l de ellas est\xE9s."
-    - Key: Dialogs/Demo/PortTown/JoseMaria/0
-      Value: "\xC9sta es la zona de Alola."
-    - Key: Dialogs/Demo/PortTown/JoseMaria/1
-      Value: "Prueba a evolucionar a un Pokachu aqu\xED."
-    - Key: Dialogs/Demo/PortTown/Rorix/0
-      Value: "Cuando evoluciones un Pomeko, ll\xE9valo a recordar movimientos. \xA1Quiz\xE1
-        pueda aprender movimientos nuevos!"
-    - Key: Dialogs/Demo/RainbowCave/Evarista/0
-      Value: "Necesitar\xE1s \xE9sto."
-    - Key: Dialogs/Demo/RainbowCave/Evarista/1
-      Value: Soerte.
-    - Key: Dialogs/Demo/Route1/Julia/0
-      Value: "Diferentes Pomekos pueden aparecer en la hierba alta dependiendo del
-        tiempo que haga o de la hora del d\xEDa."
-    - Key: Dialogs/Demo/Route1/Julia/1
-      Value: Prueba a buscar por la noche o a usar tormenta de arena o granizo en
-        esta ruta.
-    - Key: Dialogs/Demo/Route1/Manolito/1
-      Value: Lo primero, voy a coger tu mochila y guardarla en una mochila temporal.
-    - Key: Dialogs/Demo/Route1/Manolito/2
-      Value: Ahora voy a vaciar tu mochila.
-    - Key: Dialogs/Demo/Route1/Manolito/3
-      Value: Ahora te voy a dar una Ball que parece normal, pero en realidad es una
-        Master Ball.
-    - Key: Dialogs/Demo/Route1/Manolito/4
-      Value: Ahora, un combate en el que solo puedes usar la mochila.
-    - Key: Dialogs/Demo/Route1/Manolito/5
-      Value: "\xA1Bien hecho! Ahora te devuelvo tu mochila."
-    - Key: Dialogs/Demo/Route1/Manolito/Bye
-      Value: Vuelve si quieres volver a hacer el tutorial.
-    - Key: Dialogs/Demo/Route1/Manolito/Hi
-      Value: "\xA1Hola! Te presento un peque\xF1o tutorial sobre cazar Pomekos."
-    - Key: Dialogs/Demo/Route1/Margarita
-      Value: "\xA1Hola hola!"
-    - Key: Dialogs/Demo/Route1/RandomAIBattle/0
-      Value: "\xA1Hola! Yo puedo ejecutar un bucle en el que IAs luchar\xE1n en combates
-        aleatorios."
-    - Key: Dialogs/Demo/Route1/RandomAIBattle/1
-      Value: "Est\xE1 completamente automatizado, as\xED que no se necesita ning\xFAn
-        input por tu parte."
-    - Key: Dialogs/Demo/Route1/RandomAIBattle/2
-      Value: "Eso significa que no podr\xE1s parar el bucle desde aqu\xED, tendr\xE1s
-        que usar la consola de Proxima."
-    - Key: Dialogs/Demo/Route1/RandomAIBattle/3
-      Value: "\xA1Si no sabes lo que eso significa, <shake>NO  </shake>ejecutes este
-        bucle o te quedar\xE1s atascado!"
-    - Key: Dialogs/Demo/Route1/RandomAIBattle/4
-      Value: Para parar el bucle, lanza "SetLocalBoolVariable LoopAIBattles false"
-        desde la consola de Proxima.
-    - Key: Dialogs/Demo/Route1/RandomAIBattle/StartLoop
-      Value: "\xBFQuieres comenzar el bucle?"
-    - Key: Dialogs/Demo/Route1/RandomBattle/0
-      Value: "\xBFQuieres echar un combate aleatorio?"
-    - Key: Dialogs/Demo/Route1/RandomBattle/1
-      Value: Vuelve cuando quieras.
-    - Key: Dialogs/Demo/Route1/RandomBattle/2
-      Value: "D\xE9jame curar a tus Pomekos."
-    - Key: Dialogs/Demo/Route1/RandomBattle/NeedTwoMons
-      Value: Necesitas al menos dos Pomekos en el equipo.
-    - Key: Dialogs/Demo/Route1/RandomBattle/WellDone
-      Value: Bien hecho.
-    - Key: Dialogs/Demo/Route1/Sonia/1
-      Value: "Spawnear actores es complicado en YAPU ya que dependen del uso de inyecci\xF3n
-        de dependencias. Necesitar\xEDas crear una factoria para cada prefab que
-        quisieses spawnear."
-    - Key: Dialogs/Demo/Route1/Sonia/2
-      Value: Entonces lo que hacemos es tener a todos los actores en escena desde
-        el principio.
-    - Key: Dialogs/Demo/Route1/Sonia/3
-      Value: "Pero claro. \xBFC\xF3mo manejamos actores que deber\xEDan spawnear
-        en alg\xFAn momento? Bueno, los teletransportamos fuera de c\xE1mara."
-    - Key: Dialogs/Demo/Route1/Sonia/4
-      Value: "\xBFHas visto que viniendo desde el sur no hab\xEDa nadie en este camino,
-        verdad? Pues mi amiga Margarita va a venir de ah\xED ahora mismo."
-    - Key: Dialogs/Demo/Route1/Sonia/5
-      Value: "\xA1Hola, Margarita!"
-    - Key: Dialogs/Demo/Route1/Sonia/6
-      Value: "Si vuelves hacia el sur, ver\xE1s que Margarita no est\xE1 ah\xED."
-    - Key: Dialogs/Demo/Route1/Sonia/7
-      Value: "De hecho, su actor se encuentra en alg\xFAn lugar fuera de c\xE1mara.
-        Cuando se la necesita, se teletransporta, hace su papel y luego se vuelve
-        a teletransportar."
-    - Key: Dialogs/Demo/Route1/Sonia/8
-      Value: "\xC9sto puede parecer una tonter\xEDa, pero es el ejemplo m\xE1s b\xE1sico
-        de Object Pooling. Un pool de un solo objeto con un m\xE1ximo de uno de capacidad."
-    - Key: Dialogs/Demo/Route1/Sonia/9
-      Value: "Vuelve por aqu\xED si quieres volver a ver la demostraci\xF3n."
-    - Key: Dialogs/Demo/Route2/Jacobo
-      Value: "No lo parece, pero puedes saltar por aqu\xED."
-    - Key: Dialogs/Demo/StartingVillage-Cave-F0/Eduardo/0
-      Value: "\xBFHas visto estas roccs?"
-    - Key: Dialogs/Demo/StartingVillage-Cave-F0/Eduardo/1
-      Value: "\xC9sta volver\xE1 a aparecer cuando entres en esta habitaci\xF3n."
-    - Key: Dialogs/Demo/StartingVillage-Cave-F0/Eduardo/2
-      Value: "\xC9sta se guardar\xE1 en la partida y no volver\xE1 a aparecer."
-    - Key: Dialogs/Demo/StartingVillage-Cave-F0/Eduardo/3
-      Value: "YAPU viene con plantillas para ambas, as\xED como para \xE1rboles que
-        se cortan. \xA1Puedes usar las que m\xE1s te gusten!"
-    - Key: Dialogs/Demo/StartingVillage-Cave-F0/Eduardo/4
-      Value: "Tambi\xE9n soy el l\xEDder de gimnasio que bloquea usar Golpe Roca
-        y Fuerza. No tengo gimnasio ni luchar\xE9 contigo porque \xE9sto es una demo
-        y no hace falta."
-    - Key: Dialogs/Demo/StartingVillage-Cave-F0/Eduardo/5
-      Value: "Con esa medalla podr\xE1s usar Golpe Roca y Fuerza en esta regi\xF3n.
-        Recuerda que diferentes regiones tienen diferentes medallas para bloquear
-        cada movimiento."
-    - Key: Dialogs/Demo/StartingVillage/Ana/0
-      Value: "\xBFQuieres 100 objetos de cada?"
-    - Key: Dialogs/Demo/StartingVillage/Ana/1
-      Value: "Ah\xED tienes, disfruta."
-    - Key: Dialogs/Demo/StartingVillage/Ana/2
-      Value: Dame un meomento.
-    - Key: Dialogs/Demo/StartingVillage/Ana2/0
-      Value: "\xA1Hola! Soy un ejemplo de entrenadora que mira a otro lado aleatoriamente."
-    - Key: Dialogs/Demo/StartingVillage/Ana2/1
-      Value: La victoria es tuya.
-    - Key: Dialogs/Demo/StartingVillage/Ana2/2
-      Value: "El juego almacena el hecho de que me has ganado, as\xED que no podemos
-        luchar de nuevo."
-    - Key: Dialogs/Demo/StartingVillage/Ana2/3
-      Value: "El juego almacena el hecho de que me has ganado, as\xED que no podemos
-        luchar de nuevo."
-    - Key: Dialogs/Demo/StartingVillage/Blue/0
-      Value: "Yo soy un entrenador que se va girando peri\xF3dicamente."
-    - Key: Dialogs/Demo/StartingVillage/Blue/1
-      Value: Eres bueno.
-    - Key: Dialogs/Demo/StartingVillage/Blue/2
-      Value: No me gusta nada perder.
-    - Key: Dialogs/Demo/StartingVillage/Blue/3
-      Value: Ya me has ganado, no abuses.
-    - Key: Dialogs/Demo/StartingVillage/Brendan/0
-      Value: Poedes moverte sobre el agoa usando Surf.
-    - Key: Dialogs/Demo/StartingVillage/Brendan/1
-      Value: "\xBFQuieres que le ense\xF1e Surf a uno de tus Pomekos?"
-    - Key: Dialogs/Demo/StartingVillage/Brendan/2
-      Value: "En otro momento, quiz\xE1."
-    - Key: Dialogs/Demo/StartingVillage/Brock/1
-      Value: "Hola, soy un l\xEDder de gimnasio."
-    - Key: Dialogs/Demo/StartingVillage/Brock/2
-      Value: "Tus Pomekos ganar\xE1n felicidad por luchar contra mi."
-    - Key: Dialogs/Demo/StartingVillage/Brock/3
-      Value: "Tambi\xE9n te dar\xE9 una medalla si me ganas."
-    - Key: Dialogs/Demo/StartingVillage/Carmelo/0
-      Value: "F\xEDjate en estos remolinos. El de arriba volver\xE1 a aparecer cuando
-        cambies de escena. El de abajo se guardar\xE1 en la partida y no volver\xE1
-        a aparecer."
-    - Key: Dialogs/Demo/StartingVillage/Carmelo/1
-      Value: "Puedo ense\xF1arle Remoleno a tus Pomekos si quieres."
-    - Key: Dialogs/Demo/StartingVillage/Carmelo/2
-      Value: "Otra vez ser\xE1."
-    - Key: Dialogs/Demo/StartingVillage/Double/0
-      Value: "Hola. \xBFQuieres tener un combate contra dos salvajes?"
-    - Key: Dialogs/Demo/StartingVillage/Double/1
-      Value: Este combate es una demo, puedes repetirlo todas las veces que quieras.
-    - Key: Dialogs/Demo/StartingVillage/Double/2
-      Value: Vuelve cuando tengas al menos dos Pomekos.
-    - Key: Dialogs/Demo/StartingVillage/Heber/0
-      Value: Puedes escalar saltos de agua con Cascada.
-    - Key: Dialogs/Demo/StartingVillage/Heber/1
-      Value: "\xBFQuieres que se lo ense\xF1e a uno de tus Pomekos?"
-    - Key: Dialogs/Demo/StartingVillage/Heber/2
-      Value: Ah, poes nada.
-    - Key: Dialogs/Demo/StartingVillage/Javier
-      Value: Hola, soy un NPC que habla contigo.
-    - Key: Dialogs/Demo/StartingVillage/Javier/0
-      Value: "Hola, soy un ejemplo de entrenador est\xE1tico."
-    - Key: Dialogs/Demo/StartingVillage/Javier/1
-      Value: Oh, me ganaste.
-    - Key: Dialogs/Demo/StartingVillage/Javier/2
-      Value: Cuando me ganas se almacena una variable en la partida, haciendo que
-        ya no puedas volver a luchar conmigo.
-    - Key: Dialogs/Demo/StartingVillage/Jose/0
-      Value: Puedes acceder a la nobe para almacenar o descargar tus Pomekos desde
-        cualquier sitio.
-    - Key: Dialogs/Demo/StartingVillage/Jose/1
-      Value: El poder de la ciencia es alucinante.
-    - Key: Dialogs/Demo/StartingVillage/Juan/AlreadyGiven
-      Value: "Ya te he dado una poce\xF3n."
-    - Key: Dialogs/Demo/StartingVillage/Juan/Give1
-      Value: "Toma, una poce\xF3n."
-    - Key: Dialogs/Demo/StartingVillage/Juan/Give2
-      Value: "Disfr\xFAtala."
-    - Key: Dialogs/Demo/StartingVillage/Leaf/0
-      Value: "Soy un ejemplo de entrenadora que corre en c\xEDrculos."
-    - Key: Dialogs/Demo/StartingVillage/Leaf/1
-      Value: Oh, F.
-    - Key: Dialogs/Demo/StartingVillage/Leaf/2
-      Value: "Puedes usarme como ejemplo para otros entrenadores que, por ejemplo,
-        corran adelante y atr\xE1s en una l\xEDnea."
-    - Key: Dialogs/Demo/StartingVillage/Leaf/3
-      Value: "\xA1Suerte en tu aventura!"
-    - Key: Dialogs/Demo/StartingVillage/Manuel/0
-      Value: "\xA1Hola! Soy un ejemplo de entrenador que camina aleatoriamente."
-    - Key: Dialogs/Demo/StartingVillage/Manuel/1
-      Value: Mi trabajo es pasear aleatoriamente, no ganar.
-    - Key: Dialogs/Demo/StartingVillage/Manuel/2
-      Value: "\xA1Hasta otra!"
-    - Key: Dialogs/Demo/StartingVillage/Manuel/3
-      Value: "Seg\xFAn la partida ya hemos luchado."
-    - Key: Dialogs/Demo/StartingVillage/Maria/0
-      Value: Poedes escoalar esas roccs con Treparroccs.
-    - Key: Dialogs/Demo/StartingVillage/Maria/1
-      Value: "\xBFQuieres que le ense\xF1e Treparroccs a uno de tus Pomekos?"
-    - Key: Dialogs/Demo/StartingVillage/Maria/2
-      Value: "En otro momento, quiz\xE1."
-    - Key: Dialogs/Demo/StartingVillage/Miguel/0
-      Value: "\xBFQuieres que a\xF1ada un Pok\xE9mon de cada especie y forma a tu
-        nube?"
-    - Key: Dialogs/Demo/StartingVillage/Miguel/1
-      Value: Dame un meomento.
-    - Key: Dialogs/Demo/StartingVillage/Miguel/2
-      Value: Ya los tienes.
-    - Key: Dialogs/Demo/StartingVillage/Natalia/0
-      Value: "Si est\xE1 activado en las opceones, la partida se guardar\xE1 en momentos
-        concretos de la hestoria."
-    - Key: Dialogs/Demo/StartingVillage/Natalia/1
-      Value: Ahora acabo de autogoardar si estaba actevado.
-    - Key: Dialogs/Demo/StartingVillage/NPCExample/0
-      Value: Hola, soy un {0}.
-    - Key: Dialogs/Demo/StartingVillage/NPCExample/1
-      Value: "\xBFQu\xE9 necesitas?"
-    - Key: Dialogs/Demo/StartingVillage/NPCExample/2
-      Value: "Est\xE1s en medio."
-    - Key: Dialogs/Demo/StartingVillage/NPCExample/Bye
-      Value: "Adi\xF3s"
-    - Key: Dialogs/Demo/StartingVillage/NPCExample/Walk
-      Value: Anda
-    - Key: Dialogs/Demo/StartingVillage/Valentina/0
-      Value: Puedes hacer Buceo en aguas profundas para acceder a nuevas zonas.
-    - Key: Dialogs/Demo/StartingVillage/Valentina/1
-      Value: "Si quieres se lo puedo ense\xF1ar a alguno de tus Pomekos."
-    - Key: Dialogs/Demo/StartingVillage/Valentina/2
-      Value: Nos vemos entonces.
-    - Key: Dialogs/Demo/StartingVillageCave/Werpyto/AlreadyGiven
-      Value: Espero que pesques muchos pescaos.
-    - Key: Dialogs/Demo/StartingVillageCave/Werpyto/Give1
-      Value: Me gusta pescar pescaos.
-    - Key: Dialogs/Demo/StartingVillageCave/Werpyto/Give2
-      Value: "Ahora t\xFA tambi\xE9n puedes pescar pescaos."
-    - Key: Dialogs/Demo/StartingVillageCenter/Joaquin/AlreadyGiven
-      Value: "\xBFTe llevas bien con el Bulbasaur que te di?"
-    - Key: Dialogs/Demo/StartingVillageCenter/Joaquin/Give1
-      Value: Toma, un Bulbasaur.
-    - Key: Dialogs/Demo/StartingVillageCenter/Joaquin/Give2
-      Value: "Cu\xEDdalo bien."
-    - Key: Dialogs/Demo/StartingVillageCenter/Maria/0
-      Value: "\xBFMe poedes dar una poce\xF3n?"
-    - Key: Dialogs/Demo/StartingVillageCenter/Maria/1
-      Value: "\xA1Mochas graceas! Toma \xE9sto a cambio."
-    - Key: Dialogs/Demo/StartingVillageCenter/Maria/AlreadyGiven
-      Value: "Graceas por la poce\xF3n."
-    - Key: Dialogs/Demo/StartingVillageCenter/Maria/Cancelled
-      Value: "Si tienes una poce\xF3n que te sobre me vendr\xEDa bien."
-    - Key: Dialogs/Demo/StartingVillageCenter/Maria/NotPotion
-      Value: "Eso no es una poci\xF3n :("
     - Key: Dialogs/Dex/DontHave
       Value: "\xA1No tienes una Pok\xE9dex!"
     - Key: Dialogs/DiveDown
@@ -1604,10 +1185,6 @@ MonoBehaviour:
       Value: Gorra Mundial
     - Key: Forms/WorldCapShiny
       Value: Gorra Mundial Foil
-    - Key: Game/Subtitle
-      Value: Proyecto de ejoemplo
-    - Key: Game/Title
-      Value: "Yet Another Pok\xE9mon Unity"
     - Key: Genders/Female
       Value: Hembra
     - Key: Genders/Females
@@ -4967,8 +4544,9 @@ MonoBehaviour:
       Value: Lanza estrellas contra el oponente que nunca fallan.
     - Key: Moves/Switcheroo
       Value: Trapicheo
-    - Key: ' '
-      Value: 
+    - Key: Moves/Switcheroo/Description
+      Value: "Cambia su objeto por el del oponente m\xE1s r\xE1pido de lo que el
+        ojo puede ver."
     - Key: Moves/SwordsDance
       Value: Danza Espada
     - Key: Moves/SwordsDance/Description
@@ -5391,8 +4969,6 @@ MonoBehaviour:
       Value: Cambia el monitor.
     - Key: Options/Resolution
       Value: "Resoluci\xF3n"
-    - Key: Regions/DemoRegion1
-      Value: YAPU Land
     - Key: Resolution/BorderlessGameRebootWarning
       Value: Se ha creado un acceso directo en {0}. Utiliza ese acceso directo para
         lanzar el juego en una ventana sin bordes. De otra forma, algunos elementos
@@ -5417,44 +4993,6 @@ MonoBehaviour:
       Value: "Centa del campe\xF3n"
     - Key: Ribbons/Champion/Description
       Value: "Campe\xF3n de la lega."
-    - Key: Scenes/PortTownInfo/Name
-      Value: Pueblo Costero
-    - Key: Scenes/PortTownInfo/WorldHouse
-      Value: Casa del Mundo
-    - Key: Scenes/PortTownInfo/WorldHouse/Alola
-      Value: Alola
-    - Key: Scenes/PortTownInfo/WorldHouseSign
-      Value: Casa del Mundo
-    - Key: Scenes/RainbowCave/DirectExit
-      Value: Directo a la salida
-    - Key: Scenes/RainbowCave/Name
-      Value: Coeva Arcoiris
-    - Key: Scenes/RainbowCave/NextRoom
-      Value: Siguiente sala
-    - Key: Scenes/Route1/RainbowCaveEntranceSign
-      Value: Coeva Arcoiris{LineBreak}Descubre todos los tipos de coeva.
-    - Key: Scenes/Route1Info/Name
-      Value: Ruta 1
-    - Key: Scenes/Route1Info/NurserySign
-      Value: "Goarderer\xEDa"
-    - Key: Scenes/Route1Info/RouteSign
-      Value: Ruta 1
-    - Key: Scenes/Route1NurseryInfo/Name
-      Value: "Goarderer\xEDa"
-    - Key: Scenes/Route2Info/Name
-      Value: Ruta 2
-    - Key: Scenes/StartingVillage-Cave-F0Info/Name
-      Value: "Peque\xF1a Gruta"
-    - Key: Scenes/StartingVillage-LabInfo/Name
-      Value: Laboratoreo
-    - Key: Scenes/StartingVillage-NPCHouseInfo/Name
-      Value: Casa de los NPC
-    - Key: Scenes/StartingVillage-TilesHouseInfo/Name
-      Value: Museo de Tiles
-    - Key: Scenes/StartingVillageInfo/Name
-      Value: Poeblo Inicial
-    - Key: Scenes/StartingVillageInfo/WelcomeSign
-      Value: "\xA1Bienvenides al Pueblo Inicial!"
     - Key: Settings/GlobalXPShare/Off
       Value: Desactivaste el Repartir Exp. global.
     - Key: Settings/GlobalXPShare/On
@@ -5917,22 +5455,6 @@ MonoBehaviour:
       Value: "\xA1{0} est\xE1 atrapado!"
     - Key: Status/Volatile/Wrapped/Tick
       Value: "\xA1{0} recibi\xF3 da\xF1o por la constricci\xF3n!"
-    - Key: Test/AfterBattle
-      Value: This is so sad. Alexa, play Despacito.
-    - Key: Test/GameToClose
-      Value: "El joego se cerrear\xE1."
-    - Key: Test/LaunchDouble1vs2TrainerBattle
-      Value: 1 vs 2
-    - Key: Test/LaunchDouble2vs2TrainerBattle
-      Value: 2 vs 2
-    - Key: Test/LaunchDoubleWildBattle
-      Value: Dos salvoajes
-    - Key: Test/LaunchSingleAlphaBattle
-      Value: Un alfa
-    - Key: Test/LaunchSingleTrainerBattle
-      Value: Un entreneador
-    - Key: Test/LaunchSingleWildBattle
-      Value: Un salvoaje
     - Key: Types/Bug
       Value: Becho
     - Key: Types/Dark
@@ -6015,3 +5537,482 @@ MonoBehaviour:
       Value: "\xA1Comenz\xF3 a hacer mucho sol!"
     - Key: Weather/SunnyWeather/Tick
       Value: Hace mucho sol.
+    - Key: Badges/FlowerBadge
+      Value: Medalla Flor
+    - Key: Badges/FlowerBadge/Description
+      Value: Una medalla con forma de flor.
+    - Key: Badges/StickBadge
+      Value: Medalla Palote
+    - Key: Badges/StickBadge/Description
+      Value: Esta medalla te permite usar Fuerza y Golpe Roca en la Region 1.
+    - Key: Characters/Ana
+      Value: Ana
+    - Key: Characters/Anastasio
+      Value: Anastasio
+    - Key: Characters/Beatriz
+      Value: Beatriz
+    - Key: Characters/Blue
+      Value: Blue
+    - Key: Characters/Brendan
+      Value: Brendan
+    - Key: Characters/Brock
+      Value: Brock
+    - Key: Characters/Carmelo
+      Value: Carmelo
+    - Key: Characters/Carmen
+      Value: Carmen
+    - Key: Characters/David
+      Value: David
+    - Key: Characters/Diego
+      Value: Diego
+    - Key: Characters/Eduardo
+      Value: Eduardo
+    - Key: Characters/Encarna
+      Value: Encarna
+    - Key: Characters/Evarista
+      Value: Evarista
+    - Key: Characters/Example
+      Value: Ejemplo
+    - Key: Characters/Gonzalo
+      Value: Gonzalo
+    - Key: Characters/Heber
+      Value: "H\xE9ber"
+    - Key: Characters/Jacobo
+      Value: Jacobo
+    - Key: Characters/Javier
+      Value: Javier
+    - Key: Characters/Joaquin
+      Value: "Joaqu\xEDn"
+    - Key: Characters/Jose
+      Value: "Jos\xE9"
+    - Key: Characters/JoseMaria
+      Value: "Jos\xE9 Mar\xEDa"
+    - Key: Characters/Juan
+      Value: Juan
+    - Key: Characters/Julia
+      Value: Julia
+    - Key: Characters/Leaf
+      Value: Leaf
+    - Key: Characters/Manolito
+      Value: Manolito
+    - Key: Characters/Manuel
+      Value: Manuel
+    - Key: Characters/Margarita
+      Value: Margarita
+    - Key: Characters/Maria
+      Value: "Mar\xEDa"
+    - Key: Characters/May
+      Value: May
+    - Key: Characters/Miguel
+      Value: Miguel
+    - Key: Characters/Natalia
+      Value: Natalia
+    - Key: Characters/NurseCasey
+      Value: Casilda
+    - Key: Characters/NurseJoy
+      Value: "Alegr\xEDas"
+    - Key: Characters/NurseTeala
+      Value: Teala
+    - Key: Characters/Oak
+      Value: Roble
+    - Key: Characters/Rebeca
+      Value: Rebeca
+    - Key: Characters/Red
+      Value: Red
+    - Key: Characters/Rorix
+      Value: Rorix
+    - Key: Characters/Sergio
+      Value: Sergio
+    - Key: Characters/Sonia
+      Value: Sonia
+    - Key: Characters/Valentina
+      Value: Valentina
+    - Key: Characters/Werpyto
+      Value: El Werpas
+    - Key: Dialogs/Demo/AlreadyFought
+      Value: Ya hemos luchado.
+    - Key: Dialogs/Demo/DebugNursery/AnotherTime
+      Value: "Quiz\xE1 en otro momento."
+    - Key: Dialogs/Demo/DebugNursery/ChooseAnother
+      Value: Ahora elige otro.
+    - Key: Dialogs/Demo/DebugNursery/Hi
+      Value: "\xA1Hola! Puedo hace un huevo de dos de tus Pomekos sin necesidad de
+        esperar. As\xED podr\xE1s testear m\xE1s r\xE1pido."
+    - Key: Dialogs/Demo/DebugNursery/SameMonster
+      Value: Has elegido el mismo dos veces.
+    - Key: Dialogs/Demo/DebugNursery/TakeCare
+      Value: Cueda de ese hoevo.
+    - Key: Dialogs/Demo/Lab/Beatriz/0
+      Value: "\xBFHas visto la Pok\xE9dex?"
+    - Key: Dialogs/Demo/Lab/Beatriz/1
+      Value: "Registra todas las formas, g\xE9neros y shinies para que puedas completarla
+        de verdad si est\xE1s loco."
+    - Key: Dialogs/Demo/Lab/Beatriz/2
+      Value: "Tambi\xE9n contiene mucha m\xE1s informaci\xF3n que la de los juegos
+        oficiales para que no tengas que pasar tanto tiempo en Bulbapedia."
+    - Key: Dialogs/Demo/Lab/Beatriz/3
+      Value: "Y tambi\xE9n puedes abrirla desde la pantalla de datos de un Pomeko,
+        para que tengas toda la informaci\xF3n a mano."
+    - Key: Dialogs/Demo/Lab/Book/0
+      Value: Todos los datos de un Pomeko, incluidas VIs y VEs, son accesibles. Puedes
+        verlos en la pantalla de datos.
+    - Key: Dialogs/Demo/Lab/Book/1
+      Value: "De la misma forma, puedes ver toda la informaci\xF3n sobre una especie
+        en la Pok\xE9dex."
+    - Key: Dialogs/Demo/Lab/Eduardo
+      Value: "Los iniciales que te dan aqu\xED tienen las stats aleatorias. \xA1Tambi\xE9n
+        hay una probabilidad de que sean foil!"
+    - Key: Dialogs/Demo/Lab/Notebook
+      Value: "Puedes cambiar las opciones del juego desde el men\xFA. Hay unas cuantas
+        m\xE1s que en los juegos oficiales."
+    - Key: Dialogs/Demo/Lab/Oak/0
+      Value: "\xA1Boenos deas amego {PlayerName}!"
+    - Key: Dialogs/Demo/Lab/Oak/1
+      Value: "Hora de que elijas tu inicial, ah\xED los tienes en la mesa."
+    - Key: Dialogs/Demo/Lab/Oak/2
+      Value: "\xBFA d\xF3nde vas? Elige un inicial primero."
+    - Key: Dialogs/Demo/Lab/Oak/3
+      Value: Elige un inicial de la mesa.
+    - Key: Dialogs/Demo/Lab/Oak/4
+      Value: "Coge la Pok\xE9dex que he dejado en aquella mesa."
+    - Key: Dialogs/Demo/Lab/Oak/5
+      Value: Hasta ahora has capturado {Dex.CaughtSpecies} especies diferentes. Buen
+        trabajo.
+    - Key: Dialogs/Demo/Lab/Rebeca
+      Value: "Igual que en las \xFAltimas generaciones, no hay Pok\xE9dex regional
+        y nacional. Cada dise\xF1ador configura la Pok\xE9dex de su juego como quiera.
+        La Pok\xE9dex por defecto de YAPU tiene todos los Pomekos en el orden normal."
+    - Key: Dialogs/Demo/Lab/Sergio
+      Value: "No puedes abrir el men\xFA de Pomekos o la mochila hasta que no tengas
+        al menos un Pomeko."
+    - Key: Dialogs/Demo/Lab/Starter/0
+      Value: "\xBFQuieres a Bulbasaur, el Pok\xE9mon Semilla?"
+    - Key: Dialogs/Demo/Lab/Starter/1
+      Value: "\xBFQuieres a Charmander, el Scaly Boi?"
+    - Key: Dialogs/Demo/Lab/Starter/2
+      Value: "\xBFQuieres a Squirtle, el Trotugo Chikito?"
+    - Key: Dialogs/Demo/Lab/Starter/AlreadyChosen
+      Value: Ya elegiste un inicial.
+    - Key: Dialogs/Demo/PortTown/Carmen/0
+      Value: Bienvenido a la casa del mundo.
+    - Key: Dialogs/Demo/PortTown/Carmen/1
+      Value: "Esta casa est\xE1 dividida en diferentes zonas que representan diferentes
+        regiones del mundo."
+    - Key: Dialogs/Demo/PortTown/Carmen/2
+      Value: "Tus Pomekos podr\xEDan evolucionar a diferentes formas dependiendo
+        de en cu\xE1l de ellas est\xE9s."
+    - Key: Dialogs/Demo/PortTown/JoseMaria/0
+      Value: "\xC9sta es la zona de Alola."
+    - Key: Dialogs/Demo/PortTown/JoseMaria/1
+      Value: "Prueba a evolucionar a un Pokachu aqu\xED."
+    - Key: Dialogs/Demo/PortTown/Rorix/0
+      Value: "Cuando evoluciones un Pomeko, ll\xE9valo a recordar movimientos. \xA1Quiz\xE1
+        pueda aprender movimientos nuevos!"
+    - Key: Dialogs/Demo/RainbowCave/Evarista/0
+      Value: "Necesitar\xE1s \xE9sto."
+    - Key: Dialogs/Demo/RainbowCave/Evarista/1
+      Value: Soerte.
+    - Key: Dialogs/Demo/Route1/Julia/0
+      Value: "Diferentes Pomekos pueden aparecer en la hierba alta dependiendo del
+        tiempo que haga o de la hora del d\xEDa."
+    - Key: Dialogs/Demo/Route1/Julia/1
+      Value: Prueba a buscar por la noche o a usar tormenta de arena o granizo en
+        esta ruta.
+    - Key: Dialogs/Demo/Route1/Manolito/1
+      Value: Lo primero, voy a coger tu mochila y guardarla en una mochila temporal.
+    - Key: Dialogs/Demo/Route1/Manolito/2
+      Value: Ahora voy a vaciar tu mochila.
+    - Key: Dialogs/Demo/Route1/Manolito/3
+      Value: Ahora te voy a dar una Ball que parece normal, pero en realidad es una
+        Master Ball.
+    - Key: Dialogs/Demo/Route1/Manolito/4
+      Value: Ahora, un combate en el que solo puedes usar la mochila.
+    - Key: Dialogs/Demo/Route1/Manolito/5
+      Value: "\xA1Bien hecho! Ahora te devuelvo tu mochila."
+    - Key: Dialogs/Demo/Route1/Manolito/Bye
+      Value: Vuelve si quieres volver a hacer el tutorial.
+    - Key: Dialogs/Demo/Route1/Manolito/Hi
+      Value: "\xA1Hola! Te presento un peque\xF1o tutorial sobre cazar Pomekos."
+    - Key: Dialogs/Demo/Route1/Margarita
+      Value: "\xA1Hola hola!"
+    - Key: Dialogs/Demo/Route1/RandomAIBattle/0
+      Value: "\xA1Hola! Yo puedo ejecutar un bucle en el que IAs luchar\xE1n en combates
+        aleatorios."
+    - Key: Dialogs/Demo/Route1/RandomAIBattle/1
+      Value: "Est\xE1 completamente automatizado, as\xED que no se necesita ning\xFAn
+        input por tu parte."
+    - Key: Dialogs/Demo/Route1/RandomAIBattle/2
+      Value: "Eso significa que no podr\xE1s parar el bucle desde aqu\xED, tendr\xE1s
+        que usar la consola de Proxima."
+    - Key: Dialogs/Demo/Route1/RandomAIBattle/3
+      Value: "\xA1Si no sabes lo que eso significa, <shake>NO  </shake>ejecutes este
+        bucle o te quedar\xE1s atascado!"
+    - Key: Dialogs/Demo/Route1/RandomAIBattle/4
+      Value: Para parar el bucle, lanza "SetLocalBoolVariable LoopAIBattles false"
+        desde la consola de Proxima.
+    - Key: Dialogs/Demo/Route1/RandomAIBattle/StartLoop
+      Value: "\xBFQuieres comenzar el bucle?"
+    - Key: Dialogs/Demo/Route1/RandomBattle/0
+      Value: "\xBFQuieres echar un combate aleatorio?"
+    - Key: Dialogs/Demo/Route1/RandomBattle/1
+      Value: Vuelve cuando quieras.
+    - Key: Dialogs/Demo/Route1/RandomBattle/2
+      Value: "D\xE9jame curar a tus Pomekos."
+    - Key: Dialogs/Demo/Route1/RandomBattle/NeedTwoMons
+      Value: Necesitas al menos dos Pomekos en el equipo.
+    - Key: Dialogs/Demo/Route1/RandomBattle/WellDone
+      Value: Bien hecho.
+    - Key: Dialogs/Demo/Route1/Sonia/1
+      Value: "Spawnear actores es complicado en YAPU ya que dependen del uso de inyecci\xF3n
+        de dependencias. Necesitar\xEDas crear una factoria para cada prefab que
+        quisieses spawnear."
+    - Key: Dialogs/Demo/Route1/Sonia/2
+      Value: Entonces lo que hacemos es tener a todos los actores en escena desde
+        el principio.
+    - Key: Dialogs/Demo/Route1/Sonia/3
+      Value: "Pero claro. \xBFC\xF3mo manejamos actores que deber\xEDan spawnear
+        en alg\xFAn momento? Bueno, los teletransportamos fuera de c\xE1mara."
+    - Key: Dialogs/Demo/Route1/Sonia/4
+      Value: "\xBFHas visto que viniendo desde el sur no hab\xEDa nadie en este camino,
+        verdad? Pues mi amiga Margarita va a venir de ah\xED ahora mismo."
+    - Key: Dialogs/Demo/Route1/Sonia/5
+      Value: "\xA1Hola, Margarita!"
+    - Key: Dialogs/Demo/Route1/Sonia/6
+      Value: "Si vuelves hacia el sur, ver\xE1s que Margarita no est\xE1 ah\xED."
+    - Key: Dialogs/Demo/Route1/Sonia/7
+      Value: "De hecho, su actor se encuentra en alg\xFAn lugar fuera de c\xE1mara.
+        Cuando se la necesita, se teletransporta, hace su papel y luego se vuelve
+        a teletransportar."
+    - Key: Dialogs/Demo/Route1/Sonia/8
+      Value: "\xC9sto puede parecer una tonter\xEDa, pero es el ejemplo m\xE1s b\xE1sico
+        de Object Pooling. Un pool de un solo objeto con un m\xE1ximo de uno de capacidad."
+    - Key: Dialogs/Demo/Route1/Sonia/9
+      Value: "Vuelve por aqu\xED si quieres volver a ver la demostraci\xF3n."
+    - Key: Dialogs/Demo/Route2/Jacobo
+      Value: "No lo parece, pero puedes saltar por aqu\xED."
+    - Key: Dialogs/Demo/StartingVillage-Cave-F0/Eduardo/0
+      Value: "\xBFHas visto estas roccs?"
+    - Key: Dialogs/Demo/StartingVillage-Cave-F0/Eduardo/1
+      Value: "\xC9sta volver\xE1 a aparecer cuando entres en esta habitaci\xF3n."
+    - Key: Dialogs/Demo/StartingVillage-Cave-F0/Eduardo/2
+      Value: "\xC9sta se guardar\xE1 en la partida y no volver\xE1 a aparecer."
+    - Key: Dialogs/Demo/StartingVillage-Cave-F0/Eduardo/3
+      Value: "YAPU viene con plantillas para ambas, as\xED como para \xE1rboles que
+        se cortan. \xA1Puedes usar las que m\xE1s te gusten!"
+    - Key: Dialogs/Demo/StartingVillage-Cave-F0/Eduardo/4
+      Value: "Tambi\xE9n soy el l\xEDder de gimnasio que bloquea usar Golpe Roca
+        y Fuerza. No tengo gimnasio ni luchar\xE9 contigo porque \xE9sto es una demo
+        y no hace falta."
+    - Key: Dialogs/Demo/StartingVillage-Cave-F0/Eduardo/5
+      Value: "Con esa medalla podr\xE1s usar Golpe Roca y Fuerza en esta regi\xF3n.
+        Recuerda que diferentes regiones tienen diferentes medallas para bloquear
+        cada movimiento."
+    - Key: Dialogs/Demo/StartingVillage/Ana/0
+      Value: "\xBFQuieres 100 objetos de cada?"
+    - Key: Dialogs/Demo/StartingVillage/Ana/1
+      Value: "Ah\xED tienes, disfruta."
+    - Key: Dialogs/Demo/StartingVillage/Ana/2
+      Value: Dame un meomento.
+    - Key: Dialogs/Demo/StartingVillage/Ana2/0
+      Value: "\xA1Hola! Soy un ejemplo de entrenadora que mira a otro lado aleatoriamente."
+    - Key: Dialogs/Demo/StartingVillage/Ana2/1
+      Value: La victoria es tuya.
+    - Key: Dialogs/Demo/StartingVillage/Ana2/2
+      Value: "El juego almacena el hecho de que me has ganado, as\xED que no podemos
+        luchar de nuevo."
+    - Key: Dialogs/Demo/StartingVillage/Ana2/3
+      Value: "El juego almacena el hecho de que me has ganado, as\xED que no podemos
+        luchar de nuevo."
+    - Key: Dialogs/Demo/StartingVillage/Blue/0
+      Value: "Yo soy un entrenador que se va girando peri\xF3dicamente."
+    - Key: Dialogs/Demo/StartingVillage/Blue/1
+      Value: Eres bueno.
+    - Key: Dialogs/Demo/StartingVillage/Blue/2
+      Value: No me gusta nada perder.
+    - Key: Dialogs/Demo/StartingVillage/Blue/3
+      Value: Ya me has ganado, no abuses.
+    - Key: Dialogs/Demo/StartingVillage/Brendan/0
+      Value: Poedes moverte sobre el agoa usando Surf.
+    - Key: Dialogs/Demo/StartingVillage/Brendan/1
+      Value: "\xBFQuieres que le ense\xF1e Surf a uno de tus Pomekos?"
+    - Key: Dialogs/Demo/StartingVillage/Brendan/2
+      Value: "En otro momento, quiz\xE1."
+    - Key: Dialogs/Demo/StartingVillage/Brock/1
+      Value: "Hola, soy un l\xEDder de gimnasio."
+    - Key: Dialogs/Demo/StartingVillage/Brock/2
+      Value: "Tus Pomekos ganar\xE1n felicidad por luchar contra mi."
+    - Key: Dialogs/Demo/StartingVillage/Brock/3
+      Value: "Tambi\xE9n te dar\xE9 una medalla si me ganas."
+    - Key: Dialogs/Demo/StartingVillage/Carmelo/0
+      Value: "F\xEDjate en estos remolinos. El de arriba volver\xE1 a aparecer cuando
+        cambies de escena. El de abajo se guardar\xE1 en la partida y no volver\xE1
+        a aparecer."
+    - Key: Dialogs/Demo/StartingVillage/Carmelo/1
+      Value: "Puedo ense\xF1arle Remoleno a tus Pomekos si quieres."
+    - Key: Dialogs/Demo/StartingVillage/Carmelo/2
+      Value: "Otra vez ser\xE1."
+    - Key: Dialogs/Demo/StartingVillage/Double/0
+      Value: "Hola. \xBFQuieres tener un combate contra dos salvajes?"
+    - Key: Dialogs/Demo/StartingVillage/Double/1
+      Value: Este combate es una demo, puedes repetirlo todas las veces que quieras.
+    - Key: Dialogs/Demo/StartingVillage/Double/2
+      Value: Vuelve cuando tengas al menos dos Pomekos.
+    - Key: Dialogs/Demo/StartingVillage/Heber/0
+      Value: Puedes escalar saltos de agua con Cascada.
+    - Key: Dialogs/Demo/StartingVillage/Heber/1
+      Value: "\xBFQuieres que se lo ense\xF1e a uno de tus Pomekos?"
+    - Key: Dialogs/Demo/StartingVillage/Heber/2
+      Value: Ah, poes nada.
+    - Key: Dialogs/Demo/StartingVillage/Javier
+      Value: Hola, soy un NPC que habla contigo.
+    - Key: Dialogs/Demo/StartingVillage/Javier/0
+      Value: "Hola, soy un ejemplo de entrenador est\xE1tico."
+    - Key: Dialogs/Demo/StartingVillage/Javier/1
+      Value: Oh, me ganaste.
+    - Key: Dialogs/Demo/StartingVillage/Javier/2
+      Value: Cuando me ganas se almacena una variable en la partida, haciendo que
+        ya no puedas volver a luchar conmigo.
+    - Key: Dialogs/Demo/StartingVillage/Jose/0
+      Value: Puedes acceder a la nobe para almacenar o descargar tus Pomekos desde
+        cualquier sitio.
+    - Key: Dialogs/Demo/StartingVillage/Jose/1
+      Value: El poder de la ciencia es alucinante.
+    - Key: Dialogs/Demo/StartingVillage/Juan/AlreadyGiven
+      Value: "Ya te he dado una poce\xF3n."
+    - Key: Dialogs/Demo/StartingVillage/Juan/Give1
+      Value: "Toma, una poce\xF3n."
+    - Key: Dialogs/Demo/StartingVillage/Juan/Give2
+      Value: "Disfr\xFAtala."
+    - Key: Dialogs/Demo/StartingVillage/Leaf/0
+      Value: "Soy un ejemplo de entrenadora que corre en c\xEDrculos."
+    - Key: Dialogs/Demo/StartingVillage/Leaf/1
+      Value: Oh, F.
+    - Key: Dialogs/Demo/StartingVillage/Leaf/2
+      Value: "Puedes usarme como ejemplo para otros entrenadores que, por ejemplo,
+        corran adelante y atr\xE1s en una l\xEDnea."
+    - Key: Dialogs/Demo/StartingVillage/Leaf/3
+      Value: "\xA1Suerte en tu aventura!"
+    - Key: Dialogs/Demo/StartingVillage/Manuel/0
+      Value: "\xA1Hola! Soy un ejemplo de entrenador que camina aleatoriamente."
+    - Key: Dialogs/Demo/StartingVillage/Manuel/1
+      Value: Mi trabajo es pasear aleatoriamente, no ganar.
+    - Key: Dialogs/Demo/StartingVillage/Manuel/2
+      Value: "\xA1Hasta otra!"
+    - Key: Dialogs/Demo/StartingVillage/Manuel/3
+      Value: "Seg\xFAn la partida ya hemos luchado."
+    - Key: Dialogs/Demo/StartingVillage/Maria/0
+      Value: Poedes escoalar esas roccs con Treparroccs.
+    - Key: Dialogs/Demo/StartingVillage/Maria/1
+      Value: "\xBFQuieres que le ense\xF1e Treparroccs a uno de tus Pomekos?"
+    - Key: Dialogs/Demo/StartingVillage/Maria/2
+      Value: "En otro momento, quiz\xE1."
+    - Key: Dialogs/Demo/StartingVillage/Miguel/0
+      Value: "\xBFQuieres que a\xF1ada un Pok\xE9mon de cada especie y forma a tu
+        nube?"
+    - Key: Dialogs/Demo/StartingVillage/Miguel/1
+      Value: Dame un meomento.
+    - Key: Dialogs/Demo/StartingVillage/Miguel/2
+      Value: Ya los tienes.
+    - Key: Dialogs/Demo/StartingVillage/Natalia/0
+      Value: "Si est\xE1 activado en las opceones, la partida se guardar\xE1 en momentos
+        concretos de la hestoria."
+    - Key: Dialogs/Demo/StartingVillage/Natalia/1
+      Value: Ahora acabo de autogoardar si estaba actevado.
+    - Key: Dialogs/Demo/StartingVillage/NPCExample/0
+      Value: Hola, soy un {0}.
+    - Key: Dialogs/Demo/StartingVillage/NPCExample/1
+      Value: "\xBFQu\xE9 necesitas?"
+    - Key: Dialogs/Demo/StartingVillage/NPCExample/2
+      Value: "Est\xE1s en medio."
+    - Key: Dialogs/Demo/StartingVillage/NPCExample/Bye
+      Value: "Adi\xF3s"
+    - Key: Dialogs/Demo/StartingVillage/NPCExample/Walk
+      Value: Anda
+    - Key: Dialogs/Demo/StartingVillage/Valentina/0
+      Value: Puedes hacer Buceo en aguas profundas para acceder a nuevas zonas.
+    - Key: Dialogs/Demo/StartingVillage/Valentina/1
+      Value: "Si quieres se lo puedo ense\xF1ar a alguno de tus Pomekos."
+    - Key: Dialogs/Demo/StartingVillage/Valentina/2
+      Value: Nos vemos entonces.
+    - Key: Dialogs/Demo/StartingVillageCave/Werpyto/AlreadyGiven
+      Value: Espero que pesques muchos pescaos.
+    - Key: Dialogs/Demo/StartingVillageCave/Werpyto/Give1
+      Value: Me gusta pescar pescaos.
+    - Key: Dialogs/Demo/StartingVillageCave/Werpyto/Give2
+      Value: "Ahora t\xFA tambi\xE9n puedes pescar pescaos."
+    - Key: Dialogs/Demo/StartingVillageCenter/Joaquin/AlreadyGiven
+      Value: "\xBFTe llevas bien con el Bulbasaur que te di?"
+    - Key: Dialogs/Demo/StartingVillageCenter/Joaquin/Give1
+      Value: Toma, un Bulbasaur.
+    - Key: Dialogs/Demo/StartingVillageCenter/Joaquin/Give2
+      Value: "Cu\xEDdalo bien."
+    - Key: Dialogs/Demo/StartingVillageCenter/Maria/0
+      Value: "\xBFMe poedes dar una poce\xF3n?"
+    - Key: Dialogs/Demo/StartingVillageCenter/Maria/1
+      Value: "\xA1Mochas graceas! Toma \xE9sto a cambio."
+    - Key: Dialogs/Demo/StartingVillageCenter/Maria/AlreadyGiven
+      Value: "Graceas por la poce\xF3n."
+    - Key: Dialogs/Demo/StartingVillageCenter/Maria/Cancelled
+      Value: "Si tienes una poce\xF3n que te sobre me vendr\xEDa bien."
+    - Key: Dialogs/Demo/StartingVillageCenter/Maria/NotPotion
+      Value: "Eso no es una poci\xF3n :("
+    - Key: Game/Subtitle
+      Value: Proyecto de ejoemplo
+    - Key: Game/Title
+      Value: "Yet Another Pok\xE9mon Unity"
+    - Key: Regions/DemoRegion1
+      Value: YAPU Land
+    - Key: Scenes/PortTownInfo/Name
+      Value: Pueblo Costero
+    - Key: Scenes/PortTownInfo/WorldHouse
+      Value: Casa del Mundo
+    - Key: Scenes/PortTownInfo/WorldHouse/Alola
+      Value: Alola
+    - Key: Scenes/PortTownInfo/WorldHouseSign
+      Value: Casa del Mundo
+    - Key: Scenes/RainbowCave/DirectExit
+      Value: Directo a la salida
+    - Key: Scenes/RainbowCave/Name
+      Value: Coeva Arcoiris
+    - Key: Scenes/RainbowCave/NextRoom
+      Value: Siguiente sala
+    - Key: Scenes/Route1/RainbowCaveEntranceSign
+      Value: Coeva Arcoiris{LineBreak}Descubre todos los tipos de coeva.
+    - Key: Scenes/Route1Info/Name
+      Value: Ruta 1
+    - Key: Scenes/Route1Info/NurserySign
+      Value: "Goarderer\xEDa"
+    - Key: Scenes/Route1Info/RouteSign
+      Value: Ruta 1
+    - Key: Scenes/Route1NurseryInfo/Name
+      Value: "Goarderer\xEDa"
+    - Key: Scenes/Route2Info/Name
+      Value: Ruta 2
+    - Key: Scenes/StartingVillage-Cave-F0Info/Name
+      Value: "Peque\xF1a Gruta"
+    - Key: Scenes/StartingVillage-LabInfo/Name
+      Value: Laboratoreo
+    - Key: Scenes/StartingVillage-NPCHouseInfo/Name
+      Value: Casa de los NPC
+    - Key: Scenes/StartingVillage-TilesHouseInfo/Name
+      Value: Museo de Tiles
+    - Key: Scenes/StartingVillageInfo/Name
+      Value: Poeblo Inicial
+    - Key: Scenes/StartingVillageInfo/WelcomeSign
+      Value: "\xA1Bienvenides al Pueblo Inicial!"
+    - Key: Test/AfterBattle
+      Value: This is so sad. Alexa, play Despacito.
+    - Key: Test/GameToClose
+      Value: "El joego se cerrear\xE1."
+    - Key: Test/LaunchDouble1vs2TrainerBattle
+      Value: 1 vs 2
+    - Key: Test/LaunchDouble2vs2TrainerBattle
+      Value: 2 vs 2
+    - Key: Test/LaunchDoubleWildBattle
+      Value: Dos salvoajes
+    - Key: Test/LaunchSingleAlphaBattle
+      Value: Un alfa
+    - Key: Test/LaunchSingleTrainerBattle
+      Value: Un entreneador
+    - Key: Test/LaunchSingleWildBattle
+      Value: Un salvoaje

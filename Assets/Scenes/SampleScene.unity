@@ -156,8 +156,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -379.5, y: -184.5}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 0, y: -184.5}
+  m_SizeDelta: {x: 900, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &384119590
 MonoBehaviour:
@@ -174,7 +174,7 @@ MonoBehaviour:
   TextInTheSameObject: 1
   TextReference: {fileID: 0}
   SetOnEnable: 1
-  LocalizationKey: Moves/Thunderbolt/Description
+  LocalizationKey: Scenes/PortTownInfo/WorldHouseSign
 --- !u!114 &384119591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -222,10 +222,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
+  m_fontSize: 44.75
   m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -238,7 +238,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -734,6 +734,8 @@ MonoBehaviour:
   AudioTest:
     Audio: Field4
     AudioLibrary: {fileID: 11400000, guid: 010daea357b9fdb448d4006acfa07568, type: 2}
+  TestDictionary:
+    SerializedList: []
 --- !u!4 &1990595674
 Transform:
   m_ObjectHideFlags: 0

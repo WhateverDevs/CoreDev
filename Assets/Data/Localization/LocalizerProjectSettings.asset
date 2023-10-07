@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: LocalizerProjectSettings
   m_EditorClassIdentifier: 
   LanguagePackDirectory: Languages/
-  GoogleSheetsDownloadUrl: https://docs.google.com/spreadsheets/d/1VvuaFFsneBqPR8FmPnPra4HgjclIWXvmD-yC0_eHIro/edit?usp=sharing
+  GoogleSheetsDownloadUrls:
+  - https://docs.google.com/spreadsheets/d/1VvuaFFsneBqPR8FmPnPra4HgjclIWXvmD-yC0_eHIro/edit?usp=sharing
+  - https://docs.google.com/spreadsheets/d/1DqJFOsVn_O7RCfPrpp-U8s9ZEIV7EP5J0BlHPZXmtAA/edit?usp=sharing
   TextPostProcessors:
   - {fileID: 11400000, guid: 5717300c45f219f409321c46dcf1497b, type: 2}
