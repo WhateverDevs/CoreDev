@@ -5537,6 +5537,12 @@ MonoBehaviour:
       Value: "\xA1Comenz\xF3 a hacer mucho sol!"
     - Key: Weather/SunnyWeather/Tick
       Value: Hace mucho sol.
+    - Key: Quests/NewQuest
+      Value: "Noeva mesi\xF3n{LineBreak}{0}"
+    - Key: Quests/NewObjective
+      Value: '{0}{LineBreak}Noevo objetevo'
+    - Key: Quests/CompletedQuest
+      Value: "Mise\xF3n comploetada{LineBreak}{0}"
     - Key: Badges/FlowerBadge
       Value: Medalla Flor
     - Key: Badges/FlowerBadge/Description
@@ -6016,3 +6022,12 @@ MonoBehaviour:
       Value: Un entreneador
     - Key: Test/LaunchSingleWildBattle
       Value: Un salvoaje
+    - Key: Scenes/PortTownInfo/WorldHouse/Galar
+      Value: Galar
+    - Key: Quests/ChooseStarter
+      Value: Elige un inicial
+    - Key: Quests/ChooseStarter/Description
+      Value: "El profesor Oak quiere darte un inicial de entre los tres cl\xE1sicos
+        de Kanto."
+    - Key: Quests/ChooseStarter/Objectives/0
+      Value: Ve a la mesa y elige un Pomeko.

@@ -193,7 +193,7 @@
       "source": "embedded",
       "dependencies": {
         "whateverdevs.core": "0.1.0",
-        "whateverdevs.localization": "0.2.0",
+        "whateverdevs.localization": "0.3.0",
         "whateverdevs.toolbar-buttons": "2.2.1",
         "whateverdevs.scenemanagement": "0.0.18",
         "whateverdevs.2daudio": "0.0.4"
