@@ -470,6 +470,8 @@ MonoBehaviour:
       Value: Beauty
     - Key: Characters/Type/Biker
       Value: Biker
+    - Key: Characters/Type/Binoculars
+      Value: Binoculars
     - Key: Characters/Type/BirdKeeperMale
       Value: Bird keeper
     - Key: Characters/Type/BlackBeltMale
@@ -647,6 +649,8 @@ MonoBehaviour:
       Value: Register
     - Key: Common/Select
       Value: Select
+    - Key: Common/Start
+      Value: Start
     - Key: Common/Stop
       Value: Stop!
     - Key: Common/Submit
@@ -823,6 +827,12 @@ MonoBehaviour:
       Value: This rock looks like it can be broken.
     - Key: Dialogs/CantUseNow
       Value: You can't use that now.
+    - Key: Dialogs/CardkeyDoor/0
+      Value: This door requires a Card key.
+    - Key: Dialogs/CardkeyDoor/1
+      Value: You used your card key.
+    - Key: Dialogs/CardkeyDoor/2
+      Value: '*ker-chunk*'
     - Key: Dialogs/ChangedForm
       Value: '{0} changed to the {1} form!'
     - Key: Dialogs/ClimbableRock
@@ -852,6 +862,10 @@ MonoBehaviour:
         ({2} ms)"
     - Key: Dialogs/MaxFormLevelGain
       Value: '{0}''s dynamax level raised by {1}!'
+    - Key: Dialogs/Money/Found
+      Value: "\xA1You found {0}!"
+    - Key: Dialogs/Money/Given
+      Value: "\xA1You received {0}!"
     - Key: Dialogs/MonsterCompatibility/AlreadyKnows
       Value: Knows
     - Key: Dialogs/MonsterCompatibility/CantLearn
@@ -955,6 +969,8 @@ MonoBehaviour:
       Value: What can I help you with?
     - Key: Dialogs/PokeCenter/EmployeesOnly
       Value: Employees only.
+    - Key: Dialogs/PokeCenter/Mart/AlreadyHave
+      Value: You already have one of those.
     - Key: Dialogs/PokeCenter/Mart/Buy
       Value: Buy
     - Key: Dialogs/PokeCenter/Mart/CantAfford
@@ -1053,6 +1069,20 @@ MonoBehaviour:
       Value: Unknown
     - Key: EggGroups/Water1
       Value: Water 1
+    - Key: Elevator/0F
+      Value: G
+    - Key: Elevator/1B
+      Value: 1B
+    - Key: Elevator/1F
+      Value: 1F
+    - Key: Elevator/2B
+      Value: 2B
+    - Key: Elevator/2F
+      Value: 2F
+    - Key: Elevator/ChooseFloor
+      Value: Choose a floor.
+    - Key: Elevator/Rooftop
+      Value: Rooftop
     - Key: EncounterType/Cave
       Value: Cave
     - Key: EncounterType/Diving
@@ -1187,6 +1217,24 @@ MonoBehaviour:
       Value: World Cap
     - Key: Forms/WorldCapShiny
       Value: World Cap Shiny
+    - Key: GameOptions/General
+      Value: General
+    - Key: GameOptions/General/Difficulty
+      Value: Difficulty
+    - Key: GameOptions/General/Difficulty/Easy
+      Value: Easy
+    - Key: GameOptions/General/Difficulty/Easy/Description
+      Value: Trainer levels will be 20% lower than normal.
+    - Key: GameOptions/General/Difficulty/Hard
+      Value: Hard
+    - Key: GameOptions/General/Difficulty/Hard/Description
+      Value: Trainer levels will be 20% higher than normal.
+    - Key: GameOptions/General/Difficulty/Normal
+      Value: Normal
+    - Key: GameOptions/General/Difficulty/Normal/Description
+      Value: Just as the author intended.
+    - Key: GameOptions/Title
+      Value: Game options
     - Key: Genders/Female
       Value: Female
     - Key: Genders/Females
@@ -1310,6 +1358,11 @@ MonoBehaviour:
     - Key: Items/BigRoot/Description
       Value: "An item to be held by a Pok\xE9mon. This root boosts the amount of
         HP the holder restores to itself when it uses HP-stealing moves."
+    - Key: Items/Bike
+      Value: Bicycle
+    - Key: Items/Bike/Description
+      Value: A folding bike that enables a rider to get around much faster than with
+        Running Shoes.
     - Key: Items/BindingBand
       Value: Binding Band
     - Key: Items/BindingBand/Description
@@ -1359,6 +1412,10 @@ MonoBehaviour:
     - Key: Items/Carbos/Description
       Value: "A nutritious drink for Pok\xE9mon. When consumed, it raises the Speed
         EVs of a single Pok\xE9mon."
+    - Key: Items/CardKey
+      Value: Card key
+    - Key: Items/CardKey/Description
+      Value: A card key that opens some kind of door.
     - Key: Items/Charcoal
       Value: Charcoal
     - Key: Items/Charcoal/Description
@@ -5102,6 +5159,26 @@ MonoBehaviour:
       Value: Changes the monitor.
     - Key: Options/Resolution
       Value: Resolution
+    - Key: Quests/Completed
+      Value: Completed.
+    - Key: Quests/CompletedQuest
+      Value: Quest completed{LineBreak}{0}
+    - Key: Quests/CurrentObjective
+      Value: 'Current objective:'
+    - Key: Quests/CurrentObjective/OpenMap
+      Value: Open map
+    - Key: Quests/Main
+      Value: Main
+    - Key: Quests/MainQuest
+      Value: Main quest
+    - Key: Quests/NewObjective
+      Value: '{0}{LineBreak}New objetive'
+    - Key: Quests/NewQuest
+      Value: New quest{LineBreak}{0}
+    - Key: Quests/Side
+      Value: Side
+    - Key: Quests/SideQuest
+      Value: Side quest
     - Key: Resolution/BorderlessGameRebootWarning
       Value: A shorcut has been created in {0}. Please use that shortcut to launch
         the game on a borderless window. Some UI elements may appear wrongly positioned
@@ -5670,12 +5747,109 @@ MonoBehaviour:
       Value: The sunlight turned harsh!
     - Key: Weather/SunnyWeather/Tick
       Value: The sunlight is strong.
-    - Key: Quests/NewQuest
-      Value: New quest{LineBreak}{0}
-    - Key: Quests/NewObjective
-      Value: '{0}{LineBreak}New objetive'
-    - Key: Quests/CompletedQuest
-      Value: Quest completed{LineBreak}{0}
+    - Key: Monsters/Vulpix
+      Value: Vulpix
+    - Key: Monsters/Vulpix/Normal
+      Value: It controls balls of fire. As it grows, its six tails split from their
+        tips to make more tails.
+    - Key: Species/FoxPokemon
+      Value: "Fox Pok\xE9mon"
+    - Key: Abilities/FlashFire
+      Value: Flash Fire
+    - Key: Abilities/FlashFire/Description
+      Value: "If hit by a Fire-type move, the Pok\xE9mon absorbs the flames and uses
+        them to power up its own Fire-type moves."
+    - Key: Moves/Incinerate/Effect
+      Value: '{1}''s {0} was burned.'
+    - Key: Moves/Incinerate
+      Value: Incinerate
+    - Key: Moves/Incinerate/Description
+      Value: "The user attacks opposing Pok\xE9mon with fire. If a Pok\xE9mon is
+        holding a certain item, such as a Berry, the item becomes burned up and unusable."
+    - Key: Moves/ConfuseRay
+      Value: Confuse Ray
+    - Key: Moves/ConfuseRay/Description
+      Value: The target is exposed to a sinister ray that causes confusion.
+    - Key: Moves/Extrasensory
+      Value: Extrasensory
+    - Key: Moves/Extrasensory/Description
+      Value: The user attacks with an odd, unseeable power. This may also make the
+        target flinch.
+    - Key: Moves/Howl
+      Value: Howl
+    - Key: Moves/Howl/Description
+      Value: The user howls loudly to rouse itself and its allies. This boosts their
+        Attack stats.
+    - Key: Moves/Hypnosis
+      Value: Hypnosis
+    - Key: Moves/Hypnosis/Description
+      Value: The user employs hypnotic suggestion to make the target fall asleep.
+    - Key: Moves/Memento
+      Value: Memento
+    - Key: Moves/Memento/Description
+      Value: The user faints. In return, the target's Attack and Sp. Atk stats are
+        harshly lowered.
+    - Key: Moves/FoulPlay
+      Value: Foul Play
+    - Key: Moves/FoulPlay/Description
+      Value: The user turns the target's strength against it. The higher the target's
+        Attack stat, the greater the damage this move inflicts.
+    - Key: Moves/BurningJealousy
+      Value: Burning Jealousy
+    - Key: Moves/BurningJealousy/Description
+      Value: "The user attacks with energy from jealousy. This leaves all opposing
+        Pok\xE9mon that have had their stats boosted during the turn with a burn."
+    - Key: Moves/OminousWind
+      Value: Ominous Wind
+    - Key: Moves/OminousWind/Description
+      Value: The user blasts the target with a gust of repulsive wind. This may also
+        raise all the user's stats at once.
+    - Key: Monsters/Vulpix/Alola
+      Value: After long years in the ever-snowcapped mountains of Alola, this Vulpix
+        has gained power over ice.
+    - Key: Abilities/SnowWarning
+      Value: Snow Warning
+    - Key: Abilities/SnowWarning/Description
+      Value: "The Pok\xE9mon summons a hailstorm when it enters a battle."
+    - Key: Items/Snowball
+      Value: Snowball
+    - Key: Items/Snowball/Description
+      Value: "An item to be held by a Pok\xE9mon. This single-use ball of snow boosts
+        the Attack stat if the holder is damaged by an Ice-type move."
+    - Key: Moves/AuroraBeam
+      Value: Aurora Beam
+    - Key: Moves/AuroraBeam/Description
+      Value: The target is hit with a rainbow-colored beam. This may also lower the
+        target's Attack stat.
+    - Key: Status/Side/AuroraVeilStatus
+      Value: Aurora Veil
+    - Key: Status/Side/AuroraVeilStatus/End
+      Value: '{0}''s veil wore off.'
+    - Key: Status/Side/AuroraVeilStatus/Start
+      Value: '{0}''s side is protected by a veil.'
+    - Key: Moves/AuroraVeil
+      Value: Aurora Veil
+    - Key: Moves/AuroraVeil/Description
+      Value: This move reduces damage from physical and special moves for five turns.
+        This can be used only in a hailstorm
+    - Key: Moves/FreezeDry
+      Value: Freeze-Dry
+    - Key: Moves/FreezeDry/Description
+      Value: The user rapidly cools the target. This may also leave the target frozen.
+        This move is super effective on Water types.
+    - Key: Monsters/Ninetales
+      Value: Ninetales
+    - Key: Monsters/Ninetales/Normal
+      Value: "Its nine tails are said to be imbued with a mystic power. The Pok\xE9mon
+        is said to live for 1,000 years."
+    - Key: Items/FireStone
+      Value: Fire Stone
+    - Key: Items/FireStone/Description
+      Value: "A peculiar stone that can make certain species of Pok\xE9mon evolve.
+        It has a fiery orange heart."
+    - Key: Monsters/Ninetales/Alola
+      Value: "While it will guide travelers who get lost on a snowy mountain down
+        to the mountain\u2019s base, it won\u2019t forgive anyone who harms nature."
     - Key: Badges/FlowerBadge
       Value: Flower Badge
     - Key: Badges/FlowerBadge/Description
@@ -5688,8 +5862,12 @@ MonoBehaviour:
       Value: Ana
     - Key: Characters/Anastasio
       Value: Anastasio
+    - Key: Characters/Antonio
+      Value: Antonio
     - Key: Characters/Beatriz
       Value: Beatriz
+    - Key: Characters/Benito
+      Value: Benito
     - Key: Characters/Blue
       Value: Blue
     - Key: Characters/Brendan
@@ -5716,12 +5894,16 @@ MonoBehaviour:
       Value: Gonzalo
     - Key: Characters/Heber
       Value: "H\xE9ber"
+    - Key: Characters/Ignacio
+      Value: Ignacio
     - Key: Characters/Jacobo
       Value: Jacobo
     - Key: Characters/Javier
       Value: Javier
     - Key: Characters/Joaquin
       Value: "Joaqu\xEDn"
+    - Key: Characters/Jorge
+      Value: Jorge
     - Key: Characters/Jose
       Value: "Jos\xE9"
     - Key: Characters/JoseMaria
@@ -5732,6 +5914,8 @@ MonoBehaviour:
       Value: Julia
     - Key: Characters/Leaf
       Value: Leaf
+    - Key: Characters/Lucas
+      Value: Lucas
     - Key: Characters/Manolito
       Value: Manolito
     - Key: Characters/Manuel
@@ -5744,8 +5928,12 @@ MonoBehaviour:
       Value: May
     - Key: Characters/Miguel
       Value: Miguel
+    - Key: Characters/Miriam
+      Value: Miriam
     - Key: Characters/Natalia
       Value: Natalia
+    - Key: Characters/Nuria
+      Value: Nuria
     - Key: Characters/NurseCasey
       Value: Casey
     - Key: Characters/NurseJoy
@@ -5843,6 +6031,18 @@ MonoBehaviour:
       Value: This is the Alolan zone.
     - Key: Dialogs/Demo/PortTown/JoseMaria/1
       Value: Try evolving a Pikachu here.
+    - Key: Dialogs/Demo/PortTown/Lucas/0
+      Value: Take this, tell no one.
+    - Key: Dialogs/Demo/PortTown/Lucas/1
+      Value: Tell no one.
+    - Key: Dialogs/Demo/PortTown/MartClerk/Enjoy
+      Value: Enjoy your bike.
+    - Key: Dialogs/Demo/PortTown/Miriam/Give0
+      Value: Did you know that Pikachu has a form that loves to cosplay?
+    - Key: Dialogs/Demo/PortTown/Miriam/Give1
+      Value: Take this, you can use it to change the cosplay.
+    - Key: Dialogs/Demo/PortTown/Miriam/Give2
+      Value: I hope you have fun with Pikachu's cosplays.
     - Key: Dialogs/Demo/PortTown/Rorix/0
       Value: "When you evolve a Pok\xE9mon, bring it to remember moves. It may be
         able to learn new ones!"
@@ -5850,6 +6050,20 @@ MonoBehaviour:
       Value: You will need this.
     - Key: Dialogs/Demo/RainbowCave/Evarista/1
       Value: Good luck.
+    - Key: Dialogs/Demo/Route1/Benito/0
+      Value: Did you know quests can end differently based on your decisions?
+    - Key: Dialogs/Demo/Route1/Benito/1
+      Value: Choose one.
+    - Key: Dialogs/Demo/Route1/Benito/2
+      Value: Check the objective for the quest I just gave you. It will depend on
+        who you chose.
+    - Key: Dialogs/Demo/Route1/Benito/3
+      Value: Well done! You completed the quest.
+    - Key: Dialogs/Demo/Route1/Ignacio/0
+      Value: It looks like your objetive is not talking to me or you already completed
+        the quest.
+    - Key: Dialogs/Demo/Route1/Ignacio/1
+      Value: Congratulations! You completed the quest!
     - Key: Dialogs/Demo/Route1/Julia/0
       Value: "Different Pok\xE9mon can show up in tall grass depending on the weather
         or the time."
@@ -6087,14 +6301,52 @@ MonoBehaviour:
       Value: Example project
     - Key: Game/Title
       Value: "Yet Another Pok\xE9mon Unity"
+    - Key: Quests/BeatTheLeague
+      Value: Win the League
+    - Key: Quests/BeatTheLeague/Description
+      Value: "You would be the coolest in the village if you were to win the Pok\xE9mon
+        League."
+    - Key: Quests/BeatTheLeague/Objectives/0
+      Value: Collect 8 gym badges.
+    - Key: Quests/BeatTheLeague/Objectives/1
+      Value: Beat the Elite Four.
+    - Key: Quests/BeatTheLeague/Objectives/2
+      Value: Beat the Champion.
+    - Key: Quests/ChooseStarter
+      Value: Choose a starter
+    - Key: Quests/ChooseStarter/Description
+      Value: Professor Oak wants to give you a starter from the classic Kanto trio.
+    - Key: Quests/ChooseStarter/Objectives/0
+      Value: "Approach the table and choose a Pok\xE9mon."
+    - Key: Quests/ChoosingWisely
+      Value: Choosing Wisely
+    - Key: Quests/ChoosingWisely/Description
+      Value: This quest has a diferent objective depending on which trainer you choose.
+    - Key: Quests/ChoosingWisely/Objectives/0
+      Value: Speak with the Black Belt.
+    - Key: Quests/ChoosingWisely/Objectives/1
+      Value: Speak with the Battle Girl.
+    - Key: Quests/CompleteTheDex
+      Value: "Complete the Pok\xE9dex"
+    - Key: Quests/CompleteTheDex/Description
+      Value: "Professor Oak would be really happy if you completed the Pok\xE9dex."
     - Key: Regions/DemoRegion1
       Value: YAPU Land
+    - Key: Scenes/PortTown/CheatingArea
+      Value: Cheating area
+    - Key: Scenes/PortTownInfo/EvaBuilding/Jorge/0
+      Value: Now that you have talked to me, the game completion percentage is now
+        visible in the quests menu.
+    - Key: Scenes/PortTownInfo/Lighthouse/Binoculars/0
+      Value: There's a Pidgeot flying around.
     - Key: Scenes/PortTownInfo/Name
       Value: Port Town
     - Key: Scenes/PortTownInfo/WorldHouse
       Value: World House
     - Key: Scenes/PortTownInfo/WorldHouse/Alola
       Value: Alola
+    - Key: Scenes/PortTownInfo/WorldHouse/Galar
+      Value: Galar
     - Key: Scenes/PortTownInfo/WorldHouseSign
       Value: World House
     - Key: Scenes/RainbowCave/DirectExit
@@ -6143,11 +6395,3 @@ MonoBehaviour:
       Value: Single trainer
     - Key: Test/LaunchSingleWildBattle
       Value: Single wild
-    - Key: Scenes/PortTownInfo/WorldHouse/Galar
-      Value: Galar
-    - Key: Quests/ChooseStarter
-      Value: Choose a starter
-    - Key: Quests/ChooseStarter/Description
-      Value: Professor Oak wants to give you a starter from the classic Kanto trio.
-    - Key: Quests/ChooseStarter/Objectives/0
-      Value: "Approach the table and choose a Pok\xE9mon."

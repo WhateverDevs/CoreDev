@@ -468,6 +468,8 @@ MonoBehaviour:
       Value: Belleza
     - Key: Characters/Type/Biker
       Value: Motero
+    - Key: Characters/Type/Binoculars
+      Value: Binoculars
     - Key: Characters/Type/BirdKeeperMale
       Value: "Ornit\xF3logo"
     - Key: Characters/Type/BlackBeltMale
@@ -645,6 +647,8 @@ MonoBehaviour:
       Value: Asignar
     - Key: Common/Select
       Value: Seleccionar
+    - Key: Common/Start
+      Value: Empezar
     - Key: Common/Stop
       Value: "\xA1Para!"
     - Key: Common/Submit
@@ -821,6 +825,12 @@ MonoBehaviour:
       Value: Parece que esta roca se puede romper.
     - Key: Dialogs/CantUseNow
       Value: No puedes usar eso ahora.
+    - Key: Dialogs/CardkeyDoor/0
+      Value: "Esta puerta necesita una llave magn\xE9tica."
+    - Key: Dialogs/CardkeyDoor/1
+      Value: "Usaste tu llave magn\xE9tica."
+    - Key: Dialogs/CardkeyDoor/2
+      Value: '*ker-chunk*'
     - Key: Dialogs/ChangedForm
       Value: "\xA1{0} cambi\xF3 a la forma {1}!"
     - Key: Dialogs/ClimbableRock
@@ -850,6 +860,10 @@ MonoBehaviour:
         ({2} ms)"
     - Key: Dialogs/MaxFormLevelGain
       Value: "\xA1El nivel dynamax de {0} subi\xF3 en {1}!"
+    - Key: Dialogs/Money/Found
+      Value: "\xA1Encontraste {0}!"
+    - Key: Dialogs/Money/Given
+      Value: "\xA1Recibiste {0}!"
     - Key: Dialogs/MonsterCompatibility/AlreadyKnows
       Value: Ya sabe
     - Key: Dialogs/MonsterCompatibility/CantLearn
@@ -953,6 +967,8 @@ MonoBehaviour:
       Value: "\xBFEn qu\xE9 te puedo ayudar?"
     - Key: Dialogs/PokeCenter/EmployeesOnly
       Value: Prohibido el paso al personal no autorizado.
+    - Key: Dialogs/PokeCenter/Mart/AlreadyHave
+      Value: Ya tienes uno de esos.
     - Key: Dialogs/PokeCenter/Mart/Buy
       Value: Comprar
     - Key: Dialogs/PokeCenter/Mart/CantAfford
@@ -1052,6 +1068,20 @@ MonoBehaviour:
       Value: Desconocido
     - Key: EggGroups/Water1
       Value: Agua 1
+    - Key: Elevator/0F
+      Value: 0
+    - Key: Elevator/1B
+      Value: -15
+    - Key: Elevator/1F
+      Value: 15
+    - Key: Elevator/2B
+      Value: -14
+    - Key: Elevator/2F
+      Value: 14
+    - Key: Elevator/ChooseFloor
+      Value: Elige el piso.
+    - Key: Elevator/Rooftop
+      Value: Azotea
     - Key: EncounterType/Cave
       Value: Cueva
     - Key: EncounterType/Diving
@@ -1186,6 +1216,26 @@ MonoBehaviour:
       Value: Gorra Mundial
     - Key: Forms/WorldCapShiny
       Value: Gorra Mundial Shiny
+    - Key: GameOptions/General
+      Value: General
+    - Key: GameOptions/General/Difficulty
+      Value: Dificultad
+    - Key: GameOptions/General/Difficulty/Easy
+      Value: "F\xE1cil"
+    - Key: GameOptions/General/Difficulty/Easy/Description
+      Value: "Los niveles de los entrenadores estar\xE1n un 20% por debajo de lo
+        normal."
+    - Key: GameOptions/General/Difficulty/Hard
+      Value: "Dif\xEDcil"
+    - Key: GameOptions/General/Difficulty/Hard/Description
+      Value: "Los niveles de los entrenadores estar\xE1n un 20% por encima de lo
+        normal."
+    - Key: GameOptions/General/Difficulty/Normal
+      Value: Normal
+    - Key: GameOptions/General/Difficulty/Normal/Description
+      Value: "Tal y como el autor lo dise\xF1\xF3."
+    - Key: GameOptions/Title
+      Value: Opciones de la partida
     - Key: Genders/Female
       Value: Hembra
     - Key: Genders/Females
@@ -1309,6 +1359,11 @@ MonoBehaviour:
     - Key: Items/BigRoot/Description
       Value: "Un objeto que puede ser llevado por un Pok\xE9mon. Aumenta la cantidad
         de PV restaurados cuando se usan movimientos que roban PV."
+    - Key: Items/Bike
+      Value: Bicicleta
+    - Key: Items/Bike/Description
+      Value: "Una bici plegable que permite moverse mucho m\xE1s r\xE1pido que con
+        solo zapatillas."
     - Key: Items/BindingBand
       Value: Banda Atadura
     - Key: Items/BindingBand/Description
@@ -1359,6 +1414,10 @@ MonoBehaviour:
     - Key: Items/Carbos/Description
       Value: "Una nutritiva bebida para los Pok\xE9mon. Sube las EVs de velocidad
         de un Pok\xE9mon."
+    - Key: Items/CardKey
+      Value: "Llave magn\xE9tica"
+    - Key: Items/CardKey/Description
+      Value: "Una llave que abre alg\xFAn tipo de puerta."
     - Key: Items/Charcoal
       Value: "Carb\xF3n"
     - Key: Items/Charcoal/Description
@@ -4982,6 +5041,26 @@ MonoBehaviour:
       Value: Cambia el monitor.
     - Key: Options/Resolution
       Value: "Resoiuci\xF3n"
+    - Key: Quests/Completed
+      Value: Completada.
+    - Key: Quests/CompletedQuest
+      Value: "Misi\xF3n completada{LineBreak}{0}"
+    - Key: Quests/CurrentObjective
+      Value: 'Objetivo actual:'
+    - Key: Quests/CurrentObjective/OpenMap
+      Value: Abrir mapa
+    - Key: Quests/Main
+      Value: Principal
+    - Key: Quests/MainQuest
+      Value: "Misi\xF3n principal"
+    - Key: Quests/NewObjective
+      Value: '{0}{LineBreak}Nuevo objetivo'
+    - Key: Quests/NewQuest
+      Value: "Nueva misi\xF3n{LineBreak}{0}"
+    - Key: Quests/Side
+      Value: Secundaria
+    - Key: Quests/SideQuest
+      Value: "Misi\xF3n secundaria"
     - Key: Resolution/BorderlessGameRebootWarning
       Value: Se ha creado un acceso directo en {0}. Utiliza ese acceso directo para
         lanzar el juego en una ventana sin bordes. De otra forma, algunos elementos
@@ -5550,12 +5629,107 @@ MonoBehaviour:
       Value: "\xA1Comenz\xF3 a hacer mucho sol!"
     - Key: Weather/SunnyWeather/Tick
       Value: Hace mucho sol.
-    - Key: Quests/NewQuest
-      Value: "Nueva misi\xF3n{LineBreak}{0}"
-    - Key: Quests/NewObjective
-      Value: '{0}{LineBreak}Nuevo objetivo'
-    - Key: Quests/CompletedQuest
-      Value: "Misi\xF3n completada{LineBreak}{0}"
+    - Key: Monsters/Vulpix
+      Value: Vulpix
+    - Key: Monsters/Vulpix/Normal
+      Value: "Es capaz de crear y controlar bolas de fuego. Seg\xFAn crece, sus seis
+        colas se dividen en nuevas colas."
+    - Key: Species/FoxPokemon
+      Value: "Pok\xE9mon Zorro"
+    - Key: Abilities/FlashFire
+      Value: Absorbe Fuego
+    - Key: Abilities/FlashFire/Description
+      Value: Si recibe un ataque de tipo fuego, absorbe las llamas para aumentar
+        sus propios movimientos de fuego.
+    - Key: Moves/Incinerate/Effect
+      Value: "{0} de {1} se quem\xF3."
+    - Key: Moves/Incinerate
+      Value: Incinerar
+    - Key: Moves/Incinerate/Description
+      Value: Ataca a los oponentes con fuego que puede quemar ciertos objetos.
+    - Key: Moves/ConfuseRay
+      Value: Rayo Confuso
+    - Key: Moves/ConfuseRay/Description
+      Value: "Lanza un rayo contra el objetivo que provoca confusi\xF3n."
+    - Key: Moves/Extrasensory
+      Value: Paranormal
+    - Key: Moves/Extrasensory/Description
+      Value: "Ataca con un poder extra\xF1o e invisible que puede hacer retroceder."
+    - Key: Moves/Howl
+      Value: Aullido
+    - Key: Moves/Howl/Description
+      Value: "Aulla con fuerza para motivarse a s\xED mismo y a sus compa\xF1eros,
+        subiendo su ataque."
+    - Key: Moves/Hypnosis
+      Value: Hipnosis
+    - Key: Moves/Hypnosis/Description
+      Value: "Usa sugesti\xF3n hipn\xF3tica para dormir al objetivo."
+    - Key: Moves/Memento
+      Value: Legado
+    - Key: Moves/Memento/Description
+      Value: Se debilita y, a cambio, baja mucho el ataque y ataque especial del
+        objetivo.
+    - Key: Moves/FoulPlay
+      Value: Juego Sucio
+    - Key: Moves/FoulPlay/Description
+      Value: "Vuelve la fuerza del objetivo contra \xE9l mismo. Cuanto mayor sea
+        el ataque de \xE9ste, m\xE1s da\xF1o har\xE1 este movimiento."
+    - Key: Moves/BurningJealousy
+      Value: Envidia Ardiente
+    - Key: Moves/BurningJealousy/Description
+      Value: "Ataca alimentado por la envidia. Quemar\xE1 a todos los oponentes que
+        hayan aumentado sus caracter\xEDsticas este turno."
+    - Key: Moves/OminousWind
+      Value: Viento Aciago
+    - Key: Moves/OminousWind/Description
+      Value: "Ataca con un chorro de viento repulsivo. Puede hacer subir todas las
+        caracter\xEDsticas del usuario."
+    - Key: Monsters/Vulpix/Alola
+      Value: "Tras a\xF1os en las monta\xF1as nevadas de Alola, Vulpix ha ganado
+        dominio sobre el hielo."
+    - Key: Abilities/SnowWarning
+      Value: Nevada
+    - Key: Abilities/SnowWarning/Description
+      Value: Invoca una tormenta de granizo al entrar en combate.
+    - Key: Items/Snowball
+      Value: Bola de Nieve
+    - Key: Items/Snowball/Description
+      Value: "Un objeto que puede ser llevado por un Pok\xE9mon. Esta bola de nieve
+        de un solo uso subir\xE1 el ataque del que lo lleve al recibir un ataque
+        de hielo."
+    - Key: Moves/AuroraBeam
+      Value: Rayo Aurora
+    - Key: Moves/AuroraBeam/Description
+      Value: Ataca con un rayo de los colores del arcoiris que puede bajar el ataque.
+    - Key: Status/Side/AuroraVeilStatus
+      Value: Velo Aurora
+    - Key: Status/Side/AuroraVeilStatus/End
+      Value: "El velo de {0} se disip\xF3."
+    - Key: Status/Side/AuroraVeilStatus/Start
+      Value: "El equipo de {0} est\xE1 protegido por un velo."
+    - Key: Moves/AuroraVeil
+      Value: Velo Aurora
+    - Key: Moves/AuroraVeil/Description
+      Value: "Reduce el da\xF1o de todos los movimientos que se hagan contra los
+        aliados durante cinco turnos. Solo se puede usar bajo granizo."
+    - Key: Moves/FreezeDry
+      Value: "Liofilizaci\xF3n"
+    - Key: Moves/FreezeDry/Description
+      Value: "Enfr\xEDa r\xE1pidamente al objetivo y puede llegar a congelar. Es
+        muy efectivo contra el tipo agua."
+    - Key: Monsters/Ninetales
+      Value: Ninetales
+    - Key: Monsters/Ninetales/Normal
+      Value: "Se dice que sus nueve colas est\xE1n llenas de poder m\xEDstico y que
+        puede llegar a vivir 1000 a\xF1os."
+    - Key: Items/FireStone
+      Value: Piedra Fuego
+    - Key: Items/FireStone/Description
+      Value: "Una peculiar piedra que hace evolucionar a ciertas especies de Pok\xE9mon.
+        Tiene un coraz\xF3n naranja."
+    - Key: Monsters/Ninetales/Alola
+      Value: "Guiar\xE1 a los viajeros perdidos en las monta\xF1as nevadas hasta
+        un refugio seguro pero no perdonar\xE1 a nadie que da\xF1e la naturaleza."
     - Key: Badges/FlowerBadge
       Value: Medalla Flor
     - Key: Badges/FlowerBadge/Description
@@ -5568,8 +5742,12 @@ MonoBehaviour:
       Value: Ana
     - Key: Characters/Anastasio
       Value: Anastasio
+    - Key: Characters/Antonio
+      Value: Antonio
     - Key: Characters/Beatriz
       Value: Beatriz
+    - Key: Characters/Benito
+      Value: Benito
     - Key: Characters/Blue
       Value: Blue
     - Key: Characters/Brendan
@@ -5596,12 +5774,16 @@ MonoBehaviour:
       Value: Gonzalo
     - Key: Characters/Heber
       Value: "H\xE9ber"
+    - Key: Characters/Ignacio
+      Value: Ignacio
     - Key: Characters/Jacobo
       Value: Jacobo
     - Key: Characters/Javier
       Value: Javier
     - Key: Characters/Joaquin
       Value: "Joaqu\xEDn"
+    - Key: Characters/Jorge
+      Value: Jorge
     - Key: Characters/Jose
       Value: "Jos\xE9"
     - Key: Characters/JoseMaria
@@ -5612,6 +5794,8 @@ MonoBehaviour:
       Value: Julia
     - Key: Characters/Leaf
       Value: Leaf
+    - Key: Characters/Lucas
+      Value: Lucas
     - Key: Characters/Manolito
       Value: Manolito
     - Key: Characters/Manuel
@@ -5624,8 +5808,12 @@ MonoBehaviour:
       Value: May
     - Key: Characters/Miguel
       Value: Miguel
+    - Key: Characters/Miriam
+      Value: Miriam
     - Key: Characters/Natalia
       Value: Natalia
+    - Key: Characters/Nuria
+      Value: Nuria
     - Key: Characters/NurseCasey
       Value: Casey
     - Key: Characters/NurseJoy
@@ -5725,6 +5913,18 @@ MonoBehaviour:
       Value: "\xC9sta es la zona de Alola."
     - Key: Dialogs/Demo/PortTown/JoseMaria/1
       Value: "Prueba a evolucionar a un Pikachu aqu\xED."
+    - Key: Dialogs/Demo/PortTown/Lucas/0
+      Value: Toma, no se lo digas a nadie.
+    - Key: Dialogs/Demo/PortTown/Lucas/1
+      Value: No se lo digas a nadie.
+    - Key: Dialogs/Demo/PortTown/MartClerk/Enjoy
+      Value: Disfruta de la bici.
+    - Key: Dialogs/Demo/PortTown/Miriam/Give0
+      Value: "\xBFSab\xEDas que hay una forma de Pikachu a la que le encanta disfrazarse?"
+    - Key: Dialogs/Demo/PortTown/Miriam/Give1
+      Value: "Toma, con \xE9sto puedes cambiar de difraz."
+    - Key: Dialogs/Demo/PortTown/Miriam/Give2
+      Value: Espero que te diviertas con los disfraces de Pikachu.
     - Key: Dialogs/Demo/PortTown/Rorix/0
       Value: "Cuando evoluciones un Pok\xE9mon, ll\xE9valo a recordar movimientos.
         \xA1Quiz\xE1 pueda aprender movimientos nuevos!"
@@ -5732,6 +5932,21 @@ MonoBehaviour:
       Value: "Necesitar\xE1s \xE9sto."
     - Key: Dialogs/Demo/RainbowCave/Evarista/1
       Value: Suerte.
+    - Key: Dialogs/Demo/Route1/Benito/0
+      Value: "\xBFSab\xEDas que puede haber misiones que acaban de diferentes formas
+        en funci\xF3n de tus decisiones?"
+    - Key: Dialogs/Demo/Route1/Benito/1
+      Value: Elige uno.
+    - Key: Dialogs/Demo/Route1/Benito/2
+      Value: "Comprueba el objetivo de la misi\xF3n que te acabo de dar. Depender\xE1
+        de a qui\xE9n hayas elegido."
+    - Key: Dialogs/Demo/Route1/Benito/3
+      Value: "\xA1Muy bien! Has completado la misi\xF3n."
+    - Key: Dialogs/Demo/Route1/Ignacio/0
+      Value: "Parece que tu objetivo no es hablar conmigo o ya has completado la
+        misi\xF3n."
+    - Key: Dialogs/Demo/Route1/Ignacio/1
+      Value: "\xA1Enhorabuena! \xA1Has completado la misi\xF3n!"
     - Key: Dialogs/Demo/Route1/Julia/0
       Value: "Diferentes Pok\xE9mon pueden aparecer en la hierba alta dependiendo
         del tiempo que haga o de la hora del d\xEDa."
@@ -5980,14 +6195,53 @@ MonoBehaviour:
       Value: Proyecto de ejemplo
     - Key: Game/Title
       Value: "Yet Another Pok\xE9mon Unity"
+    - Key: Quests/BeatTheLeague
+      Value: Gana la Liga
+    - Key: Quests/BeatTheLeague/Description
+      Value: "Ser\xE1s el m\xE1s chulo de tu pueblo si consigues ganar la Liga Pok\xE9mon."
+    - Key: Quests/BeatTheLeague/Objectives/0
+      Value: Consigue 8 medallas de gimnasio.
+    - Key: Quests/BeatTheLeague/Objectives/1
+      Value: Derrota al Alto Mando.
+    - Key: Quests/BeatTheLeague/Objectives/2
+      Value: "Derrota al Campe\xF3n."
+    - Key: Quests/ChooseStarter
+      Value: Elige un inicial
+    - Key: Quests/ChooseStarter/Description
+      Value: "El profesor Oak quiere darte un inicial de entre los tres cl\xE1sicos
+        de Kanto."
+    - Key: Quests/ChooseStarter/Objectives/0
+      Value: "Ve a la mesa y elige un Pok\xE9mon."
+    - Key: Quests/ChoosingWisely
+      Value: Eligiendo con cuidado
+    - Key: Quests/ChoosingWisely/Description
+      Value: "Esta misi\xF3n tiene un objetivo diferente dependiendo de qu\xE9 entrenador
+        elijas."
+    - Key: Quests/ChoosingWisely/Objectives/0
+      Value: Habla con el Karateka.
+    - Key: Quests/ChoosingWisely/Objectives/1
+      Value: Habla con la Luchadora.
+    - Key: Quests/CompleteTheDex
+      Value: "Completa la Pok\xE9dex"
+    - Key: Quests/CompleteTheDex/Description
+      Value: "Al Profesor Oak le har\xEDa mucha ilusi\xF3n si completases la Pok\xE9dex."
     - Key: Regions/DemoRegion1
       Value: YAPU Land
+    - Key: Scenes/PortTown/CheatingArea
+      Value: "\xC1rea de las trampas"
+    - Key: Scenes/PortTownInfo/EvaBuilding/Jorge/0
+      Value: "Ahora que has hablado conmigo, el porcentage de juego completado ser\xE1
+        visible en el men\xFA de misiones."
+    - Key: Scenes/PortTownInfo/Lighthouse/Binoculars/0
+      Value: Hay un Pidgeot volando por el pueblo.
     - Key: Scenes/PortTownInfo/Name
       Value: Pueblo Costero
     - Key: Scenes/PortTownInfo/WorldHouse
       Value: Casa del Mundo
     - Key: Scenes/PortTownInfo/WorldHouse/Alola
       Value: Alola
+    - Key: Scenes/PortTownInfo/WorldHouse/Galar
+      Value: Galar
     - Key: Scenes/PortTownInfo/WorldHouseSign
       Value: Casa del Mundo
     - Key: Scenes/RainbowCave/DirectExit
@@ -6036,12 +6290,3 @@ MonoBehaviour:
       Value: Un entrenador
     - Key: Test/LaunchSingleWildBattle
       Value: Un salvaje
-    - Key: Scenes/PortTownInfo/WorldHouse/Galar
-      Value: Galar
-    - Key: Quests/ChooseStarter
-      Value: Elige un inicial
-    - Key: Quests/ChooseStarter/Description
-      Value: "El profesor Oak quiere darte un inicial de entre los tres cl\xE1sicos
-        de Kanto."
-    - Key: Quests/ChooseStarter/Objectives/0
-      Value: "Ve a la mesa y elige un Pok\xE9mon."
