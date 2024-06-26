@@ -158,7 +158,7 @@
       "source": "embedded",
       "dependencies": {
         "whateverdevs.extenject": "9.1.1",
-        "whateverdevs.core": "0.3.0"
+        "whateverdevs.core": "0.4.5"
       }
     },
     "whateverdevs.scenemanagement": {
